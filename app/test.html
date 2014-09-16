@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://s.codepen.io/assets/libs/prefixfree.min.js"></script>
+        <script src="//cdn.jsdelivr.net/less/1.7.0/less.min.js"></script>
+        <style>
+            @import url('//weloveiconfonts.com/api/?family=entypo');
+            @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+            @import url('//fonts.googleapis.com/css?family=Play');
+            @import url('//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
+            [class*="entypo-"]:before {
+                font-family: 'entypo', sans-serif;
+                font-style: initial;
+            }
+            body {
+                background: #456;
+                background: url('http://subtlepatterns.com/patterns/debut_dark.png');
+                font-family: 'Play', sans-serif;
+                user-select: none;
+                overflow: hidden;
+            }
+            nav {
+                position: absolute !important;
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                border-radius: 0px !important;
+                border-width: 0px 0px 1px 0px;
+                margin: 0px !important;
+                background-color: rgba(255, 255, 255, 0.15) !important;
+                border-bottom: 1px solid #fff !important;
+            }
+            .navbar-inverse .navbar-nav>li>a {
+                color: rgba(235, 244, 255, 0.75);
+            }
+            .navbar .brand {
+                max-height: 40px;
+                overflow: visible;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .navbar a.navbar-brand {
+                padding: 9px 15px 8px;
+            }
+            svg {
+                font: 12px 'Play', sans-serif;
+                fill: rgba(235, 244, 255, 0.75);
+            }
+            svg *::selection {
+                background : transparent;
+            }
+
+            svg *::-moz-selection {
+                background:transparent;
+            }
+
+            svg *::-webkit-selection {
+                background:transparent;
+            }
+            canvas.minimap {
+                position: fixed;
+                bottom: 0px;
+                right: 0px;
+                border: 1px solid #3af;
+            }
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: rgba(235, 244, 255, 0.5);
+                color: #fff;
+            }
+            .axix .y {
+                text-anchor: start;
+            }
+            foreignobject iframe {
+                position: fixed;
+            }
+            iframe {
+                pointer-events: fill;
+                position: fixed;
+            }
+            mural {
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: relative;
+            }
+            minimap {
+                display: block;
+                width: 20%;
+                height: 20%;
+                position: absolute;
+                bottom: 40px;
+                right: 25px;
+                border: 1px solid #fff;
+                background-color: rgba(255, 255, 255, 0.15);
+            }
+            minimap .zoom-display {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                padding: 2px;
+                background-color: rgba(255,255,255,0.25);
+                color: #fff;
+            }
+            .brush .extent {
+                stroke: #fff;
+                fill: #ebf4ff;
+                fill-opacity: .125;
+                shape-rendering: crispEdges;
+                stroke-dasharray: 4;
+                animation: dash 30s linear infinite;
+            }
+            @keyframes dash {
+                from {
+                    stroke-dashoffset: 1000;
+                }
+                to {
+                    stroke-dashoffset: 0;
+                }
+            }
+            </style>
+        </head>
+    <body ng-controller="stageController" class="ng-scope">
+
+    <mural>
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="http://demosthenes.info/assets/images/thumbnails/homer-simpson.svg" width="32" height="32" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" ng-click="newMural()"><i class="fa fa-fw entypo-lamp"></i>New</a></li>
+                        <li><a href="#" ng-click="save()"><i class="fa fa-fw entypo-floppy"></i>Save</a></li>
+                        <li ng-class="{active: select.enabled }"><a href="#" ng-click="select.enabled = !select.enabled" ><i class="fa fa-fw entypo-target"></i>Select</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw entypo-plus-squared"></i> Insert <b class="fa fa-angle-down"></b></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#" ng-click="addNote()"><i class="fa fa-fw entypo-comment"></i> Note</a></li>
+                                <li><a href="#" ng-click="addImage()"><i class="fa fa-fw entypo-picture"></i> Image</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw entypo-lifebuoy"></i> <b class="caret"></b></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Help</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <svg stage="stage" id="mural" class="mural" zoom="{{zoom}}" select="{{select}}"></svg>
+        <minimap>
+            <svg id="minimap" class="minimap"></svg>
+            <span class="zoom-display">{{zoom.value | scale}}%</span>
+            <input class="bar" type="range" id="rangeinput" ng-model="zoom.value" min="0.5" max="5" step="0.1" on-change=""/>
+        </minimap>
+    </mural>
+    <script src="//bl.ocks.org/mhsmith/raw/5732011/d3-zoom-pan-extent.js"></script>
+    <script src="//cdn.jsdelivr.net/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/lodash/2.4.1/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.min.js"></script>
+
+    <script>
+        var mural = mural || {};
+        mural.system = function module() {
+            'use strict';
+            var margin = {
+                top: 0,
+                right: 0,
+                bottom: 0,
+                left: 0
+            };
+            var x, y;
+            var width = window.innerWidth - margin.left - margin.right;
+            var height = window.innerHeight - margin.top - margin.bottom;
+
+            var ease = 'cubic-in-out';
+            var duration = 5000;
+            var svg; // d3 wrapped around svg node
+            var stage; // Primary draw surface whith pan & zoom events
+            var canvas; // All users objects are childs of this group
+            var dispatch = d3.dispatch('customZoom', 'customData');
+            var drag = null; // drag event handler
+            var brush = null; // selection tool handler
+            var zoom = null; // zoom handler
+            function exports(_selection) {
+                'use strict';
+                _selection.each(function(_data) {
+                    if(!_data) {
+                        return;
+                    }
+                    x = d3.scale.linear()
+                        .domain([-width / 2, width / 2])
+                        .range([0, width]);
+
+                    y = d3.scale.linear()
+                        .domain([-height / 2, height / 2])
+                        .range([height, 0]);
+
+                    // X Axis
+                    var xAxis = d3.svg.axis()
+                        .scale(x)
+                        .orient("bottom")
+                        .tickSize(-height);
+
+                    var yAxis = d3.svg.axis()
+                        .scale(y)
+                        .orient("left")
+                        .ticks(5)
+                        .tickSize(-width);
+
+                    // Zoom Handler
+                    zoom = d3.behavior.zoom()
+                        .x(x)
+                        .xExtent([-(window.screen.width), window.screen.width])
+                        .y(y)
+                        .yExtent([-(window.screen.height), window.screen.height])
+                        .scaleExtent([0.5, 5])
+                        .on("zoom", zoomed);
+
+                    // Selection handler
+                    brush = d3.svg.brush()
+                        .x(d3.scale.identity().domain([0, width]))
+                        .y(d3.scale.identity().domain([0, height]))
+                        .extent([[100, 100], [200, 200]])
+                        .on("brush", brushed);
+                    // Drag handler
+                    drag = d3.behavior.drag()
+                        // event origin
+                        .origin(function(d) {
+                            var t = d3.select(this);
+                            return {
+                                x: t.attr("x"),
+                                y: t.attr("y")
+                            };
+                        })
+                        .on("drag", dragmove);
+
+                    // Single instance
+                    if(!svg) {
+                        svg = d3.select("#mural")
+                            .attr("width", width + margin.left + margin.right)
+                            .attr("height", height + margin.top + margin.bottom)
+                            .attr('stage', {
+                                id: 'myStage'
+                            });
+                        var axisCanvas = svg.append("g")
+                            .attr("id", "axis-canvas")
+                            .attr("class", "axix-canvas")
+                            .attr("transform", "translate(" + margin.left + "," + margin.top + ")").call(zoom);
+                        stage = svg.append("g")
+                            .attr("clip-path", "url(#clip)")
+                            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                            var defs = svg.append("svg:defs");
+
+                            // Clipping
+                            defs
+                                .append("clipPath")
+                                .attr("id", "clip")
+                                .append("rect")
+                                    .attr("x", 0)
+                                    .attr("y", 0)
+                                    .attr("width", width)
+                                    .attr("height", height);
+
+                            // Background Pattern
+                            defs
+                                .append('svg:pattern')
+                                .attr('id', 'pool-table')
+                                .attr('patternUnits', 'userSpaceOnUse')
+                                .attr('width', 128)
+                                .attr('height', 128)
+                                .append('svg:image')
+                                .attr('xlink:href', 'http://www.vonuventures.com/themes/switch/images/pattern/pattern16.png')
+                                .attr('x', 0)
+                                .attr('y', 0)
+                                .attr('width', 128)
+                                .attr('height', 128);
+
+                            // Axis Background
+                            axisCanvas.append("rect")
+                                .attr("class", "axis-bg")
+                                .attr("width", width)
+                                .attr("height", height)
+                                .style({
+                                    "fill": "#029acc"
+                                });
+                            // X Axis
+                            axisCanvas.append("g")
+                                .attr("class", "x axis")
+                                .attr("transform", "translate(0," + height + ")")
+                                .call(xAxis)
+                                .selectAll("text")
+                                .attr("y", -15);
+                            // Y Axis
+                            axisCanvas.append("g")
+                                .attr("class", "y axis")
+                                .call(yAxis)
+                                .selectAll("text")
+                                .attr("x", 5)
+                                .style("text-anchor", "start");
+                            // User object group
+                            canvas = stage.append('g')
+                                .attr("class", "canvas");
+                    }
+                    // New ?
+                    if(!_data.length > 0) {
+                        canvas.transition().style({opacity: 0}).remove();
+                        // User object group
+                        canvas = stage.append('g')
+                            .attr("class", "canvas");
+                    }
+                    _data.forEach(function(object, index){
+                        if(object.type == "note" && !canvas.select('#' + object.id).node()) {
+                            canvas.append("rect")
+                                .datum(object)
+                                .attr("id", object.id)
+                                .attr("width", object.width)
+                                .attr("height", object.height)
+                                .attr("x", x(object.x))
+                                .attr("y", y(object.y))
+                                .style({
+                                    "fill": object.color,
+                                    "fill-opacity": 1
+                                })
+                                .call(drag);
+                        }
+                    });
+                    // Just repeated a bunch of code here to aid testing
+                    // Ideally this code should be refactored as a factory
+                    _data.forEach(function(object, index){
+                        if(object.type == "image" && !canvas.select('#' + object.id).node()) {
+                            canvas.append("image")
+                                .datum(object)
+                                .attr("id", object.id)
+                                .attr("xmlns:xmlns:xlink", "http://www.w3.org/1999/xlink") // hack !
+                                .attr("xlink:href", object.src)
+                                .attr("width", object.width)
+                                .attr("height", object.height)
+                                .attr("x", x(-(object.width/ 2)))
+                                .attr("y", y((object.height / 2)))
+                                .attr("transform", object.transform)
+                                .call(drag);
+                        }
+                    });
+                    // foreignObject implementation is bugy in chrome !
+                    _data.forEach(function(object, index){
+                        if(object.type == "youtube" && !canvas.select('#' + object.id).node()) {
+                        var iframe = canvas.append("foreignObject")
+                            .datum(object)
+                            .attr("id", object.id)
+                            .attr("width", object.width)
+                            .attr("height",object.height)
+                            .attr("x", x(object.x))
+                            .attr("y", y(object.y));
+                        iframe.append("xhtml:iframe")
+                            .attr("src", object.src)
+                            .attr("width", object.width)
+                            .attr("height", object.height)
+                            .attr("frameborder", 0)
+                            .attr("transform", object.transform)
+                            .call(drag);
+                        }
+                    });
+                    // Update the minimap
+                    uptedeMinimap();
+                    /* internal handlers */
+                    function zoomed() {
+                        svg.select(".x.axis")
+                            .call(xAxis)
+                            .selectAll("text")
+                            .attr("y", -15);
+                        svg.select(".y.axis")
+                            .call(yAxis)
+                            .selectAll("text")
+                            .attr("x", 5)
+                            .style("text-anchor", "start");
+                        canvas.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
+                        dispatch.customZoom(d3.event.scale);
+                    }
+                    function brushed() {
+                        var extent = brush.extent();
+                    }
+                    // Object drag hanler
+                    function dragmove(d) {
+                        var object = d3.select(this);
+                        var data = object.datum();
+                        object
+                            .attr("x", d3.event.x)
+                            .attr("y", d3.event.y);
+                        dispatch.customData(data);
+                        uptedeMinimap();
+                    }
+                });
+            }
+            // Accessors
+            exports.select = function(_selection) {
+                var select;
+                if(_selection.enabled && svg){
+                    select = svg.append("g")
+                        .attr("class", "brush")
+                        .call(brush);
+                } else if (!_selection.enabled  && svg) {
+                    select = svg.select(".brush").remove();
+                }
+                return this;
+            };
+            exports.zoom = function(_zoom) {
+                d3.transition().duration(750).tween("zoom", function() {
+                    var ix = d3.interpolate(x.domain(), [-width / 2, width / 2]),
+                        iy = d3.interpolate(y.domain(), [-height / 2, height / 2]);
+                    return function(t) {
+                        zoom.x(x.domain(ix(t))).y(y.domain(iy(t)));
+                        //zoomed();
+                    };
+                });
+                return this;
+            };
+            exports.width = function(_x) {
+                if (!arguments.length) {
+                    return width;
+                }
+                width = parseInt(_x, 10);
+                return this;
+            };
+            exports.height = function(_x) {
+                if (!arguments.length) {
+                    return height;
+                }
+                height = parseInt(_x, 10);
+                duration = 0;
+                return this;
+            };
+            function reset() {
+                d3.transition().duration(750).tween("zoom", function() {
+                    var ix = d3.interpolate(x.domain(), [-width / 2, width / 2]);
+                    var iy = d3.interpolate(y.domain(), [-height / 2, height / 2]);
+                    return function(t) {
+                        zoom.x(x.domain(ix(t))).y(y.domain(iy(t)));
+                        zoomed();
+                    };
+                });
+            }
+            d3.rebind(exports, dispatch, 'on');
+            d3.rebind(exports, dispatch, 'on');
+            return exports;
+        }
+        // This global function creates and updates the minimap
+        // Works by basically copying the SVG
+        // Using a rastered copy of the mural would be ideal in this case
+        // because of SVG impact on DOM rendering
+        // Unfortunally generating raster images from SVG is not posible without the use of library
+        // Another downside is having to call this (global) function after each update, this behavior should be handled
+        // inside the directive triggered by changes in the mural model
+        // but I wanted to keep some independence from AngularJS and easy access
+        function uptedeMinimap() {
+            'use strict';
+            var w = window.screen.width * 2;
+            var h = window.screen.height * 2;
+            var minX = -(window.screen.width / 2);
+            var minY = -(window.screen.height / 2);
+
+            var frame = document.createElement("div");
+            var html = d3.select(frame).append("svg")
+                .attr("title", "screen")
+                .attr("version", 1.1)
+                .attr("xmlns", "http://www.w3.org/2000/svg")
+                .attr("width", "100%")
+                .attr("height", "100%")
+                .attr("viewBox", minX + " " + minY + " " + w + " " + h);
+
+                var $figures = $(d3.select("g.canvas").node()).clone();
+                var transform = $figures.attr('transform');
+                $figures.removeAttr('transform');
+
+                $(html.node()).append($figures);
+                $('#minimap').empty();
+                $('#minimap').append(html.node());
+        };
+
+        // Declare APP level module which depends on directives, filters, and services
+        angular.module('myApp', ['myApp.directives', 'myApp.filters', 'myApp.services']);
+        /* Controllers */
+        function stageController($scope, $http, storage, guid) {
+            'use strict';
+            // The mural is comprised of different objects
+            // Their properties allow me to plot them in a 2D surface specifically size and location
+            // Different types of objects should be allowed by the shema
+            $scope.stage = storage.load();
+            // Zoom
+            $scope.zoom = {
+                value: 1
+            };
+            // Select
+            $scope.select = {
+                enabled: false,
+                box: {
+                    x: 10,
+                    width: 120,
+                    height: 120
+                }
+            };
+            $scope.addNote = function(note) {
+                $scope.stage.push({
+                    id: 'note-' + guid.get(),
+                    type: 'note',
+                    width: 100,
+                    height: 150,
+                    x: 10,
+                    y: 10,
+                    color: 'rgb(241, 96, 15)',
+                    transformation: null,
+                    fixed: true
+                });
+            };
+            $scope.addImage = function(image) {
+                var url = window.prompt("Image URL","https://assets-cdn.github.com/images/modules/logos_page/Octocat.png");
+                if (!url) {
+                    return false;
+                }
+                $scope.stage.push({
+                    id: 'img-' + guid.get(),
+                    type: 'image',
+                    src: url,
+                    width: 220,
+                    height: 183,
+                    x: 150,
+                    y: 150,
+                    transformation: null,
+                    fixed: true
+                });
+            };
+            $scope.save = function() {
+                var link = document.createElement('a');
+                var frame = document.createElement("div");
+                var html = d3.select(frame).append("svg")
+                    .attr("title", "screen")
+                    .attr("version", 1.1)
+                    .attr("xmlns", "http://www.w3.org/2000/svg")
+
+                var $figures = $(d3.select("g.canvas").node()).clone();
+                $figures.removeAttr('transform');
+
+                $(html.node()).append($figures);
+                console.log(html.node().outerHTML);
+                var uriContent = "data:application/octet-stream," + encodeURIComponent(html.node().outerHTML);
+                link.download = "mural.svg";
+                link.href = uriContent;
+                link.click();
+                storage.save($scope.stage);
+            };
+            $scope.newMural = function() {
+                $scope.stage = [];
+            };
+        }
+        /* Directives */
+        angular.module('myApp.directives', [])
+        .directive('stage', function(storage) {
+            'use strict';
+            var system = mural.system();
+            return {
+                restrict:'A',
+                scope: false,
+                link: function(scope, element, attrs) {
+                    var stage = d3.select(element[0]);
+                    // Mural dispatched a zoom event, which happens outside the framework scope
+                    // therefore we must use $scope.$apply
+                    system.on('customZoom', function(d, i){
+                        scope.zoom.value = d;
+                        scope.$apply();
+                        return;
+                    });
+                    // Stage object changed
+                    scope.$watchCollection('stage', function (newVal, oldVal) {
+                        stage.datum(scope.stage).call(system);
+                    }, true);
+                    // Zoom tool
+                    attrs.$observe("zoom", function(value) {
+                        stage.call(system.zoom(scope.zoom));
+                    });
+                    // Enable / Disable selection tool
+                    attrs.$observe("select", function(value) {
+                        stage.call(system.select(scope.select));
+                    });
+                }
+            };
+        });
+        /* filters */
+        angular.module('myApp.filters', [])
+        .filter('scale', function() {
+            'use strict';
+            return function scale(number) {
+                return (number * 100).toPrecision(3); // pretty numbers
+            };
+        });
+        /* service */
+        angular.module('myApp.services', [])
+        .factory('storage', function () {
+            'use strict';
+            var id = 'mural';
+            var mock = [{
+                id: "AA01",
+                type: 'note',
+                text: 'Important task !',
+                width: 200,
+                height: 200,
+                x: -100,
+                y: 100,
+                color: '#f1c40f',
+                transformation: null,
+                fixed: true
+            }, {
+                id: "AA03",
+                type: 'image',
+                src: 'http://img3.wikia.nocookie.net/__cb20100127020302/uncyclopedia/images/7/73/Hankk_the_dino.png',
+                width: 287,
+                height: 241,
+                transform: "",
+                x: 10,
+                y: 10,
+                transformation: null,
+                fixed: true
+            }, {
+                id: "AA04",
+                type: 'youtubex',
+                src: '//www.youtube.com/embed/sYp5p2oL51g',
+                width: 320,
+                height: 180,
+                x: 200,
+                y: 0
+            }];
+
+            return {
+                load: function () {
+                    return JSON.parse(localStorage.getItem(id) || JSON.stringify(mock));
+                },
+                save: function (mural) {
+                    //console.log("customData", mural[0].x)
+                    localStorage.setItem(id, JSON.stringify(mural));
+                }
+            };
+        })
+        .factory('guid',  function() {
+            // Try to retreive date range from query string
+            function guidGenerator() {
+                var s = [];
+                var itoh = '0123456789ABCDEF';
+                var i = 0;
+                // Make array of random hex digits. The UUID only has 32 digits in it, but we
+                // allocate an extra items to make room for the '-'s we'll be inserting.
+                for (i = 0; i < 36; i += 1) {
+                    s[i] = Math.floor(Math.random()*0x10);
+                }
+                // Conform to RFC-4122, section 4.4
+                s[14] = 4;  // Set 4 high bits of time_high field to version
+                s[19] = (s[19] && 0x3) || 0x8;  // Specify 2 high bits of clock sequence
+                // Convert to hex chars
+                for (i = 0; i < 36; i += 1) {
+                    s[i] = itoh[s[i]];
+                }
+                // Insert '-'s
+                s[8] = s[13] = s[18] = s[23] = '-';
+
+                return s.join('');
+            };
+            return {
+                get: function() {
+                    return guidGenerator();
+                }
+            };
+        });
+    </script>
+    </body>
+</html>

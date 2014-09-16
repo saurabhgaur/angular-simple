@@ -5,6 +5,7 @@ angular.module('angularSimpleApp')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'bgDirectives'
     ];
   });

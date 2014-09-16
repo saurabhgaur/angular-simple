@@ -1,0 +1,4825 @@
+{
+  "LYPLA1": [
+    {
+      "Gene": "LYPLA1",
+      "GeneStart": "4797974",
+      "GeneStop": "4836816",
+      "Length": "38842",
+      "Orientation": "+",
+      "TiledRegionStart": "4775791",
+      "TiledRegionStop": "4847896",
+      "TiledRegionStartWrtTSS": "-22183",
+      "TiledRegionStopWrtTSS": "49922"
+    }
+  ],
+  "MSC": [
+    {
+      "Gene": "MSC",
+      "GeneStart": "14743427",
+      "GeneStop": "14746047",
+      "Length": "2620",
+      "Orientation": "-",
+      "TiledRegionStart": "14300280",
+      "TiledRegionStop": "14855068",
+      "TiledRegionStartWrtTSS": "-111641",
+      "TiledRegionStopWrtTSS": "443147"
+    }
+  ],
+  "TERF1": [
+    {
+      "Gene": "TERF1",
+      "GeneStart": "15795739",
+      "GeneStop": "15833510",
+      "Length": "37771",
+      "Orientation": "+",
+      "TiledRegionStart": "15706448",
+      "TiledRegionStop": "15843943",
+      "TiledRegionStartWrtTSS": "-89291",
+      "TiledRegionStopWrtTSS": "48204"
+    }
+  ],
+  "CFC1": [
+    {
+      "Gene": "CFC1",
+      "GeneStart": "34592493",
+      "GeneStop": "34601156",
+      "Length": "8663",
+      "Orientation": "+",
+      "TiledRegionStart": "34559907",
+      "TiledRegionStop": "34609176",
+      "TiledRegionStartWrtTSS": "-32586",
+      "TiledRegionStopWrtTSS": "16683"
+    }
+  ],
+  "COL3A1": [
+    {
+      "Gene": "COL3A1",
+      "GeneStart": "45368491",
+      "GeneStop": "45405865",
+      "Length": "37374",
+      "Orientation": "+",
+      "TiledRegionStart": "44853021",
+      "TiledRegionStop": "45431176",
+      "TiledRegionStartWrtTSS": "-515470",
+      "TiledRegionStopWrtTSS": "62685"
+    }
+  ],
+  "CLK1": [
+    {
+      "Gene": "CLK1",
+      "GeneStart": "58468844",
+      "GeneStop": "58480932",
+      "Length": "12088",
+      "Orientation": "-",
+      "TiledRegionStart": "58463392",
+      "TiledRegionStop": "58487841",
+      "TiledRegionStartWrtTSS": "-18997",
+      "TiledRegionStopWrtTSS": "5452"
+    }
+  ],
+  "FZD7": [
+    {
+      "Gene": "FZD7",
+      "GeneStart": "59539023",
+      "GeneStop": "59543799",
+      "Length": "4776",
+      "Orientation": "+",
+      "TiledRegionStart": "59409456",
+      "TiledRegionStop": "59573108",
+      "TiledRegionStartWrtTSS": "-129567",
+      "TiledRegionStopWrtTSS": "34085"
+    }
+  ],
+  "ADAM23": [
+    {
+      "Gene": "ADAM23",
+      "GeneStart": "63492478",
+      "GeneStop": "63643089",
+      "Length": "150611",
+      "Orientation": "+",
+      "TiledRegionStart": "63361146",
+      "TiledRegionStop": "63669425",
+      "TiledRegionStartWrtTSS": "-131332",
+      "TiledRegionStopWrtTSS": "176947"
+    }
+  ],
+  "CREB1": [
+    {
+      "Gene": "CREB1",
+      "GeneStart": "64579378",
+      "GeneStop": "64651122",
+      "Length": "71744",
+      "Orientation": "+",
+      "TiledRegionStart": "64167963",
+      "TiledRegionStop": "64653054",
+      "TiledRegionStartWrtTSS": "-411415",
+      "TiledRegionStopWrtTSS": "73676"
+    }
+  ],
+  "FN1": [
+    {
+      "Gene": "FN1",
+      "GeneStart": "71632097",
+      "GeneStop": "71699745",
+      "Length": "67648",
+      "Orientation": "-",
+      "TiledRegionStart": "71625978",
+      "TiledRegionStop": "71933511",
+      "TiledRegionStartWrtTSS": "-301414",
+      "TiledRegionStopWrtTSS": "6119"
+    }
+  ],
+  "XRCC5": [
+    {
+      "Gene": "XRCC5",
+      "GeneStart": "72354094",
+      "GeneStop": "72441522",
+      "Length": "87428",
+      "Orientation": "+",
+      "TiledRegionStart": "72349569",
+      "TiledRegionStop": "72473686",
+      "TiledRegionStartWrtTSS": "-4525",
+      "TiledRegionStopWrtTSS": "119592"
+    }
+  ],
+  "DES": [
+    {
+      "Gene": "DES",
+      "GeneStart": "75356919",
+      "GeneStop": "75364291",
+      "Length": "7372",
+      "Orientation": "+",
+      "TiledRegionStart": "75314212",
+      "TiledRegionStop": "75371872",
+      "TiledRegionStartWrtTSS": "-42707",
+      "TiledRegionStopWrtTSS": "14953"
+    }
+  ],
+  "PAX3": [
+    {
+      "Gene": "PAX3",
+      "GeneStart": "78099267",
+      "GeneStop": "78193711",
+      "Length": "94444",
+      "Orientation": "-",
+      "TiledRegionStart": "77513703",
+      "TiledRegionStop": "78213164",
+      "TiledRegionStartWrtTSS": "-113897",
+      "TiledRegionStopWrtTSS": "585564"
+    }
+  ],
+  "GBX2": [
+    {
+      "Gene": "GBX2",
+      "GeneStart": "91824537",
+      "GeneStop": "91827751",
+      "Length": "3214",
+      "Orientation": "-",
+      "TiledRegionStart": "91791857",
+      "TiledRegionStop": "91849253",
+      "TiledRegionStartWrtTSS": "-24716",
+      "TiledRegionStopWrtTSS": "32680"
+    }
+  ],
+  "TCFCP2L1": [
+    {
+      "Gene": "TCFCP2L1",
+      "GeneStart": "120524522",
+      "GeneStop": "120581745",
+      "Length": "57223",
+      "Orientation": "+",
+      "TiledRegionStart": "120506039",
+      "TiledRegionStop": "120730638",
+      "TiledRegionStartWrtTSS": "-18483",
+      "TiledRegionStopWrtTSS": "206116"
+    }
+  ],
+  "GLI2": [
+    {
+      "Gene": "GLI2",
+      "GeneStart": "120730638",
+      "GeneStop": "120950196",
+      "Length": "219558",
+      "Orientation": "-",
+      "TiledRegionStart": "120581745",
+      "TiledRegionStop": "121312042",
+      "TiledRegionStartWrtTSS": "-581404",
+      "TiledRegionStopWrtTSS": "148893"
+    }
+  ],
+  "INHBB": [
+    {
+      "Gene": "INHBB",
+      "GeneStart": "121312042",
+      "GeneStop": "121318825",
+      "Length": "6783",
+      "Orientation": "-",
+      "TiledRegionStart": "120950196",
+      "TiledRegionStop": "121366886",
+      "TiledRegionStartWrtTSS": "-54844",
+      "TiledRegionStopWrtTSS": "361846"
+    }
+  ],
+  "CXCR4": [
+    {
+      "Gene": "CXCR4",
+      "GeneStart": "130484776",
+      "GeneStop": "130488876",
+      "Length": "4100",
+      "Orientation": "-",
+      "TiledRegionStart": "130313915",
+      "TiledRegionStop": "131105356",
+      "TiledRegionStartWrtTSS": "-620580",
+      "TiledRegionStopWrtTSS": "170861"
+    }
+  ],
+  "MYOG": [
+    {
+      "Gene": "MYOG",
+      "GeneStart": "136186590",
+      "GeneStop": "136189127",
+      "Length": "2537",
+      "Orientation": "+",
+      "TiledRegionStart": "136132008",
+      "TiledRegionStop": "136193356",
+      "TiledRegionStartWrtTSS": "-54582",
+      "TiledRegionStopWrtTSS": "6766"
+    }
+  ],
+  "RGS2": [
+    {
+      "Gene": "RGS2",
+      "GeneStart": "145847127",
+      "GeneStop": "145851279",
+      "Length": "4152",
+      "Orientation": "-",
+      "TiledRegionStart": "145653945",
+      "TiledRegionStop": "145985797",
+      "TiledRegionStartWrtTSS": "-138670",
+      "TiledRegionStopWrtTSS": "193182"
+    }
+  ],
+  "PBX1": [
+    {
+      "Gene": "PBX1",
+      "GeneStart": "170049495",
+      "GeneStop": "170362389",
+      "Length": "312894",
+      "Orientation": "-",
+      "TiledRegionStart": "169778864",
+      "TiledRegionStop": "171383489",
+      "TiledRegionStartWrtTSS": "-1333994",
+      "TiledRegionStopWrtTSS": "270631"
+    }
+  ],
+  "RGS5": [
+    {
+      "Gene": "RGS5",
+      "GeneStart": "171585632",
+      "GeneStop": "171623657",
+      "Length": "38025",
+      "Orientation": "+",
+      "TiledRegionStart": "171461595",
+      "TiledRegionStop": "171671806",
+      "TiledRegionStartWrtTSS": "-124037",
+      "TiledRegionStopWrtTSS": "86174"
+    }
+  ],
+  "PYCR2": [
+    {
+      "Gene": "PYCR2",
+      "GeneStart": "182834440",
+      "GeneStop": "182838219",
+      "Length": "3779",
+      "Orientation": "+",
+      "TiledRegionStart": "182829234",
+      "TiledRegionStop": "182865170",
+      "TiledRegionStartWrtTSS": "-5206",
+      "TiledRegionStopWrtTSS": "30730"
+    }
+  ],
+  "LEFTY1": [
+    {
+      "Gene": "LEFTY1",
+      "GeneStart": "182865170",
+      "GeneStop": "182868532",
+      "Length": "3362",
+      "Orientation": "+",
+      "TiledRegionStart": "182838219",
+      "TiledRegionStop": "182872649",
+      "TiledRegionStartWrtTSS": "-26951",
+      "TiledRegionStopWrtTSS": "7479"
+    }
+  ],
+  "ENAH": [
+    {
+      "Gene": "ENAH",
+      "GeneStart": "183834576",
+      "GeneStop": "183950111",
+      "Length": "115535",
+      "Orientation": "-",
+      "TiledRegionStart": "183772463",
+      "TiledRegionStop": "184054881",
+      "TiledRegionStartWrtTSS": "-220305",
+      "TiledRegionStopWrtTSS": "62113"
+    }
+  ],
+  "PROX1": [
+    {
+      "Gene": "PROX1",
+      "GeneStart": "191945654",
+      "GeneStop": "191994559",
+      "Length": "48905",
+      "Orientation": "-",
+      "TiledRegionStart": "191746167",
+      "TiledRegionStop": "192584899",
+      "TiledRegionStartWrtTSS": "-639245",
+      "TiledRegionStopWrtTSS": "199487"
+    }
+  ],
+  "IRF6": [
+    {
+      "Gene": "IRF6",
+      "GeneStart": "194979306",
+      "GeneStop": "194998230",
+      "Length": "18924",
+      "Orientation": "+",
+      "TiledRegionStart": "194956445",
+      "TiledRegionStop": "194999836",
+      "TiledRegionStartWrtTSS": "-22861",
+      "TiledRegionStopWrtTSS": "20530"
+    }
+  ],
+  "CD34": [
+    {
+      "Gene": "CD34",
+      "GeneStart": "196765102",
+      "GeneStop": "196787473",
+      "Length": "22371",
+      "Orientation": "+",
+      "TiledRegionStart": "196643063",
+      "TiledRegionStop": "196868094",
+      "TiledRegionStartWrtTSS": "-122039",
+      "TiledRegionStopWrtTSS": "102992"
+    }
+  ],
+  "STAM": [
+    {
+      "Gene": "STAM",
+      "GeneStart": "13995739",
+      "GeneStop": "14069965",
+      "Length": "74226",
+      "Orientation": "+",
+      "TiledRegionStart": "13977662",
+      "TiledRegionStop": "14096151",
+      "TiledRegionStartWrtTSS": "-18077",
+      "TiledRegionStopWrtTSS": "100412"
+    }
+  ],
+  "PLXDC2": [
+    {
+      "Gene": "PLXDC2",
+      "GeneStart": "16277949",
+      "GeneStop": "16673742",
+      "Length": "395793",
+      "Orientation": "+",
+      "TiledRegionStart": "15000818",
+      "TiledRegionStop": "16840305",
+      "TiledRegionStartWrtTSS": "-1277131",
+      "TiledRegionStopWrtTSS": "562356"
+    }
+  ],
+  "NOTCH1": [
+    {
+      "Gene": "NOTCH1",
+      "GeneStart": "26313544",
+      "GeneStop": "26359157",
+      "Length": "45613",
+      "Orientation": "-",
+      "TiledRegionStart": "26300736",
+      "TiledRegionStop": "26436603",
+      "TiledRegionStartWrtTSS": "-123059",
+      "TiledRegionStopWrtTSS": "12808"
+    }
+  ],
+  "SET": [
+    {
+      "Gene": "SET",
+      "GeneStart": "29917563",
+      "GeneStop": "29927315",
+      "Length": "9752",
+      "Orientation": "+",
+      "TiledRegionStart": "29904399",
+      "TiledRegionStop": "29934286",
+      "TiledRegionStartWrtTSS": "-13164",
+      "TiledRegionStopWrtTSS": "16723"
+    }
+  ],
+  "AK1": [
+    {
+      "Gene": "AK1",
+      "GeneStart": "32485024",
+      "GeneStop": "32490572",
+      "Length": "5548",
+      "Orientation": "+",
+      "TiledRegionStart": "32476324",
+      "TiledRegionStop": "32502115",
+      "TiledRegionStartWrtTSS": "-8700",
+      "TiledRegionStopWrtTSS": "17091"
+    }
+  ],
+  "ENG": [
+    {
+      "Gene": "ENG",
+      "GeneStart": "32502115",
+      "GeneStop": "32537638",
+      "Length": "35523",
+      "Orientation": "+",
+      "TiledRegionStart": "32490572",
+      "TiledRegionStop": "32538129",
+      "TiledRegionStartWrtTSS": "-11543",
+      "TiledRegionStopWrtTSS": "36014"
+    }
+  ],
+  "STXBP1": [
+    {
+      "Gene": "STXBP1",
+      "GeneStart": "32643482",
+      "GeneStop": "32702646",
+      "Length": "59164",
+      "Orientation": "-",
+      "TiledRegionStart": "32639925",
+      "TiledRegionStop": "32731745",
+      "TiledRegionStartWrtTSS": "-88263",
+      "TiledRegionStopWrtTSS": "3557"
+    }
+  ],
+  "PSCDBP": [
+    {
+      "Gene": "PSCDBP",
+      "GeneStart": "57981550",
+      "GeneStop": "58012533",
+      "Length": "30983",
+      "Orientation": "-",
+      "TiledRegionStart": "57905163",
+      "TiledRegionStop": "58016385",
+      "TiledRegionStartWrtTSS": "-34835",
+      "TiledRegionStopWrtTSS": "76387"
+    }
+  ],
+  "ITGA6": [
+    {
+      "Gene": "ITGA6",
+      "GeneStart": "71625140",
+      "GeneStop": "71694815",
+      "Length": "69675",
+      "Orientation": "+",
+      "TiledRegionStart": "71569023",
+      "TiledRegionStop": "71711329",
+      "TiledRegionStartWrtTSS": "-56117",
+      "TiledRegionStopWrtTSS": "86189"
+    }
+  ],
+  "PDK1": [
+    {
+      "Gene": "PDK1",
+      "GeneStart": "71711329",
+      "GeneStop": "71740731",
+      "Length": "29402",
+      "Orientation": "+",
+      "TiledRegionStart": "71694815",
+      "TiledRegionStop": "71819344",
+      "TiledRegionStartWrtTSS": "-16514",
+      "TiledRegionStopWrtTSS": "108015"
+    }
+  ],
+  "BDNF": [
+    {
+      "Gene": "BDNF",
+      "GeneStart": "109514857",
+      "GeneStop": "109567200",
+      "Length": "52343",
+      "Orientation": "+",
+      "TiledRegionStart": "109181904",
+      "TiledRegionStop": "109731035",
+      "TiledRegionStartWrtTSS": "-332953",
+      "TiledRegionStopWrtTSS": "216178"
+    }
+  ],
+  "ACTC1": [
+    {
+      "Gene": "ACTC1",
+      "GeneStart": "113873025",
+      "GeneStop": "113878547",
+      "Length": "5522",
+      "Orientation": "-",
+      "TiledRegionStart": "113858028",
+      "TiledRegionStop": "113926908",
+      "TiledRegionStartWrtTSS": "-53883",
+      "TiledRegionStopWrtTSS": "14997"
+    }
+  ],
+  "MRG1": [
+    {
+      "Gene": "MRG1",
+      "GeneStart": "115688805",
+      "GeneStop": "115890848",
+      "Length": "202043",
+      "Orientation": "-",
+      "TiledRegionStart": "115604504",
+      "TiledRegionStop": "115900908",
+      "TiledRegionStartWrtTSS": "-212103",
+      "TiledRegionStopWrtTSS": "84301"
+    }
+  ],
+  "RAD51": [
+    {
+      "Gene": "RAD51",
+      "GeneStart": "118938553",
+      "GeneStop": "118961806",
+      "Length": "23253",
+      "Orientation": "+",
+      "TiledRegionStart": "118929857",
+      "TiledRegionStop": "118962737",
+      "TiledRegionStartWrtTSS": "-8696",
+      "TiledRegionStopWrtTSS": "24184"
+    }
+  ],
+  "B2M": [
+    {
+      "Gene": "B2M",
+      "GeneStart": "121973423",
+      "GeneStop": "121978818",
+      "Length": "5395",
+      "Orientation": "+",
+      "TiledRegionStart": "121882334",
+      "TiledRegionStop": "121986436",
+      "TiledRegionStartWrtTSS": "-91089",
+      "TiledRegionStopWrtTSS": "13013"
+    }
+  ],
+  "PRNP": [
+    {
+      "Gene": "PRNP",
+      "GeneStart": "131735693",
+      "GeneStop": "131764163",
+      "Length": "28470",
+      "Orientation": "+",
+      "TiledRegionStart": "131388021",
+      "TiledRegionStop": "131776598",
+      "TiledRegionStartWrtTSS": "-347672",
+      "TiledRegionStopWrtTSS": "40905"
+    }
+  ],
+  "PCNA": [
+    {
+      "Gene": "PCNA",
+      "GeneStart": "132075022",
+      "GeneStop": "132078916",
+      "Length": "3894",
+      "Orientation": "-",
+      "TiledRegionStart": "132073518",
+      "TiledRegionStop": "132088993",
+      "TiledRegionStartWrtTSS": "-13971",
+      "TiledRegionStopWrtTSS": "1504"
+    }
+  ],
+  "BMP2": [
+    {
+      "Gene": "BMP2",
+      "GeneStart": "133378935",
+      "GeneStop": "133388621",
+      "Length": "9686",
+      "Orientation": "+",
+      "TiledRegionStart": "133279098",
+      "TiledRegionStop": "134323097",
+      "TiledRegionStartWrtTSS": "-99837",
+      "TiledRegionStopWrtTSS": "944162"
+    }
+  ],
+  "FKBP1A": [
+    {
+      "Gene": "FKBP1A",
+      "GeneStart": "151368235",
+      "GeneStop": "151387427",
+      "Length": "19192",
+      "Orientation": "+",
+      "TiledRegionStart": "151337041",
+      "TiledRegionStop": "151398368",
+      "TiledRegionStartWrtTSS": "-31194",
+      "TiledRegionStopWrtTSS": "30133"
+    }
+  ],
+  "ID1": [
+    {
+      "Gene": "ID1",
+      "GeneStart": "152562010",
+      "GeneStop": "152563146",
+      "Length": "1136",
+      "Orientation": "+",
+      "TiledRegionStart": "152513682",
+      "TiledRegionStop": "152579909",
+      "TiledRegionStartWrtTSS": "-48328",
+      "TiledRegionStopWrtTSS": "17899"
+    }
+  ],
+  "DNMT3B": [
+    {
+      "Gene": "DNMT3B",
+      "GeneStart": "153475190",
+      "GeneStop": "153513463",
+      "Length": "38273",
+      "Orientation": "+",
+      "TiledRegionStart": "153458467",
+      "TiledRegionStop": "153522388",
+      "TiledRegionStartWrtTSS": "-16723",
+      "TiledRegionStopWrtTSS": "47198"
+    }
+  ],
+  "E2F1": [
+    {
+      "Gene": "E2F1",
+      "GeneStart": "154385375",
+      "GeneStop": "154395588",
+      "Length": "10213",
+      "Orientation": "-",
+      "TiledRegionStart": "154375786",
+      "TiledRegionStop": "154412780",
+      "TiledRegionStartWrtTSS": "-27405",
+      "TiledRegionStopWrtTSS": "9589"
+    }
+  ],
+  "PROCR": [
+    {
+      "Gene": "PROCR",
+      "GeneStart": "155577079",
+      "GeneStop": "155581194",
+      "Length": "4115",
+      "Orientation": "+",
+      "TiledRegionStart": "155555122",
+      "TiledRegionStop": "155601080",
+      "TiledRegionStartWrtTSS": "-21957",
+      "TiledRegionStopWrtTSS": "24001"
+    }
+  ],
+  "ITGB4BP": [
+    {
+      "Gene": "ITGB4BP",
+      "GeneStart": "155645573",
+      "GeneStop": "155652661",
+      "Length": "7088",
+      "Orientation": "-",
+      "TiledRegionStart": "155644102",
+      "TiledRegionStop": "155654919",
+      "TiledRegionStartWrtTSS": "-9346",
+      "TiledRegionStopWrtTSS": "1471"
+    }
+  ],
+  "RBM39": [
+    {
+      "Gene": "RBM39",
+      "GeneStart": "155972975",
+      "GeneStop": "156005976",
+      "Length": "33001",
+      "Orientation": "-",
+      "TiledRegionStart": "155971529",
+      "TiledRegionStop": "156022383",
+      "TiledRegionStartWrtTSS": "-49408",
+      "TiledRegionStopWrtTSS": "1446"
+    }
+  ],
+  "RBL1": [
+    {
+      "Gene": "RBL1",
+      "GeneStart": "156971634",
+      "GeneStop": "157030255",
+      "Length": "58621",
+      "Orientation": "-",
+      "TiledRegionStart": "156960958",
+      "TiledRegionStop": "157034286",
+      "TiledRegionStartWrtTSS": "-62652",
+      "TiledRegionStopWrtTSS": "10676"
+    }
+  ],
+  "MYBL2": [
+    {
+      "Gene": "MYBL2",
+      "GeneStart": "162880371",
+      "GeneStop": "162910423",
+      "Length": "30052",
+      "Orientation": "+",
+      "TiledRegionStart": "162871871",
+      "TiledRegionStop": "162912767",
+      "TiledRegionStartWrtTSS": "-8500",
+      "TiledRegionStopWrtTSS": "32396"
+    }
+  ],
+  "CEBPB": [
+    {
+      "Gene": "CEBPB",
+      "GeneStart": "167514415",
+      "GeneStop": "167515918",
+      "Length": "1503",
+      "Orientation": "+",
+      "TiledRegionStart": "167487044",
+      "TiledRegionStop": "167756549",
+      "TiledRegionStartWrtTSS": "-27371",
+      "TiledRegionStopWrtTSS": "242134"
+    }
+  ],
+  "SALL4": [
+    {
+      "Gene": "SALL4",
+      "GeneStart": "168573832",
+      "GeneStop": "168592701",
+      "Length": "18869",
+      "Orientation": "-",
+      "TiledRegionStart": "168567300",
+      "TiledRegionStop": "168750871",
+      "TiledRegionStartWrtTSS": "-177039",
+      "TiledRegionStopWrtTSS": "6532"
+    }
+  ],
+  "TCFAP2C": [
+    {
+      "Gene": "TCFAP2C",
+      "GeneStart": "172375114",
+      "GeneStop": "172384109",
+      "Length": "8995",
+      "Orientation": "+",
+      "TiledRegionStart": "172335238",
+      "TiledRegionStop": "172461320",
+      "TiledRegionStartWrtTSS": "-39876",
+      "TiledRegionStopWrtTSS": "86206"
+    }
+  ],
+  "ZFP704": [
+    {
+      "Gene": "ZFP704",
+      "GeneStart": "9427023",
+      "GeneStop": "9610085",
+      "Length": "183062",
+      "Orientation": "-",
+      "TiledRegionStart": "9285333",
+      "TiledRegionStop": "9691898",
+      "TiledRegionStartWrtTSS": "-264875",
+      "TiledRegionStopWrtTSS": "141690"
+    }
+  ],
+  "ECT2": [
+    {
+      "Gene": "ECT2",
+      "GeneStart": "26996148",
+      "GeneStop": "27052758",
+      "Length": "56610",
+      "Orientation": "-",
+      "TiledRegionStart": "26882136",
+      "TiledRegionStop": "27081926",
+      "TiledRegionStartWrtTSS": "-85778",
+      "TiledRegionStopWrtTSS": "114012"
+    }
+  ],
+  "SOX2": [
+    {
+      "Gene": "SOX2",
+      "GeneStart": "34548927",
+      "GeneStop": "34551383",
+      "Length": "2456",
+      "Orientation": "+",
+      "TiledRegionStart": "34501170",
+      "TiledRegionStop": "34598410",
+      "TiledRegionStartWrtTSS": "-47757",
+      "TiledRegionStopWrtTSS": "49483"
+    }
+  ],
+  "CCNA2": [
+    {
+      "Gene": "CCNA2",
+      "GeneStart": "36463787",
+      "GeneStop": "36470863",
+      "Length": "7076",
+      "Orientation": "-",
+      "TiledRegionStart": "36381221",
+      "TiledRegionStop": "36472068",
+      "TiledRegionStartWrtTSS": "-8281",
+      "TiledRegionStopWrtTSS": "82566"
+    }
+  ],
+  "FGF2": [
+    {
+      "Gene": "FGF2",
+      "GeneStart": "37247772",
+      "GeneStop": "37303719",
+      "Length": "55947",
+      "Orientation": "+",
+      "TiledRegionStart": "37220372",
+      "TiledRegionStop": "37303906",
+      "TiledRegionStartWrtTSS": "-27400",
+      "TiledRegionStopWrtTSS": "56134"
+    }
+  ],
+  "SPRY1": [
+    {
+      "Gene": "SPRY1",
+      "GeneStart": "37538898",
+      "GeneStop": "37543519",
+      "Length": "4621",
+      "Orientation": "+",
+      "TiledRegionStart": "37478013",
+      "TiledRegionStop": "37613112",
+      "TiledRegionStartWrtTSS": "-60885",
+      "TiledRegionStopWrtTSS": "74214"
+    }
+  ],
+  "PHF17": [
+    {
+      "Gene": "PHF17",
+      "GeneStart": "41385117",
+      "GeneStop": "41420779",
+      "Length": "35662",
+      "Orientation": "+",
+      "TiledRegionStart": "41327139",
+      "TiledRegionStop": "41430627",
+      "TiledRegionStartWrtTSS": "-57978",
+      "TiledRegionStopWrtTSS": "45510"
+    }
+  ],
+  "FOXO1": [
+    {
+      "Gene": "FOXO1",
+      "GeneStart": "52072296",
+      "GeneStop": "52153460",
+      "Length": "81164",
+      "Orientation": "+",
+      "TiledRegionStart": "52020931",
+      "TiledRegionStop": "52416683",
+      "TiledRegionStartWrtTSS": "-51365",
+      "TiledRegionStopWrtTSS": "344387"
+    }
+  ],
+  "SPG20": [
+    {
+      "Gene": "SPG20",
+      "GeneStart": "54916062",
+      "GeneStop": "54939879",
+      "Length": "23817",
+      "Orientation": "+",
+      "TiledRegionStart": "54887924",
+      "TiledRegionStop": "54941261",
+      "TiledRegionStartWrtTSS": "-28138",
+      "TiledRegionStopWrtTSS": "25199"
+    }
+  ],
+  "CD1D1": [
+    {
+      "Gene": "CD1D1",
+      "GeneStart": "86799760",
+      "GeneStop": "86803262",
+      "Length": "3502",
+      "Orientation": "-",
+      "TiledRegionStart": "86793455",
+      "TiledRegionStop": "86886734",
+      "TiledRegionStartWrtTSS": "-86974",
+      "TiledRegionStopWrtTSS": "6305"
+    }
+  ],
+  "NES": [
+    {
+      "Gene": "NES",
+      "GeneStart": "87775015",
+      "GeneStop": "87784373",
+      "Length": "9358",
+      "Orientation": "+",
+      "TiledRegionStart": "87757294",
+      "TiledRegionStop": "87791453",
+      "TiledRegionStartWrtTSS": "-17721",
+      "TiledRegionStopWrtTSS": "16438"
+    }
+  ],
+  "RAG1AP1": [
+    {
+      "Gene": "RAG1AP1",
+      "GeneStart": "89072168",
+      "GeneStop": "89074482",
+      "Length": "2314",
+      "Orientation": "-",
+      "TiledRegionStart": "89070999",
+      "TiledRegionStop": "89075658",
+      "TiledRegionStartWrtTSS": "-3490",
+      "TiledRegionStopWrtTSS": "1169"
+    }
+  ],
+  "PRUNE": [
+    {
+      "Gene": "PRUNE",
+      "GeneStart": "95057596",
+      "GeneStop": "95085998",
+      "Length": "28402",
+      "Orientation": "-",
+      "TiledRegionStart": "95055024",
+      "TiledRegionStop": "95086866",
+      "TiledRegionStartWrtTSS": "-29270",
+      "TiledRegionStopWrtTSS": "2572"
+    }
+  ],
+  "PROK1": [
+    {
+      "Gene": "PROK1",
+      "GeneStart": "107038449",
+      "GeneStop": "107042625",
+      "Length": "4176",
+      "Orientation": "-",
+      "TiledRegionStart": "107037641",
+      "TiledRegionStop": "107080836",
+      "TiledRegionStartWrtTSS": "-42387",
+      "TiledRegionStopWrtTSS": "808"
+    }
+  ],
+  "VCAM1": [
+    {
+      "Gene": "VCAM1",
+      "GeneStart": "115812938",
+      "GeneStop": "115832606",
+      "Length": "19668",
+      "Orientation": "-",
+      "TiledRegionStart": "115731790",
+      "TiledRegionStop": "115952574",
+      "TiledRegionStartWrtTSS": "-139636",
+      "TiledRegionStopWrtTSS": "81148"
+    }
+  ],
+  "CYR61": [
+    {
+      "Gene": "CYR61",
+      "GeneStart": "145309940",
+      "GeneStop": "145312945",
+      "Length": "3005",
+      "Orientation": "-",
+      "TiledRegionStart": "145268209",
+      "TiledRegionStop": "145421691",
+      "TiledRegionStartWrtTSS": "-111751",
+      "TiledRegionStopWrtTSS": "41731"
+    }
+  ],
+  "DDAH1": [
+    {
+      "Gene": "DDAH1",
+      "GeneStart": "145421691",
+      "GeneStop": "145554637",
+      "Length": "132946",
+      "Orientation": "+",
+      "TiledRegionStart": "145312945",
+      "TiledRegionStop": "145587342",
+      "TiledRegionStartWrtTSS": "-108746",
+      "TiledRegionStopWrtTSS": "165651"
+    }
+  ],
+  "TTPA": [
+    {
+      "Gene": "TTPA",
+      "GeneStart": "19935575",
+      "GeneStop": "19957932",
+      "Length": "22357",
+      "Orientation": "+",
+      "TiledRegionStart": "19849713",
+      "TiledRegionStop": "19969199",
+      "TiledRegionStartWrtTSS": "-85862",
+      "TiledRegionStopWrtTSS": "33624"
+    }
+  ],
+  "CCNC": [
+    {
+      "Gene": "CCNC",
+      "GeneStart": "21654877",
+      "GeneStop": "21677693",
+      "Length": "22816",
+      "Orientation": "+",
+      "TiledRegionStart": "21613110",
+      "TiledRegionStop": "21683986",
+      "TiledRegionStartWrtTSS": "-41767",
+      "TiledRegionStopWrtTSS": "29109"
+    }
+  ],
+  "FUT9": [
+    {
+      "Gene": "FUT9",
+      "GeneStart": "25536480",
+      "GeneStop": "25727150",
+      "Length": "190670",
+      "Orientation": "-",
+      "TiledRegionStart": "25235670",
+      "TiledRegionStop": "26251653",
+      "TiledRegionStartWrtTSS": "-715173",
+      "TiledRegionStopWrtTSS": "300810"
+    }
+  ],
+  "ACO1": [
+    {
+      "Gene": "ACO1",
+      "GeneStart": "40090298",
+      "GeneStop": "40146042",
+      "Length": "55744",
+      "Orientation": "+",
+      "TiledRegionStart": "39398813",
+      "TiledRegionStop": "40152823",
+      "TiledRegionStartWrtTSS": "-691485",
+      "TiledRegionStopWrtTSS": "62525"
+    }
+  ],
+  "TPM2": [
+    {
+      "Gene": "TPM2",
+      "GeneStart": "43527584",
+      "GeneStop": "43536260",
+      "Length": "8676",
+      "Orientation": "-",
+      "TiledRegionStart": "43526597",
+      "TiledRegionStop": "43544390",
+      "TiledRegionStartWrtTSS": "-16806",
+      "TiledRegionStopWrtTSS": "987"
+    }
+  ],
+  "RECK": [
+    {
+      "Gene": "RECK",
+      "GeneStart": "43888472",
+      "GeneStop": "43957392",
+      "Length": "68920",
+      "Orientation": "+",
+      "TiledRegionStart": "43868335",
+      "TiledRegionStop": "43970574",
+      "TiledRegionStartWrtTSS": "-20137",
+      "TiledRegionStopWrtTSS": "82102"
+    }
+  ],
+  "KLF4": [
+    {
+      "Gene": "KLF4",
+      "GeneStart": "55540137",
+      "GeneStop": "55545338",
+      "Length": "5201",
+      "Orientation": "-",
+      "TiledRegionStart": "55404084",
+      "TiledRegionStop": "56752877",
+      "TiledRegionStartWrtTSS": "-1212740",
+      "TiledRegionStopWrtTSS": "136053"
+    }
+  ],
+  "CTNNAL1": [
+    {
+      "Gene": "CTNNAL1",
+      "GeneStart": "56823807",
+      "GeneStop": "56878060",
+      "Length": "54253",
+      "Orientation": "-",
+      "TiledRegionStart": "56822477",
+      "TiledRegionStop": "56879798",
+      "TiledRegionStartWrtTSS": "-55991",
+      "TiledRegionStopWrtTSS": "1330"
+    }
+  ],
+  "TNC": [
+    {
+      "Gene": "TNC",
+      "GeneStart": "63620819",
+      "GeneStop": "63681760",
+      "Length": "60941",
+      "Orientation": "-",
+      "TiledRegionStart": "63522318",
+      "TiledRegionStop": "64785208",
+      "TiledRegionStartWrtTSS": "-1164389",
+      "TiledRegionStopWrtTSS": "98501"
+    }
+  ],
+  "CDKN2A": [
+    {
+      "Gene": "CDKN2A",
+      "GeneStart": "88920377",
+      "GeneStop": "88940523",
+      "Length": "20146",
+      "Orientation": "-",
+      "TiledRegionStart": "88863730",
+      "TiledRegionStop": "88952229",
+      "TiledRegionStartWrtTSS": "-31852",
+      "TiledRegionStopWrtTSS": "56647"
+    }
+  ],
+  "TEK": [
+    {
+      "Gene": "TEK",
+      "GeneStart": "94405991",
+      "GeneStop": "94541630",
+      "Length": "135639",
+      "Orientation": "+",
+      "TiledRegionStart": "94359920",
+      "TiledRegionStop": "94573984",
+      "TiledRegionStartWrtTSS": "-46071",
+      "TiledRegionStopWrtTSS": "167993"
+    }
+  ],
+  "JUN": [
+    {
+      "Gene": "JUN",
+      "GeneStart": "94715746",
+      "GeneStop": "94718878",
+      "Length": "3132",
+      "Orientation": "-",
+      "TiledRegionStart": "94645791",
+      "TiledRegionStop": "94941642",
+      "TiledRegionStartWrtTSS": "-225896",
+      "TiledRegionStopWrtTSS": "69955"
+    }
+  ],
+  "FOXD3": [
+    {
+      "Gene": "FOXD3",
+      "GeneStart": "99322990",
+      "GeneStop": "99325362",
+      "Length": "2372",
+      "Orientation": "+",
+      "TiledRegionStart": "99318337",
+      "TiledRegionStop": "99382321",
+      "TiledRegionStartWrtTSS": "-4653",
+      "TiledRegionStopWrtTSS": "59331"
+    }
+  ],
+  "AK3L1": [
+    {
+      "Gene": "AK3L1",
+      "GeneStart": "101092364",
+      "GeneStop": "101139600",
+      "Length": "47236",
+      "Orientation": "+",
+      "TiledRegionStart": "101028853",
+      "TiledRegionStop": "101215903",
+      "TiledRegionStartWrtTSS": "-63511",
+      "TiledRegionStopWrtTSS": "123539"
+    }
+  ],
+  "TAL1": [
+    {
+      "Gene": "TAL1",
+      "GeneStart": "114732132",
+      "GeneStop": "114744360",
+      "Length": "12228",
+      "Orientation": "+",
+      "TiledRegionStart": "114715504",
+      "TiledRegionStop": "114761328",
+      "TiledRegionStartWrtTSS": "-16628",
+      "TiledRegionStopWrtTSS": "29196"
+    }
+  ],
+  "PDZK1IP1": [
+    {
+      "Gene": "PDZK1IP1",
+      "GeneStart": "114761328",
+      "GeneStop": "114766498",
+      "Length": "5170",
+      "Orientation": "+",
+      "TiledRegionStart": "114744360",
+      "TiledRegionStop": "114781287",
+      "TiledRegionStartWrtTSS": "-16968",
+      "TiledRegionStopWrtTSS": "19959"
+    }
+  ],
+  "PTCH2": [
+    {
+      "Gene": "PTCH2",
+      "GeneStart": "116768961",
+      "GeneStop": "116787436",
+      "Length": "18475",
+      "Orientation": "+",
+      "TiledRegionStart": "116745009",
+      "TiledRegionStop": "116797227",
+      "TiledRegionStartWrtTSS": "-23952",
+      "TiledRegionStopWrtTSS": "28266"
+    }
+  ],
+  "TIE1": [
+    {
+      "Gene": "TIE1",
+      "GeneStart": "118143796",
+      "GeneStop": "118162454",
+      "Length": "18658",
+      "Orientation": "-",
+      "TiledRegionStart": "118130076",
+      "TiledRegionStop": "118199880",
+      "TiledRegionStartWrtTSS": "-56084",
+      "TiledRegionStopWrtTSS": "13720"
+    }
+  ],
+  "HEYL": [
+    {
+      "Gene": "HEYL",
+      "GeneStart": "122910799",
+      "GeneStop": "122927113",
+      "Length": "16314",
+      "Orientation": "+",
+      "TiledRegionStart": "122893450",
+      "TiledRegionStop": "122960154",
+      "TiledRegionStartWrtTSS": "-17349",
+      "TiledRegionStopWrtTSS": "49355"
+    }
+  ],
+  "HDAC1": [
+    {
+      "Gene": "HDAC1",
+      "GeneStart": "129193348",
+      "GeneStop": "129219890",
+      "Length": "26542",
+      "Orientation": "-",
+      "TiledRegionStart": "129193219",
+      "TiledRegionStop": "129225602",
+      "TiledRegionStartWrtTSS": "-32254",
+      "TiledRegionStopWrtTSS": "129"
+    }
+  ],
+  "D4WSU53E": [
+    {
+      "Gene": "D4WSU53E",
+      "GeneStart": "134479555",
+      "GeneStop": "134483288",
+      "Length": "3733",
+      "Orientation": "+",
+      "TiledRegionStart": "134470831",
+      "TiledRegionStop": "134486895",
+      "TiledRegionStartWrtTSS": "-8724",
+      "TiledRegionStopWrtTSS": "7340"
+    }
+  ],
+  "RPL11": [
+    {
+      "Gene": "RPL11",
+      "GeneStart": "135605863",
+      "GeneStop": "135609286",
+      "Length": "3423",
+      "Orientation": "-",
+      "TiledRegionStart": "135577564",
+      "TiledRegionStop": "135699737",
+      "TiledRegionStartWrtTSS": "-93874",
+      "TiledRegionStopWrtTSS": "28299"
+    }
+  ],
+  "ID3": [
+    {
+      "Gene": "ID3",
+      "GeneStart": "135699737",
+      "GeneStop": "135701302",
+      "Length": "1565",
+      "Orientation": "+",
+      "TiledRegionStart": "135609286",
+      "TiledRegionStop": "135728309",
+      "TiledRegionStartWrtTSS": "-90451",
+      "TiledRegionStopWrtTSS": "28572"
+    }
+  ],
+  "E2F2": [
+    {
+      "Gene": "E2F2",
+      "GeneStart": "135728309",
+      "GeneStop": "135750629",
+      "Length": "22320",
+      "Orientation": "+",
+      "TiledRegionStart": "135701302",
+      "TiledRegionStop": "135762339",
+      "TiledRegionStartWrtTSS": "-27007",
+      "TiledRegionStopWrtTSS": "34030"
+    }
+  ],
+  "TCEA3": [
+    {
+      "Gene": "TCEA3",
+      "GeneStart": "135803895",
+      "GeneStop": "135830813",
+      "Length": "26918",
+      "Orientation": "+",
+      "TiledRegionStart": "135800824",
+      "TiledRegionStop": "135841984",
+      "TiledRegionStartWrtTSS": "-3071",
+      "TiledRegionStopWrtTSS": "38089"
+    }
+  ],
+  "WNT4": [
+    {
+      "Gene": "WNT4",
+      "GeneStart": "136833550",
+      "GeneStop": "136852694",
+      "Length": "19144",
+      "Orientation": "+",
+      "TiledRegionStart": "136604610",
+      "TiledRegionStop": "136875618",
+      "TiledRegionStartWrtTSS": "-228940",
+      "TiledRegionStopWrtTSS": "42068"
+    }
+  ],
+  "AKP2": [
+    {
+      "Gene": "AKP2",
+      "GeneStart": "137297654",
+      "GeneStop": "137352238",
+      "Length": "54584",
+      "Orientation": "-",
+      "TiledRegionStart": "137285782",
+      "TiledRegionStop": "137418212",
+      "TiledRegionStartWrtTSS": "-120558",
+      "TiledRegionStopWrtTSS": "11872"
+    }
+  ],
+  "PAX7": [
+    {
+      "Gene": "PAX7",
+      "GeneStart": "139293996",
+      "GeneStop": "139388883",
+      "Length": "94887",
+      "Orientation": "-",
+      "TiledRegionStart": "139226195",
+      "TiledRegionStop": "139466403",
+      "TiledRegionStartWrtTSS": "-172407",
+      "TiledRegionStopWrtTSS": "67801"
+    }
+  ],
+  "PRDM2": [
+    {
+      "Gene": "PRDM2",
+      "GeneStart": "142717372",
+      "GeneStop": "142802612",
+      "Length": "85240",
+      "Orientation": "-",
+      "TiledRegionStart": "141902390",
+      "TiledRegionStop": "142831491",
+      "TiledRegionStartWrtTSS": "-114119",
+      "TiledRegionStopWrtTSS": "814982"
+    }
+  ],
+  "TNFRSF1B": [
+    {
+      "Gene": "TNFRSF1B",
+      "GeneStart": "144802271",
+      "GeneStop": "144836773",
+      "Length": "34502",
+      "Orientation": "-",
+      "TiledRegionStart": "144784898",
+      "TiledRegionStop": "144858879",
+      "TiledRegionStartWrtTSS": "-56608",
+      "TiledRegionStopWrtTSS": "17373"
+    }
+  ],
+  "REX2": [
+    {
+      "Gene": "REX2",
+      "GeneStart": "145881260",
+      "GeneStop": "145889548",
+      "Length": "8288",
+      "Orientation": "+",
+      "TiledRegionStart": "145749016",
+      "TiledRegionStop": "145942681",
+      "TiledRegionStartWrtTSS": "-132244",
+      "TiledRegionStopWrtTSS": "61421"
+    }
+  ],
+  "NPPA": [
+    {
+      "Gene": "NPPA",
+      "GeneStart": "147374855",
+      "GeneStop": "147376176",
+      "Length": "1321",
+      "Orientation": "+",
+      "TiledRegionStart": "147361307",
+      "TiledRegionStop": "147380593",
+      "TiledRegionStartWrtTSS": "-13548",
+      "TiledRegionStopWrtTSS": "5738"
+    }
+  ],
+  "CDK6": [
+    {
+      "Gene": "CDK6",
+      "GeneStart": "3344312",
+      "GeneStop": "3522225",
+      "Length": "177913",
+      "Orientation": "+",
+      "TiledRegionStart": "3001058",
+      "TiledRegionStop": "3543833",
+      "TiledRegionStartWrtTSS": "-343254",
+      "TiledRegionStopWrtTSS": "199521"
+    }
+  ],
+  "ABCB1B": [
+    {
+      "Gene": "ABCB1B",
+      "GeneStart": "8798186",
+      "GeneStop": "8866308",
+      "Length": "68122",
+      "Orientation": "+",
+      "TiledRegionStart": "8748519",
+      "TiledRegionStop": "8893717",
+      "TiledRegionStartWrtTSS": "-49667",
+      "TiledRegionStopWrtTSS": "95531"
+    }
+  ],
+  "PCLO": [
+    {
+      "Gene": "PCLO",
+      "GeneStart": "14514918",
+      "GeneStop": "14795993",
+      "Length": "281075",
+      "Orientation": "+",
+      "TiledRegionStart": "14074157",
+      "TiledRegionStop": "14910124",
+      "TiledRegionStartWrtTSS": "-440761",
+      "TiledRegionStopWrtTSS": "395206"
+    }
+  ],
+  "MLL5": [
+    {
+      "Gene": "MLL5",
+      "GeneStart": "22940259",
+      "GeneStop": "23010053",
+      "Length": "69794",
+      "Orientation": "-",
+      "TiledRegionStart": "22894421",
+      "TiledRegionStop": "23009174",
+      "TiledRegionStartWrtTSS": "-68915",
+      "TiledRegionStopWrtTSS": "45838"
+    }
+  ],
+  "MLL3": [
+    {
+      "Gene": "MLL3",
+      "GeneStart": "24777612",
+      "GeneStop": "25004601",
+      "Length": "226989",
+      "Orientation": "-",
+      "TiledRegionStart": "24771736",
+      "TiledRegionStop": "25021885",
+      "TiledRegionStartWrtTSS": "-244273",
+      "TiledRegionStopWrtTSS": "5876"
+    }
+  ],
+  "DNAJB6": [
+    {
+      "Gene": "DNAJB6",
+      "GeneStart": "30062480",
+      "GeneStop": "30113018",
+      "Length": "50538",
+      "Orientation": "+",
+      "TiledRegionStart": "30002617",
+      "TiledRegionStop": "30120688",
+      "TiledRegionStartWrtTSS": "-59863",
+      "TiledRegionStopWrtTSS": "58208"
+    }
+  ],
+  "RNF4": [
+    {
+      "Gene": "RNF4",
+      "GeneStart": "34679039",
+      "GeneStop": "34696079",
+      "Length": "17040",
+      "Orientation": "+",
+      "TiledRegionStart": "34678949",
+      "TiledRegionStop": "34763500",
+      "TiledRegionStartWrtTSS": "-90",
+      "TiledRegionStopWrtTSS": "84461"
+    }
+  ],
+  "RBPJ": [
+    {
+      "Gene": "RBPJ",
+      "GeneStart": "53947018",
+      "GeneStop": "54048684",
+      "Length": "101666",
+      "Orientation": "+",
+      "TiledRegionStart": "53938561",
+      "TiledRegionStop": "54089726",
+      "TiledRegionStartWrtTSS": "-8457",
+      "TiledRegionStopWrtTSS": "142708"
+    }
+  ],
+  "PCDH7": [
+    {
+      "Gene": "PCDH7",
+      "GeneStart": "58109339",
+      "GeneStop": "58120694",
+      "Length": "11355",
+      "Orientation": "+",
+      "TiledRegionStart": "58000414",
+      "TiledRegionStop": "58820967",
+      "TiledRegionStartWrtTSS": "-108925",
+      "TiledRegionStopWrtTSS": "711628"
+    }
+  ],
+  "G6PD2": [
+    {
+      "Gene": "G6PD2",
+      "GeneStart": "62200123",
+      "GeneStop": "62201664",
+      "Length": "1541",
+      "Orientation": "+",
+      "TiledRegionStart": "62158801",
+      "TiledRegionStop": "62993684",
+      "TiledRegionStartWrtTSS": "-41322",
+      "TiledRegionStopWrtTSS": "793561"
+    }
+  ],
+  "KIT": [
+    {
+      "Gene": "KIT",
+      "GeneStart": "75971049",
+      "GeneStop": "76052747",
+      "Length": "81698",
+      "Orientation": "+",
+      "TiledRegionStart": "75784321",
+      "TiledRegionStop": "76149580",
+      "TiledRegionStartWrtTSS": "-186728",
+      "TiledRegionStopWrtTSS": "178531"
+    }
+  ],
+  "KDR": [
+    {
+      "Gene": "KDR",
+      "GeneStart": "76329290",
+      "GeneStop": "76374453",
+      "Length": "45163",
+      "Orientation": "-",
+      "TiledRegionStart": "76154916",
+      "TiledRegionStop": "76569302",
+      "TiledRegionStartWrtTSS": "-240012",
+      "TiledRegionStopWrtTSS": "174374"
+    }
+  ],
+  "REST": [
+    {
+      "Gene": "REST",
+      "GeneStart": "77696966",
+      "GeneStop": "77712009",
+      "Length": "15043",
+      "Orientation": "+",
+      "TiledRegionStart": "77640478",
+      "TiledRegionStop": "77723276",
+      "TiledRegionStartWrtTSS": "-56488",
+      "TiledRegionStopWrtTSS": "26310"
+    }
+  ],
+  "SPP1": [
+    {
+      "Gene": "SPP1",
+      "GeneStart": "104865225",
+      "GeneStop": "104870062",
+      "Length": "4837",
+      "Orientation": "+",
+      "TiledRegionStart": "104767575",
+      "TiledRegionStop": "104888573",
+      "TiledRegionStartWrtTSS": "-97650",
+      "TiledRegionStopWrtTSS": "23348"
+    }
+  ],
+  "PKD2": [
+    {
+      "Gene": "PKD2",
+      "GeneStart": "104888573",
+      "GeneStop": "104934835",
+      "Length": "46262",
+      "Orientation": "+",
+      "TiledRegionStart": "104870062",
+      "TiledRegionStop": "104936267",
+      "TiledRegionStartWrtTSS": "-18511",
+      "TiledRegionStopWrtTSS": "47694"
+    }
+  ],
+  "MTF2": [
+    {
+      "Gene": "MTF2",
+      "GeneStart": "108494761",
+      "GeneStop": "108538023",
+      "Length": "43262",
+      "Orientation": "+",
+      "TiledRegionStart": "108416052",
+      "TiledRegionStop": "108550666",
+      "TiledRegionStartWrtTSS": "-78709",
+      "TiledRegionStopWrtTSS": "55905"
+    }
+  ],
+  "ULK1": [
+    {
+      "Gene": "ULK1",
+      "GeneStart": "111213508",
+      "GeneStop": "111239100",
+      "Length": "25592",
+      "Orientation": "-",
+      "TiledRegionStart": "111209634",
+      "TiledRegionStop": "111258089",
+      "TiledRegionStartWrtTSS": "-44581",
+      "TiledRegionStopWrtTSS": "3874"
+    }
+  ],
+  "SELPLG": [
+    {
+      "Gene": "SELPLG",
+      "GeneStart": "114268561",
+      "GeneStop": "114280442",
+      "Length": "11881",
+      "Orientation": "-",
+      "TiledRegionStart": "114250367",
+      "TiledRegionStop": "114292448",
+      "TiledRegionStartWrtTSS": "-23887",
+      "TiledRegionStopWrtTSS": "18194"
+    }
+  ],
+  "UNG": [
+    {
+      "Gene": "UNG",
+      "GeneStart": "114580444",
+      "GeneStop": "114589330",
+      "Length": "8886",
+      "Orientation": "+",
+      "TiledRegionStart": "114578185",
+      "TiledRegionStop": "114615527",
+      "TiledRegionStartWrtTSS": "-2259",
+      "TiledRegionStopWrtTSS": "35083"
+    }
+  ],
+  "PLA2G1B": [
+    {
+      "Gene": "PLA2G1B",
+      "GeneStart": "115916275",
+      "GeneStop": "115924726",
+      "Length": "8451",
+      "Orientation": "+",
+      "TiledRegionStart": "115904211",
+      "TiledRegionStop": "115928019",
+      "TiledRegionStartWrtTSS": "-12064",
+      "TiledRegionStopWrtTSS": "11744"
+    }
+  ],
+  "TBX3": [
+    {
+      "Gene": "TBX3",
+      "GeneStart": "120120678",
+      "GeneStop": "120134610",
+      "Length": "13932",
+      "Orientation": "+",
+      "TiledRegionStart": "120118408",
+      "TiledRegionStop": "120253748",
+      "TiledRegionStartWrtTSS": "-2270",
+      "TiledRegionStopWrtTSS": "133070"
+    }
+  ],
+  "TRAFD1": [
+    {
+      "Gene": "TRAFD1",
+      "GeneStart": "121821739",
+      "GeneStop": "121835580",
+      "Length": "13841",
+      "Orientation": "-",
+      "TiledRegionStart": "121818584",
+      "TiledRegionStop": "121847991",
+      "TiledRegionStartWrtTSS": "-26252",
+      "TiledRegionStopWrtTSS": "3155"
+    }
+  ],
+  "MYL2": [
+    {
+      "Gene": "MYL2",
+      "GeneStart": "122550988",
+      "GeneStop": "122556863",
+      "Length": "5875",
+      "Orientation": "+",
+      "TiledRegionStart": "122479706",
+      "TiledRegionStop": "122558065",
+      "TiledRegionStartWrtTSS": "-71282",
+      "TiledRegionStopWrtTSS": "7077"
+    }
+  ],
+  "P2RX4": [
+    {
+      "Gene": "P2RX4",
+      "GeneStart": "123157566",
+      "GeneStop": "123179053",
+      "Length": "21487",
+      "Orientation": "+",
+      "TiledRegionStart": "123141441",
+      "TiledRegionStop": "123183197",
+      "TiledRegionStartWrtTSS": "-16125",
+      "TiledRegionStopWrtTSS": "25631"
+    }
+  ],
+  "TRIP6": [
+    {
+      "Gene": "TRIP6",
+      "GeneStart": "137751127",
+      "GeneStop": "137755469",
+      "Length": "4342",
+      "Orientation": "-",
+      "TiledRegionStart": "137748395",
+      "TiledRegionStop": "137755787",
+      "TiledRegionStartWrtTSS": "-4660",
+      "TiledRegionStopWrtTSS": "2732"
+    }
+  ],
+  "PCOLCE": [
+    {
+      "Gene": "PCOLCE",
+      "GeneStart": "138046335",
+      "GeneStop": "138052632",
+      "Length": "6297",
+      "Orientation": "-",
+      "TiledRegionStart": "138042268",
+      "TiledRegionStop": "138053733",
+      "TiledRegionStartWrtTSS": "-7398",
+      "TiledRegionStopWrtTSS": "4067"
+    }
+  ],
+  "ACTB": [
+    {
+      "Gene": "ACTB",
+      "GeneStart": "143664795",
+      "GeneStop": "143668403",
+      "Length": "3608",
+      "Orientation": "-",
+      "TiledRegionStart": "143659597",
+      "TiledRegionStop": "143722034",
+      "TiledRegionStartWrtTSS": "-57239",
+      "TiledRegionStopWrtTSS": "5198"
+    }
+  ],
+  "CDX2": [
+    {
+      "Gene": "CDX2",
+      "GeneStart": "148112476",
+      "GeneStop": "148118825",
+      "Length": "6349",
+      "Orientation": "-",
+      "TiledRegionStart": "148087423",
+      "TiledRegionStop": "148126560",
+      "TiledRegionStartWrtTSS": "-14084",
+      "TiledRegionStopWrtTSS": "25053"
+    }
+  ],
+  "FLT1": [
+    {
+      "Gene": "FLT1",
+      "GeneStart": "148373772",
+      "GeneStop": "148537564",
+      "Length": "163792",
+      "Orientation": "-",
+      "TiledRegionStart": "148360072",
+      "TiledRegionStop": "148672204",
+      "TiledRegionStartWrtTSS": "-298432",
+      "TiledRegionStopWrtTSS": "13700"
+    }
+  ],
+  "CALCR": [
+    {
+      "Gene": "CALCR",
+      "GeneStart": "3635720",
+      "GeneStop": "3714713",
+      "Length": "78993",
+      "Orientation": "-",
+      "TiledRegionStart": "3553307",
+      "TiledRegionStop": "3912595",
+      "TiledRegionStartWrtTSS": "-276875",
+      "TiledRegionStopWrtTSS": "82413"
+    }
+  ],
+  "MET": [
+    {
+      "Gene": "MET",
+      "GeneStart": "17441241",
+      "GeneStop": "17521823",
+      "Length": "80582",
+      "Orientation": "+",
+      "TiledRegionStart": "17291324",
+      "TiledRegionStop": "17587098",
+      "TiledRegionStartWrtTSS": "-149917",
+      "TiledRegionStopWrtTSS": "145857"
+    }
+  ],
+  "PTPRZ1": [
+    {
+      "Gene": "PTPRZ1",
+      "GeneStart": "22825502",
+      "GeneStop": "23002916",
+      "Length": "177414",
+      "Orientation": "+",
+      "TiledRegionStart": "22306081",
+      "TiledRegionStop": "23022170",
+      "TiledRegionStartWrtTSS": "-519421",
+      "TiledRegionStopWrtTSS": "196668"
+    }
+  ],
+  "MKRN1": [
+    {
+      "Gene": "MKRN1",
+      "GeneStart": "39347819",
+      "GeneStop": "39370385",
+      "Length": "22566",
+      "Orientation": "-",
+      "TiledRegionStart": "39340379",
+      "TiledRegionStop": "39370567",
+      "TiledRegionStartWrtTSS": "-22748",
+      "TiledRegionStopWrtTSS": "7440"
+    }
+  ],
+  "CBX3": [
+    {
+      "Gene": "CBX3",
+      "GeneStart": "51420615",
+      "GeneStop": "51433703",
+      "Length": "13088",
+      "Orientation": "+",
+      "TiledRegionStart": "51419893",
+      "TiledRegionStop": "51494522",
+      "TiledRegionStartWrtTSS": "-722",
+      "TiledRegionStopWrtTSS": "73907"
+    }
+  ],
+  "FKBP9": [
+    {
+      "Gene": "FKBP9",
+      "GeneStart": "56782071",
+      "GeneStop": "56829352",
+      "Length": "47281",
+      "Orientation": "+",
+      "TiledRegionStart": "56730303",
+      "TiledRegionStop": "56832399",
+      "TiledRegionStartWrtTSS": "-51768",
+      "TiledRegionStopWrtTSS": "50328"
+    }
+  ],
+  "ABCG2": [
+    {
+      "Gene": "ABCG2",
+      "GeneStart": "58546666",
+      "GeneStop": "58642445",
+      "Length": "95779",
+      "Orientation": "+",
+      "TiledRegionStart": "58422872",
+      "TiledRegionStop": "58783683",
+      "TiledRegionStartWrtTSS": "-123794",
+      "TiledRegionStopWrtTSS": "237017"
+    }
+  ],
+  "SMARCAD1": [
+    {
+      "Gene": "SMARCAD1",
+      "GeneStart": "64992661",
+      "GeneStop": "65066043",
+      "Length": "73382",
+      "Orientation": "+",
+      "TiledRegionStart": "64681237",
+      "TiledRegionStop": "65069358",
+      "TiledRegionStartWrtTSS": "-311424",
+      "TiledRegionStopWrtTSS": "76697"
+    }
+  ],
+  "JMJD1A": [
+    {
+      "Gene": "JMJD1A",
+      "GeneStart": "71539035",
+      "GeneStop": "71582563",
+      "Length": "43528",
+      "Orientation": "-",
+      "TiledRegionStart": "71531568",
+      "TiledRegionStop": "71657854",
+      "TiledRegionStartWrtTSS": "-118819",
+      "TiledRegionStopWrtTSS": "7467"
+    }
+  ],
+  "TCF3": [
+    {
+      "Gene": "TCF3",
+      "GeneStart": "72576374",
+      "GeneStop": "72738950",
+      "Length": "162576",
+      "Orientation": "-",
+      "TiledRegionStart": "72566742",
+      "TiledRegionStop": "72791108",
+      "TiledRegionStartWrtTSS": "-214734",
+      "TiledRegionStopWrtTSS": "9632"
+    }
+  ],
+  "8430410A17RIK": [
+    {
+      "Gene": "8430410A17RIK",
+      "GeneStart": "87863970",
+      "GeneStop": "87886608",
+      "Length": "22638",
+      "Orientation": "+",
+      "TiledRegionStart": "87863589",
+      "TiledRegionStop": "87930415",
+      "TiledRegionStartWrtTSS": "-381",
+      "TiledRegionStopWrtTSS": "66445"
+    }
+  ],
+  "GATA2": [
+    {
+      "Gene": "GATA2",
+      "GeneStart": "88148662",
+      "GeneStop": "88157023",
+      "Length": "8361",
+      "Orientation": "+",
+      "TiledRegionStart": "88055298",
+      "TiledRegionStop": "88172262",
+      "TiledRegionStartWrtTSS": "-93364",
+      "TiledRegionStopWrtTSS": "23600"
+    }
+  ],
+  "RUVBL1": [
+    {
+      "Gene": "RUVBL1",
+      "GeneStart": "88415417",
+      "GeneStop": "88447560",
+      "Length": "32143",
+      "Orientation": "+",
+      "TiledRegionStart": "88396533",
+      "TiledRegionStop": "88453601",
+      "TiledRegionStartWrtTSS": "-18884",
+      "TiledRegionStopWrtTSS": "38184"
+    }
+  ],
+  "FBLN2": [
+    {
+      "Gene": "FBLN2",
+      "GeneStart": "91162758",
+      "GeneStop": "91222534",
+      "Length": "59776",
+      "Orientation": "+",
+      "TiledRegionStart": "91124677",
+      "TiledRegionStop": "91313977",
+      "TiledRegionStartWrtTSS": "-38081",
+      "TiledRegionStopWrtTSS": "151219"
+    }
+  ],
+  "RPL32": [
+    {
+      "Gene": "RPL32",
+      "GeneStart": "115755532",
+      "GeneStop": "115758761",
+      "Length": "3229",
+      "Orientation": "-",
+      "TiledRegionStart": "115754887",
+      "TiledRegionStop": "115760747",
+      "TiledRegionStartWrtTSS": "-5215",
+      "TiledRegionStopWrtTSS": "645"
+    }
+  ],
+  "PHC1": [
+    {
+      "Gene": "PHC1",
+      "GeneStart": "122267749",
+      "GeneStop": "122287033",
+      "Length": "19284",
+      "Orientation": "-",
+      "TiledRegionStart": "122267695",
+      "TiledRegionStop": "122341397",
+      "TiledRegionStartWrtTSS": "-73648",
+      "TiledRegionStopWrtTSS": "54"
+    }
+  ],
+  "GDF3": [
+    {
+      "Gene": "GDF3",
+      "GeneStart": "122555421",
+      "GeneStop": "122560089",
+      "Length": "4668",
+      "Orientation": "-",
+      "TiledRegionStart": "122552462",
+      "TiledRegionStop": "122576442",
+      "TiledRegionStartWrtTSS": "-21021",
+      "TiledRegionStopWrtTSS": "2959"
+    }
+  ],
+  "DPPA3": [
+    {
+      "Gene": "DPPA3",
+      "GeneStart": "122576442",
+      "GeneStop": "122580289",
+      "Length": "3847",
+      "Orientation": "+",
+      "TiledRegionStart": "122560089",
+      "TiledRegionStop": "122648353",
+      "TiledRegionStartWrtTSS": "-16353",
+      "TiledRegionStopWrtTSS": "71911"
+    }
+  ],
+  "NANOG": [
+    {
+      "Gene": "NANOG",
+      "GeneStart": "122657611",
+      "GeneStop": "122664651",
+      "Length": "7040",
+      "Orientation": "+",
+      "TiledRegionStart": "122656525",
+      "TiledRegionStop": "122677844",
+      "TiledRegionStartWrtTSS": "-1086",
+      "TiledRegionStopWrtTSS": "20233"
+    }
+  ],
+  "SLC2A3": [
+    {
+      "Gene": "SLC2A3",
+      "GeneStart": "122677844",
+      "GeneStop": "122692537",
+      "Length": "14693",
+      "Orientation": "-",
+      "TiledRegionStart": "122663573",
+      "TiledRegionStop": "122741548",
+      "TiledRegionStartWrtTSS": "-63704",
+      "TiledRegionStopWrtTSS": "14271"
+    }
+  ],
+  "LEPREL2": [
+    {
+      "Gene": "LEPREL2",
+      "GeneStart": "124791113",
+      "GeneStop": "124807705",
+      "Length": "16592",
+      "Orientation": "-",
+      "TiledRegionStart": "124790293",
+      "TiledRegionStop": "124808462",
+      "TiledRegionStartWrtTSS": "-17349",
+      "TiledRegionStopWrtTSS": "820"
+    }
+  ],
+  "GAPDH": [
+    {
+      "Gene": "GAPDH",
+      "GeneStart": "125111870",
+      "GeneStop": "125115601",
+      "Length": "3731",
+      "Orientation": "-",
+      "TiledRegionStart": "125111800",
+      "TiledRegionStop": "125118025",
+      "TiledRegionStartWrtTSS": "-6155",
+      "TiledRegionStopWrtTSS": "70"
+    }
+  ],
+  "CD9": [
+    {
+      "Gene": "CD9",
+      "GeneStart": "125410284",
+      "GeneStop": "125444773",
+      "Length": "34489",
+      "Orientation": "-",
+      "TiledRegionStart": "125330522",
+      "TiledRegionStop": "125502981",
+      "TiledRegionStartWrtTSS": "-92697",
+      "TiledRegionStopWrtTSS": "79762"
+    }
+  ],
+  "VWF": [
+    {
+      "Gene": "VWF",
+      "GeneStart": "125502981",
+      "GeneStop": "125636695",
+      "Length": "133714",
+      "Orientation": "+",
+      "TiledRegionStart": "125444773",
+      "TiledRegionStop": "125660721",
+      "TiledRegionStartWrtTSS": "-58208",
+      "TiledRegionStopWrtTSS": "157740"
+    }
+  ],
+  "CCND2": [
+    {
+      "Gene": "CCND2",
+      "GeneStart": "127075726",
+      "GeneStop": "127101066",
+      "Length": "25340",
+      "Orientation": "-",
+      "TiledRegionStart": "127059554",
+      "TiledRegionStop": "127182694",
+      "TiledRegionStartWrtTSS": "-106968",
+      "TiledRegionStopWrtTSS": "16172"
+    }
+  ],
+  "FOXM1": [
+    {
+      "Gene": "FOXM1",
+      "GeneStart": "128313012",
+      "GeneStop": "128325904",
+      "Length": "12892",
+      "Orientation": "+",
+      "TiledRegionStart": "128312840",
+      "TiledRegionStop": "128349784",
+      "TiledRegionStartWrtTSS": "-172",
+      "TiledRegionStopWrtTSS": "36772"
+    }
+  ],
+  "CDKN1B": [
+    {
+      "Gene": "CDKN1B",
+      "GeneStart": "134870435",
+      "GeneStop": "134874076",
+      "Length": "3641",
+      "Orientation": "+",
+      "TiledRegionStart": "134837739",
+      "TiledRegionStop": "134879110",
+      "TiledRegionStartWrtTSS": "-32696",
+      "TiledRegionStopWrtTSS": "8675"
+    }
+  ],
+  "EMP1": [
+    {
+      "Gene": "EMP1",
+      "GeneStart": "135312949",
+      "GeneStop": "135333191",
+      "Length": "20242",
+      "Orientation": "+",
+      "TiledRegionStart": "135299809",
+      "TiledRegionStop": "135679813",
+      "TiledRegionStartWrtTSS": "-13140",
+      "TiledRegionStopWrtTSS": "366864"
+    }
+  ],
+  "SERTAD1": [
+    {
+      "Gene": "SERTAD1",
+      "GeneStart": "28271972",
+      "GeneStop": "28275333",
+      "Length": "3361",
+      "Orientation": "+",
+      "TiledRegionStart": "28262383",
+      "TiledRegionStop": "28284343",
+      "TiledRegionStartWrtTSS": "-9589",
+      "TiledRegionStopWrtTSS": "12371"
+    }
+  ],
+  "WBP7": [
+    {
+      "Gene": "WBP7",
+      "GeneStart": "31353874",
+      "GeneStop": "31373745",
+      "Length": "19871",
+      "Orientation": "-",
+      "TiledRegionStart": "31352981",
+      "TiledRegionStop": "31374700",
+      "TiledRegionStartWrtTSS": "-20826",
+      "TiledRegionStopWrtTSS": "893"
+    }
+  ],
+  "GPI1": [
+    {
+      "Gene": "GPI1",
+      "GeneStart": "34987177",
+      "GeneStop": "35015281",
+      "Length": "28104",
+      "Orientation": "-",
+      "TiledRegionStart": "34981666",
+      "TiledRegionStop": "35021733",
+      "TiledRegionStartWrtTSS": "-34556",
+      "TiledRegionStopWrtTSS": "5511"
+    }
+  ],
+  "C80913": [
+    {
+      "Gene": "C80913",
+      "GeneStart": "38745021",
+      "GeneStop": "38804561",
+      "Length": "59540",
+      "Orientation": "-",
+      "TiledRegionStart": "38663298",
+      "TiledRegionStop": "38883003",
+      "TiledRegionStartWrtTSS": "-137982",
+      "TiledRegionStopWrtTSS": "81723"
+    }
+  ],
+  "CCNE1": [
+    {
+      "Gene": "CCNE1",
+      "GeneStart": "38883003",
+      "GeneStop": "38892509",
+      "Length": "9506",
+      "Orientation": "-",
+      "TiledRegionStart": "38804561",
+      "TiledRegionStop": "38968835",
+      "TiledRegionStartWrtTSS": "-85832",
+      "TiledRegionStopWrtTSS": "78442"
+    }
+  ],
+  "PTOV1": [
+    {
+      "Gene": "PTOV1",
+      "GeneStart": "52118438",
+      "GeneStop": "52125158",
+      "Length": "6720",
+      "Orientation": "-",
+      "TiledRegionStart": "52118299",
+      "TiledRegionStop": "52134756",
+      "TiledRegionStartWrtTSS": "-16318",
+      "TiledRegionStopWrtTSS": "139"
+    }
+  ],
+  "TEAD2": [
+    {
+      "Gene": "TEAD2",
+      "GeneStart": "52471123",
+      "GeneStop": "52488989",
+      "Length": "17866",
+      "Orientation": "+",
+      "TiledRegionStart": "52467220",
+      "TiledRegionStop": "52489002",
+      "TiledRegionStartWrtTSS": "-3903",
+      "TiledRegionStopWrtTSS": "17879"
+    }
+  ],
+  "BAX": [
+    {
+      "Gene": "BAX",
+      "GeneStart": "52717065",
+      "GeneStop": "52722268",
+      "Length": "5203",
+      "Orientation": "-",
+      "TiledRegionStart": "52715256",
+      "TiledRegionStop": "52728933",
+      "TiledRegionStartWrtTSS": "-11868",
+      "TiledRegionStopWrtTSS": "1809"
+    }
+  ],
+  "MYOD1": [
+    {
+      "Gene": "MYOD1",
+      "GeneStart": "53631852",
+      "GeneStop": "53634465",
+      "Length": "2613",
+      "Orientation": "+",
+      "TiledRegionStart": "53565539",
+      "TiledRegionStop": "53652912",
+      "TiledRegionStartWrtTSS": "-66313",
+      "TiledRegionStopWrtTSS": "21060"
+    }
+  ],
+  "NDN": [
+    {
+      "Gene": "NDN",
+      "GeneStart": "69493163",
+      "GeneStop": "69494814",
+      "Length": "1651",
+      "Orientation": "+",
+      "TiledRegionStart": "68694656",
+      "TiledRegionStop": "69521865",
+      "TiledRegionStartWrtTSS": "-798507",
+      "TiledRegionStopWrtTSS": "28702"
+    }
+  ],
+  "MEF2A": [
+    {
+      "Gene": "MEF2A",
+      "GeneStart": "74378710",
+      "GeneStop": "74517744",
+      "Length": "139034",
+      "Orientation": "-",
+      "TiledRegionStart": "74373342",
+      "TiledRegionStop": "74573923",
+      "TiledRegionStartWrtTSS": "-195213",
+      "TiledRegionStopWrtTSS": "5368"
+    }
+  ],
+  "PRSS23": [
+    {
+      "Gene": "PRSS23",
+      "GeneStart": "96656295",
+      "GeneStop": "96666096",
+      "Length": "9801",
+      "Orientation": "-",
+      "TiledRegionStart": "96558595",
+      "TiledRegionStop": "96781328",
+      "TiledRegionStartWrtTSS": "-125033",
+      "TiledRegionStopWrtTSS": "97700"
+    }
+  ],
+  "EED": [
+    {
+      "Gene": "EED",
+      "GeneStart": "97103186",
+      "GeneStop": "97130323",
+      "Length": "27137",
+      "Orientation": "-",
+      "TiledRegionStart": "97089695",
+      "TiledRegionStop": "97177670",
+      "TiledRegionStartWrtTSS": "-74484",
+      "TiledRegionStopWrtTSS": "13491"
+    }
+  ],
+  "ODZ4": [
+    {
+      "Gene": "ODZ4",
+      "GeneStart": "103359147",
+      "GeneStop": "104057064",
+      "Length": "697917",
+      "Orientation": "+",
+      "TiledRegionStart": "101345971",
+      "TiledRegionStop": "104100037",
+      "TiledRegionStartWrtTSS": "-2013176",
+      "TiledRegionStopWrtTSS": "740890"
+    }
+  ],
+  "FGFR2": [
+    {
+      "Gene": "FGFR2",
+      "GeneStart": "137305965",
+      "GeneStop": "137410322",
+      "Length": "104357",
+      "Orientation": "-",
+      "TiledRegionStart": "137132670",
+      "TiledRegionStop": "137535007",
+      "TiledRegionStartWrtTSS": "-229042",
+      "TiledRegionStopWrtTSS": "173295"
+    }
+  ],
+  "ZRANB1": [
+    {
+      "Gene": "ZRANB1",
+      "GeneStart": "140141305",
+      "GeneStop": "140175634",
+      "Length": "34329",
+      "Orientation": "+",
+      "TiledRegionStart": "140076794",
+      "TiledRegionStop": "140178694",
+      "TiledRegionStartWrtTSS": "-64511",
+      "TiledRegionStopWrtTSS": "37389"
+    }
+  ],
+  "MKI67": [
+    {
+      "Gene": "MKI67",
+      "GeneStart": "142881467",
+      "GeneStop": "142908100",
+      "Length": "26633",
+      "Orientation": "-",
+      "TiledRegionStart": "142877977",
+      "TiledRegionStop": "143900451",
+      "TiledRegionStartWrtTSS": "-1018984",
+      "TiledRegionStopWrtTSS": "3490"
+    }
+  ],
+  "BNIP3": [
+    {
+      "Gene": "BNIP3",
+      "GeneStart": "146082519",
+      "GeneStop": "146101189",
+      "Length": "18670",
+      "Orientation": "-",
+      "TiledRegionStart": "146074740",
+      "TiledRegionStop": "146146935",
+      "TiledRegionStartWrtTSS": "-64416",
+      "TiledRegionStopWrtTSS": "7779"
+    }
+  ],
+  "IFITM3": [
+    {
+      "Gene": "IFITM3",
+      "GeneStart": "148195489",
+      "GeneStop": "148196643",
+      "Length": "1154",
+      "Orientation": "-",
+      "TiledRegionStart": "148155717",
+      "TiledRegionStop": "148201711",
+      "TiledRegionStartWrtTSS": "-6222",
+      "TiledRegionStopWrtTSS": "39772"
+    }
+  ],
+  "CDKN1C": [
+    {
+      "Gene": "CDKN1C",
+      "GeneStart": "150644245",
+      "GeneStop": "150646901",
+      "Length": "2656",
+      "Orientation": "-",
+      "TiledRegionStart": "150612947",
+      "TiledRegionStop": "150659660",
+      "TiledRegionStartWrtTSS": "-15415",
+      "TiledRegionStopWrtTSS": "31298"
+    }
+  ],
+  "FGF4": [
+    {
+      "Gene": "FGF4",
+      "GeneStart": "152047291",
+      "GeneStop": "152051148",
+      "Length": "3857",
+      "Orientation": "+",
+      "TiledRegionStart": "152028893",
+      "TiledRegionStop": "152082437",
+      "TiledRegionStartWrtTSS": "-18398",
+      "TiledRegionStopWrtTSS": "35146"
+    }
+  ],
+  "CCND1": [
+    {
+      "Gene": "CCND1",
+      "GeneStart": "152115836",
+      "GeneStop": "152125830",
+      "Length": "9994",
+      "Orientation": "-",
+      "TiledRegionStart": "152107042",
+      "TiledRegionStop": "152392293",
+      "TiledRegionStartWrtTSS": "-276457",
+      "TiledRegionStopWrtTSS": "8794"
+    }
+  ],
+  "CKAP2": [
+    {
+      "Gene": "CKAP2",
+      "GeneStart": "23278921",
+      "GeneStop": "23296291",
+      "Length": "17370",
+      "Orientation": "-",
+      "TiledRegionStart": "23276874",
+      "TiledRegionStop": "23303332",
+      "TiledRegionStartWrtTSS": "-24411",
+      "TiledRegionStopWrtTSS": "2047"
+    }
+  ],
+  "MRPS31": [
+    {
+      "Gene": "MRPS31",
+      "GeneStart": "23521892",
+      "GeneStop": "23539949",
+      "Length": "18057",
+      "Orientation": "+",
+      "TiledRegionStart": "23509025",
+      "TiledRegionStop": "23573086",
+      "TiledRegionStartWrtTSS": "-12867",
+      "TiledRegionStopWrtTSS": "51194"
+    }
+  ],
+  "MYST3": [
+    {
+      "Gene": "MYST3",
+      "GeneStart": "23970011",
+      "GeneStop": "24053734",
+      "Length": "83723",
+      "Orientation": "+",
+      "TiledRegionStart": "23916103",
+      "TiledRegionStop": "24068502",
+      "TiledRegionStartWrtTSS": "-53908",
+      "TiledRegionStopWrtTSS": "98491"
+    }
+  ],
+  "ADAM9": [
+    {
+      "Gene": "ADAM9",
+      "GeneStart": "26060097",
+      "GeneStop": "26127266",
+      "Length": "67169",
+      "Orientation": "-",
+      "TiledRegionStart": "26059259",
+      "TiledRegionStop": "26127752",
+      "TiledRegionStartWrtTSS": "-67655",
+      "TiledRegionStopWrtTSS": "838"
+    }
+  ],
+  "FGFR1": [
+    {
+      "Gene": "FGFR1",
+      "GeneStart": "26629244",
+      "GeneStop": "26686186",
+      "Length": "56942",
+      "Orientation": "+",
+      "TiledRegionStart": "26566404",
+      "TiledRegionStop": "26702132",
+      "TiledRegionStartWrtTSS": "-62840",
+      "TiledRegionStopWrtTSS": "72888"
+    }
+  ],
+  "ASH2L": [
+    {
+      "Gene": "ASH2L",
+      "GeneStart": "26927342",
+      "GeneStop": "26958142",
+      "Length": "30800",
+      "Orientation": "-",
+      "TiledRegionStart": "26926454",
+      "TiledRegionStop": "26960095",
+      "TiledRegionStartWrtTSS": "-32753",
+      "TiledRegionStopWrtTSS": "888"
+    }
+  ],
+  "ZFP42": [
+    {
+      "Gene": "ZFP42",
+      "GeneStart": "44380425",
+      "GeneStop": "44392314",
+      "Length": "11889",
+      "Orientation": "-",
+      "TiledRegionStart": "44279238",
+      "TiledRegionStop": "44605218",
+      "TiledRegionStartWrtTSS": "-224793",
+      "TiledRegionStopWrtTSS": "101187"
+    }
+  ],
+  "KLF2": [
+    {
+      "Gene": "KLF2",
+      "GeneStart": "74842932",
+      "GeneStop": "74845248",
+      "Length": "2316",
+      "Orientation": "+",
+      "TiledRegionStart": "74829212",
+      "TiledRegionStop": "74864898",
+      "TiledRegionStartWrtTSS": "-13720",
+      "TiledRegionStopWrtTSS": "21966"
+    }
+  ],
+  "GAB1": [
+    {
+      "Gene": "GAB1",
+      "GeneStart": "83288333",
+      "GeneStop": "83404378",
+      "Length": "116045",
+      "Orientation": "-",
+      "TiledRegionStart": "83263358",
+      "TiledRegionStop": "83461648",
+      "TiledRegionStartWrtTSS": "-173315",
+      "TiledRegionStopWrtTSS": "24975"
+    }
+  ],
+  "E2F4": [
+    {
+      "Gene": "E2F4",
+      "GeneStart": "107821563",
+      "GeneStop": "107829270",
+      "Length": "7707",
+      "Orientation": "+",
+      "TiledRegionStart": "107819998",
+      "TiledRegionStop": "107829509",
+      "TiledRegionStartWrtTSS": "-1565",
+      "TiledRegionStopWrtTSS": "7946"
+    }
+  ],
+  "MAP1LC3B": [
+    {
+      "Gene": "MAP1LC3B",
+      "GeneStart": "124114368",
+      "GeneStop": "124121947",
+      "Length": "7579",
+      "Orientation": "+",
+      "TiledRegionStart": "124102691",
+      "TiledRegionStop": "124123368",
+      "TiledRegionStartWrtTSS": "-11677",
+      "TiledRegionStopWrtTSS": "9000"
+    }
+  ],
+  "CDH15": [
+    {
+      "Gene": "CDH15",
+      "GeneStart": "125372274",
+      "GeneStop": "125391297",
+      "Length": "19023",
+      "Orientation": "+",
+      "TiledRegionStart": "125366173",
+      "TiledRegionStop": "125407221",
+      "TiledRegionStartWrtTSS": "-6101",
+      "TiledRegionStopWrtTSS": "34947"
+    }
+  ],
+  "RPL13": [
+    {
+      "Gene": "RPL13",
+      "GeneStart": "125626316",
+      "GeneStop": "125629140",
+      "Length": "2824",
+      "Orientation": "+",
+      "TiledRegionStart": "125621655",
+      "TiledRegionStop": "125641274",
+      "TiledRegionStartWrtTSS": "-4661",
+      "TiledRegionStopWrtTSS": "14958"
+    }
+  ],
+  "FUT4": [
+    {
+      "Gene": "FUT4",
+      "GeneStart": "14552903",
+      "GeneStop": "14556566",
+      "Length": "3663",
+      "Orientation": "-",
+      "TiledRegionStart": "14545177",
+      "TiledRegionStop": "14562644",
+      "TiledRegionStartWrtTSS": "-9741",
+      "TiledRegionStopWrtTSS": "7726"
+    }
+  ],
+  "DNMT1": [
+    {
+      "Gene": "DNMT1",
+      "GeneStart": "20711653",
+      "GeneStop": "20757317",
+      "Length": "45664",
+      "Orientation": "-",
+      "TiledRegionStart": "20703034",
+      "TiledRegionStop": "20770402",
+      "TiledRegionStartWrtTSS": "-58749",
+      "TiledRegionStopWrtTSS": "8619"
+    }
+  ],
+  "CNN1": [
+    {
+      "Gene": "CNN1",
+      "GeneStart": "21903725",
+      "GeneStop": "21914074",
+      "Length": "10349",
+      "Orientation": "+",
+      "TiledRegionStart": "21889826",
+      "TiledRegionStop": "21917433",
+      "TiledRegionStartWrtTSS": "-13899",
+      "TiledRegionStopWrtTSS": "13708"
+    }
+  ],
+  "ESAM1": [
+    {
+      "Gene": "ESAM1",
+      "GeneStart": "37335708",
+      "GeneStop": "37345898",
+      "Length": "10190",
+      "Orientation": "+",
+      "TiledRegionStart": "37331750",
+      "TiledRegionStop": "37346840",
+      "TiledRegionStartWrtTSS": "-3958",
+      "TiledRegionStopWrtTSS": "11132"
+    }
+  ],
+  "USP2": [
+    {
+      "Gene": "USP2",
+      "GeneStart": "43875104",
+      "GeneStop": "43903710",
+      "Length": "28606",
+      "Orientation": "+",
+      "TiledRegionStart": "43856662",
+      "TiledRegionStop": "43909925",
+      "TiledRegionStartWrtTSS": "-18442",
+      "TiledRegionStopWrtTSS": "34821"
+    }
+  ],
+  "MCAM": [
+    {
+      "Gene": "MCAM",
+      "GeneStart": "43942754",
+      "GeneStop": "43950807",
+      "Length": "8053",
+      "Orientation": "+",
+      "TiledRegionStart": "43928496",
+      "TiledRegionStop": "43957345",
+      "TiledRegionStartWrtTSS": "-14258",
+      "TiledRegionStopWrtTSS": "14591"
+    }
+  ],
+  "MLL1": [
+    {
+      "Gene": "MLL1",
+      "GeneStart": "44611438",
+      "GeneStop": "44689357",
+      "Length": "77919",
+      "Orientation": "-",
+      "TiledRegionStart": "44611034",
+      "TiledRegionStop": "44721352",
+      "TiledRegionStartWrtTSS": "-109914",
+      "TiledRegionStopWrtTSS": "404"
+    }
+  ],
+  "TAGLN": [
+    {
+      "Gene": "TAGLN",
+      "GeneStart": "45737711",
+      "GeneStop": "45743981",
+      "Length": "6270",
+      "Orientation": "-",
+      "TiledRegionStart": "45714960",
+      "TiledRegionStop": "45745958",
+      "TiledRegionStartWrtTSS": "-8247",
+      "TiledRegionStopWrtTSS": "22751"
+    }
+  ],
+  "CSPG4": [
+    {
+      "Gene": "CSPG4",
+      "GeneStart": "56712967",
+      "GeneStop": "56746942",
+      "Length": "33975",
+      "Orientation": "+",
+      "TiledRegionStart": "56699770",
+      "TiledRegionStop": "56765007",
+      "TiledRegionStartWrtTSS": "-13197",
+      "TiledRegionStopWrtTSS": "52040"
+    }
+  ],
+  "CLK3": [
+    {
+      "Gene": "CLK3",
+      "GeneStart": "57598518",
+      "GeneStop": "57613667",
+      "Length": "15149",
+      "Orientation": "-",
+      "TiledRegionStart": "57597970",
+      "TiledRegionStop": "57638303",
+      "TiledRegionStartWrtTSS": "-39785",
+      "TiledRegionStopWrtTSS": "548"
+    }
+  ],
+  "TPM1": [
+    {
+      "Gene": "TPM1",
+      "GeneStart": "66870400",
+      "GeneStop": "66897020",
+      "Length": "26620",
+      "Orientation": "-",
+      "TiledRegionStart": "66823291",
+      "TiledRegionStop": "67065943",
+      "TiledRegionStartWrtTSS": "-195543",
+      "TiledRegionStopWrtTSS": "47109"
+    }
+  ],
+  "MYO1E": [
+    {
+      "Gene": "MYO1E",
+      "GeneStart": "70055157",
+      "GeneStop": "70247874",
+      "Length": "192717",
+      "Orientation": "+",
+      "TiledRegionStart": "69989364",
+      "TiledRegionStop": "70255496",
+      "TiledRegionStartWrtTSS": "-65793",
+      "TiledRegionStopWrtTSS": "200339"
+    }
+  ],
+  "DPPA5": [
+    {
+      "Gene": "DPPA5",
+      "GeneStart": "78214863",
+      "GeneStop": "78215961",
+      "Length": "1098",
+      "Orientation": "-",
+      "TiledRegionStart": "78194952",
+      "TiledRegionStop": "78225212",
+      "TiledRegionStartWrtTSS": "-10349",
+      "TiledRegionStopWrtTSS": "19911"
+    }
+  ],
+  "MRAS": [
+    {
+      "Gene": "MRAS",
+      "GeneStart": "99288395",
+      "GeneStop": "99337130",
+      "Length": "48735",
+      "Orientation": "-",
+      "TiledRegionStart": "99258949",
+      "TiledRegionStop": "99356662",
+      "TiledRegionStartWrtTSS": "-68267",
+      "TiledRegionStopWrtTSS": "29446"
+    }
+  ],
+  "UBE1L": [
+    {
+      "Gene": "UBE1L",
+      "GeneStart": "107877898",
+      "GeneStop": "107886387",
+      "Length": "8489",
+      "Orientation": "+",
+      "TiledRegionStart": "107874599",
+      "TiledRegionStop": "107886557",
+      "TiledRegionStartWrtTSS": "-3299",
+      "TiledRegionStopWrtTSS": "8659"
+    }
+  ],
+  "ARIH2": [
+    {
+      "Gene": "ARIH2",
+      "GeneStart": "108505273",
+      "GeneStop": "108551711",
+      "Length": "46438",
+      "Orientation": "-",
+      "TiledRegionStart": "108499931",
+      "TiledRegionStop": "108564429",
+      "TiledRegionStartWrtTSS": "-59156",
+      "TiledRegionStopWrtTSS": "5342"
+    }
+  ],
+  "SCOTIN": [
+    {
+      "Gene": "SCOTIN",
+      "GeneStart": "108941141",
+      "GeneStop": "108960280",
+      "Length": "19139",
+      "Orientation": "+",
+      "TiledRegionStart": "108934739",
+      "TiledRegionStop": "108960446",
+      "TiledRegionStartWrtTSS": "-6402",
+      "TiledRegionStopWrtTSS": "19305"
+    }
+  ],
+  "TDGF1": [
+    {
+      "Gene": "TDGF1",
+      "GeneStart": "110842112",
+      "GeneStop": "110848662",
+      "Length": "6550",
+      "Orientation": "-",
+      "TiledRegionStart": "110819359",
+      "TiledRegionStop": "110854049",
+      "TiledRegionStartWrtTSS": "-11937",
+      "TiledRegionStopWrtTSS": "22753"
+    }
+  ],
+  "CTNNB1": [
+    {
+      "Gene": "CTNNB1",
+      "GeneStart": "120842593",
+      "GeneStop": "120869625",
+      "Length": "27032",
+      "Orientation": "+",
+      "TiledRegionStart": "120686874",
+      "TiledRegionStop": "120982789",
+      "TiledRegionStartWrtTSS": "-155719",
+      "TiledRegionStopWrtTSS": "140196"
+    }
+  ],
+  "UTRN": [
+    {
+      "Gene": "UTRN",
+      "GeneStart": "12101986",
+      "GeneStop": "12581533",
+      "Length": "479547",
+      "Orientation": "-",
+      "TiledRegionStart": "11330281",
+      "TiledRegionStop": "12658014",
+      "TiledRegionStartWrtTSS": "-556028",
+      "TiledRegionStopWrtTSS": "771705"
+    }
+  ],
+  "SGK": [
+    {
+      "Gene": "SGK",
+      "GeneStart": "21714502",
+      "GeneStop": "21719698",
+      "Length": "5196",
+      "Orientation": "+",
+      "TiledRegionStart": "21564657",
+      "TiledRegionStop": "21786113",
+      "TiledRegionStartWrtTSS": "-149845",
+      "TiledRegionStopWrtTSS": "71611"
+    }
+  ],
+  "PTPRK": [
+    {
+      "Gene": "PTPRK",
+      "GeneStart": "27794626",
+      "GeneStop": "28317203",
+      "Length": "522577",
+      "Orientation": "+",
+      "TiledRegionStart": "27656838",
+      "TiledRegionStop": "28388201",
+      "TiledRegionStartWrtTSS": "-137788",
+      "TiledRegionStopWrtTSS": "593575"
+    }
+  ],
+  "AIM1": [
+    {
+      "Gene": "AIM1",
+      "GeneStart": "43670113",
+      "GeneStop": "43724652",
+      "Length": "54539",
+      "Orientation": "-",
+      "TiledRegionStart": "43667668",
+      "TiledRegionStop": "43988164",
+      "TiledRegionStartWrtTSS": "-318051",
+      "TiledRegionStopWrtTSS": "2445"
+    }
+  ],
+  "GJA1": [
+    {
+      "Gene": "GJA1",
+      "GeneStart": "56097153",
+      "GeneStop": "56110224",
+      "Length": "13071",
+      "Orientation": "+",
+      "TiledRegionStart": "56074913",
+      "TiledRegionStop": "56375728",
+      "TiledRegionStartWrtTSS": "-22240",
+      "TiledRegionStopWrtTSS": "278575"
+    }
+  ],
+  "CNN2": [
+    {
+      "Gene": "CNN2",
+      "GeneStart": "79451345",
+      "GeneStop": "79458145",
+      "Length": "6800",
+      "Orientation": "+",
+      "TiledRegionStart": "79447075",
+      "TiledRegionStop": "79460360",
+      "TiledRegionStartWrtTSS": "-4270",
+      "TiledRegionStopWrtTSS": "9015"
+    }
+  ],
+  "GADD45B": [
+    {
+      "Gene": "GADD45B",
+      "GeneStart": "80392836",
+      "GeneStop": "80394949",
+      "Length": "2113",
+      "Orientation": "+",
+      "TiledRegionStart": "80380990",
+      "TiledRegionStop": "80411369",
+      "TiledRegionStartWrtTSS": "-11846",
+      "TiledRegionStopWrtTSS": "18533"
+    }
+  ],
+  "TIMP3": [
+    {
+      "Gene": "TIMP3",
+      "GeneStart": "85763157",
+      "GeneStop": "85812250",
+      "Length": "49093",
+      "Orientation": "+",
+      "TiledRegionStart": "85511073",
+      "TiledRegionStop": "86002598",
+      "TiledRegionStartWrtTSS": "-252084",
+      "TiledRegionStopWrtTSS": "239441"
+    }
+  ],
+  "SOCS2": [
+    {
+      "Gene": "SOCS2",
+      "GeneStart": "94874676",
+      "GeneStop": "94879455",
+      "Length": "4779",
+      "Orientation": "-",
+      "TiledRegionStart": "94786731",
+      "TiledRegionStop": "94943440",
+      "TiledRegionStartWrtTSS": "-68764",
+      "TiledRegionStopWrtTSS": "87945"
+    }
+  ],
+  "KITL": [
+    {
+      "Gene": "KITL",
+      "GeneStart": "99478458",
+      "GeneStop": "99563046",
+      "Length": "84588",
+      "Orientation": "+",
+      "TiledRegionStart": "99222292",
+      "TiledRegionStop": "99606053",
+      "TiledRegionStartWrtTSS": "-256166",
+      "TiledRegionStopWrtTSS": "127595"
+    }
+  ],
+  "MYF5": [
+    {
+      "Gene": "MYF5",
+      "GeneStart": "106919964",
+      "GeneStop": "106923190",
+      "Length": "3226",
+      "Orientation": "-",
+      "TiledRegionStart": "106862199",
+      "TiledRegionStop": "106929916",
+      "TiledRegionStartWrtTSS": "-9952",
+      "TiledRegionStopWrtTSS": "57765"
+    }
+  ],
+  "NAP1L1": [
+    {
+      "Gene": "NAP1L1",
+      "GeneStart": "110917673",
+      "GeneStop": "110935198",
+      "Length": "17525",
+      "Orientation": "+",
+      "TiledRegionStart": "110739228",
+      "TiledRegionStop": "110943342",
+      "TiledRegionStartWrtTSS": "-178445",
+      "TiledRegionStopWrtTSS": "25669"
+    }
+  ],
+  "CDK4": [
+    {
+      "Gene": "CDK4",
+      "GeneStart": "126500671",
+      "GeneStop": "126504451",
+      "Length": "3780",
+      "Orientation": "+",
+      "TiledRegionStart": "126497240",
+      "TiledRegionStop": "126515963",
+      "TiledRegionStartWrtTSS": "-3431",
+      "TiledRegionStopWrtTSS": "15292"
+    }
+  ],
+  "DDIT3": [
+    {
+      "Gene": "DDIT3",
+      "GeneStart": "126727866",
+      "GeneStop": "126733342",
+      "Length": "5476",
+      "Orientation": "+",
+      "TiledRegionStart": "126725827",
+      "TiledRegionStop": "126760783",
+      "TiledRegionStartWrtTSS": "-2039",
+      "TiledRegionStopWrtTSS": "32917"
+    }
+  ],
+  "CS": [
+    {
+      "Gene": "CS",
+      "GeneStart": "127774888",
+      "GeneStop": "127799535",
+      "Length": "24647",
+      "Orientation": "+",
+      "TiledRegionStart": "127764243",
+      "TiledRegionStop": "127800153",
+      "TiledRegionStartWrtTSS": "-10645",
+      "TiledRegionStopWrtTSS": "25265"
+    }
+  ],
+  "DGKA": [
+    {
+      "Gene": "DGKA",
+      "GeneStart": "128157190",
+      "GeneStop": "128181112",
+      "Length": "23922",
+      "Orientation": "-",
+      "TiledRegionStart": "128142068",
+      "TiledRegionStop": "128185018",
+      "TiledRegionStartWrtTSS": "-27828",
+      "TiledRegionStopWrtTSS": "15122"
+    }
+  ],
+  "NIPSNAP1": [
+    {
+      "Gene": "NIPSNAP1",
+      "GeneStart": "4774006",
+      "GeneStop": "4794203",
+      "Length": "20197",
+      "Orientation": "+",
+      "TiledRegionStart": "4749530",
+      "TiledRegionStop": "4795346",
+      "TiledRegionStartWrtTSS": "-24476",
+      "TiledRegionStopWrtTSS": "21340"
+    }
+  ],
+  "MYL7": [
+    {
+      "Gene": "MYL7",
+      "GeneStart": "5796640",
+      "GeneStop": "5798785",
+      "Length": "2145",
+      "Orientation": "-",
+      "TiledRegionStart": "5778220",
+      "TiledRegionStop": "5800826",
+      "TiledRegionStartWrtTSS": "-4186",
+      "TiledRegionStopWrtTSS": "18420"
+    }
+  ],
+  "MEIS1": [
+    {
+      "Gene": "MEIS1",
+      "GeneStart": "18780431",
+      "GeneStop": "18918683",
+      "Length": "138252",
+      "Orientation": "-",
+      "TiledRegionStart": "17853848",
+      "TiledRegionStop": "19526764",
+      "TiledRegionStartWrtTSS": "-746333",
+      "TiledRegionStopWrtTSS": "926583"
+    }
+  ],
+  "RPS27A": [
+    {
+      "Gene": "RPS27A",
+      "GeneStart": "29445842",
+      "GeneStop": "29448040",
+      "Length": "2198",
+      "Orientation": "-",
+      "TiledRegionStart": "29445255",
+      "TiledRegionStop": "29592947",
+      "TiledRegionStartWrtTSS": "-147105",
+      "TiledRegionStopWrtTSS": "587"
+    }
+  ],
+  "ADAM19": [
+    {
+      "Gene": "ADAM19",
+      "GeneStart": "45869489",
+      "GeneStop": "45960845",
+      "Length": "91356",
+      "Orientation": "+",
+      "TiledRegionStart": "45865851",
+      "TiledRegionStop": "45961657",
+      "TiledRegionStartWrtTSS": "-3638",
+      "TiledRegionStopWrtTSS": "92168"
+    }
+  ],
+  "TGTP": [
+    {
+      "Gene": "TGTP",
+      "GeneStart": "48798832",
+      "GeneStop": "48805750",
+      "Length": "6918",
+      "Orientation": "-",
+      "TiledRegionStart": "48781478",
+      "TiledRegionStop": "48851162",
+      "TiledRegionStartWrtTSS": "-52330",
+      "TiledRegionStopWrtTSS": "17354"
+    }
+  ],
+  "GFPT2": [
+    {
+      "Gene": "GFPT2",
+      "GeneStart": "49607691",
+      "GeneStop": "49652115",
+      "Length": "44424",
+      "Orientation": "+",
+      "TiledRegionStart": "49492645",
+      "TiledRegionStop": "49660256",
+      "TiledRegionStartWrtTSS": "-115046",
+      "TiledRegionStopWrtTSS": "52565"
+    }
+  ],
+  "IL4": [
+    {
+      "Gene": "IL4",
+      "GeneStart": "53425970",
+      "GeneStop": "53432167",
+      "Length": "6197",
+      "Orientation": "-",
+      "TiledRegionStart": "53417746",
+      "TiledRegionStop": "53444826",
+      "TiledRegionStartWrtTSS": "-18856",
+      "TiledRegionStopWrtTSS": "8224"
+    }
+  ],
+  "IGTP": [
+    {
+      "Gene": "IGTP",
+      "GeneStart": "58013058",
+      "GeneStop": "58021093",
+      "Length": "8035",
+      "Orientation": "+",
+      "TiledRegionStart": "58003700",
+      "TiledRegionStop": "58049553",
+      "TiledRegionStartWrtTSS": "-9358",
+      "TiledRegionStopWrtTSS": "36495"
+    }
+  ],
+  "WNT3A": [
+    {
+      "Gene": "WNT3A",
+      "GeneStart": "59061538",
+      "GeneStop": "59104253",
+      "Length": "42715",
+      "Orientation": "-",
+      "TiledRegionStart": "59041688",
+      "TiledRegionStop": "59120432",
+      "TiledRegionStartWrtTSS": "-58894",
+      "TiledRegionStopWrtTSS": "19850"
+    }
+  ],
+  "TRP53": [
+    {
+      "Gene": "TRP53",
+      "GeneStart": "69393483",
+      "GeneStop": "69405373",
+      "Length": "11890",
+      "Orientation": "+",
+      "TiledRegionStart": "69387686",
+      "TiledRegionStop": "69413252",
+      "TiledRegionStartWrtTSS": "-5797",
+      "TiledRegionStopWrtTSS": "19769"
+    }
+  ],
+  "PIPOX": [
+    {
+      "Gene": "PIPOX",
+      "GeneStart": "77694117",
+      "GeneStop": "77707286",
+      "Length": "13169",
+      "Orientation": "-",
+      "TiledRegionStart": "77679482",
+      "TiledRegionStop": "77744445",
+      "TiledRegionStartWrtTSS": "-50328",
+      "TiledRegionStopWrtTSS": "14635"
+    }
+  ],
+  "AATF": [
+    {
+      "Gene": "AATF",
+      "GeneStart": "84236358",
+      "GeneStop": "84327003",
+      "Length": "90645",
+      "Orientation": "-",
+      "TiledRegionStart": "84215149",
+      "TiledRegionStop": "84332881",
+      "TiledRegionStartWrtTSS": "-96523",
+      "TiledRegionStopWrtTSS": "21209"
+    }
+  ],
+  "TOB1": [
+    {
+      "Gene": "TOB1",
+      "GeneStart": "94072768",
+      "GeneStop": "94076809",
+      "Length": "4041",
+      "Orientation": "+",
+      "TiledRegionStart": "94017090",
+      "TiledRegionStop": "94098912",
+      "TiledRegionStartWrtTSS": "-55678",
+      "TiledRegionStopWrtTSS": "26144"
+    }
+  ],
+  "STAT3": [
+    {
+      "Gene": "STAT3",
+      "GeneStart": "100748124",
+      "GeneStop": "100800825",
+      "Length": "52701",
+      "Orientation": "-",
+      "TiledRegionStart": "100746483",
+      "TiledRegionStop": "100818050",
+      "TiledRegionStartWrtTSS": "-69926",
+      "TiledRegionStopWrtTSS": "1641"
+    }
+  ],
+  "BRCA1": [
+    {
+      "Gene": "BRCA1",
+      "GeneStart": "101350078",
+      "GeneStop": "101410434",
+      "Length": "60356",
+      "Orientation": "-",
+      "TiledRegionStart": "101332620",
+      "TiledRegionStop": "101414172",
+      "TiledRegionStartWrtTSS": "-64094",
+      "TiledRegionStopWrtTSS": "17458"
+    }
+  ],
+  "HDAC5": [
+    {
+      "Gene": "HDAC5",
+      "GeneStart": "102057061",
+      "GeneStop": "102091486",
+      "Length": "34425",
+      "Orientation": "-",
+      "TiledRegionStart": "102055395",
+      "TiledRegionStop": "102110196",
+      "TiledRegionStartWrtTSS": "-53135",
+      "TiledRegionStopWrtTSS": "1666"
+    }
+  ],
+  "GJA7": [
+    {
+      "Gene": "GJA7",
+      "GeneStart": "102660893",
+      "GeneStop": "102665955",
+      "Length": "5062",
+      "Orientation": "-",
+      "TiledRegionStart": "102640348",
+      "TiledRegionStop": "102697610",
+      "TiledRegionStartWrtTSS": "-36717",
+      "TiledRegionStopWrtTSS": "20545"
+    }
+  ],
+  "ACE": [
+    {
+      "Gene": "ACE",
+      "GeneStart": "105829276",
+      "GeneStop": "105850574",
+      "Length": "21298",
+      "Orientation": "+",
+      "TiledRegionStart": "105805461",
+      "TiledRegionStop": "105856045",
+      "TiledRegionStartWrtTSS": "-23815",
+      "TiledRegionStopWrtTSS": "26769"
+    }
+  ],
+  "SOCS3": [
+    {
+      "Gene": "SOCS3",
+      "GeneStart": "117827393",
+      "GeneStop": "117830476",
+      "Length": "3083",
+      "Orientation": "-",
+      "TiledRegionStart": "117734795",
+      "TiledRegionStop": "117848171",
+      "TiledRegionStartWrtTSS": "-20778",
+      "TiledRegionStopWrtTSS": "92598"
+    }
+  ],
+  "CBX2": [
+    {
+      "Gene": "CBX2",
+      "GeneStart": "118884343",
+      "GeneStop": "118892584",
+      "Length": "8241",
+      "Orientation": "+",
+      "TiledRegionStart": "118854155",
+      "TiledRegionStop": "118899750",
+      "TiledRegionStartWrtTSS": "-30188",
+      "TiledRegionStopWrtTSS": "15407"
+    }
+  ],
+  "CBX8": [
+    {
+      "Gene": "CBX8",
+      "GeneStart": "118899750",
+      "GeneStop": "118902227",
+      "Length": "2477",
+      "Orientation": "-",
+      "TiledRegionStart": "118892584",
+      "TiledRegionStop": "118941469",
+      "TiledRegionStartWrtTSS": "-41719",
+      "TiledRegionStopWrtTSS": "7166"
+    }
+  ],
+  "CBX4": [
+    {
+      "Gene": "CBX4",
+      "GeneStart": "118941469",
+      "GeneStop": "118947455",
+      "Length": "5986",
+      "Orientation": "-",
+      "TiledRegionStart": "118902227",
+      "TiledRegionStop": "119008451",
+      "TiledRegionStartWrtTSS": "-66982",
+      "TiledRegionStopWrtTSS": "39242"
+    }
+  ],
+  "MYCN": [
+    {
+      "Gene": "MYCN",
+      "GeneStart": "12942899",
+      "GeneStop": "12948514",
+      "Length": "5615",
+      "Orientation": "-",
+      "TiledRegionStart": "12929669",
+      "TiledRegionStop": "13000254",
+      "TiledRegionStartWrtTSS": "-57355",
+      "TiledRegionStopWrtTSS": "13230"
+    }
+  ],
+  "PQLC3": [
+    {
+      "Gene": "PQLC3",
+      "GeneStart": "16995454",
+      "GeneStop": "17006862",
+      "Length": "11408",
+      "Orientation": "-",
+      "TiledRegionStart": "16995080",
+      "TiledRegionStop": "17012396",
+      "TiledRegionStartWrtTSS": "-16942",
+      "TiledRegionStopWrtTSS": "374"
+    }
+  ],
+  "ODC1": [
+    {
+      "Gene": "ODC1",
+      "GeneStart": "17551679",
+      "GeneStop": "17558308",
+      "Length": "6629",
+      "Orientation": "+",
+      "TiledRegionStart": "17481461",
+      "TiledRegionStop": "17570378",
+      "TiledRegionStartWrtTSS": "-70218",
+      "TiledRegionStopWrtTSS": "18699"
+    }
+  ],
+  "ID2": [
+    {
+      "Gene": "ID2",
+      "GeneStart": "25778664",
+      "GeneStop": "25780933",
+      "Length": "2269",
+      "Orientation": "-",
+      "TiledRegionStart": "25744562",
+      "TiledRegionStop": "26349173",
+      "TiledRegionStartWrtTSS": "-570509",
+      "TiledRegionStopWrtTSS": "34102"
+    }
+  ],
+  "HDAC9": [
+    {
+      "Gene": "HDAC9",
+      "GeneStart": "35056362",
+      "GeneStop": "35213739",
+      "Length": "157377",
+      "Orientation": "-",
+      "TiledRegionStart": "34644696",
+      "TiledRegionStop": "35558427",
+      "TiledRegionStartWrtTSS": "-502065",
+      "TiledRegionStopWrtTSS": "411666"
+    }
+  ],
+  "MEOX2": [
+    {
+      "Gene": "MEOX2",
+      "GeneStart": "37835133",
+      "GeneStop": "37906115",
+      "Length": "70982",
+      "Orientation": "+",
+      "TiledRegionStart": "37231452",
+      "TiledRegionStop": "37968366",
+      "TiledRegionStartWrtTSS": "-603681",
+      "TiledRegionStopWrtTSS": "133233"
+    }
+  ],
+  "STRN3": [
+    {
+      "Gene": "STRN3",
+      "GeneStart": "52710619",
+      "GeneStop": "52792873",
+      "Length": "82254",
+      "Orientation": "-",
+      "TiledRegionStart": "52706760",
+      "TiledRegionStop": "52844706",
+      "TiledRegionStartWrtTSS": "-134087",
+      "TiledRegionStopWrtTSS": "3859"
+    }
+  ],
+  "NPAS3": [
+    {
+      "Gene": "NPAS3",
+      "GeneStart": "54349664",
+      "GeneStop": "55170061",
+      "Length": "820397",
+      "Orientation": "+",
+      "TiledRegionStart": "54252002",
+      "TiledRegionStop": "55279969",
+      "TiledRegionStartWrtTSS": "-97662",
+      "TiledRegionStopWrtTSS": "930305"
+    }
+  ],
+  "EGLN3": [
+    {
+      "Gene": "EGLN3",
+      "GeneStart": "55279969",
+      "GeneStop": "55304835",
+      "Length": "24866",
+      "Orientation": "-",
+      "TiledRegionStart": "55170061",
+      "TiledRegionStop": "55488720",
+      "TiledRegionStartWrtTSS": "-208751",
+      "TiledRegionStopWrtTSS": "109908"
+    }
+  ],
+  "FUT8": [
+    {
+      "Gene": "FUT8",
+      "GeneStart": "78340008",
+      "GeneStop": "78576974",
+      "Length": "236966",
+      "Orientation": "+",
+      "TiledRegionStart": "78256928",
+      "TiledRegionStop": "79298087",
+      "TiledRegionStartWrtTSS": "-83080",
+      "TiledRegionStopWrtTSS": "958079"
+    }
+  ],
+  "ESRRB": [
+    {
+      "Gene": "ESRRB",
+      "GeneStart": "87702067",
+      "GeneStop": "87862572",
+      "Length": "160505",
+      "Orientation": "+",
+      "TiledRegionStart": "87632318",
+      "TiledRegionStop": "88019650",
+      "TiledRegionStartWrtTSS": "-69749",
+      "TiledRegionStopWrtTSS": "317583"
+    }
+  ],
+  "TCL1": [
+    {
+      "Gene": "TCL1",
+      "GeneStart": "106454965",
+      "GeneStop": "106460921",
+      "Length": "5956",
+      "Orientation": "-",
+      "TiledRegionStart": "106445203",
+      "TiledRegionStop": "106568082",
+      "TiledRegionStartWrtTSS": "-113117",
+      "TiledRegionStopWrtTSS": "9762"
+    }
+  ],
+  "YY1": [
+    {
+      "Gene": "YY1",
+      "GeneStart": "110031521",
+      "GeneStop": "110054842",
+      "Length": "23321",
+      "Orientation": "+",
+      "TiledRegionStart": "109940497",
+      "TiledRegionStop": "110064088",
+      "TiledRegionStartWrtTSS": "-91024",
+      "TiledRegionStopWrtTSS": "32567"
+    }
+  ],
+  "ZFP386": [
+    {
+      "Gene": "ZFP386",
+      "GeneStart": "117285935",
+      "GeneStop": "117299065",
+      "Length": "13130",
+      "Orientation": "+",
+      "TiledRegionStart": "117248165",
+      "TiledRegionStop": "117316264",
+      "TiledRegionStartWrtTSS": "-37770",
+      "TiledRegionStopWrtTSS": "30329"
+    }
+  ],
+  "NID1": [
+    {
+      "Gene": "NID1",
+      "GeneStart": "13529958",
+      "GeneStop": "13604531",
+      "Length": "74573",
+      "Orientation": "+",
+      "TiledRegionStart": "13485854",
+      "TiledRegionStop": "13682676",
+      "TiledRegionStartWrtTSS": "-44104",
+      "TiledRegionStopWrtTSS": "152718"
+    }
+  ],
+  "E2F3": [
+    {
+      "Gene": "E2F3",
+      "GeneStart": "30001641",
+      "GeneStop": "30077932",
+      "Length": "76291",
+      "Orientation": "-",
+      "TiledRegionStart": "29947457",
+      "TiledRegionStop": "30228359",
+      "TiledRegionStartWrtTSS": "-226718",
+      "TiledRegionStopWrtTSS": "54184"
+    }
+  ],
+  "BMP6": [
+    {
+      "Gene": "BMP6",
+      "GeneStart": "38437585",
+      "GeneStop": "38591597",
+      "Length": "154012",
+      "Orientation": "+",
+      "TiledRegionStart": "38319532",
+      "TiledRegionStop": "38592144",
+      "TiledRegionStartWrtTSS": "-118053",
+      "TiledRegionStopWrtTSS": "154559"
+    }
+  ],
+  "JARID2": [
+    {
+      "Gene": "JARID2",
+      "GeneStart": "44826272",
+      "GeneStop": "45016350",
+      "Length": "190078",
+      "Orientation": "+",
+      "TiledRegionStart": "44375818",
+      "TiledRegionStop": "45017448",
+      "TiledRegionStartWrtTSS": "-450454",
+      "TiledRegionStopWrtTSS": "191176"
+    }
+  ],
+  "MYLIP": [
+    {
+      "Gene": "MYLIP",
+      "GeneStart": "45485111",
+      "GeneStop": "45507309",
+      "Length": "22198",
+      "Orientation": "+",
+      "TiledRegionStart": "45363080",
+      "TiledRegionStop": "45602838",
+      "TiledRegionStartWrtTSS": "-122031",
+      "TiledRegionStopWrtTSS": "117727"
+    }
+  ],
+  "ATXN1": [
+    {
+      "Gene": "ATXN1",
+      "GeneStart": "45650262",
+      "GeneStop": "46060345",
+      "Length": "410083",
+      "Orientation": "-",
+      "TiledRegionStart": "45641750",
+      "TiledRegionStop": "46060622",
+      "TiledRegionStartWrtTSS": "-410360",
+      "TiledRegionStopWrtTSS": "8512"
+    }
+  ],
+  "HNRPK": [
+    {
+      "Gene": "HNRPK",
+      "GeneStart": "58493312",
+      "GeneStop": "58503877",
+      "Length": "10565",
+      "Orientation": "-",
+      "TiledRegionStart": "58456223",
+      "TiledRegionStop": "58654668",
+      "TiledRegionStartWrtTSS": "-161356",
+      "TiledRegionStopWrtTSS": "37089"
+    }
+  ],
+  "GAS1": [
+    {
+      "Gene": "GAS1",
+      "GeneStart": "60275766",
+      "GeneStop": "60278726",
+      "Length": "2960",
+      "Orientation": "-",
+      "TiledRegionStart": "60250884",
+      "TiledRegionStop": "60306832",
+      "TiledRegionStartWrtTSS": "-31066",
+      "TiledRegionStopWrtTSS": "24882"
+    }
+  ],
+  "6720457D02RIK": [
+    {
+      "Gene": "6720457D02RIK",
+      "GeneStart": "62618157",
+      "GeneStop": "62659959",
+      "Length": "41802",
+      "Orientation": "-",
+      "TiledRegionStart": "62568172",
+      "TiledRegionStop": "62800766",
+      "TiledRegionStartWrtTSS": "-182609",
+      "TiledRegionStopWrtTSS": "49985"
+    }
+  ],
+  "CTSL": [
+    {
+      "Gene": "CTSL",
+      "GeneStart": "64464522",
+      "GeneStop": "64471614",
+      "Length": "7092",
+      "Orientation": "-",
+      "TiledRegionStart": "64414018",
+      "TiledRegionStop": "64533861",
+      "TiledRegionStartWrtTSS": "-69339",
+      "TiledRegionStopWrtTSS": "50504"
+    }
+  ],
+  "MEF2C": [
+    {
+      "Gene": "MEF2C",
+      "GeneStart": "83643194",
+      "GeneStop": "83802948",
+      "Length": "159754",
+      "Orientation": "+",
+      "TiledRegionStart": "81936156",
+      "TiledRegionStop": "84030813",
+      "TiledRegionStartWrtTSS": "-1707038",
+      "TiledRegionStopWrtTSS": "387619"
+    }
+  ],
+  "CCNB1": [
+    {
+      "Gene": "CCNB1",
+      "GeneStart": "101548694",
+      "GeneStop": "101556441",
+      "Length": "7747",
+      "Orientation": "-",
+      "TiledRegionStart": "101545854",
+      "TiledRegionStop": "101572603",
+      "TiledRegionStartWrtTSS": "-23909",
+      "TiledRegionStopWrtTSS": "2840"
+    }
+  ],
+  "IL6ST": [
+    {
+      "Gene": "IL6ST",
+      "GeneStart": "113254317",
+      "GeneStop": "113297049",
+      "Length": "42732",
+      "Orientation": "+",
+      "TiledRegionStart": "113226818",
+      "TiledRegionStop": "113313003",
+      "TiledRegionStartWrtTSS": "-27499",
+      "TiledRegionStopWrtTSS": "58686"
+    }
+  ],
+  "PPAP2A": [
+    {
+      "Gene": "PPAP2A",
+      "GeneStart": "113591000",
+      "GeneStop": "113657888",
+      "Length": "66888",
+      "Orientation": "+",
+      "TiledRegionStart": "113523106",
+      "TiledRegionStop": "113657988",
+      "TiledRegionStartWrtTSS": "-67894",
+      "TiledRegionStopWrtTSS": "66988"
+    }
+  ],
+  "ISL1": [
+    {
+      "Gene": "ISL1",
+      "GeneStart": "117088489",
+      "GeneStop": "117099896",
+      "Length": "11407",
+      "Orientation": "-",
+      "TiledRegionStart": "116944416",
+      "TiledRegionStop": "117643631",
+      "TiledRegionStartWrtTSS": "-555142",
+      "TiledRegionStopWrtTSS": "144073"
+    }
+  ],
+  "EMB": [
+    {
+      "Gene": "EMB",
+      "GeneStart": "118009439",
+      "GeneStop": "118062905",
+      "Length": "53466",
+      "Orientation": "+",
+      "TiledRegionStart": "117924691",
+      "TiledRegionStop": "118146686",
+      "TiledRegionStartWrtTSS": "-84748",
+      "TiledRegionStopWrtTSS": "137247"
+    }
+  ],
+  "MYST4": [
+    {
+      "Gene": "MYST4",
+      "GeneStart": "22319076",
+      "GeneStop": "22491355",
+      "Length": "172279",
+      "Orientation": "+",
+      "TiledRegionStart": "22267769",
+      "TiledRegionStop": "22495794",
+      "TiledRegionStartWrtTSS": "-51307",
+      "TiledRegionStopWrtTSS": "176718"
+    }
+  ],
+  "HESX1": [
+    {
+      "Gene": "HESX1",
+      "GeneStart": "27813548",
+      "GeneStop": "27815512",
+      "Length": "1964",
+      "Orientation": "+",
+      "TiledRegionStart": "27783737",
+      "TiledRegionStop": "27852187",
+      "TiledRegionStartWrtTSS": "-29811",
+      "TiledRegionStopWrtTSS": "38639"
+    }
+  ],
+  "WNT5A": [
+    {
+      "Gene": "WNT5A",
+      "GeneStart": "29318659",
+      "GeneStop": "29338620",
+      "Length": "19961",
+      "Orientation": "+",
+      "TiledRegionStart": "29207947",
+      "TiledRegionStop": "29718129",
+      "TiledRegionStartWrtTSS": "-110712",
+      "TiledRegionStopWrtTSS": "399470"
+    }
+  ],
+  "TNNC1": [
+    {
+      "Gene": "TNNC1",
+      "GeneStart": "32021498",
+      "GeneStop": "32024897",
+      "Length": "3399",
+      "Orientation": "+",
+      "TiledRegionStart": "32020012",
+      "TiledRegionStop": "32031059",
+      "TiledRegionStartWrtTSS": "-1486",
+      "TiledRegionStopWrtTSS": "9561"
+    }
+  ],
+  "PARG": [
+    {
+      "Gene": "PARG",
+      "GeneStart": "33015157",
+      "GeneStop": "33110736",
+      "Length": "95579",
+      "Orientation": "+",
+      "TiledRegionStart": "33015057",
+      "TiledRegionStop": "33135205",
+      "TiledRegionStartWrtTSS": "-100",
+      "TiledRegionStopWrtTSS": "120048"
+    }
+  ],
+  "BMP4": [
+    {
+      "Gene": "BMP4",
+      "GeneStart": "47003195",
+      "GeneStop": "47010274",
+      "Length": "7079",
+      "Orientation": "-",
+      "TiledRegionStart": "46333516",
+      "TiledRegionStop": "47189819",
+      "TiledRegionStartWrtTSS": "-186624",
+      "TiledRegionStopWrtTSS": "669679"
+    }
+  ],
+  "SALL2": [
+    {
+      "Gene": "SALL2",
+      "GeneStart": "52930856",
+      "GeneStop": "52948345",
+      "Length": "17489",
+      "Orientation": "-",
+      "TiledRegionStart": "52924799",
+      "TiledRegionStop": "52968778",
+      "TiledRegionStartWrtTSS": "-37922",
+      "TiledRegionStopWrtTSS": "6057"
+    }
+  ],
+  "MYH6": [
+    {
+      "Gene": "MYH6",
+      "GeneStart": "55560761",
+      "GeneStop": "55585408",
+      "Length": "24647",
+      "Orientation": "-",
+      "TiledRegionStart": "55558114",
+      "TiledRegionStop": "55589525",
+      "TiledRegionStartWrtTSS": "-28764",
+      "TiledRegionStopWrtTSS": "2647"
+    }
+  ],
+  "LATS2": [
+    {
+      "Gene": "LATS2",
+      "GeneStart": "58308499",
+      "GeneStop": "58364960",
+      "Length": "56461",
+      "Orientation": "-",
+      "TiledRegionStart": "58283793",
+      "TiledRegionStop": "58417091",
+      "TiledRegionStartWrtTSS": "-108592",
+      "TiledRegionStopWrtTSS": "24706"
+    }
+  ],
+  "TRIM13": [
+    {
+      "Gene": "TRIM13",
+      "GeneStart": "62218631",
+      "GeneStop": "62224780",
+      "Length": "6149",
+      "Orientation": "+",
+      "TiledRegionStart": "62175723",
+      "TiledRegionStop": "62226294",
+      "TiledRegionStartWrtTSS": "-42908",
+      "TiledRegionStopWrtTSS": "7663"
+    }
+  ],
+  "GATA4": [
+    {
+      "Gene": "GATA4",
+      "GeneStart": "63817752",
+      "GeneStop": "63864097",
+      "Length": "46345",
+      "Orientation": "-",
+      "TiledRegionStart": "63812362",
+      "TiledRegionStop": "63936582",
+      "TiledRegionStartWrtTSS": "-118830",
+      "TiledRegionStopWrtTSS": "5390"
+    }
+  ],
+  "PIWIL2": [
+    {
+      "Gene": "PIWIL2",
+      "GeneStart": "70772287",
+      "GeneStop": "70828901",
+      "Length": "56614",
+      "Orientation": "-",
+      "TiledRegionStart": "70761301",
+      "TiledRegionStop": "70838603",
+      "TiledRegionStartWrtTSS": "-66316",
+      "TiledRegionStopWrtTSS": "10986"
+    }
+  ],
+  "TSC22D1": [
+    {
+      "Gene": "TSC22D1",
+      "GeneStart": "76815628",
+      "GeneStop": "76907568",
+      "Length": "91940",
+      "Orientation": "+",
+      "TiledRegionStart": "76652137",
+      "TiledRegionStop": "76932619",
+      "TiledRegionStartWrtTSS": "-163491",
+      "TiledRegionStopWrtTSS": "116991"
+    }
+  ],
+  "KLF5": [
+    {
+      "Gene": "KLF5",
+      "GeneStart": "99697910",
+      "GeneStop": "99712631",
+      "Length": "14721",
+      "Orientation": "+",
+      "TiledRegionStart": "99653712",
+      "TiledRegionStop": "100234737",
+      "TiledRegionStartWrtTSS": "-44198",
+      "TiledRegionStopWrtTSS": "536827"
+    }
+  ],
+  "OSMR": [
+    {
+      "Gene": "OSMR",
+      "GeneStart": "6763590",
+      "GeneStop": "6824283",
+      "Length": "60693",
+      "Orientation": "-",
+      "TiledRegionStart": "6750387",
+      "TiledRegionStop": "7090542",
+      "TiledRegionStartWrtTSS": "-326952",
+      "TiledRegionStopWrtTSS": "13203"
+    }
+  ],
+  "HRSP12": [
+    {
+      "Gene": "HRSP12",
+      "GeneStart": "34413892",
+      "GeneStop": "34424945",
+      "Length": "11053",
+      "Orientation": "-",
+      "TiledRegionStart": "34403647",
+      "TiledRegionStop": "34425078",
+      "TiledRegionStartWrtTSS": "-11186",
+      "TiledRegionStopWrtTSS": "10245"
+    }
+  ],
+  "ANGPT1": [
+    {
+      "Gene": "ANGPT1",
+      "GeneStart": "42256269",
+      "GeneStop": "42508341",
+      "Length": "252072",
+      "Orientation": "-",
+      "TiledRegionStart": "42151892",
+      "TiledRegionStop": "42852341",
+      "TiledRegionStartWrtTSS": "-596072",
+      "TiledRegionStopWrtTSS": "104377"
+    }
+  ],
+  "MYC": [
+    {
+      "Gene": "MYC",
+      "GeneStart": "61816896",
+      "GeneStop": "61821916",
+      "Length": "5020",
+      "Orientation": "+",
+      "TiledRegionStart": "60997880",
+      "TiledRegionStop": "62042972",
+      "TiledRegionStartWrtTSS": "-819016",
+      "TiledRegionStopWrtTSS": "226076"
+    }
+  ],
+  "GCAT": [
+    {
+      "Gene": "GCAT",
+      "GeneStart": "78861350",
+      "GeneStop": "78868784",
+      "Length": "7434",
+      "Orientation": "+",
+      "TiledRegionStart": "78860934",
+      "TiledRegionStop": "78872362",
+      "TiledRegionStartWrtTSS": "-416",
+      "TiledRegionStopWrtTSS": "11012"
+    }
+  ],
+  "MAFF": [
+    {
+      "Gene": "MAFF",
+      "GeneStart": "79178108",
+      "GeneStop": "79189506",
+      "Length": "11398",
+      "Orientation": "+",
+      "TiledRegionStart": "79158598",
+      "TiledRegionStop": "79191114",
+      "TiledRegionStartWrtTSS": "-19510",
+      "TiledRegionStopWrtTSS": "13006"
+    }
+  ],
+  "CBX6": [
+    {
+      "Gene": "CBX6",
+      "GeneStart": "79654328",
+      "GeneStop": "79664763",
+      "Length": "10435",
+      "Orientation": "-",
+      "TiledRegionStart": "79635139",
+      "TiledRegionStop": "79700256",
+      "TiledRegionStartWrtTSS": "-45928",
+      "TiledRegionStopWrtTSS": "19189"
+    }
+  ],
+  "CBX7": [
+    {
+      "Gene": "CBX7",
+      "GeneStart": "79746237",
+      "GeneStop": "79763076",
+      "Length": "16839",
+      "Orientation": "-",
+      "TiledRegionStart": "79738516",
+      "TiledRegionStop": "79826304",
+      "TiledRegionStartWrtTSS": "-80067",
+      "TiledRegionStopWrtTSS": "7721"
+    }
+  ],
+  "MLL2": [
+    {
+      "Gene": "MLL2",
+      "GeneStart": "98664116",
+      "GeneStop": "98701631",
+      "Length": "37515",
+      "Orientation": "-",
+      "TiledRegionStart": "98661939",
+      "TiledRegionStop": "98708209",
+      "TiledRegionStartWrtTSS": "-44093",
+      "TiledRegionStopWrtTSS": "2177"
+    }
+  ],
+  "CSAD": [
+    {
+      "Gene": "CSAD",
+      "GeneStart": "102007429",
+      "GeneStop": "102019474",
+      "Length": "12045",
+      "Orientation": "-",
+      "TiledRegionStart": "101993867",
+      "TiledRegionStop": "102038693",
+      "TiledRegionStartWrtTSS": "-31264",
+      "TiledRegionStopWrtTSS": "13562"
+    }
+  ],
+  "MYH11": [
+    {
+      "Gene": "MYH11",
+      "GeneStart": "14194993",
+      "GeneStop": "14291456",
+      "Length": "96463",
+      "Orientation": "-",
+      "TiledRegionStart": "14192659",
+      "TiledRegionStop": "14299337",
+      "TiledRegionStartWrtTSS": "-104344",
+      "TiledRegionStopWrtTSS": "2334"
+    }
+  ],
+  "EIF4A2": [
+    {
+      "Gene": "EIF4A2",
+      "GeneStart": "23107829",
+      "GeneStop": "23114019",
+      "Length": "6190",
+      "Orientation": "+",
+      "TiledRegionStart": "23081760",
+      "TiledRegionStop": "23114021",
+      "TiledRegionStartWrtTSS": "-26069",
+      "TiledRegionStopWrtTSS": "6192"
+    }
+  ],
+  "TRP63": [
+    {
+      "Gene": "TRP63",
+      "GeneStart": "25802028",
+      "GeneStop": "25892166",
+      "Length": "90138",
+      "Orientation": "+",
+      "TiledRegionStart": "25422430",
+      "TiledRegionStop": "25956561",
+      "TiledRegionStartWrtTSS": "-379598",
+      "TiledRegionStopWrtTSS": "154533"
+    }
+  ],
+  "PPP1R2": [
+    {
+      "Gene": "PPP1R2",
+      "GeneStart": "31251627",
+      "GeneStop": "31275363",
+      "Length": "23736",
+      "Orientation": "-",
+      "TiledRegionStart": "31201324",
+      "TiledRegionStop": "31296278",
+      "TiledRegionStartWrtTSS": "-44651",
+      "TiledRegionStopWrtTSS": "50303"
+    }
+  ],
+  "TFRC": [
+    {
+      "Gene": "TFRC",
+      "GeneStart": "32609107",
+      "GeneStop": "32632876",
+      "Length": "23769",
+      "Orientation": "+",
+      "TiledRegionStart": "32507300",
+      "TiledRegionStop": "32644947",
+      "TiledRegionStartWrtTSS": "-101807",
+      "TiledRegionStopWrtTSS": "35840"
+    }
+  ],
+  "ZBTB20": [
+    {
+      "Gene": "ZBTB20",
+      "GeneStart": "43510421",
+      "GeneStop": "43619183",
+      "Length": "108762",
+      "Orientation": "+",
+      "TiledRegionStart": "42340764",
+      "TiledRegionStop": "43649114",
+      "TiledRegionStartWrtTSS": "-1169657",
+      "TiledRegionStopWrtTSS": "138693"
+    }
+  ],
+  "DPPA2": [
+    {
+      "Gene": "DPPA2",
+      "GeneStart": "48310387",
+      "GeneStop": "48319626",
+      "Length": "9239",
+      "Orientation": "+",
+      "TiledRegionStart": "48294405",
+      "TiledRegionStop": "48399564",
+      "TiledRegionStartWrtTSS": "-15982",
+      "TiledRegionStopWrtTSS": "89177"
+    }
+  ],
+  "ALCAM": [
+    {
+      "Gene": "ALCAM",
+      "GeneStart": "52251026",
+      "GeneStop": "52454187",
+      "Length": "203161",
+      "Orientation": "-",
+      "TiledRegionStart": "52208160",
+      "TiledRegionStop": "52869083",
+      "TiledRegionStartWrtTSS": "-618057",
+      "TiledRegionStopWrtTSS": "42866"
+    }
+  ],
+  "DYRK1A": [
+    {
+      "Gene": "DYRK1A",
+      "GeneStart": "94833067",
+      "GeneStop": "94913998",
+      "Length": "80931",
+      "Orientation": "+",
+      "TiledRegionStart": "94748050",
+      "TiledRegionStop": "94970290",
+      "TiledRegionStartWrtTSS": "-85017",
+      "TiledRegionStopWrtTSS": "137223"
+    }
+  ],
+  "T": [
+    {
+      "Gene": "T",
+      "GeneStart": "8627288",
+      "GeneStop": "8635361",
+      "Length": "8073",
+      "Orientation": "+",
+      "TiledRegionStart": "8615593",
+      "TiledRegionStop": "8994610",
+      "TiledRegionStartWrtTSS": "-11695",
+      "TiledRegionStopWrtTSS": "367322"
+    }
+  ],
+  "PKD1": [
+    {
+      "Gene": "PKD1",
+      "GeneStart": "24686895",
+      "GeneStop": "24733459",
+      "Length": "46564",
+      "Orientation": "+",
+      "TiledRegionStart": "24670833",
+      "TiledRegionStop": "24769655",
+      "TiledRegionStartWrtTSS": "-16062",
+      "TiledRegionStopWrtTSS": "82760"
+    }
+  ],
+  "NKX2-5": [
+    {
+      "Gene": "NKX2-5",
+      "GeneStart": "26975610",
+      "GeneStop": "26978510",
+      "Length": "2900",
+      "Orientation": "-",
+      "TiledRegionStart": "26929466",
+      "TiledRegionStop": "27054036",
+      "TiledRegionStartWrtTSS": "-78426",
+      "TiledRegionStopWrtTSS": "46144"
+    }
+  ],
+  "CDKN1A": [
+    {
+      "Gene": "CDKN1A",
+      "GeneStart": "29230720",
+      "GeneStop": "29237667",
+      "Length": "6947",
+      "Orientation": "+",
+      "TiledRegionStart": "29180311",
+      "TiledRegionStop": "29272001",
+      "TiledRegionStartWrtTSS": "-50409",
+      "TiledRegionStopWrtTSS": "41281"
+    }
+  ],
+  "NOTCH3": [
+    {
+      "Gene": "NOTCH3",
+      "GeneStart": "32257838",
+      "GeneStop": "32303797",
+      "Length": "45959",
+      "Orientation": "-",
+      "TiledRegionStart": "32197550",
+      "TiledRegionStop": "32320715",
+      "TiledRegionStartWrtTSS": "-62877",
+      "TiledRegionStopWrtTSS": "60288"
+    }
+  ],
+  "RPS18": [
+    {
+      "Gene": "RPS18",
+      "GeneStart": "34088944",
+      "GeneStop": "34092586",
+      "Length": "3642",
+      "Orientation": "-",
+      "TiledRegionStart": "34088424",
+      "TiledRegionStop": "34092757",
+      "TiledRegionStartWrtTSS": "-3813",
+      "TiledRegionStopWrtTSS": "520"
+    }
+  ],
+  "H2-AB1": [
+    {
+      "Gene": "H2-AB1",
+      "GeneStart": "34400185",
+      "GeneStop": "34406355",
+      "Length": "6170",
+      "Orientation": "+",
+      "TiledRegionStart": "34382853",
+      "TiledRegionStop": "34419696",
+      "TiledRegionStartWrtTSS": "-17332",
+      "TiledRegionStopWrtTSS": "19511"
+    }
+  ],
+  "H2-AA": [
+    {
+      "Gene": "H2-AA",
+      "GeneStart": "34419696",
+      "GeneStop": "34424716",
+      "Length": "5020",
+      "Orientation": "-",
+      "TiledRegionStart": "34406355",
+      "TiledRegionStop": "34442812",
+      "TiledRegionStartWrtTSS": "-23116",
+      "TiledRegionStopWrtTSS": "13341"
+    }
+  ],
+  "POU5F1": [
+    {
+      "Gene": "POU5F1",
+      "GeneStart": "35642984",
+      "GeneStop": "35647722",
+      "Length": "4738",
+      "Orientation": "+",
+      "TiledRegionStart": "35611508",
+      "TiledRegionStop": "35649679",
+      "TiledRegionStartWrtTSS": "-31476",
+      "TiledRegionStopWrtTSS": "6695"
+    }
+  ],
+  "KLC4": [
+    {
+      "Gene": "KLC4",
+      "GeneStart": "46767580",
+      "GeneStop": "46782093",
+      "Length": "14513",
+      "Orientation": "-",
+      "TiledRegionStart": "46766385",
+      "TiledRegionStop": "46783197",
+      "TiledRegionStartWrtTSS": "-15617",
+      "TiledRegionStopWrtTSS": "1195"
+    }
+  ],
+  "TBN": [
+    {
+      "Gene": "TBN",
+      "GeneStart": "47624999",
+      "GeneStop": "47639236",
+      "Length": "14237",
+      "Orientation": "-",
+      "TiledRegionStart": "47607093",
+      "TiledRegionStop": "47642000",
+      "TiledRegionStartWrtTSS": "-17001",
+      "TiledRegionStopWrtTSS": "17906"
+    }
+  ],
+  "CCND3": [
+    {
+      "Gene": "CCND3",
+      "GeneStart": "47642000",
+      "GeneStop": "47736638",
+      "Length": "94638",
+      "Orientation": "+",
+      "TiledRegionStart": "47639236",
+      "TiledRegionStop": "47737029",
+      "TiledRegionStartWrtTSS": "-2764",
+      "TiledRegionStopWrtTSS": "95029"
+    }
+  ],
+  "DAZL": [
+    {
+      "Gene": "DAZL",
+      "GeneStart": "50418726",
+      "GeneStop": "50432924",
+      "Length": "14198",
+      "Orientation": "-",
+      "TiledRegionStart": "50368047",
+      "TiledRegionStop": "50648742",
+      "TiledRegionStartWrtTSS": "-230016",
+      "TiledRegionStopWrtTSS": "50679"
+    }
+  ],
+  "UBXD1": [
+    {
+      "Gene": "UBXD1",
+      "GeneStart": "56207676",
+      "GeneStop": "56214412",
+      "Length": "6736",
+      "Orientation": "-",
+      "TiledRegionStart": "56207449",
+      "TiledRegionStop": "56219080",
+      "TiledRegionStartWrtTSS": "-11404",
+      "TiledRegionStopWrtTSS": "227"
+    }
+  ],
+  "TICAM1": [
+    {
+      "Gene": "TICAM1",
+      "GeneStart": "56408885",
+      "GeneStop": "56416126",
+      "Length": "7241",
+      "Orientation": "-",
+      "TiledRegionStart": "56400498",
+      "TiledRegionStop": "56418385",
+      "TiledRegionStartWrtTSS": "-9500",
+      "TiledRegionStopWrtTSS": "8387"
+    }
+  ],
+  "MSH2": [
+    {
+      "Gene": "MSH2",
+      "GeneStart": "88071897",
+      "GeneStop": "88123053",
+      "Length": "51156",
+      "Orientation": "+",
+      "TiledRegionStart": "88050467",
+      "TiledRegionStop": "88145161",
+      "TiledRegionStartWrtTSS": "-21430",
+      "TiledRegionStopWrtTSS": "73264"
+    }
+  ],
+  "RNF138": [
+    {
+      "Gene": "RNF138",
+      "GeneStart": "21159842",
+      "GeneStop": "21186724",
+      "Length": "26882",
+      "Orientation": "+",
+      "TiledRegionStart": "21142349",
+      "TiledRegionStop": "21230845",
+      "TiledRegionStartWrtTSS": "-17493",
+      "TiledRegionStopWrtTSS": "71003"
+    }
+  ],
+  "MATR3": [
+    {
+      "Gene": "MATR3",
+      "GeneStart": "35721922",
+      "GeneStop": "35751063",
+      "Length": "29141",
+      "Orientation": "+",
+      "TiledRegionStart": "35696671",
+      "TiledRegionStop": "35758321",
+      "TiledRegionStartWrtTSS": "-25251",
+      "TiledRegionStopWrtTSS": "36399"
+    }
+  ],
+  "PPIC": [
+    {
+      "Gene": "PPIC",
+      "GeneStart": "53565995",
+      "GeneStop": "53577661",
+      "Length": "11666",
+      "Orientation": "-",
+      "TiledRegionStart": "53550491",
+      "TiledRegionStop": "53624200",
+      "TiledRegionStartWrtTSS": "-58205",
+      "TiledRegionStopWrtTSS": "15504"
+    }
+  ],
+  "ALDH7A1": [
+    {
+      "Gene": "ALDH7A1",
+      "GeneStart": "56685390",
+      "GeneStop": "56732526",
+      "Length": "47136",
+      "Orientation": "-",
+      "TiledRegionStart": "56663446",
+      "TiledRegionStop": "56732668",
+      "TiledRegionStartWrtTSS": "-47278",
+      "TiledRegionStopWrtTSS": "21944"
+    }
+  ],
+  "IIGP1": [
+    {
+      "Gene": "IIGP1",
+      "GeneStart": "60549449",
+      "GeneStop": "60552288",
+      "Length": "2839",
+      "Orientation": "+",
+      "TiledRegionStart": "60522341",
+      "TiledRegionStop": "60585845",
+      "TiledRegionStartWrtTSS": "-27108",
+      "TiledRegionStopWrtTSS": "36396"
+    }
+  ],
+  "PDGFRB": [
+    {
+      "Gene": "PDGFRB",
+      "GeneStart": "61205095",
+      "GeneStop": "61244713",
+      "Length": "39618",
+      "Orientation": "+",
+      "TiledRegionStart": "61195853",
+      "TiledRegionStop": "61265226",
+      "TiledRegionStartWrtTSS": "-9242",
+      "TiledRegionStopWrtTSS": "60131"
+    }
+  ],
+  "TCF4": [
+    {
+      "Gene": "TCF4",
+      "GeneStart": "69504175",
+      "GeneStop": "69843998",
+      "Length": "339823",
+      "Orientation": "+",
+      "TiledRegionStart": "69379403",
+      "TiledRegionStop": "70085213",
+      "TiledRegionStartWrtTSS": "-124772",
+      "TiledRegionStopWrtTSS": "581038"
+    }
+  ],
+  "FBXO15": [
+    {
+      "Gene": "FBXO15",
+      "GeneStart": "85104417",
+      "GeneStop": "85150784",
+      "Length": "46367",
+      "Orientation": "+",
+      "TiledRegionStart": "85049255",
+      "TiledRegionStop": "85250760",
+      "TiledRegionStartWrtTSS": "-55162",
+      "TiledRegionStopWrtTSS": "146343"
+    }
+  ],
+  "CTSF": [
+    {
+      "Gene": "CTSF",
+      "GeneStart": "4855129",
+      "GeneStop": "4860912",
+      "Length": "5783",
+      "Orientation": "+",
+      "TiledRegionStart": "4842163",
+      "TiledRegionStop": "4861223",
+      "TiledRegionStartWrtTSS": "-12966",
+      "TiledRegionStopWrtTSS": "6094"
+    }
+  ],
+  "RASGRP2": [
+    {
+      "Gene": "RASGRP2",
+      "GeneStart": "6400583",
+      "GeneStop": "6415216",
+      "Length": "14633",
+      "Orientation": "+",
+      "TiledRegionStart": "6398459",
+      "TiledRegionStop": "6428016",
+      "TiledRegionStartWrtTSS": "-2124",
+      "TiledRegionStopWrtTSS": "27433"
+    }
+  ],
+  "KLF9": [
+    {
+      "Gene": "KLF9",
+      "GeneStart": "23215716",
+      "GeneStop": "23241401",
+      "Length": "25685",
+      "Orientation": "+",
+      "TiledRegionStart": "22518160",
+      "TiledRegionStop": "23283221",
+      "TiledRegionStartWrtTSS": "-697556",
+      "TiledRegionStopWrtTSS": "67505"
+    }
+  ],
+  "DMRT1": [
+    {
+      "Gene": "DMRT1",
+      "GeneStart": "25580196",
+      "GeneStop": "25678200",
+      "Length": "98004",
+      "Orientation": "+",
+      "TiledRegionStart": "25508986",
+      "TiledRegionStop": "25685027",
+      "TiledRegionStartWrtTSS": "-71210",
+      "TiledRegionStopWrtTSS": "104831"
+    }
+  ],
+  "PTEN": [
+    {
+      "Gene": "PTEN",
+      "GeneStart": "32832067",
+      "GeneStop": "32900650",
+      "Length": "68583",
+      "Orientation": "+",
+      "TiledRegionStart": "32786788",
+      "TiledRegionStop": "33212234",
+      "TiledRegionStartWrtTSS": "-45279",
+      "TiledRegionStopWrtTSS": "380167"
+    }
+  ],
+  "ANKRD1": [
+    {
+      "Gene": "ANKRD1",
+      "GeneStart": "36186455",
+      "GeneStop": "36194334",
+      "Length": "7879",
+      "Orientation": "-",
+      "TiledRegionStart": "36179263",
+      "TiledRegionStop": "36453557",
+      "TiledRegionStartWrtTSS": "-267102",
+      "TiledRegionStopWrtTSS": "7192"
+    }
+  ],
+  "FER1L3": [
+    {
+      "Gene": "FER1L3",
+      "GeneStart": "37973526",
+      "GeneStop": "38118067",
+      "Length": "144541",
+      "Orientation": "-",
+      "TiledRegionStart": "37776026",
+      "TiledRegionStop": "38129579",
+      "TiledRegionStartWrtTSS": "-156053",
+      "TiledRegionStopWrtTSS": "197500"
+    }
+  ],
+  "HELLS": [
+    {
+      "Gene": "HELLS",
+      "GeneStart": "39005480",
+      "GeneStop": "39042767",
+      "Length": "37287",
+      "Orientation": "+",
+      "TiledRegionStart": "38994413",
+      "TiledRegionStop": "39081509",
+      "TiledRegionStartWrtTSS": "-11067",
+      "TiledRegionStopWrtTSS": "76029"
+    }
+  ],
+  "WNT8B": [
+    {
+      "Gene": "WNT8B",
+      "GeneStart": "44567963",
+      "GeneStop": "44587007",
+      "Length": "19044",
+      "Orientation": "+",
+      "TiledRegionStart": "44482043",
+      "TiledRegionStop": "44591447",
+      "TiledRegionStartWrtTSS": "-85920",
+      "TiledRegionStopWrtTSS": "23484"
+    }
+  ],
+  "PAX2": [
+    {
+      "Gene": "PAX2",
+      "GeneStart": "44831884",
+      "GeneStop": "44910517",
+      "Length": "78633",
+      "Orientation": "+",
+      "TiledRegionStart": "44650764",
+      "TiledRegionStop": "45005609",
+      "TiledRegionStartWrtTSS": "-181120",
+      "TiledRegionStopWrtTSS": "173725"
+    }
+  ],
+  "FGF8": [
+    {
+      "Gene": "FGF8",
+      "GeneStart": "45811308",
+      "GeneStop": "45817363",
+      "Length": "6055",
+      "Orientation": "-",
+      "TiledRegionStart": "45734683",
+      "TiledRegionStop": "45822224",
+      "TiledRegionStartWrtTSS": "-10916",
+      "TiledRegionStopWrtTSS": "76625"
+    }
+  ],
+  "MXI1": [
+    {
+      "Gene": "MXI1",
+      "GeneStart": "53384996",
+      "GeneStop": "53450300",
+      "Length": "65304",
+      "Orientation": "+",
+      "TiledRegionStart": "53329689",
+      "TiledRegionStop": "53453704",
+      "TiledRegionStartWrtTSS": "-55307",
+      "TiledRegionStopWrtTSS": "68708"
+    }
+  ],
+  "FOXP3": [
+    {
+      "Gene": "FOXP3",
+      "GeneStart": "7156819",
+      "GeneStop": "7172360",
+      "Length": "15541",
+      "Orientation": "+",
+      "TiledRegionStart": "7155541",
+      "TiledRegionStop": "7184229",
+      "TiledRegionStartWrtTSS": "-1278",
+      "TiledRegionStopWrtTSS": "27410"
+    }
+  ],
+  "WDR45": [
+    {
+      "Gene": "WDR45",
+      "GeneStart": "7299375",
+      "GeneStop": "7305327",
+      "Length": "5952",
+      "Orientation": "+",
+      "TiledRegionStart": "7299226",
+      "TiledRegionStop": "7305697",
+      "TiledRegionStartWrtTSS": "-149",
+      "TiledRegionStopWrtTSS": "6322"
+    }
+  ],
+  "USP9X": [
+    {
+      "Gene": "USP9X",
+      "GeneStart": "12648624",
+      "GeneStop": "12750454",
+      "Length": "101830",
+      "Orientation": "+",
+      "TiledRegionStart": "12515663",
+      "TiledRegionStop": "12779663",
+      "TiledRegionStartWrtTSS": "-132961",
+      "TiledRegionStopWrtTSS": "131039"
+    }
+  ],
+  "FHL1": [
+    {
+      "Gene": "FHL1",
+      "GeneStart": "53984964",
+      "GeneStop": "54046523",
+      "Length": "61559",
+      "Orientation": "+",
+      "TiledRegionStart": "53915070",
+      "TiledRegionStop": "54051130",
+      "TiledRegionStartWrtTSS": "-69894",
+      "TiledRegionStopWrtTSS": "66166"
+    }
+  ],
+  "BGN": [
+    {
+      "Gene": "BGN",
+      "GeneStart": "70728983",
+      "GeneStop": "70741270",
+      "Length": "12287",
+      "Orientation": "+",
+      "TiledRegionStart": "70704368",
+      "TiledRegionStop": "70748425",
+      "TiledRegionStartWrtTSS": "-24615",
+      "TiledRegionStopWrtTSS": "19442"
+    }
+  ],
+  "F8": [
+    {
+      "Gene": "F8",
+      "GeneStart": "72418069",
+      "GeneStop": "72625380",
+      "Length": "207311",
+      "Orientation": "-",
+      "TiledRegionStart": "72390710",
+      "TiledRegionStop": "72627761",
+      "TiledRegionStartWrtTSS": "-209692",
+      "TiledRegionStopWrtTSS": "27359"
+    }
+  ],
+  "NR0B1": [
+    {
+      "Gene": "NR0B1",
+      "GeneStart": "83437114",
+      "GeneStop": "83441283",
+      "Length": "4169",
+      "Orientation": "+",
+      "TiledRegionStart": "83292652",
+      "TiledRegionStop": "83495595",
+      "TiledRegionStartWrtTSS": "-144462",
+      "TiledRegionStopWrtTSS": "58481"
+    }
+  ],
+  "ZFX": [
+    {
+      "Gene": "ZFX",
+      "GeneStart": "91319970",
+      "GeneStop": "91368746",
+      "Length": "48776",
+      "Orientation": "-",
+      "TiledRegionStart": "91269965",
+      "TiledRegionStop": "91434048",
+      "TiledRegionStartWrtTSS": "-114078",
+      "TiledRegionStopWrtTSS": "50005"
+    }
+  ],
+  "MAGED1": [
+    {
+      "Gene": "MAGED1",
+      "GeneStart": "91780813",
+      "GeneStop": "91787413",
+      "Length": "6600",
+      "Orientation": "-",
+      "TiledRegionStart": "91662426",
+      "TiledRegionStop": "91853444",
+      "TiledRegionStartWrtTSS": "-72631",
+      "TiledRegionStopWrtTSS": "118387"
+    }
+  ],
+  "NONO": [
+    {
+      "Gene": "NONO",
+      "GeneStart": "98625055",
+      "GeneStop": "98643928",
+      "Length": "18873",
+      "Orientation": "+",
+      "TiledRegionStart": "98616188",
+      "TiledRegionStop": "98644448",
+      "TiledRegionStartWrtTSS": "-8867",
+      "TiledRegionStopWrtTSS": "19393"
+    }
+  ],
+  "PGK1": [
+    {
+      "Gene": "PGK1",
+      "GeneStart": "103382463",
+      "GeneStop": "103399038",
+      "Length": "16575",
+      "Orientation": "+",
+      "TiledRegionStart": "103355832",
+      "TiledRegionStop": "103402213",
+      "TiledRegionStartWrtTSS": "-26631",
+      "TiledRegionStopWrtTSS": "19750"
+    }
+  ],
+  "BEX1": [
+    {
+      "Gene": "BEX1",
+      "GeneStart": "132748511",
+      "GeneStop": "132750052",
+      "Length": "1541",
+      "Orientation": "-",
+      "TiledRegionStart": "132738392",
+      "TiledRegionStop": "132779619",
+      "TiledRegionStartWrtTSS": "-31108",
+      "TiledRegionStopWrtTSS": "10119"
+    }
+  ],
+  "WBP5": [
+    {
+      "Gene": "WBP5",
+      "GeneStart": "132779619",
+      "GeneStop": "132781678",
+      "Length": "2059",
+      "Orientation": "+",
+      "TiledRegionStart": "132760065",
+      "TiledRegionStop": "132804882",
+      "TiledRegionStartWrtTSS": "-19554",
+      "TiledRegionStopWrtTSS": "25263"
+    }
+  ],
+  "TRAP1A": [
+    {
+      "Gene": "TRAP1A",
+      "GeneStart": "135868222",
+      "GeneStop": "135872704",
+      "Length": "4482",
+      "Orientation": "+",
+      "TiledRegionStart": "135772871",
+      "TiledRegionStop": "135882030",
+      "TiledRegionStartWrtTSS": "-95351",
+      "TiledRegionStopWrtTSS": "13808"
+    }
+  ],
+  "TSC22D3": [
+    {
+      "Gene": "TSC22D3",
+      "GeneStart": "137074067",
+      "GeneStop": "137135061",
+      "Length": "60994",
+      "Orientation": "-",
+      "TiledRegionStart": "137010678",
+      "TiledRegionStop": "137212567",
+      "TiledRegionStartWrtTSS": "-138500",
+      "TiledRegionStopWrtTSS": "63389"
+    }
+  ]
+}

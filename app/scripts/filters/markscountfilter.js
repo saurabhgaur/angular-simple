@@ -3,7 +3,7 @@
 angular.module('angularSimpleApp')
   .filter('marksCountFilter', function () {
      return function(items, filter) {
-      if (!filter){
+      if (!filter || !filter.MarksCount){
           return items;
       }  
       var result = {};

@@ -90,9 +90,30 @@ body {
   overflow-y: scroll; 
   resize:vertical;
   height:650px;
+  width:800;
 }
+
 
 .accordion{
-  width: 1300px;
+  width: 1750px;
 }
 
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.app-modal-window .modal-dialog {
+  width: 1500px;
+}
+
+.x-axis line {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.x-axis path {
+      stroke-width: 0;
+}
