@@ -42,14 +42,15 @@ angular.module('angularSimpleApp')
                 var chartRoot = d3.select(element[0]).append("svg")
                     .attr("width", width)
                     .attr("height", height)
-                    .call(zoom);
+                    .call(zoom)
+                    .append("g");
 
                 var chart = chartRoot.append("g");
 
                 // var dispatch = d3.dispatch("myzoom");
 
                 if(scope.zoomed) dispatch.on("reset_zoom_all."+scope.data[0].Mark, function() {resetZoom();});
-                if(scope.zoomed) dispatch.on("zoom_all."+scope.data[0].Mark, function() {zoomHandlerAll();});
+                if(scope.zoomed) dispatch.on("zoom_all."+scope.data[0].Mark, function(zoomScale,zoomTranslate) {zoomHandlerAll(zoomScale,zoomTranslate);});
 
 
 
@@ -104,15 +105,18 @@ angular.module('angularSimpleApp')
 
                 // function for handling zoom event triggered by self
                 function zoomHandler() {
+                    zoom.scale(zoom.scale());
                     chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ") scale(" + d3.event.scale + ",1)");
                     chartRoot.select("g.x-axis").call(xAxis);
-                    dispatch.zoom_all();
+                    dispatch.zoom_all(zoom.scale(),zoom.translate());
                 }
 
                 // function for handling zoom event triggered by some other component
-                function zoomHandlerAll() {
-                    chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ") scale(" + d3.event.scale + ",1)");
-                    alert(chartRoot);
+                function zoomHandlerAll(zoomScale,zoomTranslate) {
+                    zoom.scale(zoomScale);
+                    zoom.translate(zoomTranslate);
+                    chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ") scale(" + zoomScale + ",1)");
+                    // zoom.event(chartRoot);
                     chartRoot.select("g.x-axis").call(xAxis);
                 }
 
