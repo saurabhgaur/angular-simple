@@ -24,7 +24,7 @@ angular.module('angularSimpleApp')
                 // domain = _.uniq(_.pluck(csv,"Mark")).sort();
                 colorScale.domain(["Ab2", "Ab4", "Ab6", "Ab7"]);
                 var formatValue = d3.format(".2s");
-                
+
                 var x = d3.scale.linear()
                     // .domain([scope.data[0].TiledRegionStart,scope.data[0].TiledRegionStop])
                     .domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS])
@@ -42,10 +42,16 @@ angular.module('angularSimpleApp')
                 var chartRoot = d3.select(element[0]).append("svg")
                     .attr("width", width)
                     .attr("height", height)
-                    .call(zoom)
-                    .append("g");
+                    .call(zoom);
 
                 var chart = chartRoot.append("g");
+
+                // var dispatch = d3.dispatch("myzoom");
+
+                if(scope.zoomed) dispatch.on("reset_zoom_all."+scope.data[0].Mark, function() {resetZoom();});
+                if(scope.zoomed) dispatch.on("zoom_all."+scope.data[0].Mark, function() {zoomHandlerAll();});
+
+
 
                 var resetZoom = function(){
                     var zoom = d3.behavior.zoom();
@@ -54,6 +60,7 @@ angular.module('angularSimpleApp')
                     .x(x.domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS]));
                     chart.transition().duration(50).attr('transform', 'translate(' + zoom.translate() + ') scale(' + zoom.scale() + ')');
                     chartRoot.select("g.x-axis").call(xAxis);
+                    // dispatch.on("zoom", function() {zoomHandler();});
                 };
 
                	//chartRoot.on("click", function(){resetZoom();})
@@ -88,16 +95,24 @@ angular.module('angularSimpleApp')
 
 
                 var bar = chart.selectAll("g")
-                    .data($scope.$parent.data)
+                    .data(scope.data)
                     .enter().append("g")
                     .attr("transform", function(d, i) {
                         return "translate(" + x(d.RegionStart) + "," + y(d.Mark.substring(0, 3)) + ")";
                     });
 
 
-                // function for handling zoom event
+                // function for handling zoom event triggered by self
                 function zoomHandler() {
-                    chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ")scale(" + d3.event.scale + ",1)");
+                    chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ") scale(" + d3.event.scale + ",1)");
+                    chartRoot.select("g.x-axis").call(xAxis);
+                    dispatch.zoom_all();
+                }
+
+                // function for handling zoom event triggered by some other component
+                function zoomHandlerAll() {
+                    chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ") scale(" + d3.event.scale + ",1)");
+                    alert(chartRoot);
                     chartRoot.select("g.x-axis").call(xAxis);
                 }
 

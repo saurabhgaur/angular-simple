@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"> -->
   </head>
   <body ng-app="angularSimpleApp">
 
@@ -58,12 +58,15 @@
     <script src="scripts/filters/genelengthfilter.js"></script>
     <script src="scripts/controllers/modalzoom.js"></script>
     <!-- endbuild -->
+    <script>
+        var dispatch = d3.dispatch("reset_zoom_all","zoom_all");
+    </script>
 
 <div ng-controller="ModalzoomCtrl">
     <script type="text/ng-template" id="myModalContent.html">
         <div class="modal-header">
             <h3 class="modal-title">{{regions[0].Gene}}</h3>
-            <a id="zoom_reset" class="btn"><i class="icon-zoom-in"></i>Reset Zoom</a>
+            <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'><i class="icon-zoom-in"></i>Reset Zoom</a>
         </div>
 
         <div class="modal-body">

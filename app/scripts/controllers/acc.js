@@ -15,35 +15,35 @@ angular.module('angularSimpleApp')
   var allMCData;
   var allRegionsData;
 
-$http.get("regions.json")
+var regionsPromise = $http.get("regions.json")
                   .success(function(data)
                     { 
                       allRegionsData=data;
                       $scope.regions = geneNameFilterFilter(allRegionsData,$scope.filter);
                     });
 
-$http.get("data.json")
+var G0GenesPromise = $http.get("data.json")
                   .success(function(data)
                     { 
                       allG0Data=data;
                       $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);
                     });
 
-$http.get("mt_data.json")
+var MTGenesPromise = $http.get("mt_data.json")
                   .success(function(data)
                     { 
                       allMTData=data;
                       $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);
                     });
 
-$http.get("mb_data.json")
+var MBGenesPromise = $http.get("mb_data.json")
                   .success(function(data)
                     { 
                       allMBData=data;
                       $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);
                     });
 
-$http.get("mc_data.json")
+var MCGenesPromise = $http.get("mc_data.json")
                   .success(function(data)
                     { 
                       allMCData=data;

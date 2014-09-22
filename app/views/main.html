@@ -27,7 +27,7 @@
                 </div>
               </div>
             </td>
-            <!-- <td>
+            <td>
               <div class = "graph-container" >
                 <div class = "graph-panel" ng-repeat="gene in MTGenes">
                   <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
@@ -50,15 +50,15 @@
                   <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
                 </div>
               </div>
-            </td> -->
-            <td>
+            </td>
+            <!-- <td>
               <div class = "graph-container" >
                 <div class = "graph-panel" ng-repeat="region in regions">
                   <a ng-click="openModal(region)">{{region[0].Gene}}</a>
                  <my-chart gene-data="Genes[region[0].Gene]" gene-region = "region" width = 350 ticks=5 zoomed=0></my-chart>
                 </div>
               </div>
-            </td>
+            </td> -->
           </tr>
         </table>
     </accordion-group>
