@@ -55,16 +55,15 @@ angular.module('angularSimpleApp')
 
 
                 var resetZoom = function(){
-                    var zoom = d3.behavior.zoom();
-                    zoom.scale(1)
-                    .translate([0, 0])
-                    .x(x.domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS]));
+                     zoom.x(x.domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS]))
+                    .scale(1)
+                    .translate([0, 0]);
+                    
                     chart.transition().duration(50).attr('transform', 'translate(' + zoom.translate() + ') scale(' + zoom.scale() + ')');
                     chartRoot.select("g.x-axis").call(xAxis);
                     // dispatch.on("zoom", function() {zoomHandler();});
                 };
 
-               	//chartRoot.on("click", function(){resetZoom();})
 
                 if(scope.zoomed==1){
                     var resetLink = d3.select(element[0]).append("a")
@@ -88,13 +87,6 @@ angular.module('angularSimpleApp')
                     .call(xAxis);
 
 
-                // chart.on("click", function() {
-                //         zoom.scale(1);
-                //         zoom.translate([0, 0]);
-                //     })
-                //     .attr('transform', 'translate(' + zoom.translate() + ') scale(' + zoom.scale() + ')');
-
-
                 var bar = chart.selectAll("g")
                     .data(scope.data)
                     .enter().append("g")
@@ -105,7 +97,7 @@ angular.module('angularSimpleApp')
 
                 // function for handling zoom event triggered by self
                 function zoomHandler() {
-                    zoom.scale(zoom.scale());
+                    //zoom.scale(zoom.scale());
                     chart.attr("transform", "translate(" + d3.event.translate[0] + ",0" + ") scale(" + d3.event.scale + ",1)");
                     chartRoot.select("g.x-axis").call(xAxis);
                     dispatch.zoom_all(zoom.scale(),zoom.translate());
