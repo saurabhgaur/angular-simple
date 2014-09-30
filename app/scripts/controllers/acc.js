@@ -25,7 +25,17 @@ var regionsPromise = $http.get("regions.json")
 var G0GenesPromise = $http.get("data.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),function(element,index,list){var gene = {"Gene":element}; data[element]=[gene];});
+                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                        function(element,index,list){
+                          var gene = {"Gene":element,
+                                      "Mark":"AB6_G0",
+                                      "RegionStart":allRegionsData[element][0].TiledRegionStartWrtTSS,
+                                      "RegionStop":allRegionsData[element][0].TiledRegionStopWrtTSS,
+                                      "GeneStart":0,
+                                      "GeneStop":allRegionsData[element][0].Length
+                                    }; 
+                          data[element]=[gene];
+                        });
                       allG0Data=data;
                       $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);
                     });
@@ -33,7 +43,17 @@ var G0GenesPromise = $http.get("data.json")
 var MTGenesPromise = $http.get("mt_data.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),function(element,index,list){var gene = {"Gene":element}; data[element]=[gene];});
+                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                        function(element,index,list){
+                          var gene = {"Gene":element,
+                                      "Mark":"AB6_MT",
+                                      "RegionStart":allRegionsData[element][0].TiledRegionStartWrtTSS,
+                                      "RegionStop":allRegionsData[element][0].TiledRegionStopWrtTSS,
+                                      "GeneStart":0,
+                                      "GeneStop":allRegionsData[element][0].Length
+                                    }; 
+                          data[element]=[gene];
+                        });
                       allMTData=data;
                       $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);
                     });
@@ -41,7 +61,17 @@ var MTGenesPromise = $http.get("mt_data.json")
 var MBGenesPromise = $http.get("mb_data.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),function(element,index,list){var gene = {"Gene":element}; data[element]=[gene];});
+                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                        function(element,index,list){
+                          var gene = {"Gene":element,
+                                      "Mark":"AB6_MB",
+                                      "RegionStart":allRegionsData[element][0].TiledRegionStartWrtTSS,
+                                      "RegionStop":allRegionsData[element][0].TiledRegionStopWrtTSS,
+                                      "GeneStart":0,
+                                      "GeneStop":allRegionsData[element][0].Length
+                                    }; 
+                          data[element]=[gene];
+                        });
                       allMBData=data;
                       $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);
                     });
@@ -49,7 +79,17 @@ var MBGenesPromise = $http.get("mb_data.json")
 var MCGenesPromise = $http.get("mc_data.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),function(element,index,list){var gene = {"Gene":element}; data[element]=[gene];});
+                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                        function(element,index,list){
+                          var gene = {"Gene":element,
+                                      "Mark":"AB6_MC",
+                                      "RegionStart":allRegionsData[element][0].TiledRegionStartWrtTSS,
+                                      "RegionStop":allRegionsData[element][0].TiledRegionStopWrtTSS,
+                                      "GeneStart":0,
+                                      "GeneStop":allRegionsData[element][0].Length
+                                    }; 
+                          data[element]=[gene];
+                        });
                       allMCData=data;
                       $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);
                     });
