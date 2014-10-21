@@ -13,7 +13,7 @@ angular.module('angularSimpleApp')
                	if(Math.abs(mark.RegionStart)<filter.tssMarksDist*1000)
               		count = count + 1;
               })
-              if (count>filter.tssMarksCount){
+              if (count>=filter.tssMarksCount){
                   result[key] = marks;
               }
           });

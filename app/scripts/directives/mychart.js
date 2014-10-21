@@ -28,7 +28,16 @@ angular.module('angularSimpleApp')
                 var x = d3.scale.linear()
                     // .domain([scope.data[0].TiledRegionStart,scope.data[0].TiledRegionStop])
                     .domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS])
-                    .range([10, width - 10]);
+                    .range([10, width - 10]); 
+
+                if (scope.region[0].Orientation == "-") {
+
+                    x = d3.scale.linear()
+                    // .domain([scope.data[0].TiledRegionStart,scope.data[0].TiledRegionStop])
+                    .domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS])
+                    .range([10, width - 10]); 
+               
+                };
 
                 var y = d3.scale.ordinal()
                     .domain(['Ab2', 'Ab4', 'Ab6', 'Ab7'])
@@ -126,19 +135,29 @@ angular.module('angularSimpleApp')
                     //.attr("transform", "translate("+x(scope.data[0].TiledRegionStart)+","+0.75*availableHeight+")");
                     .attr("transform", "translate(" + x(scope.region[0].TiledRegionStartWrtTSS) + "," + 0.75 * availableHeight + ")");
 
-                tiledRegionBar.append("rect")
+                if (scope.region[0].Orientation == "+") {
+                    tiledRegionBar.append("rect")
+                    // .attr("width",x(scope.data[0].TiledRegionStop) - x(scope.data[0].TiledRegionStart))
+                    .attr("width", x(scope.region[0].TiledRegionStopWrtTSS) - x(scope.region[0].TiledRegionStartWrtTSS))
+                    .attr("height", barHeight / 2)
+                    .style("fill", "red");}
+                else{
+                    tiledRegionBar.append("rect")
                     // .attr("width",x(scope.data[0].TiledRegionStop) - x(scope.data[0].TiledRegionStart))
                     .attr("width", x(scope.region[0].TiledRegionStopWrtTSS) - x(scope.region[0].TiledRegionStartWrtTSS))
                     .attr("height", barHeight / 2)
                     .style("fill", "red");
+                };
 
                 var geneBar = chart.append("g")
                     .attr("transform", "translate(" + x(scope.data[0].GeneStart) + "," + 0.75 * availableHeight + ")");
 
+                //if (scope.region[0].Orientation == "+") {
                 geneBar.append("rect")
                     .attr("width", x(scope.data[0].GeneStop) - x(scope.data[0].GeneStart))
                     .attr("height", barHeight)
                     .style("fill", "black");
+                //};
 
 
             }
