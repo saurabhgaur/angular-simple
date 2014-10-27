@@ -31,7 +31,7 @@
                 <div>
                   <div class = "graph-panel" ng-style="{'background-color': G0Color}" ng-repeat="gene in Genes">
                     <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                   <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
+                   <my-chart ng-click="openModal(gene)" gene-data="gene" cell=1 width = 350 ticks=5 zoomed=0></my-chart>
                   </div>
                 </div>
               </td>
@@ -39,7 +39,7 @@
                 <div>
                   <div class = "graph-panel" ng-style="{'background-color': MTColor}" ng-repeat="gene in MTGenes">
                     <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                    <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
+                    <my-chart ng-click="openModal(gene)" gene-data="gene" cell=2 width = 350 ticks=5 zoomed=0></my-chart>
                   </div>
                 </div>
               </td>
@@ -47,7 +47,7 @@
                 <div>
                   <div class = "graph-panel" ng-style="{'background-color': MBColor}" ng-repeat="gene in MBGenes">
                     <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                    <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0 ></my-chart>
+                    <my-chart ng-click="openModal(gene)" gene-data="gene" cell=3 width = 350 ticks=5 zoomed=0 ></my-chart>
                   </div>
                 </div>
               </td>
@@ -55,7 +55,7 @@
                 <div>
                   <div class = "graph-panel" ng-style="{'background-color': MCColor}" ng-repeat="gene in MCGenes">
                     <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                    <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
+                    <my-chart ng-click="openModal(gene)" gene-data="gene" cell=4 width = 350 ticks=5 zoomed=0></my-chart>
                   </div>
                 </div>
               </td>

@@ -5,7 +5,8 @@ angular.module('angularSimpleApp')
         return {
             scope: {
                 data: '=geneData',
-                region: '=geneRegion',
+                // region: '=geneRegion',
+                cell: '=cell',
                 width: '=width',
                 ticks: '=ticks',
                 zoomed: '=zoomed'
@@ -22,25 +23,16 @@ angular.module('angularSimpleApp')
                     marksRegionHeight = 0.5 * availableHeight;
                 var colorScale = d3.scale.category10();
                 // domain = _.uniq(_.pluck(csv,"Mark")).sort();
-                colorScale.domain(["Ab2", "Ab4", "Ab6", "Ab7"]);
+                colorScale.domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac']);
                 var formatValue = d3.format(".2s");
 
                 var x = d3.scale.linear()
-                    // .domain([scope.data[0].TiledRegionStart,scope.data[0].TiledRegionStop])
-                    .domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS])
+                    .domain([scope.data[0].TiledRegionStart,scope.data[0].TiledRegionStop])
+                    // .domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS])
                     .range([10, width - 10]); 
-
-                if (scope.region[0].Orientation == "-") {
-
-                    x = d3.scale.linear()
-                    // .domain([scope.data[0].TiledRegionStart,scope.data[0].TiledRegionStop])
-                    .domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS])
-                    .range([10, width - 10]); 
-               
-                };
 
                 var y = d3.scale.ordinal()
-                    .domain(['Ab2', 'Ab4', 'Ab6', 'Ab7'])
+                    .domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac'])
                     .range([0, 0.25 * marksRegionHeight, 0.5 * marksRegionHeight, 0.75 * marksRegionHeight]);
 
                 var zoom = d3.behavior.zoom()
@@ -51,20 +43,25 @@ angular.module('angularSimpleApp')
                 var chartRoot = d3.select(element[0]).append("svg")
                     .attr("width", width)
                     .attr("height", height)
-                    .call(zoom)
-                    .append("g");
+                    .call(zoom);
 
                 var chart = chartRoot.append("g");
 
                 // var dispatch = d3.dispatch("myzoom");
 
-                if(scope.zoomed) dispatch.on("reset_zoom_all."+scope.data[0].Mark, function() {resetZoom();});
-                if(scope.zoomed) dispatch.on("zoom_all."+scope.data[0].Mark, function(zoomScale,zoomTranslate) {zoomHandlerAll(zoomScale,zoomTranslate);});
+                if(scope.zoomed) dispatch.on("reset_zoom_all."+scope.cell, 
+                    function() {
+                        resetZoom();
+                    });
 
-
+                if(scope.zoomed) dispatch.on("zoom_all."+scope.cell, 
+                    function(zoomScale,zoomTranslate) {
+                        zoomHandlerAll(zoomScale,zoomTranslate);
+                    });
 
                 var resetZoom = function(){
-                     zoom.x(x.domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS]))
+                     //zoom.x(x.domain([scope.region[0].TiledRegionStartWrtTSS, scope.region[0].TiledRegionStopWrtTSS]))
+                     zoom.x(x.domain([scope.data[0].TiledRegionStart, scope.data[0].TiledRegionStop]))
                     .scale(1)
                     .translate([0, 0]);
                     
@@ -95,14 +92,23 @@ angular.module('angularSimpleApp')
                     .attr("transform", "translate(0," + (height - padding) + ")")
                     .call(xAxis);
 
-
                 var bar = chart.selectAll("g")
-                    .data(scope.data)
+                    .data(scope.data.filter(function(el){return el.RegionStart != "-";}))
                     .enter().append("g")
                     .attr("transform", function(d, i) {
-                        return "translate(" + x(d.RegionStart) + "," + y(d.Mark.substring(0, 3)) + ")";
+                        return "translate(" + x(d.RegionStart) + "," + y(d.Mark) + ")";
                     });
 
+                if(bar){
+                bar.append("rect")
+                    .attr("width", function(d, i) {
+                        return x(d.RegionStop) - x(d.RegionStart)
+                    })
+                    .attr("height", barHeight - 1)
+                    .style("fill", function(d, i) {
+                        return colorScale(d.Mark);
+                    });
+                };
 
                 // function for handling zoom event triggered by self
                 function zoomHandler() {
@@ -122,33 +128,19 @@ angular.module('angularSimpleApp')
                 }
 
 
-                bar.append("rect")
-                    .attr("width", function(d, i) {
-                        return x(d.RegionStop) - x(d.RegionStart)
-                    })
-                    .attr("height", barHeight - 1)
-                    .style("fill", function(d, i) {
-                        return colorScale(d.Mark.substring(0, 3));
-                    });
+                
 
                 var tiledRegionBar = chart.append("g")
-                    //.attr("transform", "translate("+x(scope.data[0].TiledRegionStart)+","+0.75*availableHeight+")");
-                    .attr("transform", "translate(" + x(scope.region[0].TiledRegionStartWrtTSS) + "," + 0.75 * availableHeight + ")");
+                    .attr("transform", "translate("+x(scope.data[0].TiledRegionStart)+","+0.75*availableHeight+")");
+                    // .attr("transform", "translate(" + x(scope.region[0].TiledRegionStartWrtTSS) + "," + 0.75 * availableHeight + ")");
 
-                if (scope.region[0].Orientation == "+") {
-                    tiledRegionBar.append("rect")
-                    // .attr("width",x(scope.data[0].TiledRegionStop) - x(scope.data[0].TiledRegionStart))
-                    .attr("width", x(scope.region[0].TiledRegionStopWrtTSS) - x(scope.region[0].TiledRegionStartWrtTSS))
-                    .attr("height", barHeight / 2)
-                    .style("fill", "red");}
-                else{
-                    tiledRegionBar.append("rect")
-                    // .attr("width",x(scope.data[0].TiledRegionStop) - x(scope.data[0].TiledRegionStart))
-                    .attr("width", x(scope.region[0].TiledRegionStopWrtTSS) - x(scope.region[0].TiledRegionStartWrtTSS))
-                    .attr("height", barHeight / 2)
-                    .style("fill", "red");
-                };
-
+               
+                tiledRegionBar.append("rect")
+                .attr("width",x(scope.data[0].TiledRegionStop) - x(scope.data[0].TiledRegionStart))
+                // .attr("width", x(scope.region[0].TiledRegionStopWrtTSS) - x(scope.region[0].TiledRegionStartWrtTSS))
+                .attr("height", barHeight / 2)
+                .style("fill", "red");
+                
                 var geneBar = chart.append("g")
                     .attr("transform", "translate(" + x(scope.data[0].GeneStart) + "," + 0.75 * availableHeight + ")");
 

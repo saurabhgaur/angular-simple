@@ -66,7 +66,7 @@
 <div ng-controller="ModalzoomCtrl">
     <script type="text/ng-template" id="myModalContent.html">
         <div class="modal-header">
-            <h3 class="modal-title">{{regions[0].Gene}}</h3>
+            <h3 class="modal-title">{{G0Gene[0].Gene}}</h3>
             <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'><i class="icon-zoom-in"></i>Reset Zoom</a>
         </div>
 
@@ -78,7 +78,7 @@
                             G0
                         </td>
                         <td>
-                            <my-chart gene-data="G0Gene" gene-region = "regions" width = 1300 ticks=30 zoomed=1></my-chart>
+                            <my-chart gene-data="G0Gene" cell=1 width = 1300 ticks=30 zoomed=1></my-chart>
                         </td>
                     </tr>
                     <tr>
@@ -86,7 +86,7 @@
                             MT
                         </td>
                         <td>
-                            <my-chart gene-data="MTGene" gene-region = "regions" width = 1300 ticks=30 zoomed=1 ></my-chart>
+                            <my-chart gene-data="MTGene" cell=2 width = 1300 ticks=30 zoomed=1 ></my-chart>
                         </td>
                     </tr>
                     <tr>
@@ -94,7 +94,7 @@
                             MB
                         </td>
                         <td>
-                            <my-chart gene-data="MBGene" gene-region = "regions" width = 1300 ticks=30 zoomed=1 ></my-chart>
+                            <my-chart gene-data="MBGene" cell=3 width = 1300 ticks=30 zoomed=1 ></my-chart>
                         </td>
                     </tr>
                     <tr>
@@ -102,7 +102,7 @@
                             MC
                         </td>
                         <td>
-                            <my-chart gene-data="MCGene" gene-region = "regions" width = 1300 ticks=30 zoomed=1 ></my-chart>
+                            <my-chart gene-data="MCGene" cell=4 width = 1300 ticks=30 zoomed=1 ></my-chart>
                         </td>
                     </tr>
                 </table>

@@ -22,7 +22,7 @@ $scope.open = function (args) {
           $scope.MTGene = args.value.MTGene;
           $scope.MBGene = args.value.MBGene;
           $scope.MCGene = args.value.MCGene;
-          $scope.regions = args.value.regions;
+          // $scope.regions = args.value.regions;
         	return $scope.genes;
         }
       }

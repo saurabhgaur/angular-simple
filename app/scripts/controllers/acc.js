@@ -27,83 +27,97 @@ angular.module('angularSimpleApp')
   var allMTData;
   var allMBData;
   var allMCData;
-  var allRegionsData;
+//   var allRegionsData;
 
-var regionsPromise = $http.get("regions.json")
+// var regionsPromise = $http.get("regions.json")
+//                   .success(function(data)
+//                     { 
+//                       allRegionsData=data;
+//                       $scope.regions = geneNameFilterFilter(allRegionsData,$scope.filter);
+//                     });
+var allGenesData;
+var allRegionsData;
+
+var genesBedFile = $http.get("data/371_Genes.bed")
                   .success(function(data)
                     { 
-                      allRegionsData=data;
-                      $scope.regions = geneNameFilterFilter(allRegionsData,$scope.filter);
+                      allGenesData = data;
                     });
 
-var G0GenesPromise = $http.get("data.json")
+var regionsBedFile = $http.get("data/371_Regions.bed")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
-                        function(element,index,list){
-                          var gene = {"Gene":element,
-                                      "Mark":"AB6_G0",
-                                      "RegionStart":0,
-                                      "RegionStop":0,
-                                      "GeneStart":0,
-                                      "GeneStop":allRegionsData[element][0].Length
-                                    }; 
-                          data[element]=[gene];
-                        });
+                      allRegionsData = data;
+                    });
+
+var G0GenesPromise = $http.get("G0_data_2014_10_22.json")
+                  .success(function(data)
+                    { 
+                      // _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                      //   function(element,index,list){
+                      //     var gene = {"Gene":element,
+                      //                 "Mark":"AB6_G0",
+                      //                 "RegionStart":0,
+                      //                 "RegionStop":0,
+                      //                 "GeneStart":0,
+                      //                 "GeneStop":allRegionsData[element][0].Length
+                      //               }; 
+                      //     data[element]=[gene];
+                      //   });
                       allG0Data=data;
                       $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);
                     });
 
-var MTGenesPromise = $http.get("mt_data.json")
+var MTGenesPromise = $http.get("MT_data_2014_10_22.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
-                        function(element,index,list){
-                          var gene = {"Gene":element,
-                                      "Mark":"AB6_MT",
-                                      "RegionStart":0,
-                                      "RegionStop":0,
-                                      "GeneStart":0,
-                                      "GeneStop":allRegionsData[element][0].Length
-                                    }; 
-                          data[element]=[gene];
-                        });
+                      // _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                      //   function(element,index,list){
+                      //     var gene = {"Gene":element,
+                      //                 "Mark":"AB6_MT",
+                      //                 "RegionStart":0,
+                      //                 "RegionStop":0,
+                      //                 "GeneStart":0,
+                      //                 "GeneStop":allRegionsData[element][0].Length
+                      //               }; 
+                      //     data[element]=[gene];
+                      //   });
                       allMTData=data;
                       $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);
                     });
 
-var MBGenesPromise = $http.get("mb_data.json")
+var MBGenesPromise = $http.get("MB_data_2014_10_22.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
-                        function(element,index,list){
-                          var gene = {"Gene":element,
-                                      "Mark":"AB6_MB",
-                                      "RegionStart":0,
-                                      "RegionStop":0,
-                                      "GeneStart":0,
-                                      "GeneStop":allRegionsData[element][0].Length
-                                    }; 
-                          data[element]=[gene];
-                        });
+                      // _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                      //   function(element,index,list){
+                      //     var gene = {"Gene":element,
+                      //                 "Mark":"AB6_MB",
+                      //                 "RegionStart":0,
+                      //                 "RegionStop":0,
+                      //                 "GeneStart":0,
+                      //                 "GeneStop":allRegionsData[element][0].Length
+                      //               }; 
+                      //     data[element]=[gene];
+                      //   });
                       allMBData=data;
                       $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);
                     });
 
-var MCGenesPromise = $http.get("mc_data.json")
+var MCGenesPromise = $http.get("MC_data_2014_10_22.json")
                   .success(function(data)
                     { 
-                      _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
-                        function(element,index,list){
-                          var gene = {"Gene":element,
-                                      "Mark":"AB6_MC",
-                                      "RegionStart":0,
-                                      "RegionStop":0,
-                                      "GeneStart":0,
-                                      "GeneStop":allRegionsData[element][0].Length
-                                    }; 
-                          data[element]=[gene];
-                        });
+                      // _.each(_.difference(_.keys(allRegionsData),_.keys(data)),
+                      //   function(element,index,list){
+                      //     var gene = {"Gene":element,
+                      //                 "Mark":"AB6_MC",
+                      //                 "RegionStart":0,
+                      //                 "RegionStop":0,
+                      //                 "GeneStart":0,
+                      //                 "GeneStop":allRegionsData[element][0].Length
+                      //               }; 
+                      //     data[element]=[gene];
+                      //   });
                       allMCData=data;
                       $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);
                     });
@@ -150,13 +164,14 @@ var MCGenesPromise = $http.get("mc_data.json")
         var MTGene = $scope.MTGenes[selectedGeneName];
         var MBGene = $scope.MBGenes[selectedGeneName];
         var MCGene = $scope.MCGenes[selectedGeneName];
-        var regions = $scope.regions[selectedGeneName];
+        // var regions = $scope.regions[selectedGeneName];
         var genes = new Object();
+        genes.selectedGeneName = selectedGeneName;
         genes.G0Gene = G0Gene;
         genes.MTGene = MTGene;
         genes.MBGene = MBGene;
         genes.MCGene = MCGene;
-        genes.regions = regions;
+        // genes.regions = regions;
         $scope.$root.$broadcast("myEvent", {
             value: genes
         });
