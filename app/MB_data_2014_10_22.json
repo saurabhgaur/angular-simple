@@ -1,0 +1,7514 @@
+{
+  "6720457D02RIK": [
+    {
+      "Gene": "6720457D02RIK",
+      "TiledRegionStart": "-140807",
+      "TiledRegionStop": "91787",
+      "GeneStart": "0",
+      "GeneStop": "41802",
+      "Mark": "H3K4me3",
+      "RegionStart": "-13",
+      "RegionStop": "384"
+    },
+    {
+      "Gene": "6720457D02RIK",
+      "TiledRegionStart": "-140807",
+      "TiledRegionStop": "91787",
+      "GeneStart": "0",
+      "GeneStop": "41802",
+      "Mark": "H3K4me3",
+      "RegionStart": "-126293",
+      "RegionStop": "-125667"
+    }
+  ],
+  "8430410A17RIK": [
+    {
+      "Gene": "8430410A17RIK",
+      "TiledRegionStart": "-381",
+      "TiledRegionStop": "66445",
+      "GeneStart": "0",
+      "GeneStop": "22638",
+      "Mark": "H3K4me3",
+      "RegionStart": "-312",
+      "RegionStop": "1349"
+    }
+  ],
+  "AATF": [
+    {
+      "Gene": "AATF",
+      "TiledRegionStart": "-5878",
+      "TiledRegionStop": "111854",
+      "GeneStart": "0",
+      "GeneStop": "90645",
+      "Mark": "H3K4me3",
+      "RegionStart": "-103",
+      "RegionStop": "1107"
+    }
+  ],
+  "ABCB1B": [
+    {
+      "Gene": "ABCB1B",
+      "TiledRegionStart": "-49667",
+      "TiledRegionStop": "95531",
+      "GeneStart": "0",
+      "GeneStop": "68122",
+      "Mark": "H3K4me3",
+      "RegionStart": "-360",
+      "RegionStop": "983"
+    }
+  ],
+  "ABCG2": [
+    {
+      "Gene": "ABCG2",
+      "TiledRegionStart": "-123794",
+      "TiledRegionStop": "237017",
+      "GeneStart": "0",
+      "GeneStop": "95779",
+      "Mark": "H3K4me3",
+      "RegionStart": "-569",
+      "RegionStop": "-32"
+    },
+    {
+      "Gene": "ABCG2",
+      "TiledRegionStart": "-123794",
+      "TiledRegionStop": "237017",
+      "GeneStart": "0",
+      "GeneStop": "95779",
+      "Mark": "H3K4me3",
+      "RegionStart": "43646",
+      "RegionStop": "44372"
+    },
+    {
+      "Gene": "ABCG2",
+      "TiledRegionStart": "-123794",
+      "TiledRegionStop": "237017",
+      "GeneStart": "0",
+      "GeneStop": "95779",
+      "Mark": "H3K4me3",
+      "RegionStart": "234560",
+      "RegionStop": "235676"
+    }
+  ],
+  "ACE": [
+    {
+      "Gene": "ACE",
+      "TiledRegionStart": "-23815",
+      "TiledRegionStop": "26769",
+      "GeneStart": "0",
+      "GeneStop": "21298",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ACO1": [
+    {
+      "Gene": "ACO1",
+      "TiledRegionStart": "-691485",
+      "TiledRegionStop": "62525",
+      "GeneStart": "0",
+      "GeneStop": "55744",
+      "Mark": "H3K4me3",
+      "RegionStart": "-726",
+      "RegionStop": "-362"
+    },
+    {
+      "Gene": "ACO1",
+      "TiledRegionStart": "-691485",
+      "TiledRegionStop": "62525",
+      "GeneStart": "0",
+      "GeneStop": "55744",
+      "Mark": "H3K4me3",
+      "RegionStart": "165",
+      "RegionStop": "1174"
+    }
+  ],
+  "ACTB": [
+    {
+      "Gene": "ACTB",
+      "TiledRegionStart": "-53631",
+      "TiledRegionStop": "8806",
+      "GeneStart": "0",
+      "GeneStop": "3608",
+      "Mark": "H3K4me3",
+      "RegionStart": "3519",
+      "RegionStop": "4262"
+    },
+    {
+      "Gene": "ACTB",
+      "TiledRegionStart": "-53631",
+      "TiledRegionStop": "8806",
+      "GeneStart": "0",
+      "GeneStop": "3608",
+      "Mark": "H3K4me3",
+      "RegionStart": "-40",
+      "RegionStop": "3416"
+    },
+    {
+      "Gene": "ACTB",
+      "TiledRegionStart": "-53631",
+      "TiledRegionStop": "8806",
+      "GeneStart": "0",
+      "GeneStop": "3608",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1133",
+      "RegionStop": "-95"
+    },
+    {
+      "Gene": "ACTB",
+      "TiledRegionStart": "-53631",
+      "TiledRegionStop": "8806",
+      "GeneStart": "0",
+      "GeneStop": "3608",
+      "Mark": "H3K4me3",
+      "RegionStart": "-23024",
+      "RegionStop": "-22179"
+    },
+    {
+      "Gene": "ACTB",
+      "TiledRegionStart": "-53631",
+      "TiledRegionStop": "8806",
+      "GeneStart": "0",
+      "GeneStop": "3608",
+      "Mark": "H3K4me3",
+      "RegionStart": "-23379",
+      "RegionStop": "-23099"
+    }
+  ],
+  "ACTC1": [
+    {
+      "Gene": "ACTC1",
+      "TiledRegionStart": "-48361",
+      "TiledRegionStop": "20519",
+      "GeneStart": "0",
+      "GeneStop": "5522",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ADAM19": [
+    {
+      "Gene": "ADAM19",
+      "TiledRegionStart": "-3638",
+      "TiledRegionStop": "92168",
+      "GeneStart": "0",
+      "GeneStop": "91356",
+      "Mark": "H3K4me3",
+      "RegionStart": "-218",
+      "RegionStop": "1619"
+    }
+  ],
+  "ADAM23": [
+    {
+      "Gene": "ADAM23",
+      "TiledRegionStart": "-131332",
+      "TiledRegionStop": "176947",
+      "GeneStart": "0",
+      "GeneStop": "150611",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ADAM9": [
+    {
+      "Gene": "ADAM9",
+      "TiledRegionStart": "-486",
+      "TiledRegionStop": "68007",
+      "GeneStart": "0",
+      "GeneStop": "67169",
+      "Mark": "H3K4me3",
+      "RegionStart": "-187",
+      "RegionStop": "1328"
+    }
+  ],
+  "AIM1": [
+    {
+      "Gene": "AIM1",
+      "TiledRegionStart": "-263512",
+      "TiledRegionStop": "56984",
+      "GeneStart": "0",
+      "GeneStop": "54539",
+      "Mark": "H3K4me3",
+      "RegionStart": "-75",
+      "RegionStop": "2502"
+    },
+    {
+      "Gene": "AIM1",
+      "TiledRegionStart": "-263512",
+      "TiledRegionStop": "56984",
+      "GeneStart": "0",
+      "GeneStop": "54539",
+      "Mark": "H3K4me3",
+      "RegionStart": "-263422",
+      "RegionStop": "-262343"
+    }
+  ],
+  "AK1": [
+    {
+      "Gene": "AK1",
+      "TiledRegionStart": "-8700",
+      "TiledRegionStop": "17091",
+      "GeneStart": "0",
+      "GeneStop": "5548",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1133",
+      "RegionStop": "1780"
+    }
+  ],
+  "AK3L1": [
+    {
+      "Gene": "AK3L1",
+      "TiledRegionStart": "-63511",
+      "TiledRegionStop": "123539",
+      "GeneStart": "0",
+      "GeneStop": "47236",
+      "Mark": "H3K27me3",
+      "RegionStart": "96",
+      "RegionStop": "1825"
+    }
+  ],
+  "AKP2": [
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "43257",
+      "RegionStop": "45153"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "39900",
+      "RegionStop": "42651"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "32587",
+      "RegionStop": "34333"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "25658",
+      "RegionStop": "27949"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "17197",
+      "RegionStop": "18668"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "-4581",
+      "RegionStop": "813"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "51934",
+      "RegionStop": "60304"
+    },
+    {
+      "Gene": "AKP2",
+      "TiledRegionStart": "-65974",
+      "TiledRegionStop": "66456",
+      "GeneStart": "0",
+      "GeneStop": "54584",
+      "Mark": "H3K27me3",
+      "RegionStart": "36927",
+      "RegionStop": "39818"
+    }
+  ],
+  "ALCAM": [
+    {
+      "Gene": "ALCAM",
+      "TiledRegionStart": "-414896",
+      "TiledRegionStop": "246027",
+      "GeneStart": "0",
+      "GeneStop": "203161",
+      "Mark": "H3K4me3",
+      "RegionStart": "1002",
+      "RegionStop": "3951"
+    },
+    {
+      "Gene": "ALCAM",
+      "TiledRegionStart": "-414896",
+      "TiledRegionStop": "246027",
+      "GeneStart": "0",
+      "GeneStop": "203161",
+      "Mark": "H3K4me3",
+      "RegionStart": "218",
+      "RegionStop": "726"
+    },
+    {
+      "Gene": "ALCAM",
+      "TiledRegionStart": "-414896",
+      "TiledRegionStop": "246027",
+      "GeneStart": "0",
+      "GeneStop": "203161",
+      "Mark": "H3K4me3",
+      "RegionStart": "-631",
+      "RegionStop": "145"
+    }
+  ],
+  "ALDH7A1": [
+    {
+      "Gene": "ALDH7A1",
+      "TiledRegionStart": "-142",
+      "TiledRegionStop": "69080",
+      "GeneStart": "0",
+      "GeneStop": "47136",
+      "Mark": "H3K4me3",
+      "RegionStart": "-29",
+      "RegionStop": "577"
+    }
+  ],
+  "ANGPT1": [
+    {
+      "Gene": "ANGPT1",
+      "TiledRegionStart": "-344000",
+      "TiledRegionStop": "356449",
+      "GeneStart": "0",
+      "GeneStop": "252072",
+      "Mark": "H3K4me3",
+      "RegionStart": "-646",
+      "RegionStop": "2361"
+    }
+  ],
+  "ANKRD1": [
+    {
+      "Gene": "ANKRD1",
+      "TiledRegionStart": "-259223",
+      "TiledRegionStop": "15071",
+      "GeneStart": "0",
+      "GeneStop": "7879",
+      "Mark": "H3K4me3",
+      "RegionStart": "-10163",
+      "RegionStop": "-9816"
+    },
+    {
+      "Gene": "ANKRD1",
+      "TiledRegionStart": "-259223",
+      "TiledRegionStop": "15071",
+      "GeneStart": "0",
+      "GeneStop": "7879",
+      "Mark": "H3K4me3",
+      "RegionStart": "-229825",
+      "RegionStop": "-227859"
+    },
+    {
+      "Gene": "ANKRD1",
+      "TiledRegionStart": "-259223",
+      "TiledRegionStop": "15071",
+      "GeneStart": "0",
+      "GeneStop": "7879",
+      "Mark": "H3K4me3",
+      "RegionStart": "-272",
+      "RegionStop": "3712"
+    }
+  ],
+  "ARIH2": [
+    {
+      "Gene": "ARIH2",
+      "TiledRegionStart": "-12718",
+      "TiledRegionStop": "51780",
+      "GeneStart": "0",
+      "GeneStop": "46438",
+      "Mark": "H3K4me3",
+      "RegionStart": "-782",
+      "RegionStop": "1224"
+    }
+  ],
+  "ASH2L": [
+    {
+      "Gene": "ASH2L",
+      "TiledRegionStart": "-1953",
+      "TiledRegionStop": "31688",
+      "GeneStart": "0",
+      "GeneStop": "30800",
+      "Mark": "H3K4me3",
+      "RegionStart": "5582",
+      "RegionStop": "8056"
+    }
+  ],
+  "ATXN1": [
+    {
+      "Gene": "ATXN1",
+      "TiledRegionStart": "-277",
+      "TiledRegionStop": "418595",
+      "GeneStart": "0",
+      "GeneStop": "410083",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "B2M": [
+    {
+      "Gene": "B2M",
+      "TiledRegionStart": "-91089",
+      "TiledRegionStop": "13013",
+      "GeneStart": "0",
+      "GeneStop": "5395",
+      "Mark": "H3K4me3",
+      "RegionStart": "-30462",
+      "RegionStop": "-29256"
+    },
+    {
+      "Gene": "B2M",
+      "TiledRegionStart": "-91089",
+      "TiledRegionStop": "13013",
+      "GeneStart": "0",
+      "GeneStop": "5395",
+      "Mark": "H3K4me3",
+      "RegionStart": "-29166",
+      "RegionStop": "-28764"
+    },
+    {
+      "Gene": "B2M",
+      "TiledRegionStart": "-91089",
+      "TiledRegionStop": "13013",
+      "GeneStart": "0",
+      "GeneStop": "5395",
+      "Mark": "H3K4me3",
+      "RegionStart": "-53",
+      "RegionStop": "1514"
+    }
+  ],
+  "BAX": [
+    {
+      "Gene": "BAX",
+      "TiledRegionStart": "-6665",
+      "TiledRegionStop": "7012",
+      "GeneStart": "0",
+      "GeneStop": "5203",
+      "Mark": "H3K4me3",
+      "RegionStart": "-284",
+      "RegionStop": "1792"
+    }
+  ],
+  "BDNF": [
+    {
+      "Gene": "BDNF",
+      "TiledRegionStart": "-332953",
+      "TiledRegionStop": "216178",
+      "GeneStart": "0",
+      "GeneStop": "52343",
+      "Mark": "H3K4me3",
+      "RegionStart": "2147",
+      "RegionStop": "3394"
+    },
+    {
+      "Gene": "BDNF",
+      "TiledRegionStart": "-332953",
+      "TiledRegionStop": "216178",
+      "GeneStart": "0",
+      "GeneStop": "52343",
+      "Mark": "H3K4me3",
+      "RegionStart": "3642",
+      "RegionStop": "3924"
+    },
+    {
+      "Gene": "BDNF",
+      "TiledRegionStart": "-332953",
+      "TiledRegionStop": "216178",
+      "GeneStart": "0",
+      "GeneStop": "52343",
+      "Mark": "H3K4me3",
+      "RegionStart": "17657",
+      "RegionStop": "20894"
+    },
+    {
+      "Gene": "BDNF",
+      "TiledRegionStart": "-332953",
+      "TiledRegionStop": "216178",
+      "GeneStart": "0",
+      "GeneStop": "52343",
+      "Mark": "H3K4me3",
+      "RegionStart": "215632",
+      "RegionStop": "216117"
+    }
+  ],
+  "BEX1": [
+    {
+      "Gene": "BEX1",
+      "TiledRegionStart": "-29567",
+      "TiledRegionStop": "11660",
+      "GeneStart": "0",
+      "GeneStop": "1541",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "BGN": [
+    {
+      "Gene": "BGN",
+      "TiledRegionStart": "-24615",
+      "TiledRegionStop": "19442",
+      "GeneStart": "0",
+      "GeneStop": "12287",
+      "Mark": "H3K4me3",
+      "RegionStart": "1541",
+      "RegionStop": "2071"
+    },
+    {
+      "Gene": "BGN",
+      "TiledRegionStart": "-24615",
+      "TiledRegionStop": "19442",
+      "GeneStart": "0",
+      "GeneStop": "12287",
+      "Mark": "H3K4me3",
+      "RegionStart": "-14",
+      "RegionStop": "1462"
+    }
+  ],
+  "BMP2": [
+    {
+      "Gene": "BMP2",
+      "TiledRegionStart": "-99837",
+      "TiledRegionStop": "944162",
+      "GeneStart": "0",
+      "GeneStop": "9686",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "BMP4": [
+    {
+      "Gene": "BMP4",
+      "TiledRegionStart": "-179545",
+      "TiledRegionStop": "676758",
+      "GeneStart": "0",
+      "GeneStop": "7079",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "BMP6": [
+    {
+      "Gene": "BMP6",
+      "TiledRegionStart": "-118053",
+      "TiledRegionStop": "154559",
+      "GeneStart": "0",
+      "GeneStop": "154012",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1530",
+      "RegionStop": "1714"
+    }
+  ],
+  "BNIP3": [
+    {
+      "Gene": "BNIP3",
+      "TiledRegionStart": "-45746",
+      "TiledRegionStop": "26449",
+      "GeneStart": "0",
+      "GeneStop": "18670",
+      "Mark": "H3K27me3",
+      "RegionStart": "-32067",
+      "RegionStop": "-29409"
+    },
+    {
+      "Gene": "BNIP3",
+      "TiledRegionStart": "-45746",
+      "TiledRegionStop": "26449",
+      "GeneStart": "0",
+      "GeneStop": "18670",
+      "Mark": "H3K4me3",
+      "RegionStart": "6",
+      "RegionStop": "616"
+    }
+  ],
+  "BRCA1": [
+    {
+      "Gene": "BRCA1",
+      "TiledRegionStart": "-3738",
+      "TiledRegionStop": "77814",
+      "GeneStart": "0",
+      "GeneStop": "60356",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2850",
+      "RegionStop": "-1652"
+    }
+  ],
+  "C80913": [
+    {
+      "Gene": "C80913",
+      "TiledRegionStart": "-78442",
+      "TiledRegionStop": "141263",
+      "GeneStart": "0",
+      "GeneStop": "59540",
+      "Mark": "H3K4me3",
+      "RegionStart": "-98",
+      "RegionStop": "1011"
+    },
+    {
+      "Gene": "C80913",
+      "TiledRegionStart": "-78442",
+      "TiledRegionStop": "141263",
+      "GeneStart": "0",
+      "GeneStop": "59540",
+      "Mark": "H3K4me3",
+      "RegionStart": "-98",
+      "RegionStop": "1011"
+    }
+  ],
+  "CALCR": [
+    {
+      "Gene": "CALCR",
+      "TiledRegionStart": "-197882",
+      "TiledRegionStop": "161406",
+      "GeneStart": "0",
+      "GeneStop": "78993",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "CBX2": [
+    {
+      "Gene": "CBX2",
+      "TiledRegionStart": "-30188",
+      "TiledRegionStop": "15407",
+      "GeneStart": "0",
+      "GeneStop": "8241",
+      "Mark": "H3K4me3",
+      "RegionStart": "-734",
+      "RegionStop": "1870"
+    }
+  ],
+  "CBX3": [
+    {
+      "Gene": "CBX3",
+      "TiledRegionStart": "-722",
+      "TiledRegionStop": "73907",
+      "GeneStart": "0",
+      "GeneStop": "13088",
+      "Mark": "H3K4me3",
+      "RegionStart": "-561",
+      "RegionStop": "1679"
+    }
+  ],
+  "CBX4": [
+    {
+      "Gene": "CBX4",
+      "TiledRegionStart": "-60996",
+      "TiledRegionStop": "45228",
+      "GeneStart": "0",
+      "GeneStop": "5986",
+      "Mark": "H3K4me3",
+      "RegionStart": "-303",
+      "RegionStop": "1429"
+    }
+  ],
+  "CBX6": [
+    {
+      "Gene": "CBX6",
+      "TiledRegionStart": "-35493",
+      "TiledRegionStop": "29624",
+      "GeneStart": "0",
+      "GeneStop": "10435",
+      "Mark": "H3K4me3",
+      "RegionStart": "19",
+      "RegionStop": "1816"
+    },
+    {
+      "Gene": "CBX6",
+      "TiledRegionStart": "-35493",
+      "TiledRegionStop": "29624",
+      "GeneStart": "0",
+      "GeneStop": "10435",
+      "Mark": "H3K4me3",
+      "RegionStart": "-9341",
+      "RegionStop": "-8846"
+    }
+  ],
+  "CBX7": [
+    {
+      "Gene": "CBX7",
+      "TiledRegionStart": "-63228",
+      "TiledRegionStop": "24560",
+      "GeneStart": "0",
+      "GeneStop": "16839",
+      "Mark": "H3K4me3",
+      "RegionStart": "-422",
+      "RegionStop": "361"
+    }
+  ],
+  "CBX8": [
+    {
+      "Gene": "CBX8",
+      "TiledRegionStart": "-39242",
+      "TiledRegionStop": "9643",
+      "GeneStart": "0",
+      "GeneStop": "2477",
+      "Mark": "H3K4me3",
+      "RegionStart": "-68",
+      "RegionStop": "817"
+    },
+    {
+      "Gene": "CBX8",
+      "TiledRegionStart": "-39242",
+      "TiledRegionStop": "9643",
+      "GeneStart": "0",
+      "GeneStop": "2477",
+      "Mark": "H3K4me3",
+      "RegionStart": "-814",
+      "RegionStop": "-271"
+    },
+    {
+      "Gene": "CBX8",
+      "TiledRegionStart": "-39242",
+      "TiledRegionStop": "9643",
+      "GeneStart": "0",
+      "GeneStop": "2477",
+      "Mark": "H3K4me3",
+      "RegionStart": "-16236",
+      "RegionStop": "-15341"
+    },
+    {
+      "Gene": "CBX8",
+      "TiledRegionStart": "-39242",
+      "TiledRegionStop": "9643",
+      "GeneStart": "0",
+      "GeneStop": "2477",
+      "Mark": "H3K4me3",
+      "RegionStart": "-68",
+      "RegionStop": "817"
+    },
+    {
+      "Gene": "CBX8",
+      "TiledRegionStart": "-39242",
+      "TiledRegionStop": "9643",
+      "GeneStart": "0",
+      "GeneStop": "2477",
+      "Mark": "H3K4me3",
+      "RegionStart": "-814",
+      "RegionStop": "-271"
+    },
+    {
+      "Gene": "CBX8",
+      "TiledRegionStart": "-39242",
+      "TiledRegionStop": "9643",
+      "GeneStart": "0",
+      "GeneStop": "2477",
+      "Mark": "H3K4me3",
+      "RegionStart": "-16236",
+      "RegionStop": "-15341"
+    }
+  ],
+  "CCNA2": [
+    {
+      "Gene": "CCNA2",
+      "TiledRegionStart": "-1205",
+      "TiledRegionStop": "89642",
+      "GeneStart": "0",
+      "GeneStop": "7076",
+      "Mark": "H3K4me3",
+      "RegionStart": "18610",
+      "RegionStop": "19865"
+    },
+    {
+      "Gene": "CCNA2",
+      "TiledRegionStart": "-1205",
+      "TiledRegionStop": "89642",
+      "GeneStart": "0",
+      "GeneStop": "7076",
+      "Mark": "H3K4me3",
+      "RegionStart": "-104",
+      "RegionStop": "1618"
+    }
+  ],
+  "CCNB1": [
+    {
+      "Gene": "CCNB1",
+      "TiledRegionStart": "-16162",
+      "TiledRegionStop": "10587",
+      "GeneStart": "0",
+      "GeneStop": "7747",
+      "Mark": "H3K4me3",
+      "RegionStart": "985",
+      "RegionStop": "1880"
+    },
+    {
+      "Gene": "CCNB1",
+      "TiledRegionStart": "-16162",
+      "TiledRegionStop": "10587",
+      "GeneStart": "0",
+      "GeneStop": "7747",
+      "Mark": "H3K4me3",
+      "RegionStart": "708",
+      "RegionStop": "913"
+    },
+    {
+      "Gene": "CCNB1",
+      "TiledRegionStart": "-16162",
+      "TiledRegionStop": "10587",
+      "GeneStart": "0",
+      "GeneStop": "7747",
+      "Mark": "H3K4me3",
+      "RegionStart": "61",
+      "RegionStop": "627"
+    }
+  ],
+  "CCNC": [
+    {
+      "Gene": "CCNC",
+      "TiledRegionStart": "-41767",
+      "TiledRegionStop": "29109",
+      "GeneStart": "0",
+      "GeneStop": "22816",
+      "Mark": "H3K4me3",
+      "RegionStart": "-827",
+      "RegionStop": "-175"
+    },
+    {
+      "Gene": "CCNC",
+      "TiledRegionStart": "-41767",
+      "TiledRegionStop": "29109",
+      "GeneStart": "0",
+      "GeneStop": "22816",
+      "Mark": "H3K4me3",
+      "RegionStart": "-98",
+      "RegionStop": "935"
+    }
+  ],
+  "CCND1": [
+    {
+      "Gene": "CCND1",
+      "TiledRegionStart": "-266463",
+      "TiledRegionStop": "18788",
+      "GeneStart": "0",
+      "GeneStop": "9994",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1021",
+      "RegionStop": "-121"
+    },
+    {
+      "Gene": "CCND1",
+      "TiledRegionStart": "-266463",
+      "TiledRegionStop": "18788",
+      "GeneStart": "0",
+      "GeneStop": "9994",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2276",
+      "RegionStop": "-1076"
+    },
+    {
+      "Gene": "CCND1",
+      "TiledRegionStart": "-266463",
+      "TiledRegionStop": "18788",
+      "GeneStart": "0",
+      "GeneStop": "9994",
+      "Mark": "H3K4me3",
+      "RegionStart": "-19",
+      "RegionStop": "2542"
+    }
+  ],
+  "CCND2": [
+    {
+      "Gene": "CCND2",
+      "TiledRegionStart": "-81628",
+      "TiledRegionStop": "41512",
+      "GeneStart": "0",
+      "GeneStop": "25340",
+      "Mark": "H3K27me3",
+      "RegionStart": "-5061",
+      "RegionStop": "3195"
+    }
+  ],
+  "CCND3": [
+    {
+      "Gene": "CCND3",
+      "TiledRegionStart": "-2764",
+      "TiledRegionStop": "95029",
+      "GeneStart": "0",
+      "GeneStop": "94638",
+      "Mark": "H3K4me3",
+      "RegionStart": "88408",
+      "RegionStop": "90742"
+    }
+  ],
+  "CCNE1": [
+    {
+      "Gene": "CCNE1",
+      "TiledRegionStart": "-76326",
+      "TiledRegionStop": "87948",
+      "GeneStart": "0",
+      "GeneStop": "9506",
+      "Mark": "H3K4me3",
+      "RegionStart": "-39",
+      "RegionStop": "1048"
+    },
+    {
+      "Gene": "CCNE1",
+      "TiledRegionStart": "-76326",
+      "TiledRegionStop": "87948",
+      "GeneStart": "0",
+      "GeneStop": "9506",
+      "Mark": "H3K4me3",
+      "RegionStart": "-895",
+      "RegionStop": "-175"
+    }
+  ],
+  "CD1D1": [
+    {
+      "Gene": "CD1D1",
+      "TiledRegionStart": "-83472",
+      "TiledRegionStop": "9807",
+      "GeneStart": "0",
+      "GeneStop": "3502",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "CD34": [
+    {
+      "Gene": "CD34",
+      "TiledRegionStart": "-122039",
+      "TiledRegionStop": "102992",
+      "GeneStart": "0",
+      "GeneStop": "22371",
+      "Mark": "H3K4me3",
+      "RegionStart": "66",
+      "RegionStop": "436"
+    },
+    {
+      "Gene": "CD34",
+      "TiledRegionStart": "-122039",
+      "TiledRegionStop": "102992",
+      "GeneStart": "0",
+      "GeneStop": "22371",
+      "Mark": "H3K4me3",
+      "RegionStart": "37348",
+      "RegionStop": "38528"
+    }
+  ],
+  "CD9": [
+    {
+      "Gene": "CD9",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "114251",
+      "GeneStart": "0",
+      "GeneStop": "34489",
+      "Mark": "H3K4me3",
+      "RegionStart": "69372",
+      "RegionStop": "69975"
+    },
+    {
+      "Gene": "CD9",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "114251",
+      "GeneStart": "0",
+      "GeneStop": "34489",
+      "Mark": "H3K4me3",
+      "RegionStart": "1439",
+      "RegionStop": "2159"
+    },
+    {
+      "Gene": "CD9",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "114251",
+      "GeneStart": "0",
+      "GeneStop": "34489",
+      "Mark": "H3K4me3",
+      "RegionStart": "-300",
+      "RegionStop": "1375"
+    },
+    {
+      "Gene": "CD9",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "114251",
+      "GeneStart": "0",
+      "GeneStop": "34489",
+      "Mark": "H3K4me3",
+      "RegionStart": "-300",
+      "RegionStop": "1375"
+    }
+  ],
+  "CDH15": [
+    {
+      "Gene": "CDH15",
+      "TiledRegionStart": "-6101",
+      "TiledRegionStop": "34947",
+      "GeneStart": "0",
+      "GeneStop": "19023",
+      "Mark": "H3K4me3",
+      "RegionStart": "74",
+      "RegionStop": "927"
+    }
+  ],
+  "CDK4": [
+    {
+      "Gene": "CDK4",
+      "TiledRegionStart": "-3431",
+      "TiledRegionStop": "15292",
+      "GeneStart": "0",
+      "GeneStop": "3780",
+      "Mark": "H3K4me3",
+      "RegionStart": "5655",
+      "RegionStop": "6749"
+    },
+    {
+      "Gene": "CDK4",
+      "TiledRegionStart": "-3431",
+      "TiledRegionStop": "15292",
+      "GeneStart": "0",
+      "GeneStop": "3780",
+      "Mark": "H3K4me3",
+      "RegionStart": "6851",
+      "RegionStop": "7569"
+    },
+    {
+      "Gene": "CDK4",
+      "TiledRegionStart": "-3431",
+      "TiledRegionStop": "15292",
+      "GeneStart": "0",
+      "GeneStop": "3780",
+      "Mark": "H3K4me3",
+      "RegionStart": "-900",
+      "RegionStop": "1529"
+    }
+  ],
+  "CDK6": [
+    {
+      "Gene": "CDK6",
+      "TiledRegionStart": "-343254",
+      "TiledRegionStop": "199521",
+      "GeneStart": "0",
+      "GeneStop": "177913",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3597",
+      "RegionStop": "598"
+    }
+  ],
+  "CDKN1A": [
+    {
+      "Gene": "CDKN1A",
+      "TiledRegionStart": "-50409",
+      "TiledRegionStop": "41281",
+      "GeneStart": "0",
+      "GeneStop": "6947",
+      "Mark": "H3K4me3",
+      "RegionStart": "-15876",
+      "RegionStop": "-14801"
+    },
+    {
+      "Gene": "CDKN1A",
+      "TiledRegionStart": "-50409",
+      "TiledRegionStop": "41281",
+      "GeneStart": "0",
+      "GeneStop": "6947",
+      "Mark": "H3K4me3",
+      "RegionStart": "-47",
+      "RegionStop": "1558"
+    },
+    {
+      "Gene": "CDKN1A",
+      "TiledRegionStart": "-50409",
+      "TiledRegionStop": "41281",
+      "GeneStart": "0",
+      "GeneStop": "6947",
+      "Mark": "H3K4me3",
+      "RegionStart": "1610",
+      "RegionStop": "2205"
+    }
+  ],
+  "CDKN1B": [
+    {
+      "Gene": "CDKN1B",
+      "TiledRegionStart": "-32696",
+      "TiledRegionStop": "8675",
+      "GeneStart": "0",
+      "GeneStop": "3641",
+      "Mark": "H3K4me3",
+      "RegionStart": "-23594",
+      "RegionStop": "-22060"
+    },
+    {
+      "Gene": "CDKN1B",
+      "TiledRegionStart": "-32696",
+      "TiledRegionStop": "8675",
+      "GeneStart": "0",
+      "GeneStop": "3641",
+      "Mark": "H3K4me3",
+      "RegionStart": "-21993",
+      "RegionStop": "-21466"
+    },
+    {
+      "Gene": "CDKN1B",
+      "TiledRegionStart": "-32696",
+      "TiledRegionStop": "8675",
+      "GeneStart": "0",
+      "GeneStop": "3641",
+      "Mark": "H3K4me3",
+      "RegionStart": "-842",
+      "RegionStop": "2377"
+    },
+    {
+      "Gene": "CDKN1B",
+      "TiledRegionStart": "-32696",
+      "TiledRegionStop": "8675",
+      "GeneStart": "0",
+      "GeneStop": "3641",
+      "Mark": "H3K4me3",
+      "RegionStart": "6287",
+      "RegionStop": "8257"
+    }
+  ],
+  "CDKN1C": [
+    {
+      "Gene": "CDKN1C",
+      "TiledRegionStart": "-12759",
+      "TiledRegionStop": "33954",
+      "GeneStart": "0",
+      "GeneStop": "2656",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "CDKN2A": [
+    {
+      "Gene": "CDKN2A",
+      "TiledRegionStart": "-11706",
+      "TiledRegionStop": "76793",
+      "GeneStart": "0",
+      "GeneStop": "20146",
+      "Mark": "H3K4me3",
+      "RegionStart": "36708",
+      "RegionStop": "37606"
+    }
+  ],
+  "CDX2": [
+    {
+      "Gene": "CDX2",
+      "TiledRegionStart": "-7735",
+      "TiledRegionStop": "31402",
+      "GeneStart": "0",
+      "GeneStop": "6349",
+      "Mark": "H3K27me3",
+      "RegionStart": "-838",
+      "RegionStop": "6280"
+    }
+  ],
+  "CEBPB": [
+    {
+      "Gene": "CEBPB",
+      "TiledRegionStart": "-27371",
+      "TiledRegionStop": "242134",
+      "GeneStart": "0",
+      "GeneStop": "1503",
+      "Mark": "H3K4me3",
+      "RegionStart": "-27113",
+      "RegionStop": "-26858"
+    },
+    {
+      "Gene": "CEBPB",
+      "TiledRegionStart": "-27371",
+      "TiledRegionStop": "242134",
+      "GeneStart": "0",
+      "GeneStop": "1503",
+      "Mark": "H3K4me3",
+      "RegionStart": "-220",
+      "RegionStop": "2955"
+    },
+    {
+      "Gene": "CEBPB",
+      "TiledRegionStart": "-27371",
+      "TiledRegionStop": "242134",
+      "GeneStart": "0",
+      "GeneStop": "1503",
+      "Mark": "H3K4me3",
+      "RegionStart": "88423",
+      "RegionStop": "89133"
+    }
+  ],
+  "CFC1": [
+    {
+      "Gene": "CFC1",
+      "TiledRegionStart": "-32586",
+      "TiledRegionStop": "16683",
+      "GeneStart": "0",
+      "GeneStop": "8663",
+      "Mark": "H3K27me3",
+      "RegionStart": "1050",
+      "RegionStop": "1974"
+    }
+  ],
+  "CKAP2": [
+    {
+      "Gene": "CKAP2",
+      "TiledRegionStart": "-7041",
+      "TiledRegionStop": "19417",
+      "GeneStart": "0",
+      "GeneStop": "17370",
+      "Mark": "H3K4me3",
+      "RegionStart": "-14",
+      "RegionStop": "1494"
+    }
+  ],
+  "CLK1": [
+    {
+      "Gene": "CLK1",
+      "TiledRegionStart": "-6909",
+      "TiledRegionStop": "17540",
+      "GeneStart": "0",
+      "GeneStop": "12088",
+      "Mark": "H3K4me3",
+      "RegionStart": "-55",
+      "RegionStop": "1673"
+    }
+  ],
+  "CLK3": [
+    {
+      "Gene": "CLK3",
+      "TiledRegionStart": "-24636",
+      "TiledRegionStop": "15697",
+      "GeneStart": "0",
+      "GeneStop": "15149",
+      "Mark": "H3K4me3",
+      "RegionStart": "-209",
+      "RegionStop": "2145"
+    }
+  ],
+  "CNN1": [
+    {
+      "Gene": "CNN1",
+      "TiledRegionStart": "-13899",
+      "TiledRegionStop": "13708",
+      "GeneStart": "0",
+      "GeneStop": "10349",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "CNN2": [
+    {
+      "Gene": "CNN2",
+      "TiledRegionStart": "-4270",
+      "TiledRegionStop": "9015",
+      "GeneStart": "0",
+      "GeneStop": "6800",
+      "Mark": "H3K4me3",
+      "RegionStart": "-995",
+      "RegionStop": "1999"
+    }
+  ],
+  "COL3A1": [
+    {
+      "Gene": "COL3A1",
+      "TiledRegionStart": "-515470",
+      "TiledRegionStop": "62685",
+      "GeneStart": "0",
+      "GeneStop": "37374",
+      "Mark": "H3K4me3",
+      "RegionStart": "-568",
+      "RegionStop": "2470"
+    }
+  ],
+  "CREB1": [
+    {
+      "Gene": "CREB1",
+      "TiledRegionStart": "-411415",
+      "TiledRegionStop": "73676",
+      "GeneStart": "0",
+      "GeneStop": "71744",
+      "Mark": "H3K4me3",
+      "RegionStart": "-411096",
+      "RegionStop": "-410447"
+    },
+    {
+      "Gene": "CREB1",
+      "TiledRegionStart": "-411415",
+      "TiledRegionStop": "73676",
+      "GeneStart": "0",
+      "GeneStop": "71744",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1070",
+      "RegionStop": "1582"
+    },
+    {
+      "Gene": "CREB1",
+      "TiledRegionStart": "-411415",
+      "TiledRegionStop": "73676",
+      "GeneStart": "0",
+      "GeneStop": "71744",
+      "Mark": "H3K4me3",
+      "RegionStart": "1670",
+      "RegionStop": "2093"
+    }
+  ],
+  "CS": [
+    {
+      "Gene": "CS",
+      "TiledRegionStart": "-10645",
+      "TiledRegionStop": "25265",
+      "GeneStart": "0",
+      "GeneStop": "24647",
+      "Mark": "H3K4me3",
+      "RegionStart": "-711",
+      "RegionStop": "-208"
+    },
+    {
+      "Gene": "CS",
+      "TiledRegionStart": "-10645",
+      "TiledRegionStop": "25265",
+      "GeneStart": "0",
+      "GeneStop": "24647",
+      "Mark": "H3K4me3",
+      "RegionStart": "-110",
+      "RegionStop": "1421"
+    }
+  ],
+  "CSAD": [
+    {
+      "Gene": "CSAD",
+      "TiledRegionStart": "-19219",
+      "TiledRegionStop": "25607",
+      "GeneStart": "0",
+      "GeneStop": "12045",
+      "Mark": "H3K4me3",
+      "RegionStart": "-16056",
+      "RegionStop": "-13531"
+    }
+  ],
+  "CSPG4": [
+    {
+      "Gene": "CSPG4",
+      "TiledRegionStart": "-13197",
+      "TiledRegionStop": "52040",
+      "GeneStart": "0",
+      "GeneStop": "33975",
+      "Mark": "H3K4me3",
+      "RegionStart": "-69",
+      "RegionStop": "1045"
+    },
+    {
+      "Gene": "CSPG4",
+      "TiledRegionStart": "-13197",
+      "TiledRegionStop": "52040",
+      "GeneStart": "0",
+      "GeneStop": "33975",
+      "Mark": "H3K4me3",
+      "RegionStart": "1115",
+      "RegionStop": "1807"
+    }
+  ],
+  "CTNNAL1": [
+    {
+      "Gene": "CTNNAL1",
+      "TiledRegionStart": "-1738",
+      "TiledRegionStop": "55583",
+      "GeneStart": "0",
+      "GeneStop": "54253",
+      "Mark": "H3K4me3",
+      "RegionStart": "-7",
+      "RegionStop": "1681"
+    }
+  ],
+  "CTNNB1": [
+    {
+      "Gene": "CTNNB1",
+      "TiledRegionStart": "-155719",
+      "TiledRegionStop": "140196",
+      "GeneStart": "0",
+      "GeneStop": "27032",
+      "Mark": "H3K4me3",
+      "RegionStart": "8",
+      "RegionStop": "1883"
+    }
+  ],
+  "CTSF": [
+    {
+      "Gene": "CTSF",
+      "TiledRegionStart": "-12966",
+      "TiledRegionStop": "6094",
+      "GeneStart": "0",
+      "GeneStop": "5783",
+      "Mark": "H3K27me3",
+      "RegionStart": "-4704",
+      "RegionStop": "-3681"
+    }
+  ],
+  "CTSL": [
+    {
+      "Gene": "CTSL",
+      "TiledRegionStart": "-62247",
+      "TiledRegionStop": "57596",
+      "GeneStart": "0",
+      "GeneStop": "7092",
+      "Mark": "H3K4me3",
+      "RegionStart": "844",
+      "RegionStop": "1264"
+    },
+    {
+      "Gene": "CTSL",
+      "TiledRegionStart": "-62247",
+      "TiledRegionStop": "57596",
+      "GeneStart": "0",
+      "GeneStop": "7092",
+      "Mark": "H3K4me3",
+      "RegionStart": "-632",
+      "RegionStop": "-100"
+    },
+    {
+      "Gene": "CTSL",
+      "TiledRegionStart": "-62247",
+      "TiledRegionStop": "57596",
+      "GeneStart": "0",
+      "GeneStop": "7092",
+      "Mark": "H3K4me3",
+      "RegionStart": "-29",
+      "RegionStop": "760"
+    }
+  ],
+  "CXCR4": [
+    {
+      "Gene": "CXCR4",
+      "TiledRegionStart": "-616480",
+      "TiledRegionStop": "174961",
+      "GeneStart": "0",
+      "GeneStop": "4100",
+      "Mark": "H3K4me3",
+      "RegionStart": "-463",
+      "RegionStop": "1472"
+    }
+  ],
+  "CYR61": [
+    {
+      "Gene": "CYR61",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "44736",
+      "GeneStart": "0",
+      "GeneStop": "3005",
+      "Mark": "H3K4me3",
+      "RegionStart": "-6",
+      "RegionStop": "2569"
+    },
+    {
+      "Gene": "CYR61",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "44736",
+      "GeneStart": "0",
+      "GeneStop": "3005",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3470",
+      "RegionStop": "-122"
+    },
+    {
+      "Gene": "CYR61",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "44736",
+      "GeneStart": "0",
+      "GeneStop": "3005",
+      "Mark": "H3K4me3",
+      "RegionStart": "-4003",
+      "RegionStop": "-3527"
+    },
+    {
+      "Gene": "CYR61",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "44736",
+      "GeneStart": "0",
+      "GeneStop": "3005",
+      "Mark": "H3K4me3",
+      "RegionStart": "-6",
+      "RegionStop": "2569"
+    },
+    {
+      "Gene": "CYR61",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "44736",
+      "GeneStart": "0",
+      "GeneStop": "3005",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3470",
+      "RegionStop": "-122"
+    },
+    {
+      "Gene": "CYR61",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "44736",
+      "GeneStart": "0",
+      "GeneStop": "3005",
+      "Mark": "H3K4me3",
+      "RegionStart": "-4003",
+      "RegionStop": "-3527"
+    }
+  ],
+  "D4WSU53E": [
+    {
+      "Gene": "D4WSU53E",
+      "TiledRegionStart": "-8724",
+      "TiledRegionStop": "7340",
+      "GeneStart": "0",
+      "GeneStop": "3733",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1086",
+      "RegionStop": "-261"
+    },
+    {
+      "Gene": "D4WSU53E",
+      "TiledRegionStart": "-8724",
+      "TiledRegionStop": "7340",
+      "GeneStart": "0",
+      "GeneStop": "3733",
+      "Mark": "H3K4me3",
+      "RegionStart": "1480",
+      "RegionStop": "2290"
+    },
+    {
+      "Gene": "D4WSU53E",
+      "TiledRegionStart": "-8724",
+      "TiledRegionStop": "7340",
+      "GeneStart": "0",
+      "GeneStop": "3733",
+      "Mark": "H3K4me3",
+      "RegionStart": "-64",
+      "RegionStop": "1415"
+    }
+  ],
+  "DAZL": [
+    {
+      "Gene": "DAZL",
+      "TiledRegionStart": "-215818",
+      "TiledRegionStop": "64877",
+      "GeneStart": "0",
+      "GeneStop": "14198",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "DDAH1": [
+    {
+      "Gene": "DDAH1",
+      "TiledRegionStart": "-108746",
+      "TiledRegionStop": "165651",
+      "GeneStart": "0",
+      "GeneStop": "132946",
+      "Mark": "H3K4me3",
+      "RegionStart": "164732",
+      "RegionStop": "165268"
+    }
+  ],
+  "DDIT3": [
+    {
+      "Gene": "DDIT3",
+      "TiledRegionStart": "-2039",
+      "TiledRegionStop": "32917",
+      "GeneStart": "0",
+      "GeneStop": "5476",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1098",
+      "RegionStop": "-335"
+    },
+    {
+      "Gene": "DDIT3",
+      "TiledRegionStart": "-2039",
+      "TiledRegionStop": "32917",
+      "GeneStart": "0",
+      "GeneStop": "5476",
+      "Mark": "H3K4me3",
+      "RegionStart": "-137",
+      "RegionStop": "1748"
+    },
+    {
+      "Gene": "DDIT3",
+      "TiledRegionStart": "-2039",
+      "TiledRegionStop": "32917",
+      "GeneStart": "0",
+      "GeneStop": "5476",
+      "Mark": "H3K4me3",
+      "RegionStart": "19762",
+      "RegionStop": "22011"
+    }
+  ],
+  "DES": [
+    {
+      "Gene": "DES",
+      "TiledRegionStart": "-42707",
+      "TiledRegionStop": "14953",
+      "GeneStart": "0",
+      "GeneStop": "7372",
+      "Mark": "H3K4me3",
+      "RegionStart": "12",
+      "RegionStop": "1060"
+    }
+  ],
+  "DGKA": [
+    {
+      "Gene": "DGKA",
+      "TiledRegionStart": "-3906",
+      "TiledRegionStop": "39044",
+      "GeneStart": "0",
+      "GeneStop": "23922",
+      "Mark": "H3K4me3",
+      "RegionStart": "-626",
+      "RegionStop": "1269"
+    }
+  ],
+  "DMRT1": [
+    {
+      "Gene": "DMRT1",
+      "TiledRegionStart": "-71210",
+      "TiledRegionStop": "104831",
+      "GeneStart": "0",
+      "GeneStop": "98004",
+      "Mark": "H3K27me3",
+      "RegionStart": "-804",
+      "RegionStop": "1720"
+    },
+    {
+      "Gene": "DMRT1",
+      "TiledRegionStart": "-71210",
+      "TiledRegionStop": "104831",
+      "GeneStart": "0",
+      "GeneStop": "98004",
+      "Mark": "H3K27me3",
+      "RegionStart": "98815",
+      "RegionStop": "100895"
+    }
+  ],
+  "DNAJB6": [
+    {
+      "Gene": "DNAJB6",
+      "TiledRegionStart": "-59863",
+      "TiledRegionStop": "58208",
+      "GeneStart": "0",
+      "GeneStop": "50538",
+      "Mark": "H3K4me3",
+      "RegionStart": "-663",
+      "RegionStop": "-30"
+    },
+    {
+      "Gene": "DNAJB6",
+      "TiledRegionStart": "-59863",
+      "TiledRegionStop": "58208",
+      "GeneStart": "0",
+      "GeneStop": "50538",
+      "Mark": "H3K4me3",
+      "RegionStart": "45",
+      "RegionStop": "1403"
+    }
+  ],
+  "DNMT1": [
+    {
+      "Gene": "DNMT1",
+      "TiledRegionStart": "-13085",
+      "TiledRegionStop": "54283",
+      "GeneStart": "0",
+      "GeneStop": "45664",
+      "Mark": "H3K4me3",
+      "RegionStart": "-11",
+      "RegionStop": "1204"
+    }
+  ],
+  "DNMT3B": [
+    {
+      "Gene": "DNMT3B",
+      "TiledRegionStart": "-16723",
+      "TiledRegionStop": "47198",
+      "GeneStart": "0",
+      "GeneStop": "38273",
+      "Mark": "H3K4me3",
+      "RegionStart": "-611",
+      "RegionStop": "861"
+    }
+  ],
+  "DPPA2": [
+    {
+      "Gene": "DPPA2",
+      "TiledRegionStart": "-15982",
+      "TiledRegionStop": "89177",
+      "GeneStart": "0",
+      "GeneStop": "9239",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "DPPA3": [
+    {
+      "Gene": "DPPA3",
+      "TiledRegionStart": "-16353",
+      "TiledRegionStop": "71911",
+      "GeneStart": "0",
+      "GeneStop": "3847",
+      "Mark": "H3K27me3",
+      "RegionStart": "34317",
+      "RegionStop": "37730"
+    }
+  ],
+  "DPPA5": [
+    {
+      "Gene": "DPPA5",
+      "TiledRegionStart": "-9251",
+      "TiledRegionStop": "21009",
+      "GeneStart": "0",
+      "GeneStop": "1098",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "DYRK1A": [
+    {
+      "Gene": "DYRK1A",
+      "TiledRegionStart": "-85017",
+      "TiledRegionStop": "137223",
+      "GeneStart": "0",
+      "GeneStop": "80931",
+      "Mark": "H3K27me3",
+      "RegionStart": "130224",
+      "RegionStop": "130939"
+    },
+    {
+      "Gene": "DYRK1A",
+      "TiledRegionStart": "-85017",
+      "TiledRegionStop": "137223",
+      "GeneStart": "0",
+      "GeneStop": "80931",
+      "Mark": "H3K27me3",
+      "RegionStart": "127525",
+      "RegionStop": "129863"
+    },
+    {
+      "Gene": "DYRK1A",
+      "TiledRegionStart": "-85017",
+      "TiledRegionStop": "137223",
+      "GeneStart": "0",
+      "GeneStop": "80931",
+      "Mark": "H3K4me3",
+      "RegionStart": "-43049",
+      "RegionStop": "-42203"
+    },
+    {
+      "Gene": "DYRK1A",
+      "TiledRegionStart": "-85017",
+      "TiledRegionStop": "137223",
+      "GeneStart": "0",
+      "GeneStop": "80931",
+      "Mark": "H3K4me3",
+      "RegionStart": "-41748",
+      "RegionStop": "-39776"
+    }
+  ],
+  "E2F1": [
+    {
+      "Gene": "E2F1",
+      "TiledRegionStart": "-17192",
+      "TiledRegionStop": "19802",
+      "GeneStart": "0",
+      "GeneStop": "10213",
+      "Mark": "H3K4me3",
+      "RegionStart": "44",
+      "RegionStop": "1608"
+    },
+    {
+      "Gene": "E2F1",
+      "TiledRegionStart": "-17192",
+      "TiledRegionStop": "19802",
+      "GeneStart": "0",
+      "GeneStop": "10213",
+      "Mark": "H3K4me3",
+      "RegionStart": "-550",
+      "RegionStop": "-242"
+    }
+  ],
+  "E2F2": [
+    {
+      "Gene": "E2F2",
+      "TiledRegionStart": "-27007",
+      "TiledRegionStop": "34030",
+      "GeneStart": "0",
+      "GeneStop": "22320",
+      "Mark": "H3K4me3",
+      "RegionStart": "-121",
+      "RegionStop": "1675"
+    },
+    {
+      "Gene": "E2F2",
+      "TiledRegionStart": "-27007",
+      "TiledRegionStop": "34030",
+      "GeneStart": "0",
+      "GeneStop": "22320",
+      "Mark": "H3K4me3",
+      "RegionStart": "-121",
+      "RegionStop": "1675"
+    }
+  ],
+  "E2F3": [
+    {
+      "Gene": "E2F3",
+      "TiledRegionStart": "-150427",
+      "TiledRegionStop": "130475",
+      "GeneStart": "0",
+      "GeneStop": "76291",
+      "Mark": "H3K4me3",
+      "RegionStart": "-55",
+      "RegionStop": "3292"
+    },
+    {
+      "Gene": "E2F3",
+      "TiledRegionStart": "-150427",
+      "TiledRegionStop": "130475",
+      "GeneStart": "0",
+      "GeneStop": "76291",
+      "Mark": "H3K4me3",
+      "RegionStart": "-582",
+      "RegionStop": "-249"
+    },
+    {
+      "Gene": "E2F3",
+      "TiledRegionStart": "-150427",
+      "TiledRegionStop": "130475",
+      "GeneStart": "0",
+      "GeneStop": "76291",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1010",
+      "RegionStop": "-709"
+    }
+  ],
+  "E2F4": [
+    {
+      "Gene": "E2F4",
+      "TiledRegionStart": "-1565",
+      "TiledRegionStop": "7946",
+      "GeneStart": "0",
+      "GeneStop": "7707",
+      "Mark": "H3K4me3",
+      "RegionStart": "-641",
+      "RegionStop": "-114"
+    },
+    {
+      "Gene": "E2F4",
+      "TiledRegionStart": "-1565",
+      "TiledRegionStop": "7946",
+      "GeneStart": "0",
+      "GeneStop": "7707",
+      "Mark": "H3K4me3",
+      "RegionStart": "6",
+      "RegionStop": "1631"
+    }
+  ],
+  "ECT2": [
+    {
+      "Gene": "ECT2",
+      "TiledRegionStart": "-29168",
+      "TiledRegionStop": "170622",
+      "GeneStart": "0",
+      "GeneStop": "56610",
+      "Mark": "H3K4me3",
+      "RegionStart": "-22",
+      "RegionStop": "1386"
+    }
+  ],
+  "EED": [
+    {
+      "Gene": "EED",
+      "TiledRegionStart": "-47347",
+      "TiledRegionStop": "40628",
+      "GeneStart": "0",
+      "GeneStop": "27137",
+      "Mark": "H3K4me3",
+      "RegionStart": "-56",
+      "RegionStop": "2656"
+    }
+  ],
+  "EGLN3": [
+    {
+      "Gene": "EGLN3",
+      "TiledRegionStart": "-183885",
+      "TiledRegionStop": "134774",
+      "GeneStart": "0",
+      "GeneStop": "24866",
+      "Mark": "H3K4me3",
+      "RegionStart": "2016",
+      "RegionStop": "2927"
+    },
+    {
+      "Gene": "EGLN3",
+      "TiledRegionStart": "-183885",
+      "TiledRegionStop": "134774",
+      "GeneStart": "0",
+      "GeneStop": "24866",
+      "Mark": "H3K4me3",
+      "RegionStart": "-151",
+      "RegionStop": "1923"
+    }
+  ],
+  "EIF4A2": [
+    {
+      "Gene": "EIF4A2",
+      "TiledRegionStart": "-26069",
+      "TiledRegionStop": "6192",
+      "GeneStart": "0",
+      "GeneStop": "6190",
+      "Mark": "H3K4me3",
+      "RegionStart": "-847",
+      "RegionStop": "2913"
+    }
+  ],
+  "EMB": [
+    {
+      "Gene": "EMB",
+      "TiledRegionStart": "-84748",
+      "TiledRegionStop": "137247",
+      "GeneStart": "0",
+      "GeneStop": "53466",
+      "Mark": "H3K4me3",
+      "RegionStart": "-331",
+      "RegionStop": "976"
+    }
+  ],
+  "EMP1": [
+    {
+      "Gene": "EMP1",
+      "TiledRegionStart": "-13140",
+      "TiledRegionStop": "366864",
+      "GeneStart": "0",
+      "GeneStop": "20242",
+      "Mark": "H3K4me3",
+      "RegionStart": "-26",
+      "RegionStop": "2702"
+    }
+  ],
+  "ENAH": [
+    {
+      "Gene": "ENAH",
+      "TiledRegionStart": "-104770",
+      "TiledRegionStop": "177648",
+      "GeneStart": "0",
+      "GeneStop": "115535",
+      "Mark": "H3K4me3",
+      "RegionStart": "176900",
+      "RegionStop": "177463"
+    },
+    {
+      "Gene": "ENAH",
+      "TiledRegionStart": "-104770",
+      "TiledRegionStop": "177648",
+      "GeneStart": "0",
+      "GeneStop": "115535",
+      "Mark": "H3K4me3",
+      "RegionStart": "-392",
+      "RegionStop": "1458"
+    }
+  ],
+  "ENG": [
+    {
+      "Gene": "ENG",
+      "TiledRegionStart": "-11543",
+      "TiledRegionStop": "36014",
+      "GeneStart": "0",
+      "GeneStop": "35523",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ESAM1": [
+    {
+      "Gene": "ESAM1",
+      "TiledRegionStart": "-3958",
+      "TiledRegionStop": "11132",
+      "GeneStart": "0",
+      "GeneStop": "10190",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ESRRB": [
+    {
+      "Gene": "ESRRB",
+      "TiledRegionStart": "-69749",
+      "TiledRegionStop": "317583",
+      "GeneStart": "0",
+      "GeneStop": "160505",
+      "Mark": "H3K27me3",
+      "RegionStart": "60153",
+      "RegionStop": "61893"
+    },
+    {
+      "Gene": "ESRRB",
+      "TiledRegionStart": "-69749",
+      "TiledRegionStop": "317583",
+      "GeneStart": "0",
+      "GeneStop": "160505",
+      "Mark": "H3K27me3",
+      "RegionStart": "178460",
+      "RegionStop": "181304"
+    },
+    {
+      "Gene": "ESRRB",
+      "TiledRegionStart": "-69749",
+      "TiledRegionStop": "317583",
+      "GeneStart": "0",
+      "GeneStop": "160505",
+      "Mark": "H3K27me3",
+      "RegionStart": "270233",
+      "RegionStop": "274851"
+    }
+  ],
+  "F8": [
+    {
+      "Gene": "F8",
+      "TiledRegionStart": "-2381",
+      "TiledRegionStop": "234670",
+      "GeneStart": "0",
+      "GeneStop": "207311",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "FBLN2": [
+    {
+      "Gene": "FBLN2",
+      "TiledRegionStart": "-38081",
+      "TiledRegionStop": "151219",
+      "GeneStart": "0",
+      "GeneStop": "59776",
+      "Mark": "H3K27me3",
+      "RegionStart": "117973",
+      "RegionStop": "119811"
+    },
+    {
+      "Gene": "FBLN2",
+      "TiledRegionStart": "-38081",
+      "TiledRegionStop": "151219",
+      "GeneStart": "0",
+      "GeneStop": "59776",
+      "Mark": "H3K27me3",
+      "RegionStart": "132188",
+      "RegionStop": "138223"
+    },
+    {
+      "Gene": "FBLN2",
+      "TiledRegionStart": "-38081",
+      "TiledRegionStop": "151219",
+      "GeneStart": "0",
+      "GeneStop": "59776",
+      "Mark": "H3K27me3",
+      "RegionStart": "141711",
+      "RegionStop": "143395"
+    },
+    {
+      "Gene": "FBLN2",
+      "TiledRegionStart": "-38081",
+      "TiledRegionStop": "151219",
+      "GeneStart": "0",
+      "GeneStop": "59776",
+      "Mark": "H3K27me3",
+      "RegionStart": "108102",
+      "RegionStop": "113711"
+    },
+    {
+      "Gene": "FBLN2",
+      "TiledRegionStart": "-38081",
+      "TiledRegionStop": "151219",
+      "GeneStart": "0",
+      "GeneStop": "59776",
+      "Mark": "H3K27me3",
+      "RegionStart": "143480",
+      "RegionStop": "151044"
+    },
+    {
+      "Gene": "FBLN2",
+      "TiledRegionStart": "-38081",
+      "TiledRegionStop": "151219",
+      "GeneStart": "0",
+      "GeneStop": "59776",
+      "Mark": "H3K4me3",
+      "RegionStart": "-90",
+      "RegionStop": "1403"
+    }
+  ],
+  "FBXO15": [
+    {
+      "Gene": "FBXO15",
+      "TiledRegionStart": "-55162",
+      "TiledRegionStop": "146343",
+      "GeneStart": "0",
+      "GeneStop": "46367",
+      "Mark": "H3K4me3",
+      "RegionStart": "15247",
+      "RegionStop": "16510"
+    },
+    {
+      "Gene": "FBXO15",
+      "TiledRegionStart": "-55162",
+      "TiledRegionStop": "146343",
+      "GeneStart": "0",
+      "GeneStop": "46367",
+      "Mark": "H3K4me3",
+      "RegionStart": "16577",
+      "RegionStop": "17056"
+    }
+  ],
+  "FER1L3": [
+    {
+      "Gene": "FER1L3",
+      "TiledRegionStart": "-11512",
+      "TiledRegionStop": "342041",
+      "GeneStart": "0",
+      "GeneStop": "144541",
+      "Mark": "H3K4me3",
+      "RegionStart": "1190",
+      "RegionStop": "1725"
+    },
+    {
+      "Gene": "FER1L3",
+      "TiledRegionStart": "-11512",
+      "TiledRegionStop": "342041",
+      "GeneStart": "0",
+      "GeneStop": "144541",
+      "Mark": "H3K4me3",
+      "RegionStart": "-281",
+      "RegionStop": "1104"
+    },
+    {
+      "Gene": "FER1L3",
+      "TiledRegionStart": "-11512",
+      "TiledRegionStop": "342041",
+      "GeneStart": "0",
+      "GeneStop": "144541",
+      "Mark": "H3K4me3",
+      "RegionStart": "-11130",
+      "RegionStop": "-10665"
+    }
+  ],
+  "FGF2": [
+    {
+      "Gene": "FGF2",
+      "TiledRegionStart": "-27400",
+      "TiledRegionStop": "56134",
+      "GeneStart": "0",
+      "GeneStop": "55947",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "FGF4": [
+    {
+      "Gene": "FGF4",
+      "TiledRegionStart": "-18398",
+      "TiledRegionStop": "35146",
+      "GeneStart": "0",
+      "GeneStop": "3857",
+      "Mark": "H3K27me3",
+      "RegionStart": "-14171",
+      "RegionStop": "-12444"
+    },
+    {
+      "Gene": "FGF4",
+      "TiledRegionStart": "-18398",
+      "TiledRegionStop": "35146",
+      "GeneStart": "0",
+      "GeneStop": "3857",
+      "Mark": "H3K27me3",
+      "RegionStart": "-2043",
+      "RegionStop": "1635"
+    }
+  ],
+  "FGF8": [
+    {
+      "Gene": "FGF8",
+      "TiledRegionStart": "-4861",
+      "TiledRegionStop": "82680",
+      "GeneStart": "0",
+      "GeneStop": "6055",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1298",
+      "RegionStop": "2120"
+    }
+  ],
+  "FGFR1": [
+    {
+      "Gene": "FGFR1",
+      "TiledRegionStart": "-62840",
+      "TiledRegionStop": "72888",
+      "GeneStart": "0",
+      "GeneStop": "56942",
+      "Mark": "H3K4me3",
+      "RegionStart": "-127",
+      "RegionStop": "2591"
+    }
+  ],
+  "FGFR2": [
+    {
+      "Gene": "FGFR2",
+      "TiledRegionStart": "-124685",
+      "TiledRegionStop": "277652",
+      "GeneStart": "0",
+      "GeneStop": "104357",
+      "Mark": "H3K27me3",
+      "RegionStart": "-55149",
+      "RegionStop": "-52921"
+    },
+    {
+      "Gene": "FGFR2",
+      "TiledRegionStart": "-124685",
+      "TiledRegionStop": "277652",
+      "GeneStart": "0",
+      "GeneStop": "104357",
+      "Mark": "H3K27me3",
+      "RegionStart": "-64311",
+      "RegionStop": "-63665"
+    }
+  ],
+  "FHL1": [
+    {
+      "Gene": "FHL1",
+      "TiledRegionStart": "-69894",
+      "TiledRegionStop": "66166",
+      "GeneStart": "0",
+      "GeneStop": "61559",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "FKBP1A": [
+    {
+      "Gene": "FKBP1A",
+      "TiledRegionStart": "-31194",
+      "TiledRegionStop": "30133",
+      "GeneStart": "0",
+      "GeneStop": "19192",
+      "Mark": "H3K4me3",
+      "RegionStart": "-675",
+      "RegionStop": "-55"
+    },
+    {
+      "Gene": "FKBP1A",
+      "TiledRegionStart": "-31194",
+      "TiledRegionStop": "30133",
+      "GeneStart": "0",
+      "GeneStop": "19192",
+      "Mark": "H3K4me3",
+      "RegionStart": "30",
+      "RegionStop": "2101"
+    }
+  ],
+  "FKBP9": [
+    {
+      "Gene": "FKBP9",
+      "TiledRegionStart": "-51768",
+      "TiledRegionStop": "50328",
+      "GeneStart": "0",
+      "GeneStop": "47281",
+      "Mark": "H3K4me3",
+      "RegionStart": "-36241",
+      "RegionStop": "-33516"
+    },
+    {
+      "Gene": "FKBP9",
+      "TiledRegionStart": "-51768",
+      "TiledRegionStop": "50328",
+      "GeneStart": "0",
+      "GeneStop": "47281",
+      "Mark": "H3K4me3",
+      "RegionStart": "-60",
+      "RegionStop": "1041"
+    }
+  ],
+  "FLT1": [
+    {
+      "Gene": "FLT1",
+      "TiledRegionStart": "-134640",
+      "TiledRegionStop": "177492",
+      "GeneStart": "0",
+      "GeneStop": "163792",
+      "Mark": "H3K4me3",
+      "RegionStart": "-134620",
+      "RegionStop": "-133959"
+    },
+    {
+      "Gene": "FLT1",
+      "TiledRegionStart": "-134640",
+      "TiledRegionStop": "177492",
+      "GeneStart": "0",
+      "GeneStop": "163792",
+      "Mark": "H3K4me3",
+      "RegionStart": "-446",
+      "RegionStop": "1359"
+    }
+  ],
+  "FN1": [
+    {
+      "Gene": "FN1",
+      "TiledRegionStart": "-233766",
+      "TiledRegionStop": "73767",
+      "GeneStart": "0",
+      "GeneStop": "67648",
+      "Mark": "H3K4me3",
+      "RegionStart": "1958",
+      "RegionStop": "2628"
+    },
+    {
+      "Gene": "FN1",
+      "TiledRegionStart": "-233766",
+      "TiledRegionStop": "73767",
+      "GeneStart": "0",
+      "GeneStop": "67648",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1130",
+      "RegionStop": "1897"
+    }
+  ],
+  "FOXD3": [
+    {
+      "Gene": "FOXD3",
+      "TiledRegionStart": "-4653",
+      "TiledRegionStop": "59331",
+      "GeneStart": "0",
+      "GeneStop": "2372",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "FOXM1": [
+    {
+      "Gene": "FOXM1",
+      "TiledRegionStart": "-172",
+      "TiledRegionStop": "36772",
+      "GeneStart": "0",
+      "GeneStop": "12892",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "FOXO1": [
+    {
+      "Gene": "FOXO1",
+      "TiledRegionStart": "-51365",
+      "TiledRegionStop": "344387",
+      "GeneStart": "0",
+      "GeneStop": "81164",
+      "Mark": "H3K4me3",
+      "RegionStart": "-821",
+      "RegionStop": "-97"
+    },
+    {
+      "Gene": "FOXO1",
+      "TiledRegionStart": "-51365",
+      "TiledRegionStop": "344387",
+      "GeneStart": "0",
+      "GeneStop": "81164",
+      "Mark": "H3K4me3",
+      "RegionStart": "46",
+      "RegionStop": "2279"
+    }
+  ],
+  "FOXP3": [
+    {
+      "Gene": "FOXP3",
+      "TiledRegionStart": "-1278",
+      "TiledRegionStop": "27410",
+      "GeneStart": "0",
+      "GeneStop": "15541",
+      "Mark": "H3K4me3",
+      "RegionStart": "24600",
+      "RegionStop": "25611"
+    }
+  ],
+  "FUT4": [
+    {
+      "Gene": "FUT4",
+      "TiledRegionStart": "-6078",
+      "TiledRegionStop": "11389",
+      "GeneStart": "0",
+      "GeneStop": "3663",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "FUT8": [
+    {
+      "Gene": "FUT8",
+      "TiledRegionStart": "-83080",
+      "TiledRegionStop": "958079",
+      "GeneStart": "0",
+      "GeneStop": "236966",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1031",
+      "RegionStop": "-311"
+    },
+    {
+      "Gene": "FUT8",
+      "TiledRegionStart": "-83080",
+      "TiledRegionStop": "958079",
+      "GeneStart": "0",
+      "GeneStop": "236966",
+      "Mark": "H3K4me3",
+      "RegionStart": "-259",
+      "RegionStop": "1123"
+    }
+  ],
+  "FUT9": [
+    {
+      "Gene": "FUT9",
+      "TiledRegionStart": "-524503",
+      "TiledRegionStop": "491480",
+      "GeneStart": "0",
+      "GeneStop": "190670",
+      "Mark": "H3K4me3",
+      "RegionStart": "-88",
+      "RegionStop": "742"
+    }
+  ],
+  "FZD7": [
+    {
+      "Gene": "FZD7",
+      "TiledRegionStart": "-129567",
+      "TiledRegionStop": "34085",
+      "GeneStart": "0",
+      "GeneStop": "4776",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1104",
+      "RegionStop": "-249"
+    },
+    {
+      "Gene": "FZD7",
+      "TiledRegionStart": "-129567",
+      "TiledRegionStop": "34085",
+      "GeneStart": "0",
+      "GeneStop": "4776",
+      "Mark": "H3K4me3",
+      "RegionStart": "-63",
+      "RegionStop": "2367"
+    }
+  ],
+  "G6PD2": [
+    {
+      "Gene": "G6PD2",
+      "TiledRegionStart": "-41322",
+      "TiledRegionStop": "793561",
+      "GeneStart": "0",
+      "GeneStop": "1541",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "GAB1": [
+    {
+      "Gene": "GAB1",
+      "TiledRegionStart": "-57270",
+      "TiledRegionStop": "141020",
+      "GeneStart": "0",
+      "GeneStop": "116045",
+      "Mark": "H3K4me3",
+      "RegionStart": "-538",
+      "RegionStop": "1664"
+    }
+  ],
+  "GADD45B": [
+    {
+      "Gene": "GADD45B",
+      "TiledRegionStart": "-11846",
+      "TiledRegionStop": "18533",
+      "GeneStart": "0",
+      "GeneStop": "2113",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1449",
+      "RegionStop": "-141"
+    },
+    {
+      "Gene": "GADD45B",
+      "TiledRegionStart": "-11846",
+      "TiledRegionStop": "18533",
+      "GeneStart": "0",
+      "GeneStop": "2113",
+      "Mark": "H3K4me3",
+      "RegionStart": "-83",
+      "RegionStop": "1430"
+    },
+    {
+      "Gene": "GADD45B",
+      "TiledRegionStart": "-11846",
+      "TiledRegionStop": "18533",
+      "GeneStart": "0",
+      "GeneStop": "2113",
+      "Mark": "H3K4me3",
+      "RegionStart": "2151",
+      "RegionStop": "3023"
+    }
+  ],
+  "GAPDH": [
+    {
+      "Gene": "GAPDH",
+      "TiledRegionStart": "-2424",
+      "TiledRegionStop": "3801",
+      "GeneStart": "0",
+      "GeneStop": "3731",
+      "Mark": "H3K4me3",
+      "RegionStart": "-57",
+      "RegionStop": "2189"
+    },
+    {
+      "Gene": "GAPDH",
+      "TiledRegionStart": "-2424",
+      "TiledRegionStop": "3801",
+      "GeneStart": "0",
+      "GeneStop": "3731",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1338",
+      "RegionStop": "-220"
+    }
+  ],
+  "GAS1": [
+    {
+      "Gene": "GAS1",
+      "TiledRegionStart": "-28106",
+      "TiledRegionStop": "27842",
+      "GeneStart": "0",
+      "GeneStop": "2960",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1222",
+      "RegionStop": "-848"
+    },
+    {
+      "Gene": "GAS1",
+      "TiledRegionStart": "-28106",
+      "TiledRegionStop": "27842",
+      "GeneStart": "0",
+      "GeneStop": "2960",
+      "Mark": "H3K4me3",
+      "RegionStart": "-350",
+      "RegionStop": "2602"
+    }
+  ],
+  "GATA2": [
+    {
+      "Gene": "GATA2",
+      "TiledRegionStart": "-93364",
+      "TiledRegionStop": "23600",
+      "GeneStart": "0",
+      "GeneStop": "8361",
+      "Mark": "H3K4me3",
+      "RegionStart": "-15",
+      "RegionStop": "1778"
+    }
+  ],
+  "GATA4": [
+    {
+      "Gene": "GATA4",
+      "TiledRegionStart": "-72485",
+      "TiledRegionStop": "51735",
+      "GeneStart": "0",
+      "GeneStop": "46345",
+      "Mark": "H3K4me3",
+      "RegionStart": "-334",
+      "RegionStop": "1331"
+    }
+  ],
+  "GBX2": [
+    {
+      "Gene": "GBX2",
+      "TiledRegionStart": "-21502",
+      "TiledRegionStop": "35894",
+      "GeneStart": "0",
+      "GeneStop": "3214",
+      "Mark": "H3K27me3",
+      "RegionStart": "5654",
+      "RegionStop": "10195"
+    },
+    {
+      "Gene": "GBX2",
+      "TiledRegionStart": "-21502",
+      "TiledRegionStop": "35894",
+      "GeneStart": "0",
+      "GeneStop": "3214",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1336",
+      "RegionStop": "1362"
+    }
+  ],
+  "GCAT": [
+    {
+      "Gene": "GCAT",
+      "TiledRegionStart": "-416",
+      "TiledRegionStop": "11012",
+      "GeneStart": "0",
+      "GeneStop": "7434",
+      "Mark": "H3K4me3",
+      "RegionStart": "-54",
+      "RegionStop": "490"
+    }
+  ],
+  "GDF3": [
+    {
+      "Gene": "GDF3",
+      "TiledRegionStart": "-16353",
+      "TiledRegionStop": "7627",
+      "GeneStart": "0",
+      "GeneStop": "4668",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "GFPT2": [
+    {
+      "Gene": "GFPT2",
+      "TiledRegionStart": "-115046",
+      "TiledRegionStop": "52565",
+      "GeneStart": "0",
+      "GeneStop": "44424",
+      "Mark": "H3K4me3",
+      "RegionStart": "-82610",
+      "RegionStop": "-81426"
+    },
+    {
+      "Gene": "GFPT2",
+      "TiledRegionStart": "-115046",
+      "TiledRegionStop": "52565",
+      "GeneStart": "0",
+      "GeneStop": "44424",
+      "Mark": "H3K4me3",
+      "RegionStart": "-81352",
+      "RegionStop": "-81011"
+    }
+  ],
+  "GJA1": [
+    {
+      "Gene": "GJA1",
+      "TiledRegionStart": "-22240",
+      "TiledRegionStop": "278575",
+      "GeneStart": "0",
+      "GeneStop": "13071",
+      "Mark": "H3K4me3",
+      "RegionStart": "-14",
+      "RegionStop": "2328"
+    }
+  ],
+  "GJA7": [
+    {
+      "Gene": "GJA7",
+      "TiledRegionStart": "-31655",
+      "TiledRegionStop": "25607",
+      "GeneStart": "0",
+      "GeneStop": "5062",
+      "Mark": "H3K4me3",
+      "RegionStart": "-15338",
+      "RegionStop": "-12043"
+    }
+  ],
+  "GLI2": [
+    {
+      "Gene": "GLI2",
+      "TiledRegionStart": "-361846",
+      "TiledRegionStop": "368451",
+      "GeneStart": "0",
+      "GeneStop": "219558",
+      "Mark": "H3K27me3",
+      "RegionStart": "-27864",
+      "RegionStop": "-24839"
+    },
+    {
+      "Gene": "GLI2",
+      "TiledRegionStart": "-361846",
+      "TiledRegionStop": "368451",
+      "GeneStart": "0",
+      "GeneStop": "219558",
+      "Mark": "H3K27me3",
+      "RegionStart": "-27864",
+      "RegionStop": "-24839"
+    }
+  ],
+  "GPI1": [
+    {
+      "Gene": "GPI1",
+      "TiledRegionStart": "-6452",
+      "TiledRegionStop": "33615",
+      "GeneStart": "0",
+      "GeneStop": "28104",
+      "Mark": "H3K4me3",
+      "RegionStart": "-40",
+      "RegionStop": "1097"
+    },
+    {
+      "Gene": "GPI1",
+      "TiledRegionStart": "-6452",
+      "TiledRegionStop": "33615",
+      "GeneStart": "0",
+      "GeneStop": "28104",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3819",
+      "RegionStop": "-3261"
+    },
+    {
+      "Gene": "GPI1",
+      "TiledRegionStart": "-6452",
+      "TiledRegionStop": "33615",
+      "GeneStart": "0",
+      "GeneStop": "28104",
+      "Mark": "H3K4me3",
+      "RegionStart": "-4551",
+      "RegionStop": "-3882"
+    }
+  ],
+  "H2-AA": [
+    {
+      "Gene": "H2-AA",
+      "TiledRegionStart": "-18096",
+      "TiledRegionStop": "18361",
+      "GeneStart": "0",
+      "GeneStop": "5020",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "H2-AB1": [
+    {
+      "Gene": "H2-AB1",
+      "TiledRegionStart": "-17332",
+      "TiledRegionStop": "19511",
+      "GeneStart": "0",
+      "GeneStop": "6170",
+      "Mark": "H3K27me3",
+      "RegionStart": "1319",
+      "RegionStop": "2208"
+    }
+  ],
+  "HDAC1": [
+    {
+      "Gene": "HDAC1",
+      "TiledRegionStart": "-5712",
+      "TiledRegionStop": "26671",
+      "GeneStart": "0",
+      "GeneStop": "26542",
+      "Mark": "H3K4me3",
+      "RegionStart": "30",
+      "RegionStop": "1062"
+    },
+    {
+      "Gene": "HDAC1",
+      "TiledRegionStart": "-5712",
+      "TiledRegionStop": "26671",
+      "GeneStart": "0",
+      "GeneStop": "26542",
+      "Mark": "H3K4me3",
+      "RegionStart": "-583",
+      "RegionStop": "-264"
+    }
+  ],
+  "HDAC5": [
+    {
+      "Gene": "HDAC5",
+      "TiledRegionStart": "-18710",
+      "TiledRegionStop": "36091",
+      "GeneStart": "0",
+      "GeneStop": "34425",
+      "Mark": "H3K4me3",
+      "RegionStart": "10989",
+      "RegionStop": "12414"
+    },
+    {
+      "Gene": "HDAC5",
+      "TiledRegionStart": "-18710",
+      "TiledRegionStop": "36091",
+      "GeneStart": "0",
+      "GeneStop": "34425",
+      "Mark": "H3K4me3",
+      "RegionStart": "7",
+      "RegionStop": "781"
+    },
+    {
+      "Gene": "HDAC5",
+      "TiledRegionStart": "-18710",
+      "TiledRegionStop": "36091",
+      "GeneStart": "0",
+      "GeneStop": "34425",
+      "Mark": "H3K4me3",
+      "RegionStart": "-485",
+      "RegionStop": "-45"
+    },
+    {
+      "Gene": "HDAC5",
+      "TiledRegionStart": "-18710",
+      "TiledRegionStop": "36091",
+      "GeneStart": "0",
+      "GeneStop": "34425",
+      "Mark": "H3K4me3",
+      "RegionStart": "-15208",
+      "RegionStop": "-14469"
+    }
+  ],
+  "HDAC9": [
+    {
+      "Gene": "HDAC9",
+      "TiledRegionStart": "-344688",
+      "TiledRegionStop": "569043",
+      "GeneStart": "0",
+      "GeneStop": "157377",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "HELLS": [
+    {
+      "Gene": "HELLS",
+      "TiledRegionStart": "-11067",
+      "TiledRegionStop": "76029",
+      "GeneStart": "0",
+      "GeneStop": "37287",
+      "Mark": "H3K4me3",
+      "RegionStart": "-630",
+      "RegionStop": "1487"
+    }
+  ],
+  "HESX1": [
+    {
+      "Gene": "HESX1",
+      "TiledRegionStart": "-29811",
+      "TiledRegionStop": "38639",
+      "GeneStart": "0",
+      "GeneStop": "1964",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "HEYL": [
+    {
+      "Gene": "HEYL",
+      "TiledRegionStart": "-17349",
+      "TiledRegionStop": "49355",
+      "GeneStart": "0",
+      "GeneStop": "16314",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "HNRPK": [
+    {
+      "Gene": "HNRPK",
+      "TiledRegionStart": "-150791",
+      "TiledRegionStop": "47654",
+      "GeneStart": "0",
+      "GeneStop": "10565",
+      "Mark": "H3K4me3",
+      "RegionStart": "9",
+      "RegionStop": "2113"
+    },
+    {
+      "Gene": "HNRPK",
+      "TiledRegionStart": "-150791",
+      "TiledRegionStop": "47654",
+      "GeneStart": "0",
+      "GeneStop": "10565",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1459",
+      "RegionStop": "-107"
+    }
+  ],
+  "HRSP12": [
+    {
+      "Gene": "HRSP12",
+      "TiledRegionStart": "-133",
+      "TiledRegionStop": "21298",
+      "GeneStart": "0",
+      "GeneStop": "11053",
+      "Mark": "H3K4me3",
+      "RegionStart": "-65",
+      "RegionStop": "713"
+    }
+  ],
+  "ID1": [
+    {
+      "Gene": "ID1",
+      "TiledRegionStart": "-48328",
+      "TiledRegionStop": "17899",
+      "GeneStart": "0",
+      "GeneStop": "1136",
+      "Mark": "H3K4me3",
+      "RegionStart": "-8520",
+      "RegionStop": "-7744"
+    },
+    {
+      "Gene": "ID1",
+      "TiledRegionStart": "-48328",
+      "TiledRegionStop": "17899",
+      "GeneStart": "0",
+      "GeneStop": "1136",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1020",
+      "RegionStop": "-148"
+    },
+    {
+      "Gene": "ID1",
+      "TiledRegionStart": "-48328",
+      "TiledRegionStop": "17899",
+      "GeneStart": "0",
+      "GeneStop": "1136",
+      "Mark": "H3K4me3",
+      "RegionStart": "-70",
+      "RegionStop": "2804"
+    }
+  ],
+  "ID2": [
+    {
+      "Gene": "ID2",
+      "TiledRegionStart": "-568240",
+      "TiledRegionStop": "36371",
+      "GeneStart": "0",
+      "GeneStop": "2269",
+      "Mark": "H3K4me3",
+      "RegionStart": "-59",
+      "RegionStop": "1941"
+    },
+    {
+      "Gene": "ID2",
+      "TiledRegionStart": "-568240",
+      "TiledRegionStop": "36371",
+      "GeneStart": "0",
+      "GeneStop": "2269",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1105",
+      "RegionStop": "-209"
+    },
+    {
+      "Gene": "ID2",
+      "TiledRegionStart": "-568240",
+      "TiledRegionStop": "36371",
+      "GeneStart": "0",
+      "GeneStop": "2269",
+      "Mark": "H3K4me3",
+      "RegionStart": "-5066",
+      "RegionStop": "-3862"
+    }
+  ],
+  "ID3": [
+    {
+      "Gene": "ID3",
+      "TiledRegionStart": "-90451",
+      "TiledRegionStop": "28572",
+      "GeneStart": "0",
+      "GeneStop": "1565",
+      "Mark": "H3K4me3",
+      "RegionStart": "-30",
+      "RegionStop": "2621"
+    },
+    {
+      "Gene": "ID3",
+      "TiledRegionStart": "-90451",
+      "TiledRegionStop": "28572",
+      "GeneStart": "0",
+      "GeneStop": "1565",
+      "Mark": "H3K4me3",
+      "RegionStart": "-30",
+      "RegionStop": "2621"
+    },
+    {
+      "Gene": "ID3",
+      "TiledRegionStart": "-90451",
+      "TiledRegionStop": "28572",
+      "GeneStart": "0",
+      "GeneStop": "1565",
+      "Mark": "H3K4me3",
+      "RegionStart": "-30",
+      "RegionStop": "2621"
+    }
+  ],
+  "IFITM3": [
+    {
+      "Gene": "IFITM3",
+      "TiledRegionStart": "-5068",
+      "TiledRegionStop": "40926",
+      "GeneStart": "0",
+      "GeneStop": "1154",
+      "Mark": "H3K4me3",
+      "RegionStart": "-24",
+      "RegionStop": "1475"
+    }
+  ],
+  "IGTP": [
+    {
+      "Gene": "IGTP",
+      "TiledRegionStart": "-9358",
+      "TiledRegionStop": "36495",
+      "GeneStart": "0",
+      "GeneStop": "8035",
+      "Mark": "H3K4me3",
+      "RegionStart": "-476",
+      "RegionStop": "-26"
+    }
+  ],
+  "IIGP1": [
+    {
+      "Gene": "IIGP1",
+      "TiledRegionStart": "-27108",
+      "TiledRegionStop": "36396",
+      "GeneStart": "0",
+      "GeneStop": "2839",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "IL4": [
+    {
+      "Gene": "IL4",
+      "TiledRegionStart": "-12659",
+      "TiledRegionStop": "14421",
+      "GeneStart": "0",
+      "GeneStop": "6197",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "IL6ST": [
+    {
+      "Gene": "IL6ST",
+      "TiledRegionStart": "-27499",
+      "TiledRegionStop": "58686",
+      "GeneStart": "0",
+      "GeneStop": "42732",
+      "Mark": "H3K4me3",
+      "RegionStart": "-420",
+      "RegionStop": "1069"
+    }
+  ],
+  "INHBB": [
+    {
+      "Gene": "INHBB",
+      "TiledRegionStart": "-48061",
+      "TiledRegionStop": "368629",
+      "GeneStart": "0",
+      "GeneStop": "6783",
+      "Mark": "H3K4me3",
+      "RegionStart": "131",
+      "RegionStop": "1022"
+    }
+  ],
+  "IRF6": [
+    {
+      "Gene": "IRF6",
+      "TiledRegionStart": "-22861",
+      "TiledRegionStop": "20530",
+      "GeneStart": "0",
+      "GeneStop": "18924",
+      "Mark": "H3K4me3",
+      "RegionStart": "19585",
+      "RegionStop": "20359"
+    }
+  ],
+  "ISL1": [
+    {
+      "Gene": "ISL1",
+      "TiledRegionStart": "-543735",
+      "TiledRegionStop": "155480",
+      "GeneStart": "0",
+      "GeneStop": "11407",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ITGA6": [
+    {
+      "Gene": "ITGA6",
+      "TiledRegionStart": "-56117",
+      "TiledRegionStop": "86189",
+      "GeneStart": "0",
+      "GeneStop": "69675",
+      "Mark": "H3K4me3",
+      "RegionStart": "-593",
+      "RegionStop": "1346"
+    }
+  ],
+  "ITGB4BP": [
+    {
+      "Gene": "ITGB4BP",
+      "TiledRegionStart": "-2258",
+      "TiledRegionStop": "8559",
+      "GeneStart": "0",
+      "GeneStop": "7088",
+      "Mark": "H3K4me3",
+      "RegionStart": "184",
+      "RegionStop": "1254"
+    }
+  ],
+  "JARID2": [
+    {
+      "Gene": "JARID2",
+      "TiledRegionStart": "-450454",
+      "TiledRegionStop": "191176",
+      "GeneStart": "0",
+      "GeneStop": "190078",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1125",
+      "RegionStop": "-421"
+    },
+    {
+      "Gene": "JARID2",
+      "TiledRegionStart": "-450454",
+      "TiledRegionStop": "191176",
+      "GeneStart": "0",
+      "GeneStop": "190078",
+      "Mark": "H3K4me3",
+      "RegionStart": "-146",
+      "RegionStop": "54"
+    },
+    {
+      "Gene": "JARID2",
+      "TiledRegionStart": "-450454",
+      "TiledRegionStop": "191176",
+      "GeneStart": "0",
+      "GeneStop": "190078",
+      "Mark": "H3K4me3",
+      "RegionStart": "395",
+      "RegionStop": "2645"
+    },
+    {
+      "Gene": "JARID2",
+      "TiledRegionStart": "-450454",
+      "TiledRegionStop": "191176",
+      "GeneStart": "0",
+      "GeneStop": "190078",
+      "Mark": "H3K4me3",
+      "RegionStart": "2731",
+      "RegionStop": "3346"
+    },
+    {
+      "Gene": "JARID2",
+      "TiledRegionStart": "-450454",
+      "TiledRegionStop": "191176",
+      "GeneStart": "0",
+      "GeneStop": "190078",
+      "Mark": "H3K4me3",
+      "RegionStart": "138670",
+      "RegionStop": "138848"
+    }
+  ],
+  "JMJD1A": [
+    {
+      "Gene": "JMJD1A",
+      "TiledRegionStart": "-75291",
+      "TiledRegionStop": "50995",
+      "GeneStart": "0",
+      "GeneStop": "43528",
+      "Mark": "H3K4me3",
+      "RegionStart": "-400",
+      "RegionStop": "1039"
+    }
+  ],
+  "JUN": [
+    {
+      "Gene": "JUN",
+      "TiledRegionStart": "-222764",
+      "TiledRegionStop": "73087",
+      "GeneStart": "0",
+      "GeneStop": "3132",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1832",
+      "RegionStop": "-442"
+    },
+    {
+      "Gene": "JUN",
+      "TiledRegionStart": "-222764",
+      "TiledRegionStop": "73087",
+      "GeneStart": "0",
+      "GeneStop": "3132",
+      "Mark": "H3K4me3",
+      "RegionStart": "-47409",
+      "RegionStop": "-46421"
+    },
+    {
+      "Gene": "JUN",
+      "TiledRegionStart": "-222764",
+      "TiledRegionStop": "73087",
+      "GeneStart": "0",
+      "GeneStop": "3132",
+      "Mark": "H3K4me3",
+      "RegionStart": "-109772",
+      "RegionStop": "-109323"
+    },
+    {
+      "Gene": "JUN",
+      "TiledRegionStart": "-222764",
+      "TiledRegionStop": "73087",
+      "GeneStart": "0",
+      "GeneStop": "3132",
+      "Mark": "H3K4me3",
+      "RegionStart": "-55",
+      "RegionStop": "3347"
+    }
+  ],
+  "KDR": [
+    {
+      "Gene": "KDR",
+      "TiledRegionStart": "-194849",
+      "TiledRegionStop": "219537",
+      "GeneStart": "0",
+      "GeneStop": "45163",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "KIT": [
+    {
+      "Gene": "KIT",
+      "TiledRegionStart": "-186728",
+      "TiledRegionStop": "178531",
+      "GeneStart": "0",
+      "GeneStop": "81698",
+      "Mark": "H3K27me3",
+      "RegionStart": "21150",
+      "RegionStop": "21841"
+    }
+  ],
+  "KITL": [
+    {
+      "Gene": "KITL",
+      "TiledRegionStart": "-256166",
+      "TiledRegionStop": "127595",
+      "GeneStart": "0",
+      "GeneStop": "84588",
+      "Mark": "H3K4me3",
+      "RegionStart": "-429",
+      "RegionStop": "957"
+    }
+  ],
+  "KLC4": [
+    {
+      "Gene": "KLC4",
+      "TiledRegionStart": "-1104",
+      "TiledRegionStop": "15708",
+      "GeneStart": "0",
+      "GeneStop": "14513",
+      "Mark": "H3K4me3",
+      "RegionStart": "-943",
+      "RegionStop": "-104"
+    }
+  ],
+  "KLF2": [
+    {
+      "Gene": "KLF2",
+      "TiledRegionStart": "-13720",
+      "TiledRegionStop": "21966",
+      "GeneStart": "0",
+      "GeneStop": "2316",
+      "Mark": "H3K4me3",
+      "RegionStart": "-105",
+      "RegionStop": "2046"
+    }
+  ],
+  "KLF4": [
+    {
+      "Gene": "KLF4",
+      "TiledRegionStart": "-1207539",
+      "TiledRegionStop": "141254",
+      "GeneStart": "0",
+      "GeneStop": "5201",
+      "Mark": "H3K4me3",
+      "RegionStart": "-103",
+      "RegionStop": "2517"
+    },
+    {
+      "Gene": "KLF4",
+      "TiledRegionStart": "-1207539",
+      "TiledRegionStop": "141254",
+      "GeneStart": "0",
+      "GeneStop": "5201",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1262",
+      "RegionStop": "-608"
+    },
+    {
+      "Gene": "KLF4",
+      "TiledRegionStart": "-1207539",
+      "TiledRegionStop": "141254",
+      "GeneStart": "0",
+      "GeneStop": "5201",
+      "Mark": "H3K4me3",
+      "RegionStart": "-119426",
+      "RegionStop": "-118854"
+    }
+  ],
+  "KLF5": [
+    {
+      "Gene": "KLF5",
+      "TiledRegionStart": "-44198",
+      "TiledRegionStop": "536827",
+      "GeneStart": "0",
+      "GeneStop": "14721",
+      "Mark": "H3K4me3",
+      "RegionStart": "-482",
+      "RegionStop": "2789"
+    }
+  ],
+  "KLF9": [
+    {
+      "Gene": "KLF9",
+      "TiledRegionStart": "-697556",
+      "TiledRegionStop": "67505",
+      "GeneStart": "0",
+      "GeneStop": "25685",
+      "Mark": "H3K4me3",
+      "RegionStart": "-5875",
+      "RegionStop": "-5128"
+    },
+    {
+      "Gene": "KLF9",
+      "TiledRegionStart": "-697556",
+      "TiledRegionStop": "67505",
+      "GeneStart": "0",
+      "GeneStop": "25685",
+      "Mark": "H3K4me3",
+      "RegionStart": "-842",
+      "RegionStop": "1731"
+    }
+  ],
+  "LATS2": [
+    {
+      "Gene": "LATS2",
+      "TiledRegionStart": "-52131",
+      "TiledRegionStop": "81167",
+      "GeneStart": "0",
+      "GeneStop": "56461",
+      "Mark": "H3K4me3",
+      "RegionStart": "-485",
+      "RegionStop": "1902"
+    },
+    {
+      "Gene": "LATS2",
+      "TiledRegionStart": "-52131",
+      "TiledRegionStop": "81167",
+      "GeneStart": "0",
+      "GeneStop": "56461",
+      "Mark": "H3K4me3",
+      "RegionStart": "-51992",
+      "RegionStop": "-51551"
+    }
+  ],
+  "LEFTY1": [
+    {
+      "Gene": "LEFTY1",
+      "TiledRegionStart": "-26951",
+      "TiledRegionStop": "7479",
+      "GeneStart": "0",
+      "GeneStop": "3362",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "LEPREL2": [
+    {
+      "Gene": "LEPREL2",
+      "TiledRegionStart": "-757",
+      "TiledRegionStop": "17412",
+      "GeneStart": "0",
+      "GeneStop": "16592",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "LYPLA1": [
+    {
+      "Gene": "LYPLA1",
+      "TiledRegionStart": "-22183",
+      "TiledRegionStop": "49922",
+      "GeneStart": "0",
+      "GeneStop": "38842",
+      "Mark": "H3K4me3",
+      "RegionStart": "-479",
+      "RegionStop": "1384"
+    }
+  ],
+  "MAFF": [
+    {
+      "Gene": "MAFF",
+      "TiledRegionStart": "-19510",
+      "TiledRegionStop": "13006",
+      "GeneStart": "0",
+      "GeneStop": "11398",
+      "Mark": "H3K4me3",
+      "RegionStart": "-678",
+      "RegionStop": "1211"
+    }
+  ],
+  "MAGED1": [
+    {
+      "Gene": "MAGED1",
+      "TiledRegionStart": "-66031",
+      "TiledRegionStop": "124987",
+      "GeneStart": "0",
+      "GeneStop": "6600",
+      "Mark": "H3K4me3",
+      "RegionStart": "-14",
+      "RegionStop": "1454"
+    }
+  ],
+  "MAP1LC3B": [
+    {
+      "Gene": "MAP1LC3B",
+      "TiledRegionStart": "-11677",
+      "TiledRegionStop": "9000",
+      "GeneStart": "0",
+      "GeneStop": "7579",
+      "Mark": "H3K4me3",
+      "RegionStart": "-49",
+      "RegionStop": "1425"
+    }
+  ],
+  "MATR3": [
+    {
+      "Gene": "MATR3",
+      "TiledRegionStart": "-25251",
+      "TiledRegionStop": "36399",
+      "GeneStart": "0",
+      "GeneStop": "29141",
+      "Mark": "H3K4me3",
+      "RegionStart": "-9187",
+      "RegionStop": "-4900"
+    },
+    {
+      "Gene": "MATR3",
+      "TiledRegionStart": "-25251",
+      "TiledRegionStop": "36399",
+      "GeneStart": "0",
+      "GeneStop": "29141",
+      "Mark": "H3K4me3",
+      "RegionStart": "-155",
+      "RegionStop": "1799"
+    }
+  ],
+  "MCAM": [
+    {
+      "Gene": "MCAM",
+      "TiledRegionStart": "-14258",
+      "TiledRegionStop": "14591",
+      "GeneStart": "0",
+      "GeneStop": "8053",
+      "Mark": "H3K4me3",
+      "RegionStart": "27",
+      "RegionStop": "569"
+    }
+  ],
+  "MEF2A": [
+    {
+      "Gene": "MEF2A",
+      "TiledRegionStart": "-56179",
+      "TiledRegionStop": "144402",
+      "GeneStart": "0",
+      "GeneStop": "139034",
+      "Mark": "H3K4me3",
+      "RegionStart": "-937",
+      "RegionStop": "1291"
+    }
+  ],
+  "MEF2C": [
+    {
+      "Gene": "MEF2C",
+      "TiledRegionStart": "-1707038",
+      "TiledRegionStop": "387619",
+      "GeneStart": "0",
+      "GeneStop": "159754",
+      "Mark": "H3K4me3",
+      "RegionStart": "19678",
+      "RegionStop": "20472"
+    }
+  ],
+  "MEIS1": [
+    {
+      "Gene": "MEIS1",
+      "TiledRegionStart": "-608081",
+      "TiledRegionStop": "1064835",
+      "GeneStart": "0",
+      "GeneStop": "138252",
+      "Mark": "H3K4me3",
+      "RegionStart": "140131",
+      "RegionStop": "141178"
+    },
+    {
+      "Gene": "MEIS1",
+      "TiledRegionStart": "-608081",
+      "TiledRegionStop": "1064835",
+      "GeneStart": "0",
+      "GeneStop": "138252",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1789",
+      "RegionStop": "4212"
+    },
+    {
+      "Gene": "MEIS1",
+      "TiledRegionStart": "-608081",
+      "TiledRegionStop": "1064835",
+      "GeneStart": "0",
+      "GeneStop": "138252",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2480",
+      "RegionStop": "-1882"
+    }
+  ],
+  "MEOX2": [
+    {
+      "Gene": "MEOX2",
+      "TiledRegionStart": "-603681",
+      "TiledRegionStop": "133233",
+      "GeneStart": "0",
+      "GeneStop": "70982",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "MET": [
+    {
+      "Gene": "MET",
+      "TiledRegionStart": "-149917",
+      "TiledRegionStop": "145857",
+      "GeneStart": "0",
+      "GeneStop": "80582",
+      "Mark": "H3K4me3",
+      "RegionStart": "-28063",
+      "RegionStop": "-25233"
+    }
+  ],
+  "MKI67": [
+    {
+      "Gene": "MKI67",
+      "TiledRegionStart": "-992351",
+      "TiledRegionStop": "30123",
+      "GeneStart": "0",
+      "GeneStop": "26633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-46137",
+      "RegionStop": "-41868"
+    },
+    {
+      "Gene": "MKI67",
+      "TiledRegionStart": "-992351",
+      "TiledRegionStop": "30123",
+      "GeneStart": "0",
+      "GeneStop": "26633",
+      "Mark": "H3K4me3",
+      "RegionStart": "-146",
+      "RegionStop": "2067"
+    }
+  ],
+  "MKRN1": [
+    {
+      "Gene": "MKRN1",
+      "TiledRegionStart": "-182",
+      "TiledRegionStop": "30006",
+      "GeneStart": "0",
+      "GeneStop": "22566",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "MLL1": [
+    {
+      "Gene": "MLL1",
+      "TiledRegionStart": "-31995",
+      "TiledRegionStop": "78323",
+      "GeneStart": "0",
+      "GeneStop": "77919",
+      "Mark": "H3K4me3",
+      "RegionStart": "-28",
+      "RegionStop": "1845"
+    },
+    {
+      "Gene": "MLL1",
+      "TiledRegionStart": "-31995",
+      "TiledRegionStop": "78323",
+      "GeneStart": "0",
+      "GeneStop": "77919",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1566",
+      "RegionStop": "-174"
+    }
+  ],
+  "MLL2": [
+    {
+      "Gene": "MLL2",
+      "TiledRegionStart": "-6578",
+      "TiledRegionStop": "39692",
+      "GeneStart": "0",
+      "GeneStop": "37515",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1891",
+      "RegionStop": "2593"
+    }
+  ],
+  "MLL3": [
+    {
+      "Gene": "MLL3",
+      "TiledRegionStart": "-17284",
+      "TiledRegionStop": "232865",
+      "GeneStart": "0",
+      "GeneStop": "226989",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1643",
+      "RegionStop": "1374"
+    }
+  ],
+  "MLL5": [
+    {
+      "Gene": "MLL5",
+      "TiledRegionStart": "1",
+      "TiledRegionStop": "114754",
+      "GeneStart": "0",
+      "GeneStop": "0",
+      "Mark": "H3K4me3",
+      "RegionStart": "28554",
+      "RegionStop": "30220"
+    },
+    {
+      "Gene": "MLL5",
+      "TiledRegionStart": "1",
+      "TiledRegionStop": "114754",
+      "GeneStart": "0",
+      "GeneStop": "0",
+      "Mark": "H3K4me3",
+      "RegionStart": "44828",
+      "RegionStop": "48547"
+    },
+    {
+      "Gene": "MLL5",
+      "TiledRegionStart": "1",
+      "TiledRegionStop": "114754",
+      "GeneStart": "0",
+      "GeneStop": "0",
+      "Mark": "H3K4me3",
+      "RegionStart": "42457",
+      "RegionStop": "44737"
+    }
+  ],
+  "MRAS": [
+    {
+      "Gene": "MRAS",
+      "TiledRegionStart": "-19532",
+      "TiledRegionStop": "78181",
+      "GeneStart": "0",
+      "GeneStop": "48735",
+      "Mark": "H3K4me3",
+      "RegionStart": "-852",
+      "RegionStop": "952"
+    }
+  ],
+  "MRG1": [
+    {
+      "Gene": "MRG1",
+      "TiledRegionStart": "-10060",
+      "TiledRegionStop": "286344",
+      "GeneStart": "0",
+      "GeneStop": "202043",
+      "Mark": "H3K4me3",
+      "RegionStart": "208686",
+      "RegionStop": "209182"
+    },
+    {
+      "Gene": "MRG1",
+      "TiledRegionStart": "-10060",
+      "TiledRegionStop": "286344",
+      "GeneStart": "0",
+      "GeneStop": "202043",
+      "Mark": "H3K4me3",
+      "RegionStart": "805",
+      "RegionStop": "3256"
+    },
+    {
+      "Gene": "MRG1",
+      "TiledRegionStart": "-10060",
+      "TiledRegionStop": "286344",
+      "GeneStart": "0",
+      "GeneStop": "202043",
+      "Mark": "H3K4me3",
+      "RegionStart": "-650",
+      "RegionStop": "602"
+    },
+    {
+      "Gene": "MRG1",
+      "TiledRegionStart": "-10060",
+      "TiledRegionStop": "286344",
+      "GeneStart": "0",
+      "GeneStop": "202043",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2371",
+      "RegionStop": "-770"
+    },
+    {
+      "Gene": "MRG1",
+      "TiledRegionStart": "-10060",
+      "TiledRegionStop": "286344",
+      "GeneStart": "0",
+      "GeneStop": "202043",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2758",
+      "RegionStop": "-2435"
+    },
+    {
+      "Gene": "MRG1",
+      "TiledRegionStart": "-10060",
+      "TiledRegionStop": "286344",
+      "GeneStart": "0",
+      "GeneStop": "202043",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3390",
+      "RegionStop": "-2855"
+    }
+  ],
+  "MRPS31": [
+    {
+      "Gene": "MRPS31",
+      "TiledRegionStart": "-12867",
+      "TiledRegionStop": "51194",
+      "GeneStart": "0",
+      "GeneStop": "18057",
+      "Mark": "H3K27me3",
+      "RegionStart": "-3978",
+      "RegionStop": "-2790"
+    },
+    {
+      "Gene": "MRPS31",
+      "TiledRegionStart": "-12867",
+      "TiledRegionStop": "51194",
+      "GeneStart": "0",
+      "GeneStop": "18057",
+      "Mark": "H3K4me3",
+      "RegionStart": "-715",
+      "RegionStop": "-114"
+    },
+    {
+      "Gene": "MRPS31",
+      "TiledRegionStart": "-12867",
+      "TiledRegionStop": "51194",
+      "GeneStart": "0",
+      "GeneStop": "18057",
+      "Mark": "H3K4me3",
+      "RegionStart": "-56",
+      "RegionStop": "884"
+    }
+  ],
+  "MSC": [
+    {
+      "Gene": "MSC",
+      "TiledRegionStart": "-109021",
+      "TiledRegionStop": "445767",
+      "GeneStart": "0",
+      "GeneStop": "2620",
+      "Mark": "H3K27me3",
+      "RegionStart": "-828",
+      "RegionStop": "1462"
+    }
+  ],
+  "MSH2": [
+    {
+      "Gene": "MSH2",
+      "TiledRegionStart": "-21430",
+      "TiledRegionStop": "73264",
+      "GeneStart": "0",
+      "GeneStop": "51156",
+      "Mark": "H3K4me3",
+      "RegionStart": "-64",
+      "RegionStop": "989"
+    }
+  ],
+  "MTF2": [
+    {
+      "Gene": "MTF2",
+      "TiledRegionStart": "-78709",
+      "TiledRegionStop": "55905",
+      "GeneStart": "0",
+      "GeneStop": "43262",
+      "Mark": "H3K4me3",
+      "RegionStart": "-78589",
+      "RegionStop": "-77474"
+    },
+    {
+      "Gene": "MTF2",
+      "TiledRegionStart": "-78709",
+      "TiledRegionStop": "55905",
+      "GeneStart": "0",
+      "GeneStop": "43262",
+      "Mark": "H3K4me3",
+      "RegionStart": "-346",
+      "RegionStop": "1316"
+    }
+  ],
+  "MXI1": [
+    {
+      "Gene": "MXI1",
+      "TiledRegionStart": "-55307",
+      "TiledRegionStop": "68708",
+      "GeneStart": "0",
+      "GeneStop": "65304",
+      "Mark": "H3K4me3",
+      "RegionStart": "-208",
+      "RegionStop": "3713"
+    },
+    {
+      "Gene": "MXI1",
+      "TiledRegionStart": "-55307",
+      "TiledRegionStop": "68708",
+      "GeneStart": "0",
+      "GeneStop": "65304",
+      "Mark": "H3K4me3",
+      "RegionStart": "19005",
+      "RegionStop": "20066"
+    }
+  ],
+  "MYBL2": [
+    {
+      "Gene": "MYBL2",
+      "TiledRegionStart": "-8500",
+      "TiledRegionStop": "32396",
+      "GeneStart": "0",
+      "GeneStop": "30052",
+      "Mark": "H3K4me3",
+      "RegionStart": "-13",
+      "RegionStop": "1469"
+    }
+  ],
+  "MYC": [
+    {
+      "Gene": "MYC",
+      "TiledRegionStart": "-819016",
+      "TiledRegionStop": "226076",
+      "GeneStart": "0",
+      "GeneStop": "5020",
+      "Mark": "H3K27me3",
+      "RegionStart": "-96281",
+      "RegionStop": "-95168"
+    },
+    {
+      "Gene": "MYC",
+      "TiledRegionStart": "-819016",
+      "TiledRegionStop": "226076",
+      "GeneStart": "0",
+      "GeneStop": "5020",
+      "Mark": "H3K4me3",
+      "RegionStart": "52322",
+      "RegionStop": "55300"
+    },
+    {
+      "Gene": "MYC",
+      "TiledRegionStart": "-819016",
+      "TiledRegionStop": "226076",
+      "GeneStart": "0",
+      "GeneStop": "5020",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1743",
+      "RegionStop": "3975"
+    }
+  ],
+  "MYCN": [
+    {
+      "Gene": "MYCN",
+      "TiledRegionStart": "-51740",
+      "TiledRegionStop": "18845",
+      "GeneStart": "0",
+      "GeneStop": "5615",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "MYF5": [
+    {
+      "Gene": "MYF5",
+      "TiledRegionStart": "-6726",
+      "TiledRegionStop": "60991",
+      "GeneStart": "0",
+      "GeneStop": "3226",
+      "Mark": "H3K4me3",
+      "RegionStart": "2384",
+      "RegionStop": "2808"
+    },
+    {
+      "Gene": "MYF5",
+      "TiledRegionStart": "-6726",
+      "TiledRegionStop": "60991",
+      "GeneStart": "0",
+      "GeneStop": "3226",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1063",
+      "RegionStop": "2085"
+    }
+  ],
+  "MYH11": [
+    {
+      "Gene": "MYH11",
+      "TiledRegionStart": "-7881",
+      "TiledRegionStop": "98797",
+      "GeneStart": "0",
+      "GeneStop": "96463",
+      "Mark": "H3K27me3",
+      "RegionStart": "59690",
+      "RegionStop": "61161"
+    }
+  ],
+  "MYH6": [
+    {
+      "Gene": "MYH6",
+      "TiledRegionStart": "-4117",
+      "TiledRegionStop": "27294",
+      "GeneStart": "0",
+      "GeneStop": "24647",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "MYL2": [
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-68008",
+      "RegionStop": "-66156"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-62720",
+      "RegionStop": "-49156"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-39732",
+      "RegionStop": "-36363"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-33074",
+      "RegionStop": "-31557"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-6689",
+      "RegionStop": "-5653"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-3170",
+      "RegionStop": "-1551"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-49025",
+      "RegionStop": "-44696"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "-31473",
+      "RegionStop": "-30551"
+    },
+    {
+      "Gene": "MYL2",
+      "TiledRegionStart": "-71282",
+      "TiledRegionStop": "7077",
+      "GeneStart": "0",
+      "GeneStop": "5875",
+      "Mark": "H3K27me3",
+      "RegionStart": "458",
+      "RegionStop": "4507"
+    }
+  ],
+  "MYL7": [
+    {
+      "Gene": "MYL7",
+      "TiledRegionStart": "-2041",
+      "TiledRegionStop": "20565",
+      "GeneStart": "0",
+      "GeneStop": "2145",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "MYLIP": [
+    {
+      "Gene": "MYLIP",
+      "TiledRegionStart": "-122031",
+      "TiledRegionStop": "117727",
+      "GeneStart": "0",
+      "GeneStop": "22198",
+      "Mark": "H3K4me3",
+      "RegionStart": "-652",
+      "RegionStop": "-153"
+    },
+    {
+      "Gene": "MYLIP",
+      "TiledRegionStart": "-122031",
+      "TiledRegionStop": "117727",
+      "GeneStart": "0",
+      "GeneStop": "22198",
+      "Mark": "H3K4me3",
+      "RegionStart": "-44",
+      "RegionStop": "1596"
+    }
+  ],
+  "MYO1E": [
+    {
+      "Gene": "MYO1E",
+      "TiledRegionStart": "-65793",
+      "TiledRegionStop": "200339",
+      "GeneStart": "0",
+      "GeneStop": "192717",
+      "Mark": "H3K4me3",
+      "RegionStart": "-62",
+      "RegionStop": "2047"
+    }
+  ],
+  "MYOD1": [
+    {
+      "Gene": "MYOD1",
+      "TiledRegionStart": "-66313",
+      "TiledRegionStop": "21060",
+      "GeneStart": "0",
+      "GeneStop": "2613",
+      "Mark": "H3K4me3",
+      "RegionStart": "301",
+      "RegionStop": "2034"
+    }
+  ],
+  "MYOG": [
+    {
+      "Gene": "MYOG",
+      "TiledRegionStart": "-54582",
+      "TiledRegionStop": "6766",
+      "GeneStart": "0",
+      "GeneStop": "2537",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "MYST3": [
+    {
+      "Gene": "MYST3",
+      "TiledRegionStart": "-53908",
+      "TiledRegionStop": "98491",
+      "GeneStart": "0",
+      "GeneStop": "83723",
+      "Mark": "H3K4me3",
+      "RegionStart": "-52577",
+      "RegionStop": "-50320"
+    },
+    {
+      "Gene": "MYST3",
+      "TiledRegionStart": "-53908",
+      "TiledRegionStop": "98491",
+      "GeneStart": "0",
+      "GeneStop": "83723",
+      "Mark": "H3K4me3",
+      "RegionStart": "-780",
+      "RegionStop": "-243"
+    },
+    {
+      "Gene": "MYST3",
+      "TiledRegionStart": "-53908",
+      "TiledRegionStop": "98491",
+      "GeneStart": "0",
+      "GeneStop": "83723",
+      "Mark": "H3K4me3",
+      "RegionStart": "-189",
+      "RegionStop": "1588"
+    }
+  ],
+  "MYST4": [
+    {
+      "Gene": "MYST4",
+      "TiledRegionStart": "-51307",
+      "TiledRegionStop": "176718",
+      "GeneStart": "0",
+      "GeneStop": "172279",
+      "Mark": "H3K4me3",
+      "RegionStart": "-877",
+      "RegionStop": "628"
+    },
+    {
+      "Gene": "MYST4",
+      "TiledRegionStart": "-51307",
+      "TiledRegionStop": "176718",
+      "GeneStart": "0",
+      "GeneStop": "172279",
+      "Mark": "H3K4me3",
+      "RegionStart": "996",
+      "RegionStop": "1970"
+    }
+  ],
+  "NANOG": [
+    {
+      "Gene": "NANOG",
+      "TiledRegionStart": "-1086",
+      "TiledRegionStop": "20233",
+      "GeneStart": "0",
+      "GeneStop": "7040",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "NAP1L1": [
+    {
+      "Gene": "NAP1L1",
+      "TiledRegionStart": "-178445",
+      "TiledRegionStop": "25669",
+      "GeneStart": "0",
+      "GeneStop": "17525",
+      "Mark": "H3K4me3",
+      "RegionStart": "-7314",
+      "RegionStop": "-5759"
+    }
+  ],
+  "NDN": [
+    {
+      "Gene": "NDN",
+      "TiledRegionStart": "-798507",
+      "TiledRegionStop": "28702",
+      "GeneStart": "0",
+      "GeneStop": "1651",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "NES": [
+    {
+      "Gene": "NES",
+      "TiledRegionStart": "-17721",
+      "TiledRegionStop": "16438",
+      "GeneStart": "0",
+      "GeneStop": "9358",
+      "Mark": "H3K4me3",
+      "RegionStart": "-758",
+      "RegionStop": "3202"
+    }
+  ],
+  "NID1": [
+    {
+      "Gene": "NID1",
+      "TiledRegionStart": "-44104",
+      "TiledRegionStop": "152718",
+      "GeneStart": "0",
+      "GeneStop": "74573",
+      "Mark": "H3K4me3",
+      "RegionStart": "884",
+      "RegionStop": "1305"
+    }
+  ],
+  "NIPSNAP1": [
+    {
+      "Gene": "NIPSNAP1",
+      "TiledRegionStart": "-24476",
+      "TiledRegionStop": "21340",
+      "GeneStart": "0",
+      "GeneStop": "20197",
+      "Mark": "H3K4me3",
+      "RegionStart": "-24233",
+      "RegionStop": "-23949"
+    }
+  ],
+  "NKX2-5": [
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K27me3",
+      "RegionStart": "21413",
+      "RegionStop": "22798"
+    },
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K27me3",
+      "RegionStart": "10758",
+      "RegionStop": "14020"
+    },
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K27me3",
+      "RegionStart": "-4564",
+      "RegionStop": "4740"
+    },
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K27me3",
+      "RegionStart": "-7368",
+      "RegionStop": "-6213"
+    },
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K27me3",
+      "RegionStart": "-9906",
+      "RegionStop": "-7953"
+    },
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K27me3",
+      "RegionStart": "-16988",
+      "RegionStop": "-16283"
+    },
+    {
+      "Gene": "NKX2-5",
+      "TiledRegionStart": "-75526",
+      "TiledRegionStop": "49044",
+      "GeneStart": "0",
+      "GeneStop": "2900",
+      "Mark": "H3K4me3",
+      "RegionStart": "-44664",
+      "RegionStop": "-43055"
+    }
+  ],
+  "NONO": [
+    {
+      "Gene": "NONO",
+      "TiledRegionStart": "-8867",
+      "TiledRegionStop": "19393",
+      "GeneStart": "0",
+      "GeneStop": "18873",
+      "Mark": "H3K4me3",
+      "RegionStart": "-849",
+      "RegionStop": "-201"
+    },
+    {
+      "Gene": "NONO",
+      "TiledRegionStart": "-8867",
+      "TiledRegionStop": "19393",
+      "GeneStart": "0",
+      "GeneStop": "18873",
+      "Mark": "H3K4me3",
+      "RegionStart": "-86",
+      "RegionStop": "1816"
+    }
+  ],
+  "NOTCH1": [
+    {
+      "Gene": "NOTCH1",
+      "TiledRegionStart": "-77446",
+      "TiledRegionStop": "58421",
+      "GeneStart": "0",
+      "GeneStop": "45613",
+      "Mark": "H3K4me3",
+      "RegionStart": "56595",
+      "RegionStop": "58000"
+    },
+    {
+      "Gene": "NOTCH1",
+      "TiledRegionStart": "-77446",
+      "TiledRegionStop": "58421",
+      "GeneStart": "0",
+      "GeneStop": "45613",
+      "Mark": "H3K4me3",
+      "RegionStart": "-548",
+      "RegionStop": "1654"
+    }
+  ],
+  "NOTCH3": [
+    {
+      "Gene": "NOTCH3",
+      "TiledRegionStart": "-16918",
+      "TiledRegionStop": "106247",
+      "GeneStart": "0",
+      "GeneStop": "45959",
+      "Mark": "H3K4me3",
+      "RegionStart": "-34",
+      "RegionStop": "668"
+    }
+  ],
+  "NPAS3": [
+    {
+      "Gene": "NPAS3",
+      "TiledRegionStart": "-97662",
+      "TiledRegionStop": "930305",
+      "GeneStart": "0",
+      "GeneStop": "820397",
+      "Mark": "H3K27me3",
+      "RegionStart": "-2408",
+      "RegionStop": "670"
+    },
+    {
+      "Gene": "NPAS3",
+      "TiledRegionStart": "-97662",
+      "TiledRegionStop": "930305",
+      "GeneStart": "0",
+      "GeneStop": "820397",
+      "Mark": "H3K4me3",
+      "RegionStart": "3976",
+      "RegionStop": "4678"
+    }
+  ],
+  "NPPA": [
+    {
+      "Gene": "NPPA",
+      "TiledRegionStart": "-13548",
+      "TiledRegionStop": "5738",
+      "GeneStart": "0",
+      "GeneStop": "1321",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "NR0B1": [
+    {
+      "Gene": "NR0B1",
+      "TiledRegionStart": "-144462",
+      "TiledRegionStop": "58481",
+      "GeneStart": "0",
+      "GeneStop": "4169",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ODC1": [
+    {
+      "Gene": "ODC1",
+      "TiledRegionStart": "-70218",
+      "TiledRegionStop": "18699",
+      "GeneStart": "0",
+      "GeneStop": "6629",
+      "Mark": "H3K4me3",
+      "RegionStart": "43",
+      "RegionStop": "1746"
+    }
+  ],
+  "ODZ4": [
+    {
+      "Gene": "ODZ4",
+      "TiledRegionStart": "-2013176",
+      "TiledRegionStop": "740890",
+      "GeneStart": "0",
+      "GeneStop": "697917",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "OSMR": [
+    {
+      "Gene": "OSMR",
+      "TiledRegionStart": "-266259",
+      "TiledRegionStop": "73896",
+      "GeneStart": "0",
+      "GeneStop": "60693",
+      "Mark": "H3K4me3",
+      "RegionStart": "-671",
+      "RegionStop": "1335"
+    },
+    {
+      "Gene": "OSMR",
+      "TiledRegionStart": "-266259",
+      "TiledRegionStop": "73896",
+      "GeneStart": "0",
+      "GeneStop": "60693",
+      "Mark": "H3K4me3",
+      "RegionStart": "-256067",
+      "RegionStop": "-254545"
+    }
+  ],
+  "P2RX4": [
+    {
+      "Gene": "P2RX4",
+      "TiledRegionStart": "-16125",
+      "TiledRegionStop": "25631",
+      "GeneStart": "0",
+      "GeneStop": "21487",
+      "Mark": "H3K4me3",
+      "RegionStart": "-654",
+      "RegionStop": "605"
+    }
+  ],
+  "PARG": [
+    {
+      "Gene": "PARG",
+      "TiledRegionStart": "-100",
+      "TiledRegionStop": "120048",
+      "GeneStart": "0",
+      "GeneStop": "95579",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PAX2": [
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-174260",
+      "RegionStop": "-169675"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-168022",
+      "RegionStop": "-163788"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-151723",
+      "RegionStop": "-150197"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-126878",
+      "RegionStop": "-125232"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-124645",
+      "RegionStop": "-120828"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-111727",
+      "RegionStop": "-108390"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-108165",
+      "RegionStop": "-104872"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-91715",
+      "RegionStop": "-87357"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-87104",
+      "RegionStop": "-83949"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-61947",
+      "RegionStop": "-58056"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-18445",
+      "RegionStop": "-13991"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-11660",
+      "RegionStop": "-10114"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-2307",
+      "RegionStop": "1324"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "1461",
+      "RegionStop": "5548"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "8868",
+      "RegionStop": "10164"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "12383",
+      "RegionStop": "15142"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "65978",
+      "RegionStop": "68935"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "79730",
+      "RegionStop": "80785"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "80873",
+      "RegionStop": "82989"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "123517",
+      "RegionStop": "125340"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-153685",
+      "RegionStop": "-151865"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-75046",
+      "RegionStop": "-70404"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-25358",
+      "RegionStop": "-21585"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "26701",
+      "RegionStop": "31714"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "42117",
+      "RegionStop": "49819"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "58896",
+      "RegionStop": "63102"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "73184",
+      "RegionStop": "79653"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-9830",
+      "RegionStop": "-2386"
+    },
+    {
+      "Gene": "PAX2",
+      "TiledRegionStart": "-181120",
+      "TiledRegionStop": "173725",
+      "GeneStart": "0",
+      "GeneStop": "78633",
+      "Mark": "H3K4me3",
+      "RegionStart": "173259",
+      "RegionStop": "173632"
+    }
+  ],
+  "PAX3": [
+    {
+      "Gene": "PAX3",
+      "TiledRegionStart": "-19453",
+      "TiledRegionStop": "680008",
+      "GeneStart": "0",
+      "GeneStop": "94444",
+      "Mark": "H3K4me3",
+      "RegionStart": "6863",
+      "RegionStop": "8272"
+    },
+    {
+      "Gene": "PAX3",
+      "TiledRegionStart": "-19453",
+      "TiledRegionStop": "680008",
+      "GeneStart": "0",
+      "GeneStop": "94444",
+      "Mark": "H3K4me3",
+      "RegionStart": "-6945",
+      "RegionStop": "-6452"
+    }
+  ],
+  "PAX7": [
+    {
+      "Gene": "PAX7",
+      "TiledRegionStart": "-77520",
+      "TiledRegionStop": "162688",
+      "GeneStart": "0",
+      "GeneStop": "94887",
+      "Mark": "H3K27me3",
+      "RegionStart": "6662",
+      "RegionStop": "9759"
+    },
+    {
+      "Gene": "PAX7",
+      "TiledRegionStart": "-77520",
+      "TiledRegionStop": "162688",
+      "GeneStart": "0",
+      "GeneStop": "94887",
+      "Mark": "H3K27me3",
+      "RegionStart": "-12",
+      "RegionStop": "5877"
+    },
+    {
+      "Gene": "PAX7",
+      "TiledRegionStart": "-77520",
+      "TiledRegionStop": "162688",
+      "GeneStart": "0",
+      "GeneStop": "94887",
+      "Mark": "H3K27me3",
+      "RegionStart": "-77478",
+      "RegionStop": "-73623"
+    },
+    {
+      "Gene": "PAX7",
+      "TiledRegionStart": "-77520",
+      "TiledRegionStop": "162688",
+      "GeneStart": "0",
+      "GeneStop": "94887",
+      "Mark": "H3K27me3",
+      "RegionStart": "9854",
+      "RegionStop": "12249"
+    }
+  ],
+  "PBX1": [
+    {
+      "Gene": "PBX1",
+      "TiledRegionStart": "-1021100",
+      "TiledRegionStop": "583525",
+      "GeneStart": "0",
+      "GeneStop": "312894",
+      "Mark": "H3K4me3",
+      "RegionStart": "-40",
+      "RegionStop": "3051"
+    }
+  ],
+  "PCDH7": [
+    {
+      "Gene": "PCDH7",
+      "TiledRegionStart": "-108925",
+      "TiledRegionStop": "711628",
+      "GeneStart": "0",
+      "GeneStop": "11355",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3722",
+      "RegionStop": "-3157"
+    },
+    {
+      "Gene": "PCDH7",
+      "TiledRegionStart": "-108925",
+      "TiledRegionStop": "711628",
+      "GeneStart": "0",
+      "GeneStop": "11355",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3057",
+      "RegionStop": "4432"
+    },
+    {
+      "Gene": "PCDH7",
+      "TiledRegionStart": "-108925",
+      "TiledRegionStop": "711628",
+      "GeneStart": "0",
+      "GeneStop": "11355",
+      "Mark": "H3K4me3",
+      "RegionStart": "4788",
+      "RegionStop": "6001"
+    }
+  ],
+  "PCLO": [
+    {
+      "Gene": "PCLO",
+      "TiledRegionStart": "-440761",
+      "TiledRegionStop": "395206",
+      "GeneStart": "0",
+      "GeneStop": "281075",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PCNA": [
+    {
+      "Gene": "PCNA",
+      "TiledRegionStart": "-10077",
+      "TiledRegionStop": "5398",
+      "GeneStart": "0",
+      "GeneStop": "3894",
+      "Mark": "H3K4me3",
+      "RegionStart": "1901",
+      "RegionStop": "2401"
+    },
+    {
+      "Gene": "PCNA",
+      "TiledRegionStart": "-10077",
+      "TiledRegionStop": "5398",
+      "GeneStart": "0",
+      "GeneStop": "3894",
+      "Mark": "H3K4me3",
+      "RegionStart": "241",
+      "RegionStop": "1817"
+    },
+    {
+      "Gene": "PCNA",
+      "TiledRegionStart": "-10077",
+      "TiledRegionStop": "5398",
+      "GeneStart": "0",
+      "GeneStop": "3894",
+      "Mark": "H3K4me3",
+      "RegionStart": "-951",
+      "RegionStop": "156"
+    }
+  ],
+  "PCOLCE": [
+    {
+      "Gene": "PCOLCE",
+      "TiledRegionStart": "-1101",
+      "TiledRegionStop": "10364",
+      "GeneStart": "0",
+      "GeneStop": "6297",
+      "Mark": "H3K4me3",
+      "RegionStart": "-433",
+      "RegionStop": "1761"
+    }
+  ],
+  "PDGFRB": [
+    {
+      "Gene": "PDGFRB",
+      "TiledRegionStart": "-9242",
+      "TiledRegionStop": "60131",
+      "GeneStart": "0",
+      "GeneStop": "39618",
+      "Mark": "H3K4me3",
+      "RegionStart": "-669",
+      "RegionStop": "1662"
+    }
+  ],
+  "PDK1": [
+    {
+      "Gene": "PDK1",
+      "TiledRegionStart": "-16514",
+      "TiledRegionStop": "108015",
+      "GeneStart": "0",
+      "GeneStop": "29402",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PDZK1IP1": [
+    {
+      "Gene": "PDZK1IP1",
+      "TiledRegionStart": "-16968",
+      "TiledRegionStop": "19959",
+      "GeneStart": "0",
+      "GeneStop": "5170",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PGK1": [
+    {
+      "Gene": "PGK1",
+      "TiledRegionStart": "-26631",
+      "TiledRegionStop": "19750",
+      "GeneStart": "0",
+      "GeneStop": "16575",
+      "Mark": "H3K4me3",
+      "RegionStart": "2302",
+      "RegionStop": "2768"
+    },
+    {
+      "Gene": "PGK1",
+      "TiledRegionStart": "-26631",
+      "TiledRegionStop": "19750",
+      "GeneStart": "0",
+      "GeneStop": "16575",
+      "Mark": "H3K4me3",
+      "RegionStart": "145",
+      "RegionStop": "2196"
+    }
+  ],
+  "PHC1": [
+    {
+      "Gene": "PHC1",
+      "TiledRegionStart": "-54364",
+      "TiledRegionStop": "19338",
+      "GeneStart": "0",
+      "GeneStop": "19284",
+      "Mark": "H3K4me3",
+      "RegionStart": "-3599",
+      "RegionStop": "-1685"
+    }
+  ],
+  "PHF17": [
+    {
+      "Gene": "PHF17",
+      "TiledRegionStart": "-57978",
+      "TiledRegionStop": "45510",
+      "GeneStart": "0",
+      "GeneStop": "35662",
+      "Mark": "H3K4me3",
+      "RegionStart": "-18098",
+      "RegionStop": "-14413"
+    }
+  ],
+  "PIPOX": [
+    {
+      "Gene": "PIPOX",
+      "TiledRegionStart": "-37159",
+      "TiledRegionStop": "27804",
+      "GeneStart": "0",
+      "GeneStop": "13169",
+      "Mark": "H3K27me3",
+      "RegionStart": "13197",
+      "RegionStop": "13951"
+    },
+    {
+      "Gene": "PIPOX",
+      "TiledRegionStart": "-37159",
+      "TiledRegionStop": "27804",
+      "GeneStart": "0",
+      "GeneStop": "13169",
+      "Mark": "H3K27me3",
+      "RegionStart": "-8695",
+      "RegionStop": "-2706"
+    },
+    {
+      "Gene": "PIPOX",
+      "TiledRegionStart": "-37159",
+      "TiledRegionStop": "27804",
+      "GeneStart": "0",
+      "GeneStop": "13169",
+      "Mark": "H3K27me3",
+      "RegionStart": "-22532",
+      "RegionStop": "-20880"
+    },
+    {
+      "Gene": "PIPOX",
+      "TiledRegionStart": "-37159",
+      "TiledRegionStop": "27804",
+      "GeneStart": "0",
+      "GeneStop": "13169",
+      "Mark": "H3K27me3",
+      "RegionStart": "-24663",
+      "RegionStop": "-22612"
+    },
+    {
+      "Gene": "PIPOX",
+      "TiledRegionStart": "-37159",
+      "TiledRegionStop": "27804",
+      "GeneStart": "0",
+      "GeneStop": "13169",
+      "Mark": "H3K27me3",
+      "RegionStart": "-20778",
+      "RegionStop": "-18402"
+    }
+  ],
+  "PIWIL2": [
+    {
+      "Gene": "PIWIL2",
+      "TiledRegionStart": "-9702",
+      "TiledRegionStop": "67600",
+      "GeneStart": "0",
+      "GeneStop": "56614",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PKD1": [
+    {
+      "Gene": "PKD1",
+      "TiledRegionStart": "-16062",
+      "TiledRegionStop": "82760",
+      "GeneStart": "0",
+      "GeneStop": "46564",
+      "Mark": "H3K4me3",
+      "RegionStart": "141",
+      "RegionStop": "1392"
+    }
+  ],
+  "PKD2": [
+    {
+      "Gene": "PKD2",
+      "TiledRegionStart": "-18511",
+      "TiledRegionStop": "47694",
+      "GeneStart": "0",
+      "GeneStop": "46262",
+      "Mark": "H3K4me3",
+      "RegionStart": "-225",
+      "RegionStop": "1256"
+    },
+    {
+      "Gene": "PKD2",
+      "TiledRegionStart": "-18511",
+      "TiledRegionStop": "47694",
+      "GeneStart": "0",
+      "GeneStop": "46262",
+      "Mark": "H3K4me3",
+      "RegionStart": "-225",
+      "RegionStop": "1256"
+    }
+  ],
+  "PLA2G1B": [
+    {
+      "Gene": "PLA2G1B",
+      "TiledRegionStart": "-12064",
+      "TiledRegionStop": "11744",
+      "GeneStart": "0",
+      "GeneStop": "8451",
+      "Mark": "H3K27me3",
+      "RegionStart": "-8228",
+      "RegionStop": "-7697"
+    }
+  ],
+  "PLXDC2": [
+    {
+      "Gene": "PLXDC2",
+      "TiledRegionStart": "-1277131",
+      "TiledRegionStop": "562356",
+      "GeneStart": "0",
+      "GeneStop": "395793",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "POU5F1": [
+    {
+      "Gene": "POU5F1",
+      "TiledRegionStart": "-31476",
+      "TiledRegionStop": "6695",
+      "GeneStart": "0",
+      "GeneStop": "4738",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PPAP2A": [
+    {
+      "Gene": "PPAP2A",
+      "TiledRegionStart": "-67894",
+      "TiledRegionStop": "66988",
+      "GeneStart": "0",
+      "GeneStop": "66888",
+      "Mark": "H3K4me3",
+      "RegionStart": "44",
+      "RegionStop": "1462"
+    }
+  ],
+  "PPIC": [
+    {
+      "Gene": "PPIC",
+      "TiledRegionStart": "-46539",
+      "TiledRegionStop": "27170",
+      "GeneStart": "0",
+      "GeneStop": "11666",
+      "Mark": "H3K27me3",
+      "RegionStart": "-45446",
+      "RegionStop": "-42719"
+    },
+    {
+      "Gene": "PPIC",
+      "TiledRegionStart": "-46539",
+      "TiledRegionStop": "27170",
+      "GeneStart": "0",
+      "GeneStop": "11666",
+      "Mark": "H3K27me3",
+      "RegionStart": "-31147",
+      "RegionStop": "-30014"
+    },
+    {
+      "Gene": "PPIC",
+      "TiledRegionStart": "-46539",
+      "TiledRegionStop": "27170",
+      "GeneStart": "0",
+      "GeneStop": "11666",
+      "Mark": "H3K4me3",
+      "RegionStart": "-492",
+      "RegionStop": "1053"
+    }
+  ],
+  "PPP1R2": [
+    {
+      "Gene": "PPP1R2",
+      "TiledRegionStart": "-20915",
+      "TiledRegionStop": "74039",
+      "GeneStart": "0",
+      "GeneStop": "23736",
+      "Mark": "H3K4me3",
+      "RegionStart": "-13",
+      "RegionStop": "1437"
+    }
+  ],
+  "PQLC3": [
+    {
+      "Gene": "PQLC3",
+      "TiledRegionStart": "-5534",
+      "TiledRegionStop": "11782",
+      "GeneStart": "0",
+      "GeneStop": "11408",
+      "Mark": "H3K4me3",
+      "RegionStart": "-659",
+      "RegionStop": "1046"
+    }
+  ],
+  "PRDM2": [
+    {
+      "Gene": "PRDM2",
+      "TiledRegionStart": "-28879",
+      "TiledRegionStop": "900222",
+      "GeneStart": "0",
+      "GeneStop": "85240",
+      "Mark": "H3K4me3",
+      "RegionStart": "50514",
+      "RegionStop": "51942"
+    },
+    {
+      "Gene": "PRDM2",
+      "TiledRegionStart": "-28879",
+      "TiledRegionStop": "900222",
+      "GeneStart": "0",
+      "GeneStop": "85240",
+      "Mark": "H3K4me3",
+      "RegionStart": "-204",
+      "RegionStop": "1033"
+    }
+  ],
+  "PRNP": [
+    {
+      "Gene": "PRNP",
+      "TiledRegionStart": "-347672",
+      "TiledRegionStop": "40905",
+      "GeneStart": "0",
+      "GeneStop": "28470",
+      "Mark": "H3K4me3",
+      "RegionStart": "-45",
+      "RegionStop": "1304"
+    }
+  ],
+  "PROCR": [
+    {
+      "Gene": "PROCR",
+      "TiledRegionStart": "-21957",
+      "TiledRegionStop": "24001",
+      "GeneStart": "0",
+      "GeneStop": "4115",
+      "Mark": "H3K4me3",
+      "RegionStart": "-542",
+      "RegionStop": "-139"
+    },
+    {
+      "Gene": "PROCR",
+      "TiledRegionStart": "-21957",
+      "TiledRegionStop": "24001",
+      "GeneStart": "0",
+      "GeneStop": "4115",
+      "Mark": "H3K4me3",
+      "RegionStart": "-83",
+      "RegionStop": "280"
+    }
+  ],
+  "PROK1": [
+    {
+      "Gene": "PROK1",
+      "TiledRegionStart": "-38211",
+      "TiledRegionStop": "4984",
+      "GeneStart": "0",
+      "GeneStop": "4176",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PROX1": [
+    {
+      "Gene": "PROX1",
+      "TiledRegionStart": "-590340",
+      "TiledRegionStop": "248392",
+      "GeneStart": "0",
+      "GeneStop": "48905",
+      "Mark": "H3K27me3",
+      "RegionStart": "193956",
+      "RegionStop": "196206"
+    },
+    {
+      "Gene": "PROX1",
+      "TiledRegionStart": "-590340",
+      "TiledRegionStop": "248392",
+      "GeneStart": "0",
+      "GeneStop": "48905",
+      "Mark": "H3K27me3",
+      "RegionStart": "178228",
+      "RegionStop": "179915"
+    }
+  ],
+  "PRSS23": [
+    {
+      "Gene": "PRSS23",
+      "TiledRegionStart": "-115232",
+      "TiledRegionStop": "107501",
+      "GeneStart": "0",
+      "GeneStop": "9801",
+      "Mark": "H3K4me3",
+      "RegionStart": "-621",
+      "RegionStop": "911"
+    }
+  ],
+  "PRUNE": [
+    {
+      "Gene": "PRUNE",
+      "TiledRegionStart": "-868",
+      "TiledRegionStop": "30974",
+      "GeneStart": "0",
+      "GeneStop": "28402",
+      "Mark": "H3K4me3",
+      "RegionStart": "264",
+      "RegionStop": "1147"
+    }
+  ],
+  "PSCDBP": [
+    {
+      "Gene": "PSCDBP",
+      "TiledRegionStart": "-3852",
+      "TiledRegionStop": "107370",
+      "GeneStart": "0",
+      "GeneStop": "30983",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PTCH2": [
+    {
+      "Gene": "PTCH2",
+      "TiledRegionStart": "-23952",
+      "TiledRegionStop": "28266",
+      "GeneStart": "0",
+      "GeneStop": "18475",
+      "Mark": "H3K4me3",
+      "RegionStart": "23584",
+      "RegionStop": "24168"
+    },
+    {
+      "Gene": "PTCH2",
+      "TiledRegionStart": "-23952",
+      "TiledRegionStop": "28266",
+      "GeneStart": "0",
+      "GeneStop": "18475",
+      "Mark": "H3K4me3",
+      "RegionStart": "24323",
+      "RegionStop": "25173"
+    }
+  ],
+  "PTEN": [
+    {
+      "Gene": "PTEN",
+      "TiledRegionStart": "-45279",
+      "TiledRegionStop": "380167",
+      "GeneStart": "0",
+      "GeneStop": "68583",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2010",
+      "RegionStop": "-229"
+    },
+    {
+      "Gene": "PTEN",
+      "TiledRegionStart": "-45279",
+      "TiledRegionStop": "380167",
+      "GeneStart": "0",
+      "GeneStop": "68583",
+      "Mark": "H3K4me3",
+      "RegionStart": "-81",
+      "RegionStop": "2644"
+    }
+  ],
+  "PTOV1": [
+    {
+      "Gene": "PTOV1",
+      "TiledRegionStart": "-9598",
+      "TiledRegionStop": "6859",
+      "GeneStart": "0",
+      "GeneStop": "6720",
+      "Mark": "H3K4me3",
+      "RegionStart": "106",
+      "RegionStop": "1677"
+    }
+  ],
+  "PTPRK": [
+    {
+      "Gene": "PTPRK",
+      "TiledRegionStart": "-137788",
+      "TiledRegionStop": "593575",
+      "GeneStart": "0",
+      "GeneStop": "522577",
+      "Mark": "H3K4me3",
+      "RegionStart": "-789",
+      "RegionStop": "2147"
+    }
+  ],
+  "PTPRZ1": [
+    {
+      "Gene": "PTPRZ1",
+      "TiledRegionStart": "-519421",
+      "TiledRegionStop": "196668",
+      "GeneStart": "0",
+      "GeneStop": "177414",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "PYCR2": [
+    {
+      "Gene": "PYCR2",
+      "TiledRegionStart": "-5206",
+      "TiledRegionStop": "30730",
+      "GeneStart": "0",
+      "GeneStop": "3779",
+      "Mark": "H3K4me3",
+      "RegionStart": "-63",
+      "RegionStop": "1207"
+    }
+  ],
+  "RAD51": [
+    {
+      "Gene": "RAD51",
+      "TiledRegionStart": "-8696",
+      "TiledRegionStop": "24184",
+      "GeneStart": "0",
+      "GeneStop": "23253",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1167",
+      "RegionStop": "1276"
+    }
+  ],
+  "RAG1AP1": [
+    {
+      "Gene": "RAG1AP1",
+      "TiledRegionStart": "-1176",
+      "TiledRegionStop": "3483",
+      "GeneStart": "0",
+      "GeneStop": "2314",
+      "Mark": "H3K4me3",
+      "RegionStart": "-287",
+      "RegionStop": "432"
+    }
+  ],
+  "RASGRP2": [
+    {
+      "Gene": "RASGRP2",
+      "TiledRegionStart": "-2124",
+      "TiledRegionStop": "27433",
+      "GeneStart": "0",
+      "GeneStop": "14633",
+      "Mark": "H3K27me3",
+      "RegionStart": "11188",
+      "RegionStop": "13815"
+    },
+    {
+      "Gene": "RASGRP2",
+      "TiledRegionStart": "-2124",
+      "TiledRegionStop": "27433",
+      "GeneStart": "0",
+      "GeneStop": "14633",
+      "Mark": "H3K27me3",
+      "RegionStart": "14444",
+      "RegionStop": "21186"
+    },
+    {
+      "Gene": "RASGRP2",
+      "TiledRegionStart": "-2124",
+      "TiledRegionStop": "27433",
+      "GeneStart": "0",
+      "GeneStop": "14633",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1990",
+      "RegionStop": "9657"
+    }
+  ],
+  "RBL1": [
+    {
+      "Gene": "RBL1",
+      "TiledRegionStart": "-4031",
+      "TiledRegionStop": "69297",
+      "GeneStart": "0",
+      "GeneStop": "58621",
+      "Mark": "H3K4me3",
+      "RegionStart": "-713",
+      "RegionStop": "1025"
+    }
+  ],
+  "RBM39": [
+    {
+      "Gene": "RBM39",
+      "TiledRegionStart": "-16407",
+      "TiledRegionStop": "34447",
+      "GeneStart": "0",
+      "GeneStop": "33001",
+      "Mark": "H3K4me3",
+      "RegionStart": "-134",
+      "RegionStop": "2080"
+    },
+    {
+      "Gene": "RBM39",
+      "TiledRegionStart": "-16407",
+      "TiledRegionStop": "34447",
+      "GeneStart": "0",
+      "GeneStop": "33001",
+      "Mark": "H3K4me3",
+      "RegionStart": "-897",
+      "RegionStop": "-259"
+    }
+  ],
+  "RBPJ": [
+    {
+      "Gene": "RBPJ",
+      "TiledRegionStart": "-8457",
+      "TiledRegionStop": "142708",
+      "GeneStart": "0",
+      "GeneStop": "101666",
+      "Mark": "H3K4me3",
+      "RegionStart": "32699",
+      "RegionStop": "37764"
+    }
+  ],
+  "RECK": [
+    {
+      "Gene": "RECK",
+      "TiledRegionStart": "-20137",
+      "TiledRegionStop": "82102",
+      "GeneStart": "0",
+      "GeneStop": "68920",
+      "Mark": "H3K4me3",
+      "RegionStart": "-328",
+      "RegionStop": "579"
+    }
+  ],
+  "REST": [
+    {
+      "Gene": "REST",
+      "TiledRegionStart": "-56488",
+      "TiledRegionStop": "26310",
+      "GeneStart": "0",
+      "GeneStop": "15043",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2559",
+      "RegionStop": "-444"
+    }
+  ],
+  "REX2": [
+    {
+      "Gene": "REX2",
+      "TiledRegionStart": "-132244",
+      "TiledRegionStop": "61421",
+      "GeneStart": "0",
+      "GeneStop": "8288",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "RGS2": [
+    {
+      "Gene": "RGS2",
+      "TiledRegionStart": "-134518",
+      "TiledRegionStop": "197334",
+      "GeneStart": "0",
+      "GeneStop": "4152",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "RGS5": [
+    {
+      "Gene": "RGS5",
+      "TiledRegionStart": "-124037",
+      "TiledRegionStop": "86174",
+      "GeneStart": "0",
+      "GeneStop": "38025",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "RNF138": [
+    {
+      "Gene": "RNF138",
+      "TiledRegionStart": "-17493",
+      "TiledRegionStop": "71003",
+      "GeneStart": "0",
+      "GeneStop": "26882",
+      "Mark": "H3K4me3",
+      "RegionStart": "-441",
+      "RegionStop": "365"
+    },
+    {
+      "Gene": "RNF138",
+      "TiledRegionStart": "-17493",
+      "TiledRegionStop": "71003",
+      "GeneStart": "0",
+      "GeneStop": "26882",
+      "Mark": "H3K4me3",
+      "RegionStart": "538",
+      "RegionStop": "1793"
+    }
+  ],
+  "RNF4": [
+    {
+      "Gene": "RNF4",
+      "TiledRegionStart": "-90",
+      "TiledRegionStop": "84461",
+      "GeneStart": "0",
+      "GeneStop": "17040",
+      "Mark": "H3K4me3",
+      "RegionStart": "32959",
+      "RegionStop": "33334"
+    },
+    {
+      "Gene": "RNF4",
+      "TiledRegionStart": "-90",
+      "TiledRegionStop": "84461",
+      "GeneStart": "0",
+      "GeneStop": "17040",
+      "Mark": "H3K4me3",
+      "RegionStart": "33425",
+      "RegionStop": "35080"
+    }
+  ],
+  "RPL11": [
+    {
+      "Gene": "RPL11",
+      "TiledRegionStart": "-90451",
+      "TiledRegionStop": "31722",
+      "GeneStart": "0",
+      "GeneStop": "3423",
+      "Mark": "H3K4me3",
+      "RegionStart": "761",
+      "RegionStop": "1912"
+    },
+    {
+      "Gene": "RPL11",
+      "TiledRegionStart": "-90451",
+      "TiledRegionStop": "31722",
+      "GeneStart": "0",
+      "GeneStop": "3423",
+      "Mark": "H3K4me3",
+      "RegionStart": "106",
+      "RegionStop": "701"
+    }
+  ],
+  "RPL13": [
+    {
+      "Gene": "RPL13",
+      "TiledRegionStart": "-4661",
+      "TiledRegionStop": "14958",
+      "GeneStart": "0",
+      "GeneStop": "2824",
+      "Mark": "H3K4me3",
+      "RegionStart": "-679",
+      "RegionStop": "-74"
+    },
+    {
+      "Gene": "RPL13",
+      "TiledRegionStart": "-4661",
+      "TiledRegionStop": "14958",
+      "GeneStart": "0",
+      "GeneStop": "2824",
+      "Mark": "H3K4me3",
+      "RegionStart": "153",
+      "RegionStop": "472"
+    },
+    {
+      "Gene": "RPL13",
+      "TiledRegionStart": "-4661",
+      "TiledRegionStop": "14958",
+      "GeneStart": "0",
+      "GeneStop": "2824",
+      "Mark": "H3K4me3",
+      "RegionStart": "527",
+      "RegionStop": "814"
+    },
+    {
+      "Gene": "RPL13",
+      "TiledRegionStart": "-4661",
+      "TiledRegionStop": "14958",
+      "GeneStart": "0",
+      "GeneStop": "2824",
+      "Mark": "H3K4me3",
+      "RegionStart": "893",
+      "RegionStop": "2349"
+    }
+  ],
+  "RPL32": [
+    {
+      "Gene": "RPL32",
+      "TiledRegionStart": "-1986",
+      "TiledRegionStop": "3874",
+      "GeneStart": "0",
+      "GeneStop": "3229",
+      "Mark": "H3K4me3",
+      "RegionStart": "1682",
+      "RegionStop": "2347"
+    },
+    {
+      "Gene": "RPL32",
+      "TiledRegionStart": "-1986",
+      "TiledRegionStop": "3874",
+      "GeneStart": "0",
+      "GeneStop": "3229",
+      "Mark": "H3K4me3",
+      "RegionStart": "1397",
+      "RegionStop": "1621"
+    },
+    {
+      "Gene": "RPL32",
+      "TiledRegionStart": "-1986",
+      "TiledRegionStop": "3874",
+      "GeneStart": "0",
+      "GeneStop": "3229",
+      "Mark": "H3K4me3",
+      "RegionStart": "-30",
+      "RegionStop": "1314"
+    }
+  ],
+  "RPS18": [
+    {
+      "Gene": "RPS18",
+      "TiledRegionStart": "-171",
+      "TiledRegionStop": "4162",
+      "GeneStart": "0",
+      "GeneStop": "3642",
+      "Mark": "H3K4me3",
+      "RegionStart": "1845",
+      "RegionStop": "2196"
+    },
+    {
+      "Gene": "RPS18",
+      "TiledRegionStart": "-171",
+      "TiledRegionStop": "4162",
+      "GeneStart": "0",
+      "GeneStop": "3642",
+      "Mark": "H3K4me3",
+      "RegionStart": "-41",
+      "RegionStop": "1531"
+    }
+  ],
+  "RPS27A": [
+    {
+      "Gene": "RPS27A",
+      "TiledRegionStart": "-144907",
+      "TiledRegionStop": "2785",
+      "GeneStart": "0",
+      "GeneStop": "2198",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1069",
+      "RegionStop": "1662"
+    },
+    {
+      "Gene": "RPS27A",
+      "TiledRegionStart": "-144907",
+      "TiledRegionStop": "2785",
+      "GeneStart": "0",
+      "GeneStop": "2198",
+      "Mark": "H3K4me3",
+      "RegionStart": "-144753",
+      "RegionStop": "-144198"
+    }
+  ],
+  "RUVBL1": [
+    {
+      "Gene": "RUVBL1",
+      "TiledRegionStart": "-18884",
+      "TiledRegionStop": "38184",
+      "GeneStart": "0",
+      "GeneStop": "32143",
+      "Mark": "H3K4me3",
+      "RegionStart": "198",
+      "RegionStop": "1045"
+    }
+  ],
+  "SALL2": [
+    {
+      "Gene": "SALL2",
+      "TiledRegionStart": "-20433",
+      "TiledRegionStop": "23546",
+      "GeneStart": "0",
+      "GeneStop": "17489",
+      "Mark": "H3K4me3",
+      "RegionStart": "12281",
+      "RegionStop": "13131"
+    }
+  ],
+  "SALL4": [
+    {
+      "Gene": "SALL4",
+      "TiledRegionStart": "-158170",
+      "TiledRegionStop": "25401",
+      "GeneStart": "0",
+      "GeneStop": "18869",
+      "Mark": "H3K27me3",
+      "RegionStart": "-43387",
+      "RegionStop": "-42053"
+    },
+    {
+      "Gene": "SALL4",
+      "TiledRegionStart": "-158170",
+      "TiledRegionStop": "25401",
+      "GeneStart": "0",
+      "GeneStop": "18869",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1764",
+      "RegionStop": "2234"
+    }
+  ],
+  "SCOTIN": [
+    {
+      "Gene": "SCOTIN",
+      "TiledRegionStart": "-6402",
+      "TiledRegionStop": "19305",
+      "GeneStart": "0",
+      "GeneStop": "19139",
+      "Mark": "H3K4me3",
+      "RegionStart": "-569",
+      "RegionStop": "662"
+    }
+  ],
+  "SELPLG": [
+    {
+      "Gene": "SELPLG",
+      "TiledRegionStart": "-12006",
+      "TiledRegionStop": "30075",
+      "GeneStart": "0",
+      "GeneStop": "11881",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "SERTAD1": [
+    {
+      "Gene": "SERTAD1",
+      "TiledRegionStart": "-9589",
+      "TiledRegionStop": "12371",
+      "GeneStart": "0",
+      "GeneStop": "3361",
+      "Mark": "H3K4me3",
+      "RegionStart": "-696",
+      "RegionStop": "-235"
+    },
+    {
+      "Gene": "SERTAD1",
+      "TiledRegionStart": "-9589",
+      "TiledRegionStop": "12371",
+      "GeneStart": "0",
+      "GeneStop": "3361",
+      "Mark": "H3K4me3",
+      "RegionStart": "-115",
+      "RegionStop": "1660"
+    }
+  ],
+  "SET": [
+    {
+      "Gene": "SET",
+      "TiledRegionStart": "-13164",
+      "TiledRegionStop": "16723",
+      "GeneStart": "0",
+      "GeneStop": "9752",
+      "Mark": "H3K4me3",
+      "RegionStart": "-13111",
+      "RegionStop": "-12474"
+    },
+    {
+      "Gene": "SET",
+      "TiledRegionStart": "-13164",
+      "TiledRegionStop": "16723",
+      "GeneStart": "0",
+      "GeneStop": "9752",
+      "Mark": "H3K4me3",
+      "RegionStart": "3659",
+      "RegionStop": "4200"
+    },
+    {
+      "Gene": "SET",
+      "TiledRegionStart": "-13164",
+      "TiledRegionStop": "16723",
+      "GeneStart": "0",
+      "GeneStop": "9752",
+      "Mark": "H3K4me3",
+      "RegionStart": "4383",
+      "RegionStop": "6815"
+    },
+    {
+      "Gene": "SET",
+      "TiledRegionStart": "-13164",
+      "TiledRegionStop": "16723",
+      "GeneStart": "0",
+      "GeneStop": "9752",
+      "Mark": "H3K4me3",
+      "RegionStart": "-483",
+      "RegionStop": "1995"
+    },
+    {
+      "Gene": "SET",
+      "TiledRegionStart": "-13164",
+      "TiledRegionStop": "16723",
+      "GeneStart": "0",
+      "GeneStop": "9752",
+      "Mark": "H3K4me3",
+      "RegionStart": "15303",
+      "RegionStop": "16075"
+    }
+  ],
+  "SGK": [
+    {
+      "Gene": "SGK",
+      "TiledRegionStart": "-149845",
+      "TiledRegionStop": "71611",
+      "GeneStart": "0",
+      "GeneStop": "5196",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1491",
+      "RegionStop": "4571"
+    }
+  ],
+  "SLC2A3": [
+    {
+      "Gene": "SLC2A3",
+      "TiledRegionStart": "-49011",
+      "TiledRegionStop": "28964",
+      "GeneStart": "0",
+      "GeneStop": "14693",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "SMARCAD1": [
+    {
+      "Gene": "SMARCAD1",
+      "TiledRegionStart": "-311424",
+      "TiledRegionStop": "76697",
+      "GeneStart": "0",
+      "GeneStop": "73382",
+      "Mark": "H3K4me3",
+      "RegionStart": "-639",
+      "RegionStop": "1721"
+    }
+  ],
+  "SOCS2": [
+    {
+      "Gene": "SOCS2",
+      "TiledRegionStart": "-63985",
+      "TiledRegionStop": "92724",
+      "GeneStart": "0",
+      "GeneStop": "4779",
+      "Mark": "H3K4me3",
+      "RegionStart": "1918",
+      "RegionStop": "2978"
+    },
+    {
+      "Gene": "SOCS2",
+      "TiledRegionStart": "-63985",
+      "TiledRegionStop": "92724",
+      "GeneStart": "0",
+      "GeneStop": "4779",
+      "Mark": "H3K4me3",
+      "RegionStart": "-492",
+      "RegionStop": "1722"
+    }
+  ],
+  "SOCS3": [
+    {
+      "Gene": "SOCS3",
+      "TiledRegionStart": "-17695",
+      "TiledRegionStop": "95681",
+      "GeneStart": "0",
+      "GeneStop": "3083",
+      "Mark": "H3K4me3",
+      "RegionStart": "27667",
+      "RegionStop": "28507"
+    },
+    {
+      "Gene": "SOCS3",
+      "TiledRegionStart": "-17695",
+      "TiledRegionStop": "95681",
+      "GeneStart": "0",
+      "GeneStop": "3083",
+      "Mark": "H3K4me3",
+      "RegionStart": "-590",
+      "RegionStop": "1678"
+    }
+  ],
+  "SOX2": [
+    {
+      "Gene": "SOX2",
+      "TiledRegionStart": "-47757",
+      "TiledRegionStop": "49483",
+      "GeneStart": "0",
+      "GeneStop": "2456",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1841",
+      "RegionStop": "357"
+    },
+    {
+      "Gene": "SOX2",
+      "TiledRegionStart": "-47757",
+      "TiledRegionStop": "49483",
+      "GeneStart": "0",
+      "GeneStop": "2456",
+      "Mark": "H3K27me3",
+      "RegionStart": "432",
+      "RegionStop": "1593"
+    },
+    {
+      "Gene": "SOX2",
+      "TiledRegionStart": "-47757",
+      "TiledRegionStop": "49483",
+      "GeneStart": "0",
+      "GeneStop": "2456",
+      "Mark": "H3K27me3",
+      "RegionStart": "11391",
+      "RegionStop": "12615"
+    },
+    {
+      "Gene": "SOX2",
+      "TiledRegionStart": "-47757",
+      "TiledRegionStop": "49483",
+      "GeneStart": "0",
+      "GeneStop": "2456",
+      "Mark": "H3K27me3",
+      "RegionStart": "22574",
+      "RegionStop": "23301"
+    }
+  ],
+  "SPG20": [
+    {
+      "Gene": "SPG20",
+      "TiledRegionStart": "-28138",
+      "TiledRegionStop": "25199",
+      "GeneStart": "0",
+      "GeneStop": "23817",
+      "Mark": "H3K4me3",
+      "RegionStart": "-209",
+      "RegionStop": "1681"
+    },
+    {
+      "Gene": "SPG20",
+      "TiledRegionStart": "-28138",
+      "TiledRegionStop": "25199",
+      "GeneStart": "0",
+      "GeneStop": "23817",
+      "Mark": "H3K4me3",
+      "RegionStart": "1858",
+      "RegionStop": "2356"
+    }
+  ],
+  "SPP1": [
+    {
+      "Gene": "SPP1",
+      "TiledRegionStart": "-97650",
+      "TiledRegionStop": "23348",
+      "GeneStart": "0",
+      "GeneStop": "4837",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1177",
+      "RegionStop": "-793"
+    },
+    {
+      "Gene": "SPP1",
+      "TiledRegionStart": "-97650",
+      "TiledRegionStop": "23348",
+      "GeneStart": "0",
+      "GeneStop": "4837",
+      "Mark": "H3K4me3",
+      "RegionStart": "-723",
+      "RegionStop": "934"
+    }
+  ],
+  "SPRY1": [
+    {
+      "Gene": "SPRY1",
+      "TiledRegionStart": "-60885",
+      "TiledRegionStop": "74214",
+      "GeneStart": "0",
+      "GeneStop": "4621",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "STAM": [
+    {
+      "Gene": "STAM",
+      "TiledRegionStart": "-18077",
+      "TiledRegionStop": "100412",
+      "GeneStart": "0",
+      "GeneStop": "74226",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1151",
+      "RegionStop": "-597"
+    },
+    {
+      "Gene": "STAM",
+      "TiledRegionStart": "-18077",
+      "TiledRegionStop": "100412",
+      "GeneStart": "0",
+      "GeneStop": "74226",
+      "Mark": "H3K4me3",
+      "RegionStart": "-538",
+      "RegionStop": "1329"
+    }
+  ],
+  "STAT3": [
+    {
+      "Gene": "STAT3",
+      "TiledRegionStart": "-17225",
+      "TiledRegionStop": "54342",
+      "GeneStart": "0",
+      "GeneStop": "52701",
+      "Mark": "H3K4me3",
+      "RegionStart": "7342",
+      "RegionStop": "7995"
+    },
+    {
+      "Gene": "STAT3",
+      "TiledRegionStart": "-17225",
+      "TiledRegionStop": "54342",
+      "GeneStart": "0",
+      "GeneStop": "52701",
+      "Mark": "H3K4me3",
+      "RegionStart": "-132",
+      "RegionStop": "813"
+    }
+  ],
+  "STRN3": [
+    {
+      "Gene": "STRN3",
+      "TiledRegionStart": "-51833",
+      "TiledRegionStop": "86113",
+      "GeneStart": "0",
+      "GeneStop": "82254",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1086",
+      "RegionStop": "1952"
+    }
+  ],
+  "STXBP1": [
+    {
+      "Gene": "STXBP1",
+      "TiledRegionStart": "-29099",
+      "TiledRegionStop": "62721",
+      "GeneStart": "0",
+      "GeneStop": "59164",
+      "Mark": "H3K4me3",
+      "RegionStart": "-367",
+      "RegionStop": "1610"
+    }
+  ],
+  "T": [
+    {
+      "Gene": "T",
+      "TiledRegionStart": "-11695",
+      "TiledRegionStop": "367322",
+      "GeneStart": "0",
+      "GeneStop": "8073",
+      "Mark": "H3K27me3",
+      "RegionStart": "-3894",
+      "RegionStop": "-2739"
+    },
+    {
+      "Gene": "T",
+      "TiledRegionStart": "-11695",
+      "TiledRegionStop": "367322",
+      "GeneStart": "0",
+      "GeneStop": "8073",
+      "Mark": "H3K27me3",
+      "RegionStart": "-2638",
+      "RegionStop": "2257"
+    }
+  ],
+  "TAGLN": [
+    {
+      "Gene": "TAGLN",
+      "TiledRegionStart": "-1977",
+      "TiledRegionStop": "29021",
+      "GeneStart": "0",
+      "GeneStop": "6270",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TAL1": [
+    {
+      "Gene": "TAL1",
+      "TiledRegionStart": "-16628",
+      "TiledRegionStop": "29196",
+      "GeneStart": "0",
+      "GeneStop": "12228",
+      "Mark": "H3K27me3",
+      "RegionStart": "-3529",
+      "RegionStop": "-1248"
+    },
+    {
+      "Gene": "TAL1",
+      "TiledRegionStart": "-16628",
+      "TiledRegionStop": "29196",
+      "GeneStart": "0",
+      "GeneStop": "12228",
+      "Mark": "H3K27me3",
+      "RegionStart": "2747",
+      "RegionStop": "7315"
+    }
+  ],
+  "TBN": [
+    {
+      "Gene": "TBN",
+      "TiledRegionStart": "-2764",
+      "TiledRegionStop": "32143",
+      "GeneStart": "0",
+      "GeneStop": "14237",
+      "Mark": "H3K4me3",
+      "RegionStart": "-23",
+      "RegionStop": "1036"
+    },
+    {
+      "Gene": "TBN",
+      "TiledRegionStart": "-2764",
+      "TiledRegionStop": "32143",
+      "GeneStart": "0",
+      "GeneStop": "14237",
+      "Mark": "H3K4me3",
+      "RegionStart": "-23",
+      "RegionStop": "1036"
+    }
+  ],
+  "TBX3": [
+    {
+      "Gene": "TBX3",
+      "TiledRegionStart": "-2270",
+      "TiledRegionStop": "133070",
+      "GeneStart": "0",
+      "GeneStop": "13932",
+      "Mark": "H3K27me3",
+      "RegionStart": "78560",
+      "RegionStop": "79405"
+    },
+    {
+      "Gene": "TBX3",
+      "TiledRegionStart": "-2270",
+      "TiledRegionStop": "133070",
+      "GeneStart": "0",
+      "GeneStop": "13932",
+      "Mark": "H3K27me3",
+      "RegionStart": "79661",
+      "RegionStop": "81716"
+    },
+    {
+      "Gene": "TBX3",
+      "TiledRegionStart": "-2270",
+      "TiledRegionStop": "133070",
+      "GeneStart": "0",
+      "GeneStop": "13932",
+      "Mark": "H3K27me3",
+      "RegionStart": "125696",
+      "RegionStop": "127448"
+    },
+    {
+      "Gene": "TBX3",
+      "TiledRegionStart": "-2270",
+      "TiledRegionStop": "133070",
+      "GeneStart": "0",
+      "GeneStop": "13932",
+      "Mark": "H3K27me3",
+      "RegionStart": "23141",
+      "RegionStop": "23945"
+    },
+    {
+      "Gene": "TBX3",
+      "TiledRegionStart": "-2270",
+      "TiledRegionStop": "133070",
+      "GeneStart": "0",
+      "GeneStop": "13932",
+      "Mark": "H3K4me3",
+      "RegionStart": "-802",
+      "RegionStop": "-215"
+    },
+    {
+      "Gene": "TBX3",
+      "TiledRegionStart": "-2270",
+      "TiledRegionStop": "133070",
+      "GeneStart": "0",
+      "GeneStop": "13932",
+      "Mark": "H3K4me3",
+      "RegionStart": "248",
+      "RegionStop": "3378"
+    }
+  ],
+  "TCEA3": [
+    {
+      "Gene": "TCEA3",
+      "TiledRegionStart": "-3071",
+      "TiledRegionStop": "38089",
+      "GeneStart": "0",
+      "GeneStop": "26918",
+      "Mark": "H3K4me3",
+      "RegionStart": "36985",
+      "RegionStop": "37466"
+    }
+  ],
+  "TCF3": [
+    {
+      "Gene": "TCF3",
+      "TiledRegionStart": "-52158",
+      "TiledRegionStop": "172208",
+      "GeneStart": "0",
+      "GeneStop": "162576",
+      "Mark": "H3K4me3",
+      "RegionStart": "-843",
+      "RegionStop": "1024"
+    }
+  ],
+  "TCF4": [
+    {
+      "Gene": "TCF4",
+      "TiledRegionStart": "-124772",
+      "TiledRegionStop": "581038",
+      "GeneStart": "0",
+      "GeneStop": "339823",
+      "Mark": "H3K4me3",
+      "RegionStart": "-702",
+      "RegionStop": "-48"
+    },
+    {
+      "Gene": "TCF4",
+      "TiledRegionStart": "-124772",
+      "TiledRegionStop": "581038",
+      "GeneStart": "0",
+      "GeneStop": "339823",
+      "Mark": "H3K4me3",
+      "RegionStart": "29",
+      "RegionStop": "1188"
+    },
+    {
+      "Gene": "TCF4",
+      "TiledRegionStart": "-124772",
+      "TiledRegionStop": "581038",
+      "GeneStart": "0",
+      "GeneStop": "339823",
+      "Mark": "H3K4me3",
+      "RegionStart": "1265",
+      "RegionStop": "2900"
+    },
+    {
+      "Gene": "TCF4",
+      "TiledRegionStart": "-124772",
+      "TiledRegionStop": "581038",
+      "GeneStart": "0",
+      "GeneStop": "339823",
+      "Mark": "H3K4me3",
+      "RegionStart": "247640",
+      "RegionStop": "250778"
+    },
+    {
+      "Gene": "TCF4",
+      "TiledRegionStart": "-124772",
+      "TiledRegionStop": "581038",
+      "GeneStart": "0",
+      "GeneStop": "339823",
+      "Mark": "H3K4me3",
+      "RegionStart": "251119",
+      "RegionStop": "251519"
+    }
+  ],
+  "TCFAP2C": [
+    {
+      "Gene": "TCFAP2C",
+      "TiledRegionStart": "-39876",
+      "TiledRegionStop": "86206",
+      "GeneStart": "0",
+      "GeneStop": "8995",
+      "Mark": "H3K27me3",
+      "RegionStart": "-1007",
+      "RegionStop": "666"
+    },
+    {
+      "Gene": "TCFAP2C",
+      "TiledRegionStart": "-39876",
+      "TiledRegionStop": "86206",
+      "GeneStart": "0",
+      "GeneStop": "8995",
+      "Mark": "H3K27me3",
+      "RegionStart": "-32108",
+      "RegionStop": "-27911"
+    }
+  ],
+  "TCFCP2L1": [
+    {
+      "Gene": "TCFCP2L1",
+      "TiledRegionStart": "-18483",
+      "TiledRegionStop": "206116",
+      "GeneStart": "0",
+      "GeneStop": "57223",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TCL1": [
+    {
+      "Gene": "TCL1",
+      "TiledRegionStart": "-107161",
+      "TiledRegionStop": "15718",
+      "GeneStart": "0",
+      "GeneStop": "5956",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TDGF1": [
+    {
+      "Gene": "TDGF1",
+      "TiledRegionStart": "-5387",
+      "TiledRegionStop": "29303",
+      "GeneStart": "0",
+      "GeneStop": "6550",
+      "Mark": "H3K27me3",
+      "RegionStart": "17605",
+      "RegionStop": "18836"
+    }
+  ],
+  "TEAD2": [
+    {
+      "Gene": "TEAD2",
+      "TiledRegionStart": "-3903",
+      "TiledRegionStop": "17879",
+      "GeneStart": "0",
+      "GeneStop": "17866",
+      "Mark": "H3K4me3",
+      "RegionStart": "34",
+      "RegionStop": "972"
+    }
+  ],
+  "TEK": [
+    {
+      "Gene": "TEK",
+      "TiledRegionStart": "-46071",
+      "TiledRegionStop": "167993",
+      "GeneStart": "0",
+      "GeneStop": "135639",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TERF1": [
+    {
+      "Gene": "TERF1",
+      "TiledRegionStart": "-89291",
+      "TiledRegionStop": "48204",
+      "GeneStart": "0",
+      "GeneStop": "37771",
+      "Mark": "H3K4me3",
+      "RegionStart": "-129",
+      "RegionStop": "1041"
+    }
+  ],
+  "TFRC": [
+    {
+      "Gene": "TFRC",
+      "TiledRegionStart": "-101807",
+      "TiledRegionStop": "35840",
+      "GeneStart": "0",
+      "GeneStop": "23769",
+      "Mark": "H3K4me3",
+      "RegionStart": "-121",
+      "RegionStop": "1195"
+    }
+  ],
+  "TGTP": [
+    {
+      "Gene": "TGTP",
+      "TiledRegionStart": "-45412",
+      "TiledRegionStop": "24272",
+      "GeneStart": "0",
+      "GeneStop": "6918",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TICAM1": [
+    {
+      "Gene": "TICAM1",
+      "TiledRegionStart": "-2259",
+      "TiledRegionStop": "15628",
+      "GeneStart": "0",
+      "GeneStop": "7241",
+      "Mark": "H3K4me3",
+      "RegionStart": "-206",
+      "RegionStop": "656"
+    }
+  ],
+  "TIE1": [
+    {
+      "Gene": "TIE1",
+      "TiledRegionStart": "-37426",
+      "TiledRegionStop": "32378",
+      "GeneStart": "0",
+      "GeneStop": "18658",
+      "Mark": "H3K27me3",
+      "RegionStart": "13305",
+      "RegionStop": "16578"
+    },
+    {
+      "Gene": "TIE1",
+      "TiledRegionStart": "-37426",
+      "TiledRegionStop": "32378",
+      "GeneStart": "0",
+      "GeneStop": "18658",
+      "Mark": "H3K27me3",
+      "RegionStart": "8632",
+      "RegionStop": "13233"
+    },
+    {
+      "Gene": "TIE1",
+      "TiledRegionStart": "-37426",
+      "TiledRegionStop": "32378",
+      "GeneStart": "0",
+      "GeneStop": "18658",
+      "Mark": "H3K27me3",
+      "RegionStart": "1747",
+      "RegionStop": "4725"
+    },
+    {
+      "Gene": "TIE1",
+      "TiledRegionStart": "-37426",
+      "TiledRegionStop": "32378",
+      "GeneStart": "0",
+      "GeneStop": "18658",
+      "Mark": "H3K27me3",
+      "RegionStart": "16667",
+      "RegionStop": "17651"
+    }
+  ],
+  "TIMP3": [
+    {
+      "Gene": "TIMP3",
+      "TiledRegionStart": "-252084",
+      "TiledRegionStop": "239441",
+      "GeneStart": "0",
+      "GeneStop": "49093",
+      "Mark": "H3K27me3",
+      "RegionStart": "197022",
+      "RegionStop": "199243"
+    },
+    {
+      "Gene": "TIMP3",
+      "TiledRegionStart": "-252084",
+      "TiledRegionStop": "239441",
+      "GeneStart": "0",
+      "GeneStop": "49093",
+      "Mark": "H3K4me3",
+      "RegionStart": "22",
+      "RegionStop": "2748"
+    }
+  ],
+  "TNC": [
+    {
+      "Gene": "TNC",
+      "TiledRegionStart": "-1103448",
+      "TiledRegionStop": "159442",
+      "GeneStart": "0",
+      "GeneStop": "60941",
+      "Mark": "H3K4me3",
+      "RegionStart": "-26549",
+      "RegionStop": "-24398"
+    }
+  ],
+  "TNFRSF1B": [
+    {
+      "Gene": "TNFRSF1B",
+      "TiledRegionStart": "-22106",
+      "TiledRegionStop": "51875",
+      "GeneStart": "0",
+      "GeneStop": "34502",
+      "Mark": "H3K4me3",
+      "RegionStart": "-66",
+      "RegionStop": "1302"
+    }
+  ],
+  "TNNC1": [
+    {
+      "Gene": "TNNC1",
+      "TiledRegionStart": "-1486",
+      "TiledRegionStop": "9561",
+      "GeneStart": "0",
+      "GeneStop": "3399",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TOB1": [
+    {
+      "Gene": "TOB1",
+      "TiledRegionStart": "-55678",
+      "TiledRegionStop": "26144",
+      "GeneStart": "0",
+      "GeneStop": "4041",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1723",
+      "RegionStop": "-1233"
+    },
+    {
+      "Gene": "TOB1",
+      "TiledRegionStart": "-55678",
+      "TiledRegionStop": "26144",
+      "GeneStart": "0",
+      "GeneStop": "4041",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1180",
+      "RegionStop": "-386"
+    },
+    {
+      "Gene": "TOB1",
+      "TiledRegionStart": "-55678",
+      "TiledRegionStop": "26144",
+      "GeneStart": "0",
+      "GeneStop": "4041",
+      "Mark": "H3K4me3",
+      "RegionStart": "-109",
+      "RegionStop": "1516"
+    }
+  ],
+  "TPM1": [
+    {
+      "Gene": "TPM1",
+      "TiledRegionStart": "-168923",
+      "TiledRegionStop": "73729",
+      "GeneStart": "0",
+      "GeneStop": "26620",
+      "Mark": "H3K4me3",
+      "RegionStart": "5124",
+      "RegionStop": "7274"
+    },
+    {
+      "Gene": "TPM1",
+      "TiledRegionStart": "-168923",
+      "TiledRegionStop": "73729",
+      "GeneStart": "0",
+      "GeneStop": "26620",
+      "Mark": "H3K4me3",
+      "RegionStart": "2980",
+      "RegionStop": "3457"
+    },
+    {
+      "Gene": "TPM1",
+      "TiledRegionStart": "-168923",
+      "TiledRegionStop": "73729",
+      "GeneStart": "0",
+      "GeneStop": "26620",
+      "Mark": "H3K4me3",
+      "RegionStart": "-876",
+      "RegionStop": "2898"
+    }
+  ],
+  "TPM2": [
+    {
+      "Gene": "TPM2",
+      "TiledRegionStart": "-8130",
+      "TiledRegionStop": "9663",
+      "GeneStart": "0",
+      "GeneStop": "8676",
+      "Mark": "H3K4me3",
+      "RegionStart": "-242",
+      "RegionStop": "1434"
+    }
+  ],
+  "TRAFD1": [
+    {
+      "Gene": "TRAFD1",
+      "TiledRegionStart": "-12411",
+      "TiledRegionStop": "16996",
+      "GeneStart": "0",
+      "GeneStop": "13841",
+      "Mark": "H3K4me3",
+      "RegionStart": "-335",
+      "RegionStop": "794"
+    }
+  ],
+  "TRAP1A": [
+    {
+      "Gene": "TRAP1A",
+      "TiledRegionStart": "-95351",
+      "TiledRegionStop": "13808",
+      "GeneStart": "0",
+      "GeneStop": "4482",
+      "Mark": "H3K27me3",
+      "RegionStart": "-24097",
+      "RegionStop": "-23584"
+    }
+  ],
+  "TRIM13": [
+    {
+      "Gene": "TRIM13",
+      "TiledRegionStart": "-42908",
+      "TiledRegionStop": "7663",
+      "GeneStart": "0",
+      "GeneStop": "6149",
+      "Mark": "H3K4me3",
+      "RegionStart": "-42784",
+      "RegionStop": "-42374"
+    },
+    {
+      "Gene": "TRIM13",
+      "TiledRegionStart": "-42908",
+      "TiledRegionStop": "7663",
+      "GeneStart": "0",
+      "GeneStop": "6149",
+      "Mark": "H3K4me3",
+      "RegionStart": "-254",
+      "RegionStop": "330"
+    }
+  ],
+  "TRIP6": [
+    {
+      "Gene": "TRIP6",
+      "TiledRegionStart": "-318",
+      "TiledRegionStop": "7074",
+      "GeneStart": "0",
+      "GeneStop": "4342",
+      "Mark": "H3K4me3",
+      "RegionStart": "71",
+      "RegionStop": "1137"
+    }
+  ],
+  "TRP53": [
+    {
+      "Gene": "TRP53",
+      "TiledRegionStart": "-5797",
+      "TiledRegionStop": "19769",
+      "GeneStart": "0",
+      "GeneStop": "11890",
+      "Mark": "H3K4me3",
+      "RegionStart": "-2042",
+      "RegionStop": "-684"
+    },
+    {
+      "Gene": "TRP53",
+      "TiledRegionStart": "-5797",
+      "TiledRegionStop": "19769",
+      "GeneStart": "0",
+      "GeneStop": "11890",
+      "Mark": "H3K4me3",
+      "RegionStart": "-230",
+      "RegionStop": "2328"
+    }
+  ],
+  "TRP63": [
+    {
+      "Gene": "TRP63",
+      "TiledRegionStart": "-379598",
+      "TiledRegionStop": "154533",
+      "GeneStart": "0",
+      "GeneStop": "90138",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "TSC22D1": [
+    {
+      "Gene": "TSC22D1",
+      "TiledRegionStart": "-163491",
+      "TiledRegionStop": "116991",
+      "GeneStart": "0",
+      "GeneStop": "91940",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1786",
+      "RegionStop": "698"
+    },
+    {
+      "Gene": "TSC22D1",
+      "TiledRegionStart": "-163491",
+      "TiledRegionStop": "116991",
+      "GeneStart": "0",
+      "GeneStop": "91940",
+      "Mark": "H3K4me3",
+      "RegionStart": "62983",
+      "RegionStop": "64056"
+    },
+    {
+      "Gene": "TSC22D1",
+      "TiledRegionStart": "-163491",
+      "TiledRegionStop": "116991",
+      "GeneStart": "0",
+      "GeneStop": "91940",
+      "Mark": "H3K4me3",
+      "RegionStart": "64224",
+      "RegionStop": "65012"
+    },
+    {
+      "Gene": "TSC22D1",
+      "TiledRegionStart": "-163491",
+      "TiledRegionStop": "116991",
+      "GeneStart": "0",
+      "GeneStop": "91940",
+      "Mark": "H3K4me3",
+      "RegionStart": "-41545",
+      "RegionStop": "-40032"
+    },
+    {
+      "Gene": "TSC22D1",
+      "TiledRegionStart": "-163491",
+      "TiledRegionStop": "116991",
+      "GeneStart": "0",
+      "GeneStop": "91940",
+      "Mark": "H3K4me3",
+      "RegionStart": "88155",
+      "RegionStop": "91424"
+    }
+  ],
+  "TSC22D3": [
+    {
+      "Gene": "TSC22D3",
+      "TiledRegionStart": "-77506",
+      "TiledRegionStop": "124383",
+      "GeneStart": "0",
+      "GeneStop": "60994",
+      "Mark": "H3K4me3",
+      "RegionStart": "57125",
+      "RegionStop": "58716"
+    },
+    {
+      "Gene": "TSC22D3",
+      "TiledRegionStart": "-77506",
+      "TiledRegionStop": "124383",
+      "GeneStart": "0",
+      "GeneStop": "60994",
+      "Mark": "H3K4me3",
+      "RegionStart": "-65325",
+      "RegionStop": "-64424"
+    }
+  ],
+  "TTPA": [
+    {
+      "Gene": "TTPA",
+      "TiledRegionStart": "-85862",
+      "TiledRegionStop": "33624",
+      "GeneStart": "0",
+      "GeneStop": "22357",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "UBE1L": [
+    {
+      "Gene": "UBE1L",
+      "TiledRegionStart": "-3299",
+      "TiledRegionStop": "8659",
+      "GeneStart": "0",
+      "GeneStop": "8489",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "UBXD1": [
+    {
+      "Gene": "UBXD1",
+      "TiledRegionStart": "-4668",
+      "TiledRegionStop": "6963",
+      "GeneStart": "0",
+      "GeneStop": "6736",
+      "Mark": "H3K4me3",
+      "RegionStart": "-115",
+      "RegionStop": "349"
+    }
+  ],
+  "ULK1": [
+    {
+      "Gene": "ULK1",
+      "TiledRegionStart": "-18989",
+      "TiledRegionStop": "29466",
+      "GeneStart": "0",
+      "GeneStop": "25592",
+      "Mark": "H3K4me3",
+      "RegionStart": "-26",
+      "RegionStop": "1839"
+    }
+  ],
+  "UNG": [
+    {
+      "Gene": "UNG",
+      "TiledRegionStart": "-2259",
+      "TiledRegionStop": "35083",
+      "GeneStart": "0",
+      "GeneStop": "8886",
+      "Mark": "H3K4me3",
+      "RegionStart": "735",
+      "RegionStop": "1922"
+    }
+  ],
+  "USP2": [
+    {
+      "Gene": "USP2",
+      "TiledRegionStart": "-18442",
+      "TiledRegionStop": "34821",
+      "GeneStart": "0",
+      "GeneStop": "28606",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "USP9X": [
+    {
+      "Gene": "USP9X",
+      "TiledRegionStart": "-132961",
+      "TiledRegionStop": "131039",
+      "GeneStart": "0",
+      "GeneStop": "101830",
+      "Mark": "H3K4me3",
+      "RegionStart": "-29323",
+      "RegionStop": "-28873"
+    },
+    {
+      "Gene": "USP9X",
+      "TiledRegionStart": "-132961",
+      "TiledRegionStop": "131039",
+      "GeneStart": "0",
+      "GeneStop": "101830",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1276",
+      "RegionStop": "-647"
+    },
+    {
+      "Gene": "USP9X",
+      "TiledRegionStart": "-132961",
+      "TiledRegionStop": "131039",
+      "GeneStart": "0",
+      "GeneStop": "101830",
+      "Mark": "H3K4me3",
+      "RegionStart": "11",
+      "RegionStop": "1980"
+    }
+  ],
+  "UTRN": [
+    {
+      "Gene": "UTRN",
+      "TiledRegionStart": "-76481",
+      "TiledRegionStop": "1251252",
+      "GeneStart": "0",
+      "GeneStop": "479547",
+      "Mark": "H3K4me3",
+      "RegionStart": "-5191",
+      "RegionStop": "-4756"
+    },
+    {
+      "Gene": "UTRN",
+      "TiledRegionStart": "-76481",
+      "TiledRegionStop": "1251252",
+      "GeneStart": "0",
+      "GeneStop": "479547",
+      "Mark": "H3K4me3",
+      "RegionStart": "-8106",
+      "RegionStop": "-5243"
+    },
+    {
+      "Gene": "UTRN",
+      "TiledRegionStart": "-76481",
+      "TiledRegionStop": "1251252",
+      "GeneStart": "0",
+      "GeneStop": "479547",
+      "Mark": "H3K4me3",
+      "RegionStart": "-61769",
+      "RegionStop": "-60279"
+    }
+  ],
+  "VCAM1": [
+    {
+      "Gene": "VCAM1",
+      "TiledRegionStart": "-119968",
+      "TiledRegionStop": "100816",
+      "GeneStart": "0",
+      "GeneStop": "19668",
+      "Mark": "H3K4me3",
+      "RegionStart": "15713",
+      "RegionStop": "16234"
+    },
+    {
+      "Gene": "VCAM1",
+      "TiledRegionStart": "-119968",
+      "TiledRegionStop": "100816",
+      "GeneStart": "0",
+      "GeneStop": "19668",
+      "Mark": "H3K4me3",
+      "RegionStart": "14995",
+      "RegionStop": "15408"
+    },
+    {
+      "Gene": "VCAM1",
+      "TiledRegionStart": "-119968",
+      "TiledRegionStop": "100816",
+      "GeneStart": "0",
+      "GeneStop": "19668",
+      "Mark": "H3K4me3",
+      "RegionStart": "1290",
+      "RegionStop": "1872"
+    },
+    {
+      "Gene": "VCAM1",
+      "TiledRegionStart": "-119968",
+      "TiledRegionStop": "100816",
+      "GeneStart": "0",
+      "GeneStop": "19668",
+      "Mark": "H3K4me3",
+      "RegionStart": "566",
+      "RegionStop": "1218"
+    },
+    {
+      "Gene": "VCAM1",
+      "TiledRegionStart": "-119968",
+      "TiledRegionStop": "100816",
+      "GeneStart": "0",
+      "GeneStop": "19668",
+      "Mark": "H3K4me3",
+      "RegionStart": "-143",
+      "RegionStop": "498"
+    }
+  ],
+  "VWF": [
+    {
+      "Gene": "VWF",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "157740",
+      "GeneStart": "0",
+      "GeneStop": "133714",
+      "Mark": "H3K27me3",
+      "RegionStart": "101604",
+      "RegionStop": "102928"
+    },
+    {
+      "Gene": "VWF",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "157740",
+      "GeneStart": "0",
+      "GeneStop": "133714",
+      "Mark": "H3K27me3",
+      "RegionStart": "103005",
+      "RegionStop": "104524"
+    },
+    {
+      "Gene": "VWF",
+      "TiledRegionStart": "-58208",
+      "TiledRegionStop": "157740",
+      "GeneStart": "0",
+      "GeneStop": "133714",
+      "Mark": "H3K27me3",
+      "RegionStart": "95279",
+      "RegionStop": "98853"
+    }
+  ],
+  "WBP5": [
+    {
+      "Gene": "WBP5",
+      "TiledRegionStart": "-19554",
+      "TiledRegionStop": "25263",
+      "GeneStart": "0",
+      "GeneStop": "2059",
+      "Mark": "H3K4me3",
+      "RegionStart": "39",
+      "RegionStop": "898"
+    }
+  ],
+  "WBP7": [
+    {
+      "Gene": "WBP7",
+      "TiledRegionStart": "-955",
+      "TiledRegionStop": "20764",
+      "GeneStart": "0",
+      "GeneStop": "19871",
+      "Mark": "H3K4me3",
+      "RegionStart": "33",
+      "RegionStop": "1618"
+    }
+  ],
+  "WDR45": [
+    {
+      "Gene": "WDR45",
+      "TiledRegionStart": "-149",
+      "TiledRegionStop": "6322",
+      "GeneStart": "0",
+      "GeneStop": "5952",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "WNT3A": [
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "45257",
+      "RegionStop": "52132"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "33472",
+      "RegionStop": "34830"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "24775",
+      "RegionStop": "31170"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "-112",
+      "RegionStop": "4346"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "-924",
+      "RegionStop": "-187"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "-3209",
+      "RegionStop": "-1018"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "39731",
+      "RegionStop": "42596"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K27me3",
+      "RegionStart": "4990",
+      "RegionStop": "7177"
+    },
+    {
+      "Gene": "WNT3A",
+      "TiledRegionStart": "-16179",
+      "TiledRegionStop": "62565",
+      "GeneStart": "0",
+      "GeneStop": "42715",
+      "Mark": "H3K4me3",
+      "RegionStart": "61417",
+      "RegionStop": "62471"
+    }
+  ],
+  "WNT4": [
+    {
+      "Gene": "WNT4",
+      "TiledRegionStart": "-228940",
+      "TiledRegionStop": "42068",
+      "GeneStart": "0",
+      "GeneStop": "19144",
+      "Mark": "H3K27me3",
+      "RegionStart": "-221935",
+      "RegionStop": "-220567"
+    },
+    {
+      "Gene": "WNT4",
+      "TiledRegionStart": "-228940",
+      "TiledRegionStop": "42068",
+      "GeneStart": "0",
+      "GeneStop": "19144",
+      "Mark": "H3K27me3",
+      "RegionStart": "-215088",
+      "RegionStop": "-211358"
+    }
+  ],
+  "WNT5A": [
+    {
+      "Gene": "WNT5A",
+      "TiledRegionStart": "-110712",
+      "TiledRegionStop": "399470",
+      "GeneStart": "0",
+      "GeneStop": "19961",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "WNT8B": [
+    {
+      "Gene": "WNT8B",
+      "TiledRegionStart": "-85920",
+      "TiledRegionStop": "23484",
+      "GeneStart": "0",
+      "GeneStop": "19044",
+      "Mark": "H3K27me3",
+      "RegionStart": "7549",
+      "RegionStop": "8054"
+    },
+    {
+      "Gene": "WNT8B",
+      "TiledRegionStart": "-85920",
+      "TiledRegionStop": "23484",
+      "GeneStart": "0",
+      "GeneStop": "19044",
+      "Mark": "H3K27me3",
+      "RegionStart": "16448",
+      "RegionStop": "23042"
+    },
+    {
+      "Gene": "WNT8B",
+      "TiledRegionStart": "-85920",
+      "TiledRegionStop": "23484",
+      "GeneStart": "0",
+      "GeneStop": "19044",
+      "Mark": "H3K4me3",
+      "RegionStart": "-85477",
+      "RegionStop": "-84718"
+    }
+  ],
+  "XRCC5": [
+    {
+      "Gene": "XRCC5",
+      "TiledRegionStart": "-4525",
+      "TiledRegionStop": "119592",
+      "GeneStart": "0",
+      "GeneStop": "87428",
+      "Mark": "H3K4me3",
+      "RegionStart": "-477",
+      "RegionStop": "1088"
+    }
+  ],
+  "YY1": [
+    {
+      "Gene": "YY1",
+      "TiledRegionStart": "-91024",
+      "TiledRegionStop": "32567",
+      "GeneStart": "0",
+      "GeneStop": "23321",
+      "Mark": "H3K4me3",
+      "RegionStart": "-1811",
+      "RegionStop": "-454"
+    },
+    {
+      "Gene": "YY1",
+      "TiledRegionStart": "-91024",
+      "TiledRegionStop": "32567",
+      "GeneStart": "0",
+      "GeneStop": "23321",
+      "Mark": "H3K4me3",
+      "RegionStart": "-367",
+      "RegionStop": "2376"
+    }
+  ],
+  "ZBTB20": [
+    {
+      "Gene": "ZBTB20",
+      "TiledRegionStart": "-1169657",
+      "TiledRegionStop": "138693",
+      "GeneStart": "0",
+      "GeneStop": "108762",
+      "Mark": "H3K4me3",
+      "RegionStart": "-635730",
+      "RegionStop": "-635187"
+    },
+    {
+      "Gene": "ZBTB20",
+      "TiledRegionStart": "-1169657",
+      "TiledRegionStop": "138693",
+      "GeneStart": "0",
+      "GeneStop": "108762",
+      "Mark": "H3K4me3",
+      "RegionStart": "-634405",
+      "RegionStop": "-633530"
+    },
+    {
+      "Gene": "ZBTB20",
+      "TiledRegionStart": "-1169657",
+      "TiledRegionStop": "138693",
+      "GeneStart": "0",
+      "GeneStop": "108762",
+      "Mark": "H3K4me3",
+      "RegionStart": "-147197",
+      "RegionStop": "-145989"
+    },
+    {
+      "Gene": "ZBTB20",
+      "TiledRegionStart": "-1169657",
+      "TiledRegionStop": "138693",
+      "GeneStart": "0",
+      "GeneStop": "108762",
+      "Mark": "H3K4me3",
+      "RegionStart": "-4208",
+      "RegionStop": "-3547"
+    }
+  ],
+  "ZFP386": [
+    {
+      "Gene": "ZFP386",
+      "TiledRegionStart": "-37770",
+      "TiledRegionStop": "30329",
+      "GeneStart": "0",
+      "GeneStop": "13130",
+      "Mark": "H3K4me3",
+      "RegionStart": "-4",
+      "RegionStop": "1601"
+    }
+  ],
+  "ZFP42": [
+    {
+      "Gene": "ZFP42",
+      "TiledRegionStart": "-212904",
+      "TiledRegionStop": "113076",
+      "GeneStart": "0",
+      "GeneStop": "11889",
+      "Mark": "MB",
+      "RegionStart": "-",
+      "RegionStop": "-"
+    }
+  ],
+  "ZFP704": [
+    {
+      "Gene": "ZFP704",
+      "TiledRegionStart": "-81813",
+      "TiledRegionStop": "324752",
+      "GeneStart": "0",
+      "GeneStop": "183062",
+      "Mark": "H3K27me3",
+      "RegionStart": "-20845",
+      "RegionStop": "-17928"
+    },
+    {
+      "Gene": "ZFP704",
+      "TiledRegionStart": "-81813",
+      "TiledRegionStop": "324752",
+      "GeneStart": "0",
+      "GeneStop": "183062",
+      "Mark": "H3K4me3",
+      "RegionStart": "-197",
+      "RegionStop": "1519"
+    }
+  ],
+  "ZFX": [
+    {
+      "Gene": "ZFX",
+      "TiledRegionStart": "-65302",
+      "TiledRegionStop": "98781",
+      "GeneStart": "0",
+      "GeneStop": "48776",
+      "Mark": "H3K4me3",
+      "RegionStart": "-507",
+      "RegionStop": "2405"
+    },
+    {
+      "Gene": "ZFX",
+      "TiledRegionStart": "-65302",
+      "TiledRegionStop": "98781",
+      "GeneStart": "0",
+      "GeneStop": "48776",
+      "Mark": "H3K4me3",
+      "RegionStart": "-55097",
+      "RegionStop": "-54524"
+    },
+    {
+      "Gene": "ZFX",
+      "TiledRegionStart": "-65302",
+      "TiledRegionStop": "98781",
+      "GeneStart": "0",
+      "GeneStop": "48776",
+      "Mark": "H3K4me3",
+      "RegionStart": "-54454",
+      "RegionStop": "-53799"
+    }
+  ],
+  "ZRANB1": [
+    {
+      "Gene": "ZRANB1",
+      "TiledRegionStart": "-64511",
+      "TiledRegionStop": "37389",
+      "GeneStart": "0",
+      "GeneStop": "34329",
+      "Mark": "H3K4me3",
+      "RegionStart": "-19413",
+      "RegionStop": "-18546"
+    },
+    {
+      "Gene": "ZRANB1",
+      "TiledRegionStart": "-64511",
+      "TiledRegionStop": "37389",
+      "GeneStart": "0",
+      "GeneStop": "34329",
+      "Mark": "H3K4me3",
+      "RegionStart": "-18472",
+      "RegionStop": "-16960"
+    }
+  ]
+}
