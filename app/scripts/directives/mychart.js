@@ -23,7 +23,7 @@ angular.module('angularSimpleApp')
                     marksRegionHeight = 0.5 * availableHeight;
                 var colorScale = d3.scale.category10();
                 // domain = _.uniq(_.pluck(csv,"Mark")).sort();
-                colorScale.domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac']);
+                colorScale.domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac', 'exon']);
                 var formatValue = d3.format(".2s");
 
                 var x = d3.scale.linear()
@@ -32,8 +32,8 @@ angular.module('angularSimpleApp')
                     .range([10, width - 10]); 
 
                 var y = d3.scale.ordinal()
-                    .domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac'])
-                    .range([0, 0.25 * marksRegionHeight, 0.5 * marksRegionHeight, 0.75 * marksRegionHeight]);
+                    .domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac', 'exon'])
+                    .range([0, 0.25 * marksRegionHeight, 0.5 * marksRegionHeight, 0.75 * marksRegionHeight, 0.95 *  marksRegionHeight]);
 
                 var zoom = d3.behavior.zoom()
                     .scaleExtent([1, 10])
