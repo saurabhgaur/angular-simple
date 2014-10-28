@@ -52,6 +52,8 @@ var MCJSON;
 var MTRawData;
 var MTJSON;
 
+// var numFilteredGenes;
+
 
 var genesBedFile = $http.get("data/371_Genes.bed")
                   .success(function(data)
@@ -78,6 +80,8 @@ var G0File = $http.get("data/G0_input_211014.tsv")
                         .map(combinedData);
                       allG0Data = G0JSON;
                       $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);
+                      $scope.numTotalGenes = _.keys(allG0Data).length;
+                      $scope.numFilteredGenes = _.keys(allG0Data).length;
                     });
 
 var MBFile = $http.get("data/MB_input_211014.tsv")
@@ -198,7 +202,8 @@ var regionsBedFile = $http.get("data/371_Regions.bed")
     $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);  
     $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);  
     $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);  
-    $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);  
+    $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);
+    $scope.numFilteredGenes = _.keys($scope.Genes).length; 
   });
 
   $scope.$watch('filter.selectedOperator',function(newVal,oldVal,scope){
@@ -263,7 +268,8 @@ var regionsBedFile = $http.get("data/371_Regions.bed")
       $scope.Genes   = _.pick(allG0Data,filteredKeys);  
       $scope.MTGenes = _.pick(allMTData,filteredKeys);  
       $scope.MBGenes = _.pick(allMBData,filteredKeys);  
-      $scope.MCGenes = _.pick(allMCData,filteredKeys); 
+      $scope.MCGenes = _.pick(allMCData,filteredKeys);
+      $scope.numFilteredGenes = filteredKeys.length; 
     };
     
   };
@@ -275,7 +281,7 @@ var regionsBedFile = $http.get("data/371_Regions.bed")
     height = 30;
 
     var colorScale = d3.scale.category10();
-    colorScale.domain(["H3K9me2", "H3K27me3", "H3K4me3", "H3K9Ac","exon"]);
+    colorScale.domain(["H3K9me2", "H3K27me3", "H3K4me3", "H3K9ac","Exon"]);
 
       // add legend   
     var legend = d3.select("#legend").append("svg")

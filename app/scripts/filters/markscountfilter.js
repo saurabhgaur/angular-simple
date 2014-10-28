@@ -8,12 +8,13 @@ angular.module('angularSimpleApp')
       }  
       var result = {};
           angular.forEach(items, function(item, key) {
+              var validMarks = _.reject(item,function(d){return (d.Mark=="-" || d.Mark == "exon"); });
               switch(filter.selectedOperator.value){
-                case "=": if (item.length==filter.MarksCount) { result[key] = item; }; break;
-                case "<": if (item.length<filter.MarksCount) { result[key] = item; }; break;
-                case "<=":if (item.length<=filter.MarksCount) { result[key] = item; }; break;
-                case ">": if (item.length>filter.MarksCount) { result[key] = item; }; break;
-                case ">=":if (item.length>=filter.MarksCount) { result[key] = item; }; break;
+                case "=": if (validMarks.length==filter.MarksCount) { result[key] = item; }; break;
+                case "<": if (validMarks.length<filter.MarksCount) { result[key] = item; }; break;
+                case "<=":if (validMarks.length<=filter.MarksCount) { result[key] = item; }; break;
+                case ">": if (validMarks.length>filter.MarksCount) { result[key] = item; }; break;
+                case ">=":if (validMarks.length>=filter.MarksCount) { result[key] = item; }; break;
               };
 
 

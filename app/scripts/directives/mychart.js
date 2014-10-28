@@ -23,7 +23,7 @@ angular.module('angularSimpleApp')
                     marksRegionHeight = 0.5 * availableHeight;
                 var colorScale = d3.scale.category10();
                 // domain = _.uniq(_.pluck(csv,"Mark")).sort();
-                colorScale.domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac', 'exon']);
+                colorScale.domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9ac', 'exon']);
                 var formatValue = d3.format(".2s");
 
                 var x = d3.scale.linear()
@@ -32,11 +32,11 @@ angular.module('angularSimpleApp')
                     .range([10, width - 10]); 
 
                 var y = d3.scale.ordinal()
-                    .domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9Ac', 'exon'])
-                    .range([0, 0.25 * marksRegionHeight, 0.5 * marksRegionHeight, 0.75 * marksRegionHeight, 0.95 *  marksRegionHeight]);
+                    .domain(['H3K9me2', 'H3K27me3', 'H3K4me3', 'H3K9ac', 'exon'])
+                    .range([0, 0.25 * marksRegionHeight, 0.5 * marksRegionHeight, 0.75 * marksRegionHeight, 1.2*marksRegionHeight]);
 
                 var zoom = d3.behavior.zoom()
-                    .scaleExtent([1, 10])
+                    .scaleExtent([-10, 10])
                     .x(x)
                     .on("zoom", zoomHandler);
 
@@ -71,12 +71,12 @@ angular.module('angularSimpleApp')
                 };
 
 
-                if(scope.zoomed==1){
-                    var resetLink = d3.select(element[0]).append("a")
-                 	.attr("id","zoom_reset")
-                 	.text("Reset Zoom")
-                 	.on("click",function(){resetZoom()});
-                 }
+                // if(scope.zoomed==1){
+                //     var resetLink = d3.select(element[0]).append("a")
+                //  	.attr("id","zoom_reset")
+                //  	.text("Reset Zoom")
+                //  	.on("click",function(){resetZoom()});
+                //  }
                 
 
                 var xAxis = d3.svg.axis()
@@ -86,6 +86,7 @@ angular.module('angularSimpleApp')
                     .tickFormat(function(d) {
                         return formatValue(d);
                     });
+                if (scope.zoomed == 0) {xAxis.ticks(5);};
 
                 var xAxisElement = chartRoot.append("g")
                     .attr("class", "x-axis") //Assign "x axis" class
@@ -93,7 +94,14 @@ angular.module('angularSimpleApp')
                     .call(xAxis);
 
                 var bar = chart.selectAll("g")
-                    .data(scope.data.filter(function(el){return el.RegionStart != "-";}))
+                    .data(
+                        scope.data.filter(function(el){
+                            if(el.RegionStart == "-" || (scope.zoomed==0 && el.Mark=="exon"))
+                            {return false;}
+                            else
+                            {return true;}}
+                        )
+                    )
                     .enter().append("g")
                     .attr("transform", function(d, i) {
                         return "translate(" + x(d.RegionStart) + "," + y(d.Mark) + ")";
@@ -126,9 +134,6 @@ angular.module('angularSimpleApp')
                     // zoom.event(chartRoot);
                     chartRoot.select("g.x-axis").call(xAxis);
                 }
-
-
-                
 
                 var tiledRegionBar = chart.append("g")
                     .attr("transform", "translate("+x(scope.data[0].TiledRegionStart)+","+0.75*availableHeight+")");

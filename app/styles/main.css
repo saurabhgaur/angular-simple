@@ -80,16 +80,23 @@ body {
 
 .graph-panel{
   width: 350px;
-  height: 200px;
+  height: 150px;
   margin: 10px;
   float: left;
   border-radius:5px;
 }
 
-.graph-container{
+.graph-container-big{
   overflow-y: scroll; 
-  resize:vertical;
+/*  resize:vertical;*/
   height:650px;
+  width:800;
+}
+
+.graph-container-modal{
+/*  overflow-y: scroll; */
+/*  resize:vertical;*/
+  height:600px;
   width:800;
 }
 
@@ -117,3 +124,5 @@ body {
 .x-axis path {
       stroke-width: 0;
 }
+
+table tr.separator { height: 50px; }

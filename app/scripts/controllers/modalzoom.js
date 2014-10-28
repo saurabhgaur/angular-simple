@@ -55,4 +55,7 @@ var ModalInstanceCtrl = function ($scope, $modalInstance, items) {
   $scope.cancel = function () {
     $modalInstance.dismiss('cancel');
   };
+
+  
+
 };

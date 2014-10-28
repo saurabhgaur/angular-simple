@@ -7,10 +7,12 @@
       </div>
       <div  class="col-xs-8">
         <b>Cell Type Based Filters</b> <br/><br/>
-          Cell Type <select ng-model="myCellType" ng-options="cellType.name for cellType in cellTypes"></select><br/><br/>
-          Marks Count: <select ng-model = "filter.selectedOperator" ng-options="operator.name for operator in operators"> <input type="number" ng-model="filter.MarksCount"><br/><br/>
-          Nearness distance(in KB): <input type="number" ng-model="filter.tssMarksDist">
-          Marks Near TSS Count (>=): <input type="number" ng-model="filter.tssMarksCount"><br/>
+          Cell Type <select style="margin-right:10px;height:22px;" ng-model="myCellType" ng-options="cellType.name for cellType in cellTypes"></select><br/><br/>
+          Marks Count: <select style="margin-right:10px;height:22px;" ng-model = "filter.selectedOperator" ng-options="operator.name for operator in operators"> 
+          <input type="number" size=4 style="width:120px;text-align: right;" ng-model="filter.MarksCount">
+          Distance from TSS(in KB): <input type="number" size=4 style="width:120px;text-align: right;" ng-model="filter.tssMarksDist">
+          <!-- Marks Near TSS Count (>=): <input type="number" ng-model="filter.tssMarksCount"><br/> -->
+          <br/>
       </div>
     </div>    
   </div>
@@ -21,79 +23,60 @@
   <accordion close-others="oneAtATime">
     <accordion-group is-open="isopen1">
         <accordion-heading>
-            Visualization - G0 | MT | MB | MC
+            Visualization - showing {{numFilteredGenes}}/{{numTotalGenes}} genes
             <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen1, 'glyphicon-chevron-right': !isopen1}"></i>
         </accordion-heading>
-        <div class = "graph-container" >
-          <table>
-            <tr>
-              <td>
-                <div>
-                  <div class = "graph-panel" ng-style="{'background-color': G0Color}" ng-repeat="gene in Genes">
-                    <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                   <my-chart ng-click="openModal(gene)" gene-data="gene" cell=1 width = 350 ticks=5 zoomed=0></my-chart>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <div class = "graph-panel" ng-style="{'background-color': MTColor}" ng-repeat="gene in MTGenes">
-                    <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                    <my-chart ng-click="openModal(gene)" gene-data="gene" cell=2 width = 350 ticks=5 zoomed=0></my-chart>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <div class = "graph-panel" ng-style="{'background-color': MBColor}" ng-repeat="gene in MBGenes">
-                    <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                    <my-chart ng-click="openModal(gene)" gene-data="gene" cell=3 width = 350 ticks=5 zoomed=0 ></my-chart>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div>
-                  <div class = "graph-panel" ng-style="{'background-color': MCColor}" ng-repeat="gene in MCGenes">
-                    <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                    <my-chart ng-click="openModal(gene)" gene-data="gene" cell=4 width = 350 ticks=5 zoomed=0></my-chart>
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </table>
-<!--           <div class="container">
-            <div class="row">
-              <div class="col-xs-3">
-                <div class = "graph-panel" ng-repeat="gene in Genes">
-                  <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                 <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
-                </div>
+        <div>
+          <div class="row">
+              <div id="header">
+                <div class="col-xs-3" style="text-align: center">G0</div>
+                <div class="col-xs-3" style="text-align: center">MT</div>
+                <div class="col-xs-3" style="text-align: center">MB</div>
+                <div class="col-xs-3" style="text-align: center">MC</div>
               </div>
-
-              <div class="col-xs-3">
-                <div class = "graph-panel" ng-repeat="gene in MTGenes">
-                  <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                  <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
-                </div>
-              </div>
-
-              <div class="col-xs-3">
-                <div class = "graph-panel" ng-repeat="gene in MBGenes">
-                  <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                  <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0 ></my-chart>
-                </div>
-              </div>
-
-              <div class="col-xs-3">
-                <div class = "graph-panel" ng-repeat="gene in MCGenes">
-                  <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
-                  <my-chart ng-click="openModal(gene)" gene-data="gene" gene-region = "regions[gene[0].Gene]" width = 350 ticks=5 zoomed=0></my-chart>
-                </div>
-              </div>
+          </div>
+          <div class="row">
+            <div class = "graph-container-big" >
+              <table>
+                 <tr>
+                    <td>
+                      <div>
+                        <div class = "graph-panel" ng-style="{'background-color': G0Color}" ng-repeat="gene in Genes">
+                          <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
+                         <my-chart ng-click="openModal(gene)" gene-data="gene" cell=1 width = 400 ticks=5 zoomed=0></my-chart>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <div class = "graph-panel" ng-style="{'background-color': MTColor}" ng-repeat="gene in MTGenes">
+                          <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
+                          <my-chart ng-click="openModal(gene)" gene-data="gene" cell=2 width = 400 ticks=5 zoomed=0></my-chart>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <div class = "graph-panel" ng-style="{'background-color': MBColor}" ng-repeat="gene in MBGenes">
+                          <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
+                          <my-chart ng-click="openModal(gene)" gene-data="gene" cell=3 width = 400 ticks=5 zoomed=0 ></my-chart>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <div class = "graph-panel" ng-style="{'background-color': MCColor}" ng-repeat="gene in MCGenes">
+                          <a ng-click="openModal(gene)">{{gene[0].Gene}}</a>
+                          <my-chart ng-click="openModal(gene)" gene-data="gene" cell=4 width = 400 ticks=5 zoomed=0></my-chart>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+              </table>
             </div>
-          </div> -->
-
+          </div>
         </div>
+
     </accordion-group>
   </accordion>
 

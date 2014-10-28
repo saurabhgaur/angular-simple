@@ -53,6 +53,7 @@
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/acc.js"></script>
     <script src="scripts/directives/mychart.js"></script>
+    <script src="scripts/directives/mylegend.js"></script>
     <script src="scripts/filters/genenamesfilter.js"></script>
     <script src="scripts/filters/markscountfilter.js"></script>
     <script src="scripts/filters/tssfilter.js"></script>
@@ -67,11 +68,15 @@
     <script type="text/ng-template" id="myModalContent.html">
         <div class="modal-header">
             <h3 class="modal-title">{{G0Gene[0].Gene}}</h3>
-            <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'><i class="icon-zoom-in"></i>Reset Zoom</a>
+            <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'>
+            <i class="icon-zoom-in"></i>Reset Zoom</a>
+            <br/>
+
+            <my-legend></my-legend>
         </div>
 
         <div class="modal-body">
-            <div class = "graph-container" >
+            <div class = "graph-container-modal" >
                 <table>
                     <tr>
                         <td>
@@ -81,6 +86,7 @@
                             <my-chart gene-data="G0Gene" cell=1 width = 1300 ticks=30 zoomed=1></my-chart>
                         </td>
                     </tr>
+                    <tr class="separator" />
                     <tr>
                         <td>
                             MT
@@ -89,6 +95,7 @@
                             <my-chart gene-data="MTGene" cell=2 width = 1300 ticks=30 zoomed=1 ></my-chart>
                         </td>
                     </tr>
+                    <tr class="separator" />
                     <tr>
                         <td>
                             MB
@@ -97,6 +104,7 @@
                             <my-chart gene-data="MBGene" cell=3 width = 1300 ticks=30 zoomed=1 ></my-chart>
                         </td>
                     </tr>
+                    <tr class="separator" />
                     <tr>
                         <td>
                             MC
