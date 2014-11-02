@@ -23,6 +23,7 @@ $scope.open = function (args) {
           $scope.MTGene = args.value.MTGene;
           $scope.MBGene = args.value.MBGene;
           $scope.MCGene = args.value.MCGene;
+          $scope.selectedPatternsForGene = args.value.selectedPatternsForGene;
           // $scope.regions = args.value.regions;
         	return $scope.genes;
         }

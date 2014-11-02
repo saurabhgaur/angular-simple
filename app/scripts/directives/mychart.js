@@ -9,7 +9,8 @@ angular.module('angularSimpleApp')
                 cell: '=cell',
                 width: '=width',
                 ticks: '=ticks',
-                zoomed: '=zoomed'
+                zoomed: '=zoomed',
+                selectedpattern: '=selectedpattern'
             },
             restrict: 'EA',
             transclude: true,
@@ -93,7 +94,26 @@ angular.module('angularSimpleApp')
                     .attr("transform", "translate(0," + (height - padding) + ")")
                     .call(xAxis);
 
-                var bar = chart.selectAll("g")
+                var patternsBox ;
+
+                if (scope.selectedpattern){
+                    patternsBox = chart.selectAll("patterns")
+                    .data(_.values(scope.selectedpattern))
+                    .enter().append("g")
+                    .attr("transform", function(d, i) {
+                        return "translate(" + (x(d.minimum)-5) + "," + 0 + ")";
+                    });
+
+                    patternsBox.append("rect")
+                    .attr("width", function(d, i) {
+                        return x(d.maximum) - x(d.minimum) + 10;
+                    })
+                    .attr("height", marksRegionHeight)
+                    .style("fill", "pink")
+                    // .style("stroke","black")
+                }
+
+                var bar = chart.selectAll("bar")
                     .data(
                         scope.data.filter(function(el){
                             if(el.RegionStart == "-" || (scope.zoomed==0 && el.Mark=="exon"))
@@ -117,6 +137,8 @@ angular.module('angularSimpleApp')
                         return colorScale(d.Mark);
                     });
                 };
+
+                
 
                 // function for handling zoom event triggered by self
                 function zoomHandler() {

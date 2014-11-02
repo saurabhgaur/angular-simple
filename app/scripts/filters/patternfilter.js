@@ -1,9 +1,8 @@
 'use strict';
-
 angular.module('angularSimpleApp')
-  .filter('marksCountFilter', function () {
-     return function(items, filter) {
-      if (!filter || typeof filter.MarksCount === 'undefined' || typeof filter.selectedOperator === 'undefined'){
+  .filter('patternFilter', function () {
+    return function(items, filter, patternGenes) {
+      if (!filter || !filter.selectedPattern){
           return items;
       }  
       var result = {};

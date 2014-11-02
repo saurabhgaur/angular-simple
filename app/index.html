@@ -59,20 +59,29 @@
     <script src="scripts/filters/tssfilter.js"></script>
     <script src="scripts/filters/genelengthfilter.js"></script>
     <script src="scripts/controllers/modalzoom.js"></script>
+    <script src="scripts/filters/patternfilter.js"></script>
     <!-- endbuild -->
     <script>
         var dispatch = d3.dispatch("reset_zoom_all","zoom_all");
     </script>
-
 <div ng-controller="ModalzoomCtrl">
     <script type="text/ng-template" id="myModalContent.html">
         <div class="modal-header">
-            <h3 class="modal-title">{{selectedGeneName}} ({{rawGeneData[0][0]}}:{{rawGeneData[0][1]}}-{{rawGeneData[0][2]}})</h3>
-            <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'>
-            <i class="icon-zoom-in"></i>Reset Zoom</a>
+            <h3 class="modal-title">{{selectedGeneName}}</h3>
+            <div class="row">
+                <div class = "col-xs-10">
+                    <h4> {{rawGeneData[0][0]}}:{{rawGeneData[0][1]}}-{{rawGeneData[0][2]}} ({{rawGeneData[0][5]}}) </h4>
+                </div>
+                <div class = "col-xs-2" style="text-align:right">
+                    <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'>
+                    <i class="icon-zoom-in"></i>Reset Zoom</a>
+                </div>
+            </div>
             <br/>
 
-            <my-legend></my-legend>
+            <div class="legendHolder" id="legendHolder" style="border:1px solid black">
+                <my-legend></my-legend>
+            </div>
         </div>
 
         <div class="modal-body">
@@ -83,7 +92,7 @@
                             G0
                         </td>
                         <td>
-                            <my-chart gene-data="G0Gene" cell=1 width = 1300 ticks=30 zoomed=1></my-chart>
+                            <my-chart gene-data="G0Gene" cell=1 width = 1300 ticks=30 zoomed=1 selectedpattern="selectedPatternsForGene"></my-chart>
                         </td>
                     </tr>
                     <tr class="separator" />
@@ -92,7 +101,7 @@
                             MT
                         </td>
                         <td>
-                            <my-chart gene-data="MTGene" cell=2 width = 1300 ticks=30 zoomed=1 ></my-chart>
+                            <my-chart gene-data="MTGene" cell=2 width = 1300 ticks=30 zoomed=1></my-chart>
                         </td>
                     </tr>
                     <tr class="separator" />
@@ -101,7 +110,7 @@
                             MB
                         </td>
                         <td>
-                            <my-chart gene-data="MBGene" cell=3 width = 1300 ticks=30 zoomed=1 ></my-chart>
+                            <my-chart gene-data="MBGene" cell=3 width = 1300 ticks=30 zoomed=1></my-chart>
                         </td>
                     </tr>
                     <tr class="separator" />
@@ -110,7 +119,7 @@
                             MC
                         </td>
                         <td>
-                            <my-chart gene-data="MCGene" cell=4 width = 1300 ticks=30 zoomed=1 ></my-chart>
+                            <my-chart gene-data="MCGene" cell=4 width = 1300 ticks=30 zoomed=1></my-chart>
                         </td>
                     </tr>
                 </table>

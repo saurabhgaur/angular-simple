@@ -1,6 +1,6 @@
 'use strict';
 angular.module('angularSimpleApp')
-  .controller('AccCtrl', function ($scope,$http,geneNameFilterFilter,marksCountFilterFilter,tssFilterFilter) {
+  .controller('AccCtrl', function ($scope,$http,geneNameFilterFilter,marksCountFilterFilter,tssFilterFilter,patternFilterFilter) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -14,6 +14,15 @@ angular.module('angularSimpleApp')
       {name:'MB', value:'MB'},
       {name:'MC', value:'MC'}
     ];
+
+  $scope.patterns = [
+      {name:'',value:''},
+      {name:'G0BiValents', value:'G0BiValents'},
+      {name:'G0Pattern1', value:'G0Pattern1'},
+      {name:'G0Active', value:'G0Active'},
+      {name:'G0Repressive', value:'G0Repressive'},
+    ];
+
   $scope.operators = [
     {name:"=", value:"="},
     {name:"<", value:"<"},
@@ -52,6 +61,23 @@ var MCJSON;
 
 var MTRawData;
 var MTJSON;
+
+var allG0BiValentData;
+var G0BiValentRawData;
+var G0BiValentJSON;
+
+var allG0Pattern1Data;
+var G0Pattern1RawData;
+var G0Pattern1JSON;
+
+var allG0ActiveData;
+var G0ActiveRawData;
+var G0ActiveJSON;
+
+var allG0RepressiveData;
+var G0RepressiveRawData;
+var G0RepressiveJSON;
+
 
 // var numFilteredGenes;
 
@@ -131,7 +157,70 @@ var exonsFile = $http.get("data/exons_input_221014.tsv")
                                             allGenesBedData = data;
                                             $scope.rawGenes = d3.tsv.parseRows(allGenesBedData);
                                           });
-
+                      var G0BiValentFile = $http.get("data/G0_bivalent_input_new.tsv")
+                                        .success(function(data)
+                                          {   
+                                            G0BiValentRawData = d3.tsv.parse(data);
+                                            G0BiValentJSON = d3.nest()
+                                                                .key(function(d) {return d.Gene; })
+                                                                .key(function(d) {return d.PairID; })
+                                                                .rollup(function(d) 
+                                                                    {return {
+                                                                        "minimum":d3.min(d, function(g) {return g.RegionStart; }),
+                                                                        "maximum":d3.max(d, function(g) {return g.RegionStop; })
+                                                                        };})
+                                                                .map(G0BiValentRawData);
+                                            allG0BiValentData = G0BiValentJSON;
+                                            $scope.G0BiValentGenes = geneNameFilterFilter(allG0BiValentData,$scope.filter);
+                                          });
+                      var G0Pattern1File = $http.get("data/G0_pattern1_input_new.tsv")
+                                        .success(function(data)
+                                          {   
+                                            G0Pattern1RawData = d3.tsv.parse(data);
+                                            G0Pattern1JSON = d3.nest()
+                                                                .key(function(d) {return d.Gene; })
+                                                                .key(function(d) {return d.PairID; })
+                                                                .rollup(function(d) 
+                                                                    {return {
+                                                                        "minimum":d3.min(d, function(g) {return g.RegionStart; }),
+                                                                        "maximum":d3.max(d, function(g) {return g.RegionStop; })
+                                                                        };})
+                                              .map(G0Pattern1RawData);
+                                            allG0Pattern1Data = G0Pattern1JSON;
+                                            $scope.G0Pattern1Genes = geneNameFilterFilter(allG0Pattern1Data,$scope.filter);
+                                          });
+                      var G0ActiveFile = $http.get("data/G0_active_input_new.tsv")
+                                        .success(function(data)
+                                          {   
+                                            G0ActiveRawData = d3.tsv.parse(data);
+                                            G0ActiveJSON = d3.nest()
+                                                                .key(function(d) {return d.Gene; })
+                                                                .key(function(d) {return d.PairID; })
+                                                                .rollup(function(d) 
+                                                                    {return {
+                                                                        "minimum":d3.min(d, function(g) {return g.RegionStart; }),
+                                                                        "maximum":d3.max(d, function(g) {return g.RegionStop; })
+                                                                        };})
+                                              .map(G0ActiveRawData);
+                                            allG0ActiveData = G0ActiveJSON;
+                                            $scope.G0ActiveGenes = geneNameFilterFilter(allG0ActiveData,$scope.filter);
+                                          });
+                      var G0RepressiveFile = $http.get("data/G0_repressive_input_new.tsv")
+                                        .success(function(data)
+                                          {   
+                                            G0RepressiveRawData = d3.tsv.parse(data);
+                                            G0RepressiveJSON = d3.nest()
+                                                                .key(function(d) {return d.Gene; })
+                                                                .key(function(d) {return d.PairID; })
+                                                                .rollup(function(d) 
+                                                                    {return {
+                                                                        "minimum":d3.min(d, function(g) {return g.RegionStart; }),
+                                                                        "maximum":d3.max(d, function(g) {return g.RegionStop; })
+                                                                        };})
+                                              .map(G0RepressiveRawData);
+                                            allG0RepressiveData = G0RepressiveJSON;
+                                            $scope.G0RepressiveGenes = geneNameFilterFilter(allG0RepressiveData,$scope.filter);
+                                          });
                     });
 
 // var G0GenesPromise = $http.get("G0_data_2014_10_22.json")
@@ -214,6 +303,18 @@ var exonsFile = $http.get("data/exons_input_221014.tsv")
     $scope.numFilteredGenes = _.keys($scope.Genes).length; 
   });
 
+  $scope.$watch('filter.allowPartials',function(newVal,oldVal,scope){
+    $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);  
+    $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);  
+    $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);  
+    $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);
+    $scope.numFilteredGenes = _.keys($scope.Genes).length; 
+  });
+
+  $scope.$watch('filter.selectedPattern',function(newVal,oldVal,scope){
+    filterPatternValues(patternFilterFilter,$scope.filter); 
+  });
+
   $scope.$watch('filter.selectedOperator',function(newVal,oldVal,scope){
     filterValues(marksCountFilterFilter,$scope.filter);
   });
@@ -228,7 +329,9 @@ var exonsFile = $http.get("data/exons_input_221014.tsv")
 
   $scope.$watch('filter.tssMarksDist',function(newVal,oldVal,scope){
     filterValues(tssFilterFilter,$scope.filter); 
-  });
+  });  
+
+
 
   $scope.$watch('myCellType.name',function(newVal,oldVal,scope){
    if ($scope.myCellType) {
@@ -245,22 +348,23 @@ var exonsFile = $http.get("data/exons_input_221014.tsv")
 
   $scope.openModal = function (geneGroup) {
         var selectedGeneName = geneGroup[0].Gene;
-        var rawGeneData = $scope.rawGenes.filter(function(d){return d[3]==selectedGeneName;});
-        var G0Gene = $scope.Genes[selectedGeneName];
-        var MTGene = $scope.MTGenes[selectedGeneName];
-        var MBGene = $scope.MBGenes[selectedGeneName];
-        var MCGene = $scope.MCGenes[selectedGeneName];
-        // var regions = $scope.regions[selectedGeneName];
+        var selectedPatternName 
+        if ($scope.filter && $scope.filter.selectedPattern) {selectedPatternName= $scope.filter.selectedPattern.name};
         var genes = new Object();
         genes.selectedGeneName = selectedGeneName;
-        genes.selectedGeneChr = rawGeneData[0];
-        genes.selectedGeneStart = rawGeneData[1];
-        genes.selectedGeneStop = rawGeneData[2];
-        genes.rawGeneData = rawGeneData;
-        genes.G0Gene = G0Gene;
-        genes.MTGene = MTGene;
-        genes.MBGene = MBGene;
-        genes.MCGene = MCGene;
+        genes.rawGeneData = $scope.rawGenes.filter(function(d){return d[3]==selectedGeneName;});
+        genes.G0Gene = $scope.Genes[selectedGeneName];
+        genes.MTGene = $scope.MTGenes[selectedGeneName];
+        genes.MBGene = $scope.MBGenes[selectedGeneName];
+        genes.MCGene = $scope.MCGenes[selectedGeneName];
+        if (selectedPatternName) {
+          $scope.patternsMap = {G0BiValents:$scope.G0BiValentGenes,G0Pattern1:$scope.G0Pattern1Genes,G0Active:$scope.G0ActiveGenes,G0Repressive:$scope.G0RepressiveGenes};
+          var selectedPatterns = $scope.patternsMap[selectedPatternName];
+          genes.selectedPatternsForGene = selectedPatterns[selectedGeneName];
+
+        };
+
+        genes.G0Pattern = $scope.G0BiValentGenes[selectedGeneName];
         // genes.regions = regions;
         $scope.$root.$broadcast("myEvent", {
             value: genes
@@ -283,8 +387,35 @@ var exonsFile = $http.get("data/exons_input_221014.tsv")
       $scope.MBGenes = _.pick(allMBData,filteredKeys);  
       $scope.MCGenes = _.pick(allMCData,filteredKeys);
       $scope.numFilteredGenes = filteredKeys.length; 
+
     };
-    
+  };
+
+  function filterPatternValues(filterFunction, filter){
+    $scope.patternsMap = {G0BiValents:$scope.G0BiValentGenes,G0Pattern1:$scope.G0Pattern1Genes,G0Active:$scope.G0ActiveGenes,G0Repressive:$scope.G0RepressiveGenes};
+    var selectedCellTypeName;
+    if ($scope.myCellType) {
+      selectedCellTypeName = $scope.myCellType.name; 
+      //var selectedCellType = $scope.cellTypesMap[selectedCellTypeName];
+      // var filteredGenes = filterFunction(selectedCellType,filter,$scope.G0BiValentGenes);
+      var filteredKeys = _.keys($scope.patternsMap[filter.selectedPattern.name]);
+      if (filteredKeys && filteredKeys.length>0) {
+        $scope.Genes   = _.pick(allG0Data,filteredKeys);  
+        $scope.MTGenes = _.pick(allMTData,filteredKeys);  
+        $scope.MBGenes = _.pick(allMBData,filteredKeys);  
+        $scope.MCGenes = _.pick(allMCData,filteredKeys);
+        $scope.numFilteredGenes =  filteredKeys.length; 
+      }
+      else{
+        $scope.Genes   = allG0Data;  
+        $scope.MTGenes = allMTData;  
+        $scope.MBGenes = allMBData;  
+        $scope.MCGenes = allMCData;
+        $scope.numFilteredGenes = _.keys(allG0Data).length;
+      };
+
+     
+    };
   };
 
 

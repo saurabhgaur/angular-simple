@@ -22,7 +22,9 @@ body {
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+  background: lightgrey;
 }
+
 
 /* Custom page footer */
 .footer {

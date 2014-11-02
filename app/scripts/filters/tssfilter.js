@@ -3,7 +3,7 @@
 angular.module('angularSimpleApp')
   .filter('tssFilter', function () {
     return function(items, filter) {
-      if (!filter || !filter.tssMarksDist || !filter.MarksCount){
+      if (!filter || typeof filter.tssMarksDist === 'undefined' || typeof filter.MarksCount === 'undefined'){
           return items;
       }  
       var result = {};
