@@ -67,7 +67,7 @@
 <div ng-controller="ModalzoomCtrl">
     <script type="text/ng-template" id="myModalContent.html">
         <div class="modal-header">
-            <h3 class="modal-title">{{G0Gene[0].Gene}}</h3>
+            <h3 class="modal-title">{{selectedGeneName}} ({{rawGeneData[0][0]}}:{{rawGeneData[0][1]}}-{{rawGeneData[0][2]}})</h3>
             <a id="zoom_reset" class="btn" onclick='dispatch.reset_zoom_all();'>
             <i class="icon-zoom-in"></i>Reset Zoom</a>
             <br/>

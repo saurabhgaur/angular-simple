@@ -7,7 +7,6 @@ angular.module('angularSimpleApp')
       'Karma'
     ];
 $scope.open = function (args) {
-
     var modalInstance = $modal.open({
       templateUrl: 'myModalContent.html',
       controller: ModalInstanceCtrl,
@@ -18,6 +17,8 @@ $scope.open = function (args) {
           return $scope.items;
         },
         gene: function(){
+          $scope.selectedGeneName = args.value.selectedGeneName;
+          $scope.rawGeneData = args.value.rawGeneData;
         	$scope.G0Gene = args.value.G0Gene;
           $scope.MTGene = args.value.MTGene;
           $scope.MBGene = args.value.MBGene;

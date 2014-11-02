@@ -8,6 +8,7 @@ angular.module('angularSimpleApp')
     ];
 
   $scope.cellTypes = [
+      {name:'',value:''},
       {name:'G0', value:'G0'},
       {name:'MT', value:'MT'},
       {name:'MB', value:'MB'},
@@ -54,12 +55,13 @@ var MTJSON;
 
 // var numFilteredGenes;
 
+$scope.collapsedFilter = false;
+$scope.collapsedVisualization = true;
+$scope.showG0 = true;
+$scope.showMT = true;
+$scope.showMB = true;
+$scope.showMC = true;
 
-var genesBedFile = $http.get("data/371_Genes.bed")
-                  .success(function(data)
-                    {   
-                      allGenesBedData = data;
-                    });
 
 var exonsFile = $http.get("data/exons_input_221014.tsv")
                   .success(function(data)
@@ -68,62 +70,68 @@ var exonsFile = $http.get("data/exons_input_221014.tsv")
                       exonsJSON = d3.nest()
                         .key(function(d) { return d.Gene; })
                         .map(exonsRawData);
-                    });
+                      var G0File = $http.get("data/G0_input_211014.tsv")
+                                        .success(function(data)
+                                          {   
+                                            G0RawData = d3.tsv.parse(data);
+                                            var combinedData = G0RawData.concat(exonsRawData);
+                                            G0JSON = d3.nest()
+                                              .key(function(d) { return d.Gene; })
+                                              .map(combinedData);
+                                            allG0Data = G0JSON;
+                                            $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);
+                                            $scope.numTotalGenes = _.keys(allG0Data).length;
+                                            $scope.numFilteredGenes = _.keys(allG0Data).length;
+                                          });
 
-var G0File = $http.get("data/G0_input_211014.tsv")
-                  .success(function(data)
-                    {   
-                      G0RawData = d3.tsv.parse(data);
-                      var combinedData = G0RawData.concat(exonsRawData);
-                      G0JSON = d3.nest()
-                        .key(function(d) { return d.Gene; })
-                        .map(combinedData);
-                      allG0Data = G0JSON;
-                      $scope.Genes = geneNameFilterFilter(allG0Data,$scope.filter);
-                      $scope.numTotalGenes = _.keys(allG0Data).length;
-                      $scope.numFilteredGenes = _.keys(allG0Data).length;
-                    });
+                      var MBFile = $http.get("data/MB_input_211014.tsv")
+                                        .success(function(data)
+                                          {   
+                                            MBRawData = d3.tsv.parse(data);
+                                            var combinedData = MBRawData.concat(exonsRawData);
+                                            MBJSON = d3.nest()
+                                              .key(function(d) { return d.Gene; })
+                                              .map(combinedData);
+                                            allMBData = MBJSON;
+                                            $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);
+                                          });
 
-var MBFile = $http.get("data/MB_input_211014.tsv")
-                  .success(function(data)
-                    {   
-                      MBRawData = d3.tsv.parse(data);
-                      var combinedData = MBRawData.concat(exonsRawData);
-                      MBJSON = d3.nest()
-                        .key(function(d) { return d.Gene; })
-                        .map(combinedData);
-                      allMBData = MBJSON;
-                      $scope.MBGenes = geneNameFilterFilter(allMBData,$scope.filter);
-                    });
+                      var MCFile = $http.get("data/MC_input_211014.tsv")
+                                        .success(function(data)
+                                          {   
+                                            MCRawData = d3.tsv.parse(data);
+                                            var combinedData = MCRawData.concat(exonsRawData);
+                                            MCJSON = d3.nest()
+                                              .key(function(d) { return d.Gene; })
+                                              .map(combinedData);
+                                            allMCData = MCJSON;
+                                            $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);
+                                          });
 
-var MCFile = $http.get("data/MC_input_211014.tsv")
-                  .success(function(data)
-                    {   
-                      MCRawData = d3.tsv.parse(data);
-                      var combinedData = MCRawData.concat(exonsRawData);
-                      MCJSON = d3.nest()
-                        .key(function(d) { return d.Gene; })
-                        .map(combinedData);
-                      allMCData = MCJSON;
-                      $scope.MCGenes = geneNameFilterFilter(allMCData,$scope.filter);
-                    });
+                      var MTFile = $http.get("data/MT_input_211014.tsv")
+                                        .success(function(data)
+                                          {   
+                                            MTRawData = d3.tsv.parse(data);
+                                            var combinedData = MTRawData.concat(exonsRawData);
+                                            MTJSON = d3.nest()
+                                              .key(function(d) { return d.Gene; })
+                                              .map(combinedData);
+                                            allMTData = MTJSON;
+                                            $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);
+                                          });
+                      var regionsBedFile = $http.get("data/371_Regions.bed")
+                                        .success(function(data)
+                                          { 
+                                            allRegionsData = data;
+                                            $scope.regions = allRegionsData;
+                                          });
+                      var genesBedFile = $http.get("data/371_Genes.bed")
+                                        .success(function(data)
+                                          {   
+                                            allGenesBedData = data;
+                                            $scope.rawGenes = d3.tsv.parseRows(allGenesBedData);
+                                          });
 
-var MTFile = $http.get("data/MT_input_211014.tsv")
-                  .success(function(data)
-                    {   
-                      MTRawData = d3.tsv.parse(data);
-                      var combinedData = MTRawData.concat(exonsRawData);
-                      MTJSON = d3.nest()
-                        .key(function(d) { return d.Gene; })
-                        .map(combinedData);
-                      allMTData = MTJSON;
-                      $scope.MTGenes = geneNameFilterFilter(allMTData,$scope.filter);
-                    });
-
-var regionsBedFile = $http.get("data/371_Regions.bed")
-                  .success(function(data)
-                    { 
-                      allRegionsData = data;
                     });
 
 // var G0GenesPromise = $http.get("G0_data_2014_10_22.json")
@@ -237,6 +245,7 @@ var regionsBedFile = $http.get("data/371_Regions.bed")
 
   $scope.openModal = function (geneGroup) {
         var selectedGeneName = geneGroup[0].Gene;
+        var rawGeneData = $scope.rawGenes.filter(function(d){return d[3]==selectedGeneName;});
         var G0Gene = $scope.Genes[selectedGeneName];
         var MTGene = $scope.MTGenes[selectedGeneName];
         var MBGene = $scope.MBGenes[selectedGeneName];
@@ -244,6 +253,10 @@ var regionsBedFile = $http.get("data/371_Regions.bed")
         // var regions = $scope.regions[selectedGeneName];
         var genes = new Object();
         genes.selectedGeneName = selectedGeneName;
+        genes.selectedGeneChr = rawGeneData[0];
+        genes.selectedGeneStart = rawGeneData[1];
+        genes.selectedGeneStop = rawGeneData[2];
+        genes.rawGeneData = rawGeneData;
         genes.G0Gene = G0Gene;
         genes.MTGene = MTGene;
         genes.MBGene = MBGene;
